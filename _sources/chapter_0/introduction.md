@@ -10,7 +10,7 @@ For many students, this is the first time you will be working in teams using agi
 As such, the learning curve for this subject can be steep for some. This handbook should help you acclimate yourselves to content learned throughout the semester and can be used as a resource to reference when you have questions.
 This handbook will act as a living guide, so please feel free to raise an issue in the top right hand side of this website, if you want to raise suggestions or advice.
 
-![](images/1.png)
+![test](images/1.png)
 
 ## Notes
 
