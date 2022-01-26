@@ -3,3 +3,8 @@
 
 format: jb-book
 root: intro
+
+parts:
+  - caption: Chapter
+    chapters:
+    - file: 1_agile_methodology
