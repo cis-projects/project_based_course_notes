@@ -9,7 +9,7 @@ Here is a note!
 
 And here is a code block:
 
-```
+```python
 e = mc^2
 ```
 
