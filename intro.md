@@ -1,16 +1,10 @@
-# Welcome to your Jupyter Book
+# Introduction
 
-This is a small sample book to give you a feel for how book content is
-structured.
+The purpose of this handbook is to act as a resource for students to consult throughout the semester.
+For many students, this is the first time you will be working in teams using agile methodologies, working with a client, and potentially even the first time you are developing software requirements (rather than the requirements being given to you from a university professor).
+As such, the learning curve for this subject can be steep for some. This handbook should help you acclimate yourselves to content learned throughout the semester and can be used as a resource to reference when you have questions.
+This handbook will act as a living guide, so please feel free to pass on feedback to your lecturer for improvements for future years.
 
-:::{note}
-Here is a note!
-:::
+## Notes
 
-And here is a code block:
-
-```python
-e = mc^2
-```
-
-Check out the content pages bundled with this sample book to see more.
+1. Text that is underlined is a link to an online resource.
