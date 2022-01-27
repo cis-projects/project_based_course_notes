@@ -11,7 +11,7 @@ developing, testing, and deploying a software system. There are two main
 types of SDLCs: formal and Agile.
 
 | SDLC                                                                                                                                                | Type   |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------ |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------|--------|
 | [Waterfall](https://www.workfront.com/project-management/methodologies/waterfall)                                                                   | Formal |
 | [Incremental](https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)                                               | Formal |
 | [V-Model](https://www.tutorialspoint.com/sdlc/sdlc_v_model.htm#:~:text=The%20V%2Dmodel%20is%20an,for%20each%20corresponding%20development%20stage.) | Formal |
@@ -49,11 +49,20 @@ framework.
 
 ### What is Scrum?
 
-Scrum is a framework used to implement an Agile mindset. It focuses on ensuring teams work together, embodying the values from the agile manifesto. Scrum is based on teams working iteratively, in time-boxed sprints (typically 2-4 weeks), with a predetermined set of tasks. During sprint planning, the team decides which tasks to work on during the upcoming sprint, to ensure they maximise value to their client. If requirements change, the teams can easily adapt as sprints are short, and the subsequent sprints planning can re-prioritise the changed requirements.
+Scrum is a framework used to implement an Agile mindset. It focuses on ensuring teams 
+work together, embodying the values from the agile manifesto. Scrum is based on teams
+working iteratively, in time-boxed sprints (typically 2-4 weeks), with a predetermined
+set of tasks. During sprint planning, the team decides which tasks to work on during 
+the upcoming sprint, to ensure they maximise value to their client. If requirements 
+change, the teams can easily adapt as sprints are short, and the subsequent sprints 
+planning can re-prioritise the changed requirements.
 
 ### Sprints
 
-Sprints are a short time-boxed period in which a scrum team endeavours to complete a set amount of work. The duration of sprints can be determined by teams, but typically duration is between 2-4 weeks. As sprints have several [ceremonies](#scrum-ceremonies) that must be completed, teams should determine what works best for them.
+Sprints are a short time-boxed period in which a scrum team endeavours to complete a set 
+amount of work. The duration of sprints can be determined by teams, but typically duration 
+is between 2-4 weeks. As sprints have several [ceremonies](#scrum-ceremonies) that must be 
+completed, teams should determine what works best for them.
 
 ### Scrum Roles
 
@@ -61,7 +70,8 @@ Scrum teams have three key roles: product owner, scrum master, and development t
 
 #### Product Owner
 
-The product owner ensures the team delivers the most value to the client. They have a strong understanding of the project, which is used to prioritise user stories in upcoming sprints.
+The product owner ensures the team delivers the most value to the client. They have a strong 
+understanding of the project, which is used to prioritise user stories in upcoming sprints.
 
 ![](resources/product_owner.png)
 
@@ -133,12 +143,12 @@ the key details of the Scrum ceremonies.
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/scrum/sprints)
 
-| Ceremony | When | Who | Preparation | Duration | Process | Outcome |
-| -------- | ---- | --- | ----------- | -------- | ------- | ------- |
-| Sprint planning | Start of each sprint | Development team | Product owner should have a prioritised product backlog | 1 hour per week of sprint. E.g., 2-week sprints have a 2-hour session | 1. Product owner presents product backlog<br/>2. Discussions with team about high priority features, which are then broken down into smaller tasks<br/>3. Estimate the effort required for tasks.<br/>4. Team agrees on the tasks set out for the sprint, and tasks are moved to the sprint backlog. | Populated sprint backlog in the team’s task tracking tool. |
-| Stand-up | Weekly | Development team and supervisor | None | <15 minutes | Each team member says what they have done, what they will be working on and any blockers. | |
-| Sprint review | End of each sprint | Development team and client | None | 1 hour | Product owner presents the work completed in previous sprint and seeks feedback. | Populated sprint review page in the team’s document repository. |
-| Sprint retrospective | End of each sprint | Development team | None | 20 mins | Scrum master facilitates session to establish what the team thought went well, what didn’t work and what actions the team could do to improve. | Populated retrospective page in the team’s document repository. |
+| Ceremony             | When                 | Who                             | Preparation                                             | Duration                                                              | Process                                                                                                                                                                                                                                                                                              | Outcome                                                         |
+|----------------------|----------------------|---------------------------------|---------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
+| Sprint planning      | Start of each sprint | Development team                | Product owner should have a prioritised product backlog | 1 hour per week of sprint. E.g., 2-week sprints have a 2-hour session | 1. Product owner presents product backlog<br/>2. Discussions with team about high priority features, which are then broken down into smaller tasks<br/>3. Estimate the effort required for tasks.<br/>4. Team agrees on the tasks set out for the sprint, and tasks are moved to the sprint backlog. | Populated sprint backlog in the team’s task tracking tool.      |
+| Stand-up             | Weekly               | Development team and supervisor | None                                                    | <15 minutes                                                           | Each team member says what they have done, what they will be working on and any blockers.                                                                                                                                                                                                            |                                                                 |
+| Sprint review        | End of each sprint   | Development team and client     | None                                                    | 1 hour                                                                | Product owner presents the work completed in previous sprint and seeks feedback.                                                                                                                                                                                                                     | Populated sprint review page in the team’s document repository. |
+| Sprint retrospective | End of each sprint   | Development team                | None                                                    | 20 mins                                                               | Scrum master facilitates session to establish what the team thought went well, what didn’t work and what actions the team could do to improve.                                                                                                                                                       | Populated retrospective page in the team’s document repository. |
 
 We have outlined how the scrum framework can assist teams in following
 the agile manifesto. Now we will discuss how development requirements
@@ -260,7 +270,7 @@ story points of a user story - we will look at planning poker today:
 3. Team discusses how they will handle the task and what skills are
     required to understand the approach.
 4. Each member picks a card with a story point value they feel matches
-    the user story just discussed, and places it facedown.
+    the user story just discussed, and places it face-down.
 5. Once all team members have chosen a card, the team turns over all
     the cards and discusses.
 6. Once the team reaches a consensus on the user story's estimate, the
@@ -272,8 +282,8 @@ The estimates should be added to your chosen task tracking tool.
 
 *Extra Resources*
 
-| Link | Description |
-| --- | ---|
+| Link                                             | Description                            |
+|--------------------------------------------------|----------------------------------------|
 | [Planning Poker](https://www.planningpoker.com/) | A free tool that gamifies the process. |
 
 #### User Story Prioritisation
@@ -296,10 +306,10 @@ are broken down into different levels of priority:
 
 *Extra Resources*
 
-| Link | Description |
-| --- | --- |
-| [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method) | Further discussion of the MoSCoW method. |
-| [Scrum Guide](https://www.atlassian.com/agile/scrum) | Comprehensive Scrum guide. |
+| Link                                                                                                         | Description                                      |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
+| [Scrum Guide](https://www.atlassian.com/agile/scrum)                                                         | Comprehensive Scrum guide.                       |
 | [Sprint planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) | Details on running your sprint planning meeting. |
 
 Once written, these stories should be documented centrally in the team's
