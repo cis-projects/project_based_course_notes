@@ -63,7 +63,7 @@ Scrum teams have three key roles: product owner, scrum master, and development t
 
 The product owner ensures the team delivers the most value to the client. They have a strong understanding of the project, which is used to prioritise user stories in upcoming sprints.
 
-![](images/product_owner.png)
+![](resources/product_owner.png)
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
 
@@ -83,7 +83,7 @@ allocate tasks. Instead, it is their responsibility to ensure that they
 oversee how the project is tracking, and work to unblock developers to
 continue meeting objectives.
 
-![](images/scrum_master.png)
+![](resources/scrum_master.png)
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
 
@@ -93,7 +93,7 @@ The development team refers to the team members who are implementing the
 system. In your project, **all team members** must be a part of the
 development team (including the Scrum master and product owner).
 
-![](images/development_team.png)
+![](resources/development_team.png)
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
 
@@ -113,7 +113,7 @@ note that these are not Scrum roles:
     codebase. Additionally, plays a key role in any decision-making
     about backend architecture.
 
-#### Scrum Artefacts
+### Scrum Artefacts
 
 Managing work in a scrum team involves the use of two artefacts:
 
@@ -122,14 +122,14 @@ Managing work in a scrum team involves the use of two artefacts:
 - Sprint backlog: The list of work that needs to be completed in the
     current sprint.
 
-#### Scrum Ceremonies
+### Scrum Ceremonies
 
 Scrum ceremonies refer to a set of meetings that are used to manage the
 development of a project. These ceremonies are important in facilitating
 team communication and reducing the feedback loop. The table below shows
 the key details of the Scrum ceremonies.
 
-![](images/scrum_ceremonies.svg)
+![](resources/scrum_ceremonies.svg)
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/scrum/sprints)
 
@@ -154,7 +154,7 @@ and the client to help build the product.
 These requirements are then represented as initiatives, epics, tasks,
 and subtasks.
 
-![](images/requirements.png)
+![](resources/requirements.png)
 
 *Source:* [Atlassian](https://www.atlassian.com/agile/project-management/user-stories)
 
