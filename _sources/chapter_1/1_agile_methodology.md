@@ -304,6 +304,8 @@ are broken down into different levels of priority:
 - Won't have: out-of-scope features; useful as next steps for your
     project as potential improvements for future releases.
 
+```{admonition} Extra resources
+
 *Extra Resources*
 
 | Link                                                                                                         | Description                                      |
@@ -311,6 +313,8 @@ are broken down into different levels of priority:
 | [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
 | [Scrum Guide](https://www.atlassian.com/agile/scrum)                                                         | Comprehensive Scrum guide.                       |
 | [Sprint planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) | Details on running your sprint planning meeting. |
+
+```
 
 Once written, these stories should be documented centrally in the team's
 document repository:
