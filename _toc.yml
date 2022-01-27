@@ -2,9 +2,16 @@
 # Learn more at https://jupyterbook.org/customize/toc.html
 
 format: jb-book
-root: intro
-
+root: chapter_0/introduction
 parts:
-  - caption: Chapter
+  - caption: Chapters
     chapters:
-    - file: 1_agile_methodology
+    - file: chapter_1/agile_methodology
+    - file: chapter_2/client_communications
+    - file: chapter_3/task_tracking
+    - file: chapter_4/document_repository
+  - caption: Frequently Asked Questions (FAQs)
+    chapters:
+    - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
+      title: SWEN90009 Software Requirements Analysis
+  
