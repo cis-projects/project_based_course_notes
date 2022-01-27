@@ -19,9 +19,11 @@ types of SDLCs: formal and Agile.
 | [Scrum](#scrum)                                                                                                                                     | Agile  |
 | [Extreme Programming](http://www.extremeprogramming.org/)                                                                                           | Agile  |
 
-*You do not need to learn these SDLC methodologies - you will only make
+```{attention}
+You do not need to learn these SDLC methodologies - you will only make
 use of Scrum. Links have been provided to the others in case you want to
-learn more.*
+learn more.
+```
 
 Agile was formed after teams were frustrated by the rigidity of formal
 methods, and their inability to adapt to change easily without exceeding
@@ -280,11 +282,13 @@ story points of a user story - we will look at planning poker today:
 
 The estimates should be added to your chosen task tracking tool.
 
-*Extra Resources*
+```{admonition} Extra Resources
 
 | Link                                             | Description                            |
 |--------------------------------------------------|----------------------------------------|
 | [Planning Poker](https://www.planningpoker.com/) | A free tool that gamifies the process. |
+
+```
 
 #### User Story Prioritisation
 
@@ -304,9 +308,7 @@ are broken down into different levels of priority:
 - Won't have: out-of-scope features; useful as next steps for your
     project as potential improvements for future releases.
 
-```{admonition} Extra resources
-
-*Extra Resources*
+```{admonition} Extra Resources
 
 | Link                                                                                                         | Description                                      |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
@@ -318,3 +320,5 @@ are broken down into different levels of priority:
 
 Once written, these stories should be documented centrally in the team's
 document repository:
+
+![](resources/confluence.png)
