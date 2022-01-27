@@ -1,4 +1,4 @@
-# Agile Methodology
+# Chapter 1: Agile Methodology
 
 In this subject, you will form teams and operate according to the agile
 methodology. This chapter will help familiarise students with the agile
