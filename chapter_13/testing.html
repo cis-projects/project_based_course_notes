@@ -1,0 +1,856 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 13: Testing &#8212; Project-Based Course Notes</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Change Log" href="../changelog.html" />
+    <link rel="prev" title="Chapter 12: Adding CI/CD to Your Project" href="../chapter_12/ci_cd.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_0/introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Chapters
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_1/agile_methodology.html">
+   Chapter 1: Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_2/client_communications.html">
+   Chapter 2: Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_3/task_tracking.html">
+   Chapter 3: Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_4/document_repository.html">
+   Chapter 4: Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_5/version_control.html">
+   Chapter 5: Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_6/github.html">
+   Chapter 6: Github
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_7/simplified_workflow.html">
+   Chapter 7: A Simplified Workflow
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_8/requirements_elicitation.html">
+   Chapter 8: Requirements Elicitation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_9/technology_stack.html">
+   Chapter 9: Technology Stack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_10/architecture.html">
+   Chapter 10: Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_11/devops.html">
+   Chapter 11: DevOps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_12/ci_cd.html">
+   Chapter 12: Adding CI/CD to Your Project
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 13: Testing
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  References
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../changelog.html">
+   Change Log
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/chapter_13/testing.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_13/testing.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-write-tests">
+   Why Write Tests?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#types-of-testing">
+   Types of Testing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#unit-testing">
+     Unit Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#reasons-to-complete-unit-testing">
+       Reasons to Complete Unit Testing
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#types-of-unit-testing">
+       Types of Unit Testing
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#manual-unit-testing">
+         Manual Unit Testing
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#automated-unit-testing">
+         Automated Unit Testing
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-testing">
+     Integration Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#automated-integration-testing">
+       Automated Integration Testing
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#acceptance-testing">
+     Acceptance Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#acceptance-criteria-template">
+       Acceptance Criteria Template
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#acceptance-criteria-vs-acceptance-tests">
+       Acceptance Criteria Vs. Acceptance Tests
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visualising-testing">
+     Visualising Testing
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#test-plan">
+   Test Plan
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-to-include-in-a-test-plan">
+     What to Include in a Test Plan?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-coverage">
+   Code Coverage
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#automating-code-coverage">
+     Automating Code Coverage
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Chapter 13: Testing</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#why-write-tests">
+   Why Write Tests?
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#types-of-testing">
+   Types of Testing
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#unit-testing">
+     Unit Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#reasons-to-complete-unit-testing">
+       Reasons to Complete Unit Testing
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#types-of-unit-testing">
+       Types of Unit Testing
+      </a>
+      <ul class="nav section-nav flex-column">
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#manual-unit-testing">
+         Manual Unit Testing
+        </a>
+       </li>
+       <li class="toc-h5 nav-item toc-entry">
+        <a class="reference internal nav-link" href="#automated-unit-testing">
+         Automated Unit Testing
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integration-testing">
+     Integration Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#automated-integration-testing">
+       Automated Integration Testing
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#acceptance-testing">
+     Acceptance Testing
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#acceptance-criteria-template">
+       Acceptance Criteria Template
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#acceptance-criteria-vs-acceptance-tests">
+       Acceptance Criteria Vs. Acceptance Tests
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#visualising-testing">
+     Visualising Testing
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#test-plan">
+   Test Plan
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-to-include-in-a-test-plan">
+     What to Include in a Test Plan?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-coverage">
+   Code Coverage
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#automating-code-coverage">
+     Automating Code Coverage
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-13-testing">
+<h1>Chapter 13: Testing<a class="headerlink" href="#chapter-13-testing" title="Permalink to this headline">¶</a></h1>
+<p>Testing is an important part of developing software.</p>
+<p>In your project, you will be required to test your project, along with
+documenting your testing objectives, processes, and strategies within
+Confluence.</p>
+<p>This will introduce the different types of testing to students and
+explain how to write a test plan.</p>
+<div class="section" id="why-write-tests">
+<h2>Why Write Tests?<a class="headerlink" href="#why-write-tests" title="Permalink to this headline">¶</a></h2>
+<p>Software testing is the process of verifying that the software you have
+developed meets the requirements of the client.</p>
+<p>The benefits of testing include:</p>
+<ul class="simple">
+<li><p>Identify bugs in your software.</p></li>
+<li><p>Identify regression failures (checking if new code breaks existing
+features).</p></li>
+<li><p>Reduce reliance on developers to test different cases.</p></li>
+<li><p>Automate tests is much faster than running test scenarios by hand.</p></li>
+</ul>
+</div>
+<div class="section" id="types-of-testing">
+<h2>Types of Testing<a class="headerlink" href="#types-of-testing" title="Permalink to this headline">¶</a></h2>
+<p>Each type of testing will be discussed in further detail below.</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Type</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Unit testing</p></td>
+<td><p>Checking whether each software unit performs as expected. The finest level of granularity in testing.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Integration testing</p></td>
+<td><p>Checking whether multiple software components/units operate correctly.</p></td>
+</tr>
+<tr class="row-even"><td><p>Acceptance testing</p></td>
+<td><p>Checking whether the application meets the client’s requirements. Acceptance tests are created based on the user stories.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="unit-testing">
+<h3>Unit Testing<a class="headerlink" href="#unit-testing" title="Permalink to this headline">¶</a></h3>
+<p>Unit testing is completed during the development of an application and
+is completed by the developers. When a developer picks up a task from
+the task tracking tool, they are expected to implement the task as
+required and prove that the unit of work does what they say it does.
+This is where unit testing comes in.</p>
+<p>Unit tests isolate a section of code to verify correctness. A unit may
+be an individual function, method, procedure, module, or object.</p>
+<div class="section" id="reasons-to-complete-unit-testing">
+<h4>Reasons to Complete Unit Testing<a class="headerlink" href="#reasons-to-complete-unit-testing" title="Permalink to this headline">¶</a></h4>
+<ol class="simple">
+<li><p>Unit tests help to fix bugs early in the development cycle when it
+is less expensive and easier to locate bugs.</p></li>
+<li><p>Good unit tests serve as project documentation.</p></li>
+<li><p>Unit tests permit code re-use - if you know a component you have
+created is thoroughly tested and works well, you can introduce it
+into other parts of your application’s codebase without being
+concerned it will cause issues.</p></li>
+</ol>
+<p>There is a tension that exists in software testing between available
+time to implement a task and time that should be spent on testing each
+task. Many developers cut down on testing time to complete more work.
+This is a myth that you can somehow minimise time spent testing and end
+up with a fully functional and bug-free piece of software.</p>
+<p>It in fact saves time unit testing tasks as they are completed. They are
+easy to isolate - introducing a buggy component into a larger piece of
+work is akin to finding a needle in a haystack when bugs arise later
+(and bugs will arise later, if you have not tested them).</p>
+</div>
+<div class="section" id="types-of-unit-testing">
+<h4>Types of Unit Testing<a class="headerlink" href="#types-of-unit-testing" title="Permalink to this headline">¶</a></h4>
+<p>There are two primary types of unit testing: manual and automated.</p>
+<div class="section" id="manual-unit-testing">
+<h5>Manual Unit Testing<a class="headerlink" href="#manual-unit-testing" title="Permalink to this headline">¶</a></h5>
+<p>As the name suggests, this involves manually testing a unit of work.
+This is normally done by the developer who completed the work and
+involves creating documentation detailing the step-by-step instructions
+(with screenshots and comments) showing the success scenarios of the
+unit, as well as any failure scenarios.</p>
+<p>This documentation should be tested and confirmed by a reviewer (another
+member of the development team).</p>
+</div>
+<div class="section" id="automated-unit-testing">
+<h5>Automated Unit Testing<a class="headerlink" href="#automated-unit-testing" title="Permalink to this headline">¶</a></h5>
+<p>There are several tools that can be used to automate unit testing
+(depending on the language chosen for your project). Some examples are:</p>
+<ol class="simple">
+<li><p><a class="reference external" href="https://junit.org/junit5/">JUnit</a>: a popular and free
+testing tool for Java.</p></li>
+<li><p><a class="reference external" href="https://jestjs.io">Jest</a>: a popular and free testing
+tool for JavaScript.</p></li>
+<li><p><a class="reference external" href="https://testing-library.com/">Testing library</a>.</p></li>
+<li><p><a class="reference external" href="https://mochajs.org">Mocha</a>: a popular and free
+testing tool for JavaScript.</p></li>
+</ol>
+</div>
+</div>
+</div>
+<div class="section" id="integration-testing">
+<h3>Integration Testing<a class="headerlink" href="#integration-testing" title="Permalink to this headline">¶</a></h3>
+<p>Integration testing involves integrating software modules and testing
+them as a group.</p>
+<p>You might wonder why integration testing is necessary when all tasks
+have (hopefully) been unit tested:</p>
+<ol class="simple">
+<li><p>A unit is designed by one developer whose understanding and
+programming logic may differ from other developers. Integration
+testing verifies that software modules work in unity regardless of
+which developer developed the module.</p></li>
+<li><p>Changes of requirements by the clients could mean some modules are
+outdated and need to be tested and integrated carefully.</p></li>
+<li><p>Calls and return statements between software modules and the
+database, hosting service, etc. could be erroneous.</p></li>
+<li><p>Exception handling between components could be lacking.</p></li>
+</ol>
+<p>Integration testing differs from other tests as it primarily focuses on
+information and data flow between modules. The emphasis is on
+integrating links between modules.</p>
+<p>As an example, you might have two modules:</p>
+<ol class="simple">
+<li><p>Authentication component</p></li>
+<li><p>Email component.</p></li>
+</ol>
+<p>Both modules work as expected when conducting unit testing, but now the
+team must test that information flows from authentication to the email
+module. An example test case might be:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Test Case ID</p></th>
+<th class="head"><p>Objective</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Expected Result</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Test the link between the authentication and email modules.</p></td>
+<td><p>Enter login and credentials and click login button.</p></td>
+<td><p>User should be successfully redirected to the email module.</p></td>
+</tr>
+</tbody>
+</table>
+<p>This is just one example of testing the integration between two
+components - when conducting actual integration testing, there would
+likely be many more tests.</p>
+<div class="section" id="automated-integration-testing">
+<h4>Automated Integration Testing<a class="headerlink" href="#automated-integration-testing" title="Permalink to this headline">¶</a></h4>
+<p>There are several tools that can be used to automate integration testing
+(depending on the language chosen for your project). Some examples are:</p>
+<ol class="simple">
+<li><p><a class="reference external" href="https://playwright.dev/">Playwright</a></p></li>
+<li><p><a class="reference external" href="https://www.cypress.io/">Cypress</a></p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="acceptance-testing">
+<h3>Acceptance Testing<a class="headerlink" href="#acceptance-testing" title="Permalink to this headline">¶</a></h3>
+<p>Acceptance testing tests whether the system meets the requirements as
+specified by the client - it tests whether the system passes or fails a
+given user story.</p>
+<p>Often, the process of acceptance testing begins during the requirements
+phase. Teams write acceptance criteria to describe a pass/fail set of
+criteria that is used to determine whether a user story is completed.
+Acceptance criteria do not care about how you implement the
+functionality.</p>
+<p>Once you have your acceptance criteria, you can use this to write test
+cases that are used to verify the result of the criteria (acceptance
+tests).</p>
+<div class="section" id="acceptance-criteria-template">
+<h4>Acceptance Criteria Template<a class="headerlink" href="#acceptance-criteria-template" title="Permalink to this headline">¶</a></h4>
+<p>When writing acceptance criteria, you should use the template below:</p>
+<p>Given that [condition], when [something happens], then [result].</p>
+</div>
+<div class="section" id="acceptance-criteria-vs-acceptance-tests">
+<h4>Acceptance Criteria Vs. Acceptance Tests<a class="headerlink" href="#acceptance-criteria-vs-acceptance-tests" title="Permalink to this headline">¶</a></h4>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Acceptance Criteria</p></th>
+<th class="head"><p>Acceptance Test</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Measures if a user story is completed.</p></td>
+<td><p>Verifies if the product works for users.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Written before implementation.</p></td>
+<td><p>Written during development.</p></td>
+</tr>
+<tr class="row-even"><td><p>Describes what areas to cover in the project.</p></td>
+<td><p>Uses criteria to test key areas of the project.</p></td>
+</tr>
+</tbody>
+</table>
+<p>As an example, here is a list of the acceptance criteria for a project
+from semester 2, 2021:</p>
+<p><img alt="" src="../_images/acceptance_criteria.png" /></p>
+<p>You can see in the screenshot above that the acceptance criteria links
+to: epic, user story, and details the criteria for a pass result.</p>
+<p>This criterion was then test using acceptance tests and the results were
+manually captured in screenshots and added to the Confluence page:</p>
+<p><img alt="" src="../_images/acceptance_testing.png" /></p>
+<p>The details in the acceptance test (screenshots + steps involved) allow
+the tests to be easily reproduced by the development team, client, or
+academic staff in the future.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Your team should have 1-3 acceptance criteria per user story.</p></li>
+<li><p>Acceptance criteria are written before implementation.</p></li>
+<li><p>They are independently testable.</p></li>
+<li><p>They have a defined pass or fail result.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="visualising-testing">
+<h3>Visualising Testing<a class="headerlink" href="#visualising-testing" title="Permalink to this headline">¶</a></h3>
+<p>The hierarchy of testing can be visualised as:</p>
+<p><img alt="" src="../_images/testing_hierarchy.svg" /></p>
+</div>
+</div>
+<div class="section" id="test-plan">
+<h2>Test Plan<a class="headerlink" href="#test-plan" title="Permalink to this headline">¶</a></h2>
+<p>Test plans document the team’s testing strategy, objectives, tools, and
+processes for the project.</p>
+<p>Testing plans are important as they ensure:</p>
+<ul class="simple">
+<li><p>All team members understand the objectives the team must strive to
+achieve.</p></li>
+<li><p>Ensures testing is not neglected throughout the project.</p></li>
+<li><p>Forces the team to think about how they will verify the quality of
+their product.</p></li>
+</ul>
+<div class="section" id="what-to-include-in-a-test-plan">
+<h3>What to Include in a Test Plan?<a class="headerlink" href="#what-to-include-in-a-test-plan" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Testing objectives.</p></li>
+<li><p>Testing tools/frameworks.</p></li>
+<li><p>In scope/Out of scope (what aspects of the system will/won’t be
+tested).</p></li>
+<li><p>A clear description of what types of testing will be completed.
+Should provide detail as to who will be conducting the testing and
+when testing will occur.</p></li>
+<li><p>Bug reporting strategy (when a bug is identified, what process
+should the team follow?).</p></li>
+</ul>
+<p>You can view a very thorough example of a test plan <a class="reference external" href="https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/">here</a>.</p>
+</div>
+</div>
+<div class="section" id="code-coverage">
+<h2>Code Coverage<a class="headerlink" href="#code-coverage" title="Permalink to this headline">¶</a></h2>
+<p>A common metric for thoroughness of your test plan is code coverage. It
+examines what proportion of code is covered by a test. While code
+coverage is not an indicator of success (i.e., coverage scores of 100%
+does not necessarily mean you have tested the right things), it is a
+good indicator of test extensiveness. Code coverage score greater than
+80% is generally considered sufficient.</p>
+<p>Code coverage works by testing many or all the below:</p>
+<ol class="simple">
+<li><p><em>Function coverage:</em> how many of the functions defined have been
+called.</p></li>
+<li><p><em>Statement coverage:</em> how many of the statements in the program have
+been executed.</p></li>
+<li><p><em>Branches coverage:</em> how many of the branches of the control
+structures (if statements for instance) have been executed.</p></li>
+<li><p><em>Condition coverage:</em> how many of the Boolean sub-expressions have
+been tested for a true and a false value.</p></li>
+<li><p><em>Line coverage:</em> how many of lines of source code have been tested.</p></li>
+</ol>
+<p>Code coverage reports are created in the process by tools (detailed
+below) and are displayed:</p>
+<p><img alt="" src="../_images/code_coverage.png" /></p>
+<p><em>Source</em>: <a class="reference external" href="https://www.atlassian.com/continuous-delivery/software-testing/code-coverage">Atlassian</a></p>
+<div class="section" id="automating-code-coverage">
+<h3>Automating Code Coverage<a class="headerlink" href="#automating-code-coverage" title="Permalink to this headline">¶</a></h3>
+<p>There are many tools that can automate code coverage, but the two most
+popular are:</p>
+<ol class="simple">
+<li><p><a class="reference external" href="https://docs.cypress.io/guides/tooling/code-coverage#Introduction">Cypress</a>.</p></li>
+<li><p><a class="reference external" href="https://github.com/gotwarlost/istanbul">Istanbul</a>.</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapter_13"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../chapter_12/ci_cd.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 12: Adding CI/CD to Your Project</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../changelog.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Change Log</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By School of Computing and Information Systems, The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
