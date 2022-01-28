@@ -22,7 +22,7 @@ parts:
       title: SWEN90007 Software Design and Architecture
     - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
       title: SWEN90009 Software Requirements Analysis
-  - caption: ABOUT SUBJECT NOTES
+  - caption: References
     chapters:
-    - file: CHANGELOG
-    - file: CONTRIBUTORS
+    - file: changelog
+    - file: contributors
