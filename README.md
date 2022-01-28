@@ -21,6 +21,6 @@ resource to reference when you have questions.
 This handbook will act as a living guide, so please feel free to raise an issue in the top right-hand side of this 
 website, if you want to raise suggestions or advice.
 
-![open issue](course_notes/chapter_0/resources/1.png)
+![open issue](chapter_0/resources/1.png)
 
 ```
