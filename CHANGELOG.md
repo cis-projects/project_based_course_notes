@@ -2,7 +2,7 @@
 
 ## v0.1.1 (2022-01-28)
 
-Copying existing subject notes (Word document) to Jupyterbook
+Copying existing subject notes (Word document) to Jupyterbook and creating a change log.
 
 ### New
 
