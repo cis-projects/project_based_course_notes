@@ -46,8 +46,8 @@ often:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-0pky">Term</th>
-    <th class="tg-0pky">Definition</th>
+    <th class="tg-0pky"><b>Term</b></th>
+    <th class="tg-0pky"><b>Definition</b></th>
   </tr>
 </thead>
 <tbody>
@@ -90,9 +90,9 @@ These are the most common actions you are likely to perform using git:
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Term</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Definition</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Command</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Term</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Definition</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Command</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
   </tr>
 </thead>
 <tbody>
@@ -146,8 +146,8 @@ several statuses.
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Status</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Description</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Status</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Description</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
   </tr>
 </thead>
 <tbody>
@@ -169,6 +169,7 @@ several statuses.
   </tr>
 </tbody>
 </table>
+
 
 ![Diagram of file
 status](./resources/media/image1.png)
