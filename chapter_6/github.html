@@ -556,8 +556,8 @@ commands/instructions.</p>
 <p>If you are creating a repository with the intention of making it
 publicly accessible eventually, you need to have a license to allow
 other developers to collaborate (and to protect you from misuse). GitHub
-provides a <a class="reference external" href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">detailed guide on
-licenses</a>
+provides a
+<a class="reference external" href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">detailed guide on licenses</a>
 along with a tool to determine which license is appropriate for your
 repository.</p>
 </div>
@@ -576,9 +576,9 @@ before modifications. Such branches are called <strong>protected branches</stron
 <h3>Integrations<a class="headerlink" href="#integrations" title="Permalink to this headline">¶</a></h3>
 <p>Integrations can help manage your development workflow. - Rather than
 having to visit GitHub’s website each time you have a pull request, you
-can make use of the <a class="reference external" href="https://slack.com/intl/en-au/help/articles/232289568-GitHub-for-Slack">GitHub
-bot</a>
-on Slack to automatically send you notifications of new PRs. - Discord
+can make use of the
+<a class="reference external" href="https://slack.com/intl/en-au/help/articles/232289568-GitHub-for-Slack">GitHub bot</a>
+on Slack to automatically send you notifications of new PRs. Discord
 has a similar webhook that can be configured using this
 <a class="reference external" href="https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22">guide</a>.</p>
 </div>
@@ -590,16 +590,19 @@ code quality is maintained, and any errors are identified.</p>
 <div class="section" id="code-review-activities">
 <h3>Code Review Activities<a class="headerlink" href="#code-review-activities" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Pair programming: Having two developers working on a single unit of
+<li><p><em>Pair programming:</em> Having two developers working on a single unit of
 work; one person writes the code (driver) whilst the other reviews
 code real-time (navigator).</p></li>
-<li><p>Pull requests: Having 1 or more developers review code changes
+<li><p><em>Pull requests:</em> Having 1 or more developers review code changes
 before it is merged.</p></li>
 </ul>
 </div>
 <div class="section" id="pull-requests">
 <h3>Pull Requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h3>
-<p><em>Commonly referred to as PRs</em>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Commonly referred to as PRs.</p>
+</div>
 <p>Pull requests allow developers to review changes made on a certain
 branch before merging it into another. When team members complete some
 functionality and want it to be merged, they create a pull request,
@@ -631,8 +634,8 @@ any mandatory checks that have already been completed.</p>
 <p>You can view a sample template
 <a class="reference external" href="https://unimelbcloud-my.sharepoint.com/personal/eduardo_oliveira_unimelb_edu_au/Documents/2022/SWEN90009/Book/assets/pull_request_template.md">here</a>.</p>
 <p>To see an example of how to include PR templates in your repository,
-please see this <a class="reference external" href="https://medium.com/&#64;swapnesh/why-you-should-add-a-pull-request-template-in-your-github-project-1556170e55c9">Medium
-article</a>.</p>
+please see this
+<a class="reference external" href="https://medium.com/&#64;swapnesh/why-you-should-add-a-pull-request-template-in-your-github-project-1556170e55c9">Medium article</a>.</p>
 </div>
 </div>
 </div>
@@ -645,7 +648,7 @@ consider two common strategies…</p>
 <p>Feature branching entails creating a new branch for a new feature and
 using that same branch until the feature is completed. After completion,
 the feature branch is merged back into the main branch.</p>
-<p><img alt="Feature branchingdiagram" src="../_images/image2.png" /></p>
+<p><img alt="Feature branching diagram" src="../_images/feature_development.png" /></p>
 <p><em>Source:</em>
 <a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></p>
 <p>There are several flavours of feature branching but we will examine
@@ -659,41 +662,24 @@ Developers create feature branches off develop, and when complete,
 developers make a pull request to be merged into the develop branch.
 When the team is ready for a release, then a new branch is created and
 the code is tested before it is merged into the main branch.</p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="colwidths-auto table">
 <thead>
-  <tr>
-    <th class="tg-fymr">    <br>Advantages    </th>
-    <th class="tg-fymr">    <br>Disadvantages    </th>
-  </tr>
+<tr class="row-odd"><th class="head"><p>Advantages</p></th>
+<th class="head"><p>Disadvantages</p></th>
+</tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tg-0pky">   <br>Branches remain in a clean state.   </td>
-    <td class="tg-0pky">   <br>Long-lived branches can be hard to integrate with the main branch; have   diverged too much.   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Ideal for when multiple versions of a product are required.   </td>
-    <td class="tg-0pky">   <br>Releases are delayed, and if there are many changes, could be highly   problematic.   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>    </td>
-    <td class="tg-0pky">   <br>Final merge from develop to the main branch can have many changes which   may be overlooked by developers.   </td>
-  </tr>
+<tr class="row-even"><td><p>Branches remain in a clean state.</p></td>
+<td><p>Long-lived branches can be hard to integrate with the main branch; have diverged too much.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Ideal for when multiple versions of a product are required.</p></td>
+<td><p>Releases are delayed, and if there are many changes, could be highly problematic.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p>Final merge from develop to the main branch can have many changes which may be overlooked by developers.</p></td>
+</tr>
 </tbody>
 </table>
-<p>You can view a guest lecture from <a class="reference external" href="https://www.canva.com/en_au/">Canva</a>
-where Gitflow is explained (from 1:16 to 1:23)
-<a class="reference external" href="https://cloudstor.aarnet.edu.au/plus/s/RbR2fyW5nT7W8cM">here</a>.
-Password: <strong>j_G3NVkx9MYz</strong>.</p>
 </div>
 </div>
 <div class="section" id="trunk-based-development">
@@ -701,34 +687,22 @@ Password: <strong>j_G3NVkx9MYz</strong>.</p>
 <p>Trunk based development uses short-lived branches which are regularly
 merged into the trunk, reducing any delays associated with integrating
 code changes.</p>
-<p><img alt="Trunk baseddev" src="../_images/image3.png" /></p>
+<p><img alt="Trunk based dev" src="../_images/trunk_development.png" /></p>
 <p><em>Source:</em>
 <a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></p>
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-j6zm{font-weight:bold;text-align:left;vertical-align:bottom}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+<table class="colwidths-auto table">
 <thead>
-  <tr>
-    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Advantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Disadvantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-  </tr>
+<tr class="row-odd"><th class="head"><p>Advantages</p></th>
+<th class="head"><p>Disadvantages</p></th>
+</tr>
 </thead>
 <tbody>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Reduces likelihood of divergence from main.</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Frequent merging can lead to breaking updates.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Minimise merge conflict.</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">If slow build process, then there may be delays as people merge back into&nbsp;&nbsp;&nbsp;trunk.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
+<tr class="row-even"><td><p>Reduces likelihood of divergence from main.</p></td>
+<td><p>Frequent merging can lead to breaking updates.</p></td>
+</tr>
+<tr class="row-odd"><td><p>Minimise merge conflict.</p></td>
+<td><p>If slow build process, then there may be delays as people merge back into trunk.</p></td>
+</tr>
 </tbody>
 </table>
 </div>
@@ -765,13 +739,12 @@ features and capabilities are available in each release.</p>
 <div class="section" id="writing-good-release-notes">
 <h3>Writing Good Release Notes<a class="headerlink" href="#writing-good-release-notes" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
-<li><p>Keep it simple and avoid technical jargon,</p></li>
-<li><p>Be specific about what has been implemented, and</p></li>
+<li><p>Keep it simple and avoid technical jargon.</p></li>
+<li><p>Be specific about what has been implemented.</p></li>
 <li><p>Group your notes logically. Creating headings for fixes,
-improvements and new features may be beneficial</p></li>
+improvements and new features may be beneficial.</p></li>
 </ul>
-<p>For an example, please refer to this <a class="reference external" href="https://github.com/slack-go/slack/releases">open-source project’s release
-notes</a>.</p>
+<p>For an example, please refer to this <a class="reference external" href="https://github.com/slack-go/slack/releases">open-source project’s release notes</a>.</p>
 </div>
 </div>
 <div class="section" id="creating-a-release">
@@ -779,13 +752,13 @@ notes</a>.</p>
 <p>To create a release, please refer to this
 <a class="reference external" href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">tutorial</a>
 published by GitHub.</p>
-<p>Extra Resources</p>
+<div class="admonition-extra-resources admonition">
+<p class="admonition-title">Extra Resources</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.toptal.com/software/trunk-based-development-git-flow">Trunk vs Gitflow
-development</a></p></li>
-<li><p><a class="reference external" href="https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/">Git branching
-strategies</a></p></li>
+<li><p><a class="reference external" href="https://www.toptal.com/software/trunk-based-development-git-flow">Trunk vs Gitflow development</a></p></li>
+<li><p><a class="reference external" href="https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/">Git branching strategies</a></p></li>
 </ul>
+</div>
 </div>
 </div>
 
