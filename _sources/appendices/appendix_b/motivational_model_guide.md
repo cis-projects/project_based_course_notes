@@ -220,14 +220,14 @@ any information related to the team discussion as required:
 
 ![](resources/image22.png)
 
-## Returning to the Dashboard*
+## Returning to the Dashboard
 
 Click on the 'Return' button in the top-right corner of the model to
 return to the dashboard at any point of time:
 
 ![](resources/image23.png)
 
-## View Profile*
+## View Profile
 
 1. Click on username present in the top-right corner:
 
