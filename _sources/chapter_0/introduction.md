@@ -28,11 +28,3 @@ website, if you want to raise suggestions or advice.
 ![test](resources/1.png)
 
 ```
-
-## Contributors
-
-This material was developed by Luke Rosa, Abisha Nirmalathas and Eduardo Oliveira to help lecturers and students from project-based subjects in the School of Computing and Information systems.
-
-Eduardo Oliveira would like to thank Abisha Nirmalathas and Luke Rosa for their invaluable contributions to the initial development of this material.
-
-This work was supported by the UOM Chancellery Academic – Dual Delivery Contributions grant.
