@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter 12: Adding CI/CD to Your Project &#8212; Project-Based Course Notes</title>
+    <title>Chapter 14: Final Presentation &#8212; Project-Based Course Notes</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Chapter 13: Testing" href="../chapter_13/testing.html" />
-    <link rel="prev" title="Chapter 11: DevOps" href="../chapter_11/devops.html" />
+    <link rel="next" title="Chapter 15: Client Handover" href="../chapter_15/client_handover.html" />
+    <link rel="prev" title="Chapter 13: Testing" href="../chapter_13/testing.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -157,8 +157,8 @@
    Chapter 11: DevOps
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_12/ci_cd.html">
    Chapter 12: Adding CI/CD to Your Project
   </a>
  </li>
@@ -167,8 +167,8 @@
    Chapter 13: Testing
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../chapter_14/final_presentation.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Chapter 14: Final Presentation
   </a>
  </li>
@@ -242,7 +242,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/chapter_12/ci_cd.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/chapter_14/final_presentation.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -262,7 +262,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_12/ci_cd.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_14/final_presentation.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -289,31 +289,24 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#github-actions">
-   GitHub Actions
+  <a class="reference internal nav-link" href="#what-should-be-covered">
+   What Should Be Covered?
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#create-your-first-workflow">
-     Create Your First Workflow
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#understanding-the-workflow-syntax">
-     Understanding the Workflow Syntax
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#viewing-your-workflow-execution">
-     Viewing Your Workflow Execution
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#steps-to-include-in-your-pipeline">
-     Steps to Include in Your Pipeline
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#presenters">
+   Presenters
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tools-to-take-your-presentation-to-the-next-level">
+   Tools to Take Your Presentation to the Next Level
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#during-the-demonstration">
+   During the Demonstration
+  </a>
  </li>
 </ul>
 
@@ -325,7 +318,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Chapter 12: Adding CI/CD to Your Project</h1>
+                <h1>Chapter 14: Final Presentation</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -336,31 +329,24 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#github-actions">
-   GitHub Actions
+  <a class="reference internal nav-link" href="#what-should-be-covered">
+   What Should Be Covered?
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#create-your-first-workflow">
-     Create Your First Workflow
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#understanding-the-workflow-syntax">
-     Understanding the Workflow Syntax
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#viewing-your-workflow-execution">
-     Viewing Your Workflow Execution
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#steps-to-include-in-your-pipeline">
-     Steps to Include in Your Pipeline
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#presenters">
+   Presenters
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tools-to-take-your-presentation-to-the-next-level">
+   Tools to Take Your Presentation to the Next Level
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#during-the-demonstration">
+   During the Demonstration
+  </a>
  </li>
 </ul>
 
@@ -371,95 +357,115 @@
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-12-adding-ci-cd-to-your-project">
-<h1>Chapter 12: Adding CI/CD to Your Project<a class="headerlink" href="#chapter-12-adding-ci-cd-to-your-project" title="Permalink to this headline">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>There are many tools available to create a CI/CD pipeline. This
-guide will demonstrate using GitHub Actions.</p>
-</div>
-<div class="section" id="github-actions">
-<h2>GitHub Actions<a class="headerlink" href="#github-actions" title="Permalink to this headline">¶</a></h2>
-<table class="colwidths-auto table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Key Terms</p></th>
-<th class="head"><p>Meaning</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Workflows</p></td>
-<td><p>Automated procedure that can be triggered by some event. Written in YAML.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Events</p></td>
-<td><p>An activity that triggers a workflow to be executed. For example, pushes to main branch.</p></td>
-</tr>
-<tr class="row-even"><td><p>Jobs</p></td>
-<td><p>Set of steps that execute on the same runner. Multiple jobs run in parallel.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Steps</p></td>
-<td><p>Individual task that runs command within a job. Executes shell commands or actions. Multiple steps run sequentially.</p></td>
-</tr>
-<tr class="row-even"><td><p>Actions</p></td>
-<td><p>Standalone commands that are combined into steps. There are actions published by the Github community which you can use as well.</p></td>
-</tr>
-<tr class="row-odd"><td><p>Runner</p></td>
-<td><p>The server that the workflows run within.</p></td>
-</tr>
-</tbody>
-</table>
-<div class="section" id="create-your-first-workflow">
-<h3>Create Your First Workflow<a class="headerlink" href="#create-your-first-workflow" title="Permalink to this headline">¶</a></h3>
-<ol class="simple">
-<li><p>Create a directory from the root of your repository called
-.github/workflows.</p></li>
-<li><p>Create a new file for your workflow. You can name this anything, but
-it must be a YAML file. For example, ci-cd.yaml.</p></li>
-<li><p>Add the following example workflow and modify/add steps as required.</p></li>
-</ol>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">name</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> <span class="n">learn</span><span class="o">-</span><span class="n">github</span><span class="o">-</span><span class="n">actions</span>\
-<span class="n">on</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> <span class="o">**</span>\<span class="p">[</span><span class="o">**</span><span class="n">push</span><span class="o">**</span>\<span class="p">]</span><span class="o">**</span>\
-<span class="n">jobs</span><span class="o">**</span><span class="p">:</span><span class="o">**</span>\
-<span class="n">check</span><span class="o">-</span><span class="n">bats</span><span class="o">-</span><span class="n">version</span><span class="o">**</span><span class="p">:</span><span class="o">**</span>\
-<span class="n">runs</span><span class="o">-</span><span class="n">on</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> <span class="n">ubuntu</span><span class="o">-</span><span class="n">latest</span>\
-<span class="n">steps</span><span class="o">**</span><span class="p">:</span><span class="o">**</span>\
-<span class="o">**-**</span> <span class="n">uses</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> <span class="n">actions</span><span class="o">/</span><span class="n">checkout</span><span class="nd">@v2</span>\
-<span class="o">**-**</span> <span class="n">uses</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> <span class="n">actions</span><span class="o">/</span><span class="n">setup</span><span class="o">-</span><span class="n">node</span><span class="nd">@v2</span>\
-<span class="k">with</span><span class="o">**</span><span class="p">:</span><span class="o">**</span>\
-<span class="n">node</span><span class="o">-</span><span class="n">version</span><span class="o">**</span><span class="p">:</span><span class="o">**</span> \<span class="s1">&#39;14</span><span class="se">\&#39;\</span>
-<span class="s1">**-** run**:** npm install -g bats</span><span class="se">\</span>
-<span class="s1">**-** run**:** bats -v</span>
-</pre></div>
-</div>
-<p>The steps above were obtained from the GitHub Actions
-<a class="reference external" href="https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#create-an-example-workflow">documentation</a>.</p>
-</div>
-<div class="section" id="understanding-the-workflow-syntax">
-<h3>Understanding the Workflow Syntax<a class="headerlink" href="#understanding-the-workflow-syntax" title="Permalink to this headline">¶</a></h3>
-<p><img alt="" src="../_images/workflow.png" /></p>
-</div>
-<div class="section" id="viewing-your-workflow-execution">
-<h3>Viewing Your Workflow Execution<a class="headerlink" href="#viewing-your-workflow-execution" title="Permalink to this headline">¶</a></h3>
-<p>Once your workflow is triggered, you should be able to see its execution
-under the Actions tab in your GitHub repository. If any step fails,
-GitHub will clearly indicate the step that failed and show any logs that
-can be useful to understand why it has failed.</p>
-</div>
-<div class="section" id="steps-to-include-in-your-pipeline">
-<h3>Steps to Include in Your Pipeline<a class="headerlink" href="#steps-to-include-in-your-pipeline" title="Permalink to this headline">¶</a></h3>
-<ol class="simple">
-<li><p>Build your application</p>
-<ol class="simple">
-<li><p>Install necessary dependencies</p></li>
-</ol>
+  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-14-final-presentation">
+<h1>Chapter 14: Final Presentation<a class="headerlink" href="#chapter-14-final-presentation" title="Permalink to this headline">¶</a></h1>
+<p>The final presentation is your opportunity to showcase your product to
+supervisors, other teams, and your client. Each team will have
+approximately 15 minutes to walk through their project and demo their
+application.</p>
+<div class="section" id="what-should-be-covered">
+<h2>What Should Be Covered?<a class="headerlink" href="#what-should-be-covered" title="Permalink to this headline">¶</a></h2>
+<p>Your team’s presentation should cover the following (in no order):</p>
+<ul class="simple">
+<li><p>Introduction to your team: who you are, what you did.</p></li>
+<li><p>Business need: what drove the initial requirement for the product
+you developed.</p></li>
+<li><p>Project requirements: how did you work with your client to develop
+requirements.</p></li>
+<li><p>Target users/personas: who will use the application you have
+developed.</p></li>
+<li><p>Project process:</p>
+<ul>
+<li><p>The design of the system.</p></li>
+<li><p>An overview of your application’s architecture.</p></li>
+</ul>
 </li>
-<li><p>Perform any formatting/linting checks</p></li>
-<li><p>Test your application</p>
-<ol class="simple">
-<li><p>Unit testing</p></li>
-<li><p>Integration testing</p></li>
-</ol>
+<li><p>Project outcomes: what was delivered;</p></li>
+<li><p>Application demonstration:</p>
+<ul>
+<li><p>This should be a demonstration of your fully deployed
+application.</p></li>
+<li><p>Develop a narrative for your demonstration and utilise personas
+to complete tasks using the application.</p></li>
+</ul>
 </li>
-</ol>
+<li><p>Key challenges and accomplishments.</p></li>
+</ul>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>The presentations should be easy to follow by the audience, and
+you should assume your audience has no prior knowledge of your
+application (you will likely be marked by academic staff that have never
+seen your work prior to the demonstration).</p>
+</div>
+</div>
+<div class="section" id="presenters">
+<h2>Presenters<a class="headerlink" href="#presenters" title="Permalink to this headline">¶</a></h2>
+<p><strong>All</strong> team members are required to speak during the presentation.</p>
+</div>
+<div class="section" id="tools-to-take-your-presentation-to-the-next-level">
+<h2>Tools to Take Your Presentation to the Next Level<a class="headerlink" href="#tools-to-take-your-presentation-to-the-next-level" title="Permalink to this headline">¶</a></h2>
+<p>Whilst PowerPoint is a great for making slide decks, the templates
+provided are limited. To make your presentation more professional, we
+encourage you to find templates online that match the branding of your
+application. We recommend you look at the following websites for modern
+PowerPoint templates:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.canva.com/en_au/">Canva</a></p></li>
+<li><p><a class="reference external" href="https://www.adobe.com/express/">Adobe Creative Cloud Express</a></p></li>
+</ul>
+</div>
+<div class="section" id="during-the-demonstration">
+<h2>During the Demonstration<a class="headerlink" href="#during-the-demonstration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><em>Develop tasks and use personas to complete the tasks:</em> Teams are
+required to demonstrate their application during their presentation.
+We recommend walking through your application as if you were the
+target user. Employing personas can help make the presentation more
+engaging.</p></li>
+<li><p><em>Demonstrate high value features</em>: As you decide what features to
+showcase, remember that you should show the functionality that is of
+high value to your client. You need to show how the application you
+built meets your client’s expectations. Activities such as
+authentication can be omitted as it rarely is a specific requirement
+from the client. You can use the user stories priorities to decide
+what is of high value to the client.</p></li>
+<li><p><em>Use realistic data:</em> When demonstrating, it is important to use
+realistic data where possible. You are trying to show how a
+real-life customer would use the application, and so the data should
+be realistic, too. We recommend teams to have their mock data
+written or saved somewhere so the demonstrator knows exactly what to
+use.</p></li>
+<li><p><em>Preparing for failure is also important as things can go wrong
+during a demonstration.</em> Sometimes the application may not be
+predictable, or you may discover a bug mid-demonstration. Practicing
+can help reduce the likelihood of this occurring, but teams should
+still have a plan for what to do in case of failure. Having an
+authenticated session ready as a backup can be useful, or having
+another student stand-by to take-over, if one student is having
+issues.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<ul class="simple">
+<li><p>Hold practice presentation to iron out timing and transitions.</p></li>
+<li><p>Practice presenting to a friend or family member who has no
+background knowledge of the project - if they can follow along and
+understand your demonstration, that is a good sign.</p></li>
+<li><p>Have a practice run through on the day.</p></li>
+<li><p>Practice the timing of your presentation.</p></li>
+<li><p>Keep your slides succinct, as overloading slides with text can make
+them more difficult to follow - try replacing text with graphics
+where it makes sense.</p></li>
+<li><p>If the presentations are being held virtually:</p>
+<ul>
+<li><p>Use a consistent virtual background as a team.</p></li>
+<li><p>Add your group name to your Zoom handle.</p></li>
+<li><p>Make sure your audio and video are clear.</p></li>
+</ul>
+</li>
+<li><p>Practice how you will transition between speakers.</p></li>
+</ul>
 </div>
 </div>
 </div>
@@ -477,7 +483,7 @@ can be useful to understand why it has failed.</p>
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./chapter_12"
+            path: "./chapter_14"
         },
         predefinedOutput: true
     }
@@ -489,17 +495,17 @@ can be useful to understand why it has failed.</p>
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../chapter_11/devops.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../chapter_13/testing.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Chapter 11: DevOps</p>
+            <p class="prev-next-title">Chapter 13: Testing</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../chapter_13/testing.html" title="next page">
+    <a class='right-next' id="next-link" href="../chapter_15/client_handover.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Chapter 13: Testing</p>
+        <p class="prev-next-title">Chapter 15: Client Handover</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
