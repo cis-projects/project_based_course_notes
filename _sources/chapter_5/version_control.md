@@ -1,4 +1,4 @@
-# Version Control
+# Chapter 5: Version Control
 
 Version control is essential when collaborating on a software project.
 Developers may be working on functionality within the same page or must
