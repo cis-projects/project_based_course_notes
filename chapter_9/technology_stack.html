@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chapter 14: Final Presentation &#8212; Project-Based Course Notes</title>
+    <title>Chapter 9: Technology Stack &#8212; Project-Based Course Notes</title>
     
   <link href="../_static/css/theme.css" rel="stylesheet">
   <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
@@ -51,8 +51,8 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Chapter 15: Client Handover" href="../chapter_15/client_handover.html" />
-    <link rel="prev" title="Chapter 13: Testing" href="../chapter_13/testing.html" />
+    <link rel="next" title="Change Log" href="../changelog.html" />
+    <link rel="prev" title="Chapter 8: Requirements Elicitation" href="../chapter_8/requirements_elicitation.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -142,19 +142,9 @@
    Chapter 8: Requirements Elicitation
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../chapter_13/testing.html">
-   Chapter 13: Testing
-  </a>
- </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Chapter 14: Final Presentation
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../chapter_15/client_handover.html">
-   Chapter 15: Client Handover
+   Chapter 9: Technology Stack
   </a>
  </li>
 </ul>
@@ -222,7 +212,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/chapter_14/final_presentation.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/chapter_9/technology_stack.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -242,7 +232,7 @@
                 data-toggle="tooltip" data-placement="left" title="Source repository"><i
                     class="fab fa-github"></i>repository</button></a>
         <a class="issues-button"
-            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_14/final_presentation.html&body=Your%20issue%20content%20here."><button
+            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_9/technology_stack.html&body=Your%20issue%20content%20here."><button
                 type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
                 title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
         
@@ -269,23 +259,23 @@
             <nav id="bd-toc-nav" aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-should-be-covered">
-   What Should Be Covered?
+  <a class="reference internal nav-link" href="#front-end-frameworks">
+   Front-End Frameworks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#presenters">
-   Presenters
+  <a class="reference internal nav-link" href="#back-end-frameworks">
+   Back-End Frameworks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#tools-to-take-your-presentation-to-the-next-level">
-   Tools to Take Your Presentation to the Next Level
+  <a class="reference internal nav-link" href="#databases">
+   Databases
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#during-the-demonstration">
-   During the Demonstration
+  <a class="reference internal nav-link" href="#web-servers">
+   Web Servers
   </a>
  </li>
 </ul>
@@ -298,7 +288,7 @@
         <div class="col-12 col-md-9 pl-md-3 pr-md-0">
             <!-- Table of contents that is only displayed when printing the page -->
             <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Chapter 14: Final Presentation</h1>
+                <h1>Chapter 9: Technology Stack</h1>
                 <!-- Table of contents -->
                 <div id="print-main-content">
                     <div id="jb-print-toc">
@@ -309,23 +299,23 @@
                         <nav aria-label="Page">
                             <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-should-be-covered">
-   What Should Be Covered?
+  <a class="reference internal nav-link" href="#front-end-frameworks">
+   Front-End Frameworks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#presenters">
-   Presenters
+  <a class="reference internal nav-link" href="#back-end-frameworks">
+   Back-End Frameworks
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#tools-to-take-your-presentation-to-the-next-level">
-   Tools to Take Your Presentation to the Next Level
+  <a class="reference internal nav-link" href="#databases">
+   Databases
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#during-the-demonstration">
-   During the Demonstration
+  <a class="reference internal nav-link" href="#web-servers">
+   Web Servers
   </a>
  </li>
 </ul>
@@ -337,114 +327,100 @@
             
               <div>
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-14-final-presentation">
-<h1>Chapter 14: Final Presentation<a class="headerlink" href="#chapter-14-final-presentation" title="Permalink to this headline">¶</a></h1>
-<p>The final presentation is your opportunity to showcase your product to
-supervisors, other teams, and your client. Each team will have
-approximately 15 minutes to walk through their project and demo their
-application.</p>
-<div class="section" id="what-should-be-covered">
-<h2>What Should Be Covered?<a class="headerlink" href="#what-should-be-covered" title="Permalink to this headline">¶</a></h2>
-<p>Your team’s presentation should cover the following (in no order):</p>
+  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-9-technology-stack">
+<h1>Chapter 9: Technology Stack<a class="headerlink" href="#chapter-9-technology-stack" title="Permalink to this headline">¶</a></h1>
+<p>Unlike most of your other subjects, this subject does not have a
+pre-defined technology stack you must use.</p>
+<p>There is no right or wrong answer as to your choice of technology stacks
+for your web application.</p>
+<p>However, you should consider several factors:</p>
 <ul class="simple">
-<li><p>Introduction to your team: who you are, what you did.</p></li>
-<li><p>Business need: what drove the initial requirement for the product
-you developed.</p></li>
-<li><p>Project requirements: how did you work with your client to develop
-requirements.</p></li>
-<li><p>Target users/personas: who will use the application you have
-developed.</p></li>
-<li><p>Project process:</p>
-<ul>
-<li><p>The design of the system.</p></li>
-<li><p>An overview of your application’s architecture.</p></li>
+<li><p>The desires of your client.</p></li>
+<li><p>The knowledge and experience of your teammates.</p></li>
+<li><p>The desire to learn something new.</p></li>
+<li><p>Time and budget limitations.</p></li>
 </ul>
-</li>
-<li><p>Project outcomes: what was delivered;</p></li>
-<li><p>Application demonstration:</p>
-<ul>
-<li><p>This should be a demonstration of your fully deployed
-application.</p></li>
-<li><p>Develop a narrative for your demonstration and utilise personas
-to complete tasks using the application.</p></li>
-</ul>
-</li>
-<li><p>Key challenges and accomplishments.</p></li>
-</ul>
-<div class="admonition attention">
-<p class="admonition-title">Attention</p>
-<p>The presentations should be easy to follow by the audience, and
-you should assume your audience has no prior knowledge of your
-application (you will likely be marked by academic staff that have never
-seen your work prior to the demonstration).</p>
-</div>
-</div>
-<div class="section" id="presenters">
-<h2>Presenters<a class="headerlink" href="#presenters" title="Permalink to this headline">¶</a></h2>
-<p><strong>All</strong> team members are required to speak during the presentation.</p>
-</div>
-<div class="section" id="tools-to-take-your-presentation-to-the-next-level">
-<h2>Tools to Take Your Presentation to the Next Level<a class="headerlink" href="#tools-to-take-your-presentation-to-the-next-level" title="Permalink to this headline">¶</a></h2>
-<p>Whilst PowerPoint is a great for making slide decks, the templates
-provided are limited. To make your presentation more professional, we
-encourage you to find templates online that match the branding of your
-application. We recommend you look at the following websites for modern
-PowerPoint templates:</p>
+<p>Like any other decision, the decision for a technology stack requires
+weighing the options and deciding as a team.</p>
+<p>Modern web frameworks are comprised of a frontend framework, backend
+framework, web server, and data persistence.</p>
+<p><img alt="" src="../_images/stack.png" /></p>
+<p><em>Source:</em>
+<a class="reference external" href="https://rubygarage.org/blog/technology-stack-for-web-development">RubyGarage</a></p>
+<p>There are many choices available for tech stacks, some of the most
+popular are detailed below.</p>
+<div class="section" id="front-end-frameworks">
+<h2>Front-End Frameworks<a class="headerlink" href="#front-end-frameworks" title="Permalink to this headline">¶</a></h2>
+<p>Your main two choices are between HTML and CSS, and JavaScript for the
+front-end. If you choose to use HTML and CSS,
+<a class="reference external" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Bootstrap</a>
+is a framework to take work out of development.</p>
+<p>There are several JavaScript frameworks to help your development:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.canva.com/en_au/">Canva</a></p></li>
-<li><p><a class="reference external" href="https://www.adobe.com/express/">Adobe Creative Cloud Express</a></p></li>
+<li><p><a class="reference external" href="https://reactjs.org/">ReactJS</a></p></li>
+<li><p><a class="reference external" href="https://angularjs.org/">Angular</a></p></li>
+<li><p><a class="reference external" href="https://vuejs.org/">Vue.js</a></p></li>
 </ul>
 </div>
-<div class="section" id="during-the-demonstration">
-<h2>During the Demonstration<a class="headerlink" href="#during-the-demonstration" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="back-end-frameworks">
+<h2>Back-End Frameworks<a class="headerlink" href="#back-end-frameworks" title="Permalink to this headline">¶</a></h2>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Language</p></th>
+<th class="head"><p>Framework</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Python</p></td>
+<td><p>- <a class="reference external" href="https://www.djangoproject.com/">Django</a><br/>- <a class="reference external" href="https://flask.palletsprojects.com/en/2.0.x/">Flask</a><br/>- <a class="reference external" href="https://pylonsproject.org/">Pylons</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>Java</p></td>
+<td><p>-<a class="reference external" href="https://spring.io/projects/spring-boot">Spring Boot</a></p></td>
+</tr>
+<tr class="row-even"><td><p>Ruby</p></td>
+<td><p>- <a class="reference external" href="https://rubyonrails.org/">Ruby on Rails</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>PHP</p></td>
+<td><p>- <a class="reference external" href="https://laravel.com/">Laravel</a></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="databases">
+<h2>Databases<a class="headerlink" href="#databases" title="Permalink to this headline">¶</a></h2>
+<p>Your web application needs a place to store all data (user,
+configuration, etc. data).</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.mysql.com/">MySQL</a></p></td>
+<td><p>Relational</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.mongodb.com/">MongoDB</a></p></td>
+<td><p>Non-relational<br/>Document</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.postgresql.org/">PostgreSQL</a></p></td>
+<td><p>Relational</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="web-servers">
+<h2>Web Servers<a class="headerlink" href="#web-servers" title="Permalink to this headline">¶</a></h2>
+<p>And lastly, your web application needs a web server to handle requests.</p>
 <ul class="simple">
-<li><p><em>Develop tasks and use personas to complete the tasks:</em> Teams are
-required to demonstrate their application during their presentation.
-We recommend walking through your application as if you were the
-target user. Employing personas can help make the presentation more
-engaging.</p></li>
-<li><p><em>Demonstrate high value features</em>: As you decide what features to
-showcase, remember that you should show the functionality that is of
-high value to your client. You need to show how the application you
-built meets your client’s expectations. Activities such as
-authentication can be omitted as it rarely is a specific requirement
-from the client. You can use the user stories priorities to decide
-what is of high value to the client.</p></li>
-<li><p><em>Use realistic data:</em> When demonstrating, it is important to use
-realistic data where possible. You are trying to show how a
-real-life customer would use the application, and so the data should
-be realistic, too. We recommend teams to have their mock data
-written or saved somewhere so the demonstrator knows exactly what to
-use.</p></li>
-<li><p><em>Preparing for failure is also important as things can go wrong
-during a demonstration.</em> Sometimes the application may not be
-predictable, or you may discover a bug mid-demonstration. Practicing
-can help reduce the likelihood of this occurring, but teams should
-still have a plan for what to do in case of failure. Having an
-authenticated session ready as a backup can be useful, or having
-another student stand-by to take-over, if one student is having
-issues.</p></li>
+<li><p><a class="reference external" href="https://www.nginx.com/">Nginx</a></p></li>
+<li><p><a class="reference external" href="https://www.apache.org/">Apache</a></p></li>
 </ul>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
+<div class="admonition-extra-resources admonition">
+<p class="admonition-title">Extra Resources</p>
 <ul class="simple">
-<li><p>Hold practice presentation to iron out timing and transitions.</p></li>
-<li><p>Practice presenting to a friend or family member who has no
-background knowledge of the project - if they can follow along and
-understand your demonstration, that is a good sign.</p></li>
-<li><p>Have a practice run through on the day.</p></li>
-<li><p>Practice the timing of your presentation.</p></li>
-<li><p>Keep your slides succinct, as overloading slides with text can make
-them more difficult to follow - try replacing text with graphics
-where it makes sense.</p></li>
-<li><p>If the presentations are being held virtually:</p>
-<ul>
-<li><p>Use a consistent virtual background as a team.</p></li>
-<li><p>Add your group name to your Zoom handle.</p></li>
-<li><p>Make sure your audio and video are clear.</p></li>
-</ul>
-</li>
-<li><p>Practice how you will transition between speakers.</p></li>
+<li><p><a class="reference external" href="https://stackshare.io/stacks">stackshare.io</a> is a free website your
+team can use to view the stack companies use and their reviews.</p></li>
 </ul>
 </div>
 </div>
@@ -463,7 +439,7 @@ where it makes sense.</p></li>
         },
         kernelOptions: {
             kernelName: "python3",
-            path: "./chapter_14"
+            path: "./chapter_9"
         },
         predefinedOutput: true
     }
@@ -475,17 +451,17 @@ where it makes sense.</p></li>
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="../chapter_13/testing.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../chapter_8/requirements_elicitation.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Chapter 13: Testing</p>
+            <p class="prev-next-title">Chapter 8: Requirements Elicitation</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="../chapter_15/client_handover.html" title="next page">
+    <a class='right-next' id="next-link" href="../changelog.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Chapter 15: Client Handover</p>
+        <p class="prev-next-title">Change Log</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
