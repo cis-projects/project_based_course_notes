@@ -21,6 +21,10 @@ parts:
     - file: chapter_13/testing
     - file: chapter_14/final_presentation
     - file: chapter_15/client_handover
+  - caption: Appendices
+    chapters:
+    - file: appendices/appendix_a/extra_tools
+    - file: appendices/appendix_b/motivational_model_guide
   - caption: Frequently Asked Questions (FAQs)
     chapters:
     - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
