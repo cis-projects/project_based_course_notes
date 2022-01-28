@@ -8,13 +8,10 @@ and organised workflow.
 Taking an example, a team that uses:
 
 -   Jira for task tracking.
-
 -   GitHub for the code repository.
-
 -   Confluence for the document repository.
 
 Bringing all of this together, allows for a workflow that can be
 monitored and scaled as the team and work grows.
 
-![Diagram Description automatically
-generated](./resources/media/image4.png)
+![Diagram Description automatically generated](resources/workflow.png)

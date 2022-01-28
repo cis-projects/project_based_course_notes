@@ -20,11 +20,9 @@ used in software projects:
 -   Functional requirements: These stipulate what the system should do.
     The Agile Scrum framework expresses functional requirements as user
     stories.
-
 -   Non-functional requirements: These requirements detail any
     additional constraints that specify how a system should behave. Some
     examples include any safety, security, or performance requirements.
-
 -   Emotional requirements: Requirements that detail how the target user
     should feel when interacting with the system.
 
@@ -100,7 +98,7 @@ clearly identified.
 The process of writing your requirements can be done by different
 methods.
 
-*Motivational Modelling*
+##### Motivational Modelling
 
 One popular technique is to use motivational modelling. This technique
 allows the functional, non-functional, and emotional goals of the system
@@ -113,11 +111,8 @@ requirements of the system and stakeholders involved. The list is called
 a DO/BE/FEEL/WHO list, and should detail:
 
 -   DO: what your system can do? (Functional goals)
-
 -   BE: how your system should behave? (Non-functional goals)
-
 -   FEEL: how users should feel when using the system? (Emotional goals)
-
 -   WHO: key stakeholders
 
 This list is then converted into a hierarchical diagram, as shown below.
@@ -125,13 +120,13 @@ This is a great starting point for teams to confirm the understanding of
 the project requirements, with the bottom leaves corresponding to user
 stories.
 
-![Motivational
-model](./resources/media/image5.jpg)
+![Motivational model](resources/motivational_model.jpg)
 
-*Motivational model*
 
-*For more information on how to create a motivational model, see the
-appendix.*
+```{note}
+For more information on how to create a motivational model, see the
+appendix.
+```
 
 ### 2. Elaboration
 
@@ -140,9 +135,7 @@ and refine the information collected. This typically involves:
 
 -   Verifying the motivational model is consistent with the clients
     understanding and expanding as required.
-
 -   Developing personas to match your target users.
-
 -   Developing prototypes.
 
 #### Personas
@@ -161,8 +154,7 @@ design a car for a person, it is important to understand which category
 your client falls in, to make sure the car you design is suited to their
 purpose. This is how personas can be useful.
 
-![Graphical user interface, website Description automatically
-generated](./resources/media/image6.png)
+![](resources/persona.png)
 
 *Source:*
 [99Designs](https://99designs.com.au/blog/business/how-to-create-user-personas/)
@@ -172,29 +164,22 @@ It might seem weird to use fictional characters but using real people
 breaches, as well as unrealistic use cases, if they are not well aligned
 to actual user requirements.
 
-*Writing Personas*
+##### Writing Personas
 
 A persona should have the following elements:
 
--   Fictional name.
-
--   Job title/responsibilities.
-
--   Demographics (age, education).
-
--   Goals and tasks they are trying to achieve.
-
--   Any frustrations.
+- Fictional name.
+- Job title/responsibilities.
+- Demographics (age, education).
+- Goals and tasks they are trying to achieve.
+- Any frustrations.
 
 Below is a list of popular tools for making personas:
 
--   [Xtensio](https://xtensio.com/)
-
--   [HubSpot](https://www.hubspot.com/)
-
--   [PersonaGenerator](https://personagenerator.com/)
-
--   [UXPressia](https://uxpressia.com/)
+- [Xtensio](https://xtensio.com/)
+- [HubSpot](https://www.hubspot.com/)
+- [PersonaGenerator](https://personagenerator.com/)
+- [UXPressia](https://uxpressia.com/)
 
 Personas should also be diverse in demographics and backgrounds (age,
 ethnicity, education, etc.) to capture real-life users.
@@ -216,38 +201,34 @@ build and allow teams to get feedback from the client much earlier,
 reducing the likelihood of major changes to the system's interface
 later.
 
-*Classes of Prototypes*
+##### Classes of Prototypes
 
-**Paper prototype/Low fidelity prototype**: Hand drawing of user
+- *Paper prototype/Low fidelity prototype*: Hand drawing of user
 interface to allow it to be rapidly designed, simulated, and tested.
 These are typically black and white and don't consider choices such as
 colour palette, font, and general styling.
-
-**High fidelity prototype**: A digital prototype that looks very similar
+- *High fidelity prototype*: A digital prototype that looks very similar
 to what the final product should look like. These prototypes are made
 using no-code programs and should determine the final design of the
 system.
 
-*Building a Low Fidelity Prototype*
+###### Building a Low Fidelity Prototype
 
 There are many tools that can be used for creating low fidelity
 prototypes:
 
 1.  Microsoft PowerPoint: While sometimes slow and cumbersome,
     PowerPoint comes complete with several good features for drawing and
-    designing UI elements. ![Diagram Description automatically
-    generated](./resources/media/image7.png) *This is an example of a watch UI
+    designing UI elements. ![](resources/low_fidelity_prototype.png) *This is an example of a watch UI
     created through PowerPoint. User interaction elements can be
     created, and a user scenario was created to take the client through
     during a meeting.*
-
 2.  Miro can also be used to quickly create wireframes using their
-    templates: [Miro wireframe
-    templates](https://miro.com/templates/low-fidelity-wireframes/)
+    templates: [Miro wireframe templates](https://miro.com/templates/low-fidelity-wireframes/)
 
-*Building a High-Fidelity Prototype*
+###### Building a High-Fidelity Prototype
 
-The benefit of using a high-fidelity prototype vs. a low fidelity
+The benefit of using a high-fidelity prototype vs. a low fidelity
 prototype is it allows development teams to be much more specific about
 how a product will look, feel, and act without having to code it (which
 can be very time-consuming). High fidelity prototypes also allow for
@@ -261,17 +242,13 @@ etc.
 There are many tools that can be used for creating low fidelity
 prototypes:
 
-1.  Figma: One of the most used tools professionally (and they offer a
+1. Figma: One of the most used tools professionally (and they offer a
     free [student version](https://www.figma.com/education/))
-
-2.  Axure: Fully featured with a steep learning curve, but probably
+2. Axure: Fully featured with a steep learning curve, but probably
     worth it if you wish to pursue UI design professionally (and they
     also offer a free [student version](https://www.axure.com/edu)).
-
-3.  Adobe XD: Far less fully featured but integrates well with other
-    Adobe products. They also offer student discounts for their [full
-    suite of
-    products](https://www.adobe.com/au/creativecloud/buy/students.html).
+3. Adobe XD: Far less fully featured but integrates well with other
+    Adobe products. They also offer student discounts for their [full suite of products](https://www.adobe.com/au/creativecloud/buy/students.html).
 
 ### 3. Negotiation, Validation, and Specification
 
@@ -316,19 +293,16 @@ is happy with them, you will have your set of specifications. This
 should include:
 
 -   User stories.
-
 -   Motivational model.
-
 -   Personas.
-
 -   Prototypes.
 
-*Extra Resources*
-
--   [A Complete Beginner's Guide to Usability
+```{admonition} Extra Resources
+- [A Complete Beginner's Guide to Usability
     Testing](https://maze.co/guides/usability-testing/)
+```
 
-*What's Next*
-
+```{admonition} What's Next
 Now that your team has elicited the requirements - it is time to start
 designing the application.
+```

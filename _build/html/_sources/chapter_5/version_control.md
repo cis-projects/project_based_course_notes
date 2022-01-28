@@ -6,20 +6,16 @@ make changes that affect each other. Version control systems, like Git,
 ensure projects can be run efficiently.
 
 Version control is a way of tracking changes that are made to code. The
-most popular version control system is Git: [more info on version
-control and
-Git](https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/).
+most popular version control system is Git: 
+[more info on version control and Git](https://serengetitech.com/tech/introduction-to-git-and-types-of-version-control-systems/).
 
 ## Why Use Version Control?
 
 -   Complete history of code so that any new breaking changes to
     codebase can be reverted.
-
 -   Simplifies collaboration, everyone has access to the latest version
     of the codebase.
-
 -   Improved transparency, code attributed to author.
-
 -   Collaboration, branches can be created to work on a feature without
     holding up the team.
 
@@ -35,144 +31,41 @@ control.
 
 To familiarise you with Git, below are some words you will hear repeated
 often:
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky"><b>Term</b></th>
-    <th class="tg-0pky"><b>Definition</b></th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">   <br>Repository   </td>
-    <td class="tg-0pky">   <br>Project folder which stores the project history   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Remote repository   </td>
-    <td class="tg-0pky">   <br>Version of project hosted on internet (GitHub)   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Local repository   </td>
-    <td class="tg-0pky">   <br>Version of project on your machine. Changes made here are not visible by   teammates unless pushed to the remote repository   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Branch   </td>
-    <td class="tg-0pky">   <br>A separate branch from the repository that can be used to make changes   independent of other branches (main)   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Main branch   </td>
-    <td class="tg-0pky">   <br>The default branch for your repository   </td>
-  </tr>
-</tbody>
-</table>
+
+| Term              | Definition                                                                                                                 |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Repository        | Project folder which stores the project history.                                                                           |
+| Remote repository | Version of project hosted on internet (GitHub).                                                                            |
+| Local repository  | Version of project on your machine. Changes made here are not visible by teammates unless pushed to the remote repository. |
+| Branch            | A separate branch from the repository that can be used to make changes independent of other branches (main).               |
+| Main branch       | The default branch for your repository.                                                                                    |
 
 ### Git Actions
 
 These are the most common actions you are likely to perform using git:
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Term</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Definition</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Command</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Clone</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Makes a local copy of a repository</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git clone [repo]</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Add</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Marks file as staged, such that is added in the next commit</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git add [filename]</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Commit</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Snapshot of repo, with several changes to the codebase</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git commit -m "commit&nbsp;&nbsp;&nbsp;message"</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Push</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Pushes changes (commits) to the remote repository</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git push</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Pull</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Pulls any changes from the latest version of the remote repository and&nbsp;&nbsp;&nbsp;integrates any file changes with your local branch</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git pull [remote] [branch]</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Fetch</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Pulls changes from the latest version of the remote repository but does&nbsp;&nbsp;&nbsp;not change the files to match remote repository. Can be useful if you want to&nbsp;&nbsp;&nbsp;check whether a pull will override any of your local file changes</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">git fetch [remote] [branch]</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-</tbody>
-</table>
+| Term   | Definition                                                                                                                                                                                                               | Command                          |
+|--------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------|
+| Clone  | Makes a local copy of a repository.                                                                                                                                                                                      | git clone \[repo\]               |
+| Add    | Marks file as staged, such that is added in the next commit.                                                                                                                                                             | git add \[filename\]             |
+| Commit | Snapshot of repo, with several changes to the codebase.                                                                                                                                                                  | git commit -m \"commit message\" |
+| Push   | Pushes changes (commits) to the remote repository.                                                                                                                                                                       | git push                         |
+| Pull   | Pulls any changes from the latest version of the remote repository and integrates any file changes with your local branch.                                                                                               | git pull \[remote\] \[branch\]   |
+| Fetch  | Pulls changes from the latest version of the remote repository but does not change the files to match remote repository. Can be useful if you want to check whether a pull will override any of your local file changes. | git fetch \[remote\] \[branch\]  |
 
 ### Local File Changes
 
 Changes made to files that live inside a repository can be one of
 several statuses.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-7zrl{text-align:left;vertical-align:bottom}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Status</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-7zrl">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black"><b>Description</b></span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Untracked</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">The file is not being monitored by the version control (does not exist).</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Unmodified</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">The local file matches exactly the files in the remote repository.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Modified</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">The local file differs from the file in the remote repository.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Staged</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Changes to the local file are ready to be pushed to the remote repository&nbsp;&nbsp;&nbsp;so the file in the remote repository matches exactly the file in the local&nbsp;&nbsp;&nbsp;repository.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-</tbody>
-</table>
-</BR>
+| Status     | Description                                                                                                                                                      |
+|------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Untracked  | The file is not being monitored by the version control (does not exist).                                                                                         |
+| Unmodified | The local file matches exactly the files in the remote repository.                                                                                               |
+| Modified   | The local file differs from the file in the remote repository.                                                                                                   |
+| Staged     | Changes to the local file are ready to be pushed to the remote repository so the file in the remote repository matches exactly the file in the local repository. |
 
-![Diagram of file
-status](./resources/media/image1.png)
+![Diagram of file status](resources/git_commands.png)
 
 ### Branching
 
@@ -188,8 +81,7 @@ To learn more about branching, please refer
 [here](https://www.atlassian.com/git/tutorials/using-branches).
 
 To learn the basics of branching in a fun way, check out this
-[interactive tool to learn git
-branching](https://learngitbranching.js.org/). This tool is great for
+[interactive tool to learn git branching](https://learngitbranching.js.org/). This tool is great for
 beginners or people who need a refresher.
 
 ### Example Git Workflow
@@ -230,18 +122,16 @@ running the command git pull \[remote\] \[branch\]. This will fetch the
 latest changes from the remote repository and integrate them with their
 local files.
 
-Extra Resources
-
-1.  [Git explained in 100
-    seconds](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship)
-
+```{admonition} Extra Resources
+1.  [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship)
 2.  [GitKraken](https://www.gitkraken.com): A great GUI that sits on
     top of Git's command line integration to provide a more
     user-friendly way of interacting with version control
     systems.
+```
 
-What's Next
-
+```{admonition} What's Next
 This was a very general introduction to Git. Throughout this semester,
 you will be making use of GitHub - to learn more about GitHub, please
 see the next chapter focused primarily on GitHub.
+```

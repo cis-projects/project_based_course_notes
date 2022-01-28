@@ -27,8 +27,8 @@ commands/instructions.
 If you are creating a repository with the intention of making it
 publicly accessible eventually, you need to have a license to allow
 other developers to collaborate (and to protect you from misuse). GitHub
-provides a [detailed guide on
-licenses](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
+provides a 
+[detailed guide on licenses](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository)
 along with a tool to determine which license is appropriate for your
 repository.
 
@@ -48,9 +48,9 @@ Find out how to protect your branches on GitHub
 
 Integrations can help manage your development workflow. - Rather than
 having to visit GitHub's website each time you have a pull request, you
-can make use of the [GitHub
-bot](https://slack.com/intl/en-au/help/articles/232289568-GitHub-for-Slack)
-on Slack to automatically send you notifications of new PRs. - Discord
+can make use of the 
+[GitHub bot](https://slack.com/intl/en-au/help/articles/232289568-GitHub-for-Slack)
+on Slack to automatically send you notifications of new PRs. Discord
 has a similar webhook that can be configured using this
 [guide](https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22).
 
@@ -61,16 +61,17 @@ code quality is maintained, and any errors are identified.
 
 ### Code Review Activities
 
--   Pair programming: Having two developers working on a single unit of
+-   *Pair programming:* Having two developers working on a single unit of
     work; one person writes the code (driver) whilst the other reviews
     code real-time (navigator).
-
--   Pull requests: Having 1 or more developers review code changes
+-   *Pull requests:* Having 1 or more developers review code changes
     before it is merged.
 
 ### Pull Requests
 
-*Commonly referred to as PRs*.
+```{note}
+Commonly referred to as PRs.
+```
 
 Pull requests allow developers to review changes made on a certain
 branch before merging it into another. When team members complete some
@@ -85,10 +86,8 @@ the main branch.
 
 -   Team members must review and check that the code changes are
     acceptable, thereby improving code quality.
-
 -   Errors have a greater chance of being noticed early, as there is
     more than one team member reviewing/testing the changes.
-
 -   They improve the team's understanding of code as developers are
     forced to read other developers' code; thereby dispersing knowledge
     of the code's functionality more widely across the team.
@@ -106,8 +105,8 @@ You can view a sample template
 [here](https://unimelbcloud-my.sharepoint.com/personal/eduardo_oliveira_unimelb_edu_au/Documents/2022/SWEN90009/Book/assets/pull_request_template.md).
 
 To see an example of how to include PR templates in your repository,
-please see this [Medium
-article](https://medium.com/@swapnesh/why-you-should-add-a-pull-request-template-in-your-github-project-1556170e55c9).
+please see this 
+[Medium article](https://medium.com/@swapnesh/why-you-should-add-a-pull-request-template-in-your-github-project-1556170e55c9).
 
 ## Git Workflows (Branching Strategies)
 
@@ -120,8 +119,7 @@ Feature branching entails creating a new branch for a new feature and
 using that same branch until the feature is completed. After completion,
 the feature branch is merged back into the main branch.
 
-![Feature branching
-diagram](./resources/media/image2.png)
+![Feature branching diagram](resources/feature_development.png)
 
 *Source:*
 [Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
@@ -139,42 +137,11 @@ developers make a pull request to be merged into the develop branch.
 When the team is ready for a release, then a new branch is created and
 the code is tested before it is merged into the main branch.
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-fymr">    <br>Advantages    </th>
-    <th class="tg-fymr">    <br>Disadvantages    </th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">   <br>Branches remain in a clean state.   </td>
-    <td class="tg-0pky">   <br>Long-lived branches can be hard to integrate with the main branch; have   diverged too much.   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>Ideal for when multiple versions of a product are required.   </td>
-    <td class="tg-0pky">   <br>Releases are delayed, and if there are many changes, could be highly   problematic.   </td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">   <br>    </td>
-    <td class="tg-0pky">   <br>Final merge from develop to the main branch can have many changes which   may be overlooked by developers.   </td>
-  </tr>
-</tbody>
-</table>
-
-You can view a guest lecture from [Canva](https://www.canva.com/en_au/)
-where Gitflow is explained (from 1:16 to 1:23)
-[here](https://cloudstor.aarnet.edu.au/plus/s/RbR2fyW5nT7W8cM).
-Password: **j_G3NVkx9MYz**.
+| Advantages                                                  | Disadvantages                                                                                            |
+|-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| Branches remain in a clean state.                           | Long-lived branches can be hard to integrate with the main branch; have diverged too much.               |
+| Ideal for when multiple versions of a product are required. | Releases are delayed, and if there are many changes, could be highly problematic.                        |
+|                                                             | Final merge from develop to the main branch can have many changes which may be overlooked by developers. |
 
 ### Trunk Based Development
 
@@ -182,41 +149,15 @@ Trunk based development uses short-lived branches which are regularly
 merged into the trunk, reducing any delays associated with integrating
 code changes.
 
-![Trunk based
-dev](./resources/media/image3.png)
+![Trunk based dev](resources/trunk_development.png)
 
 *Source:*
 [Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
 
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-j6zm{font-weight:bold;text-align:left;vertical-align:bottom}
-.tg .tg-0lax{text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Advantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Disadvantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Reduces likelihood of divergence from main.</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Frequent merging can lead to breaking updates.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-  <tr>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Minimise merge conflict.</span>&nbsp;&nbsp;&nbsp;</td>
-    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">If slow build process, then there may be delays as people merge back into&nbsp;&nbsp;&nbsp;trunk.</span>&nbsp;&nbsp;&nbsp;</td>
-  </tr>
-</tbody>
-</table>
-
+| Advantages                                  | Disadvantages                                                                    |
+|---------------------------------------------|----------------------------------------------------------------------------------|
+| Reduces likelihood of divergence from main. | Frequent merging can lead to breaking updates.                                   |
+| Minimise merge conflict.                    | If slow build process, then there may be delays as people merge back into trunk. |
 
 ## Software Releases
 
@@ -252,15 +193,12 @@ features and capabilities are available in each release.
 
 ### Writing Good Release Notes
 
--   Keep it simple and avoid technical jargon,
-
--   Be specific about what has been implemented, and
-
+-   Keep it simple and avoid technical jargon.
+-   Be specific about what has been implemented.
 -   Group your notes logically. Creating headings for fixes,
-    improvements and new features may be beneficial
+    improvements and new features may be beneficial.
 
-For an example, please refer to this [open-source project's release
-notes](https://github.com/slack-go/slack/releases).
+For an example, please refer to this [open-source project's release notes](https://github.com/slack-go/slack/releases).
 
 ## Creating a Release
 
@@ -268,10 +206,7 @@ To create a release, please refer to this
 [tutorial](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository)
 published by GitHub.
 
-Extra Resources
-
--   [Trunk vs Gitflow
-    development](https://www.toptal.com/software/trunk-based-development-git-flow)
-
--   [Git branching
-    strategies](https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/)
+```{admonition} Extra Resources
+- [Trunk vs Gitflow development](https://www.toptal.com/software/trunk-based-development-git-flow)
+- [Git branching strategies](https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/)
+```
