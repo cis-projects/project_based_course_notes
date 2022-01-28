@@ -7,7 +7,8 @@ with a client.
 
 Your client will be assigned by the Subject Coordinator, and once your
 client is assigned, you should contact them and work closely with them
-throughout the semester.\
+throughout the semester.
+
 You will need them to:
 
 1.  Aid your team in developing requirements for your system.
