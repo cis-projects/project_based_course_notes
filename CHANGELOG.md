@@ -10,6 +10,7 @@ Copying existing subject notes (Word document) to Jupyterbook
 - Add Chapter 6
 - Add Chapter 7
 - Add Chapter 8
+- Add Changelog
 
 ## v0.1 (2022-01-24)
 
