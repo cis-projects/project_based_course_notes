@@ -17,10 +17,7 @@ This handbook should help you acclimate yourselves to content learned throughout
 resource to reference when you have questions.
 
 ```{attention} 
-
 This handbook will act as a living guide, so please feel free to raise an issue in the top right-hand side of this 
 website, if you want to raise suggestions or advice.
-
-![open issue](chapter_0/resources/1.png)
-
 ```
+![open issue](chapter_0/resources/1.png)
