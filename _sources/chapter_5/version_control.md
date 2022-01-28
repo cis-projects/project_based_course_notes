@@ -169,7 +169,7 @@ several statuses.
   </tr>
 </tbody>
 </table>
-
+</BR>
 
 ![Diagram of file
 status](./resources/media/image1.png)

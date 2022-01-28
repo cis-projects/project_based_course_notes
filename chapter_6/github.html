@@ -1,0 +1,792 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 6: Github &#8212; Course Notes</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Chapter 5: Version Control" href="../chapter_5/version_control.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_0/introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Chapters
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_1/agile_methodology.html">
+   Chapter 1: Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_2/client_communications.html">
+   Chapter 2: Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_3/task_tracking.html">
+   Chapter 3: Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_4/document_repository.html">
+   Chapter 4: Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../chapter_5/version_control.html">
+   Chapter 5: Version Control
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Chapter 6: Github
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/ab27d56fbc03480a9261c4e05e8cce23?v=824921388368451691739d1e7d2b0400">
+   SWEN90007 Software Design and Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/chapter_6/github.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/course_notes/issues/new?title=Issue%20on%20page%20%2Fchapter_6/github.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#configuring-your-team-s-repository">
+   Configuring Your Team’s Repository
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#readme">
+     README
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#licenses">
+     Licenses
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#branch-protection">
+     Branch Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integrations">
+     Integrations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-reviews">
+   Code Reviews
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-review-activities">
+     Code Review Activities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pull-requests">
+     Pull Requests
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#why-use-pull-requests">
+       Why Use Pull Requests?
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pull-request-templates">
+       Pull Request Templates
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-workflows-branching-strategies">
+   Git Workflows (Branching Strategies)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#feature-branching">
+     Feature Branching
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gitflow">
+       Gitflow
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#trunk-based-development">
+     Trunk Based Development
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#software-releases">
+   Software Releases
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tags">
+   Tags
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#release-notes">
+   Release Notes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#writing-good-release-notes">
+     Writing Good Release Notes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-a-release">
+   Creating a Release
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Chapter 6: Github</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#configuring-your-team-s-repository">
+   Configuring Your Team’s Repository
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#readme">
+     README
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#licenses">
+     Licenses
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#branch-protection">
+     Branch Protection
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#integrations">
+     Integrations
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#code-reviews">
+   Code Reviews
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#code-review-activities">
+     Code Review Activities
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pull-requests">
+     Pull Requests
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#why-use-pull-requests">
+       Why Use Pull Requests?
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#pull-request-templates">
+       Pull Request Templates
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#git-workflows-branching-strategies">
+   Git Workflows (Branching Strategies)
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#feature-branching">
+     Feature Branching
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#gitflow">
+       Gitflow
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#trunk-based-development">
+     Trunk Based Development
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#software-releases">
+   Software Releases
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tags">
+   Tags
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#release-notes">
+   Release Notes
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#writing-good-release-notes">
+     Writing Good Release Notes
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#creating-a-release">
+   Creating a Release
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="chapter-6-github">
+<h1>Chapter 6: Github<a class="headerlink" href="#chapter-6-github" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="configuring-your-team-s-repository">
+<h2>Configuring Your Team’s Repository<a class="headerlink" href="#configuring-your-team-s-repository" title="Permalink to this headline">¶</a></h2>
+<p>Your first task once you decide to use GitHub is to set up a repository.
+You can learn how to do that
+<a class="reference external" href="https://docs.github.com/en/get-started/quickstart/create-a-repo">here</a>.</p>
+<p>Once you have created a repository, there are several considerations
+when establishing how your team will work with the repository.</p>
+<div class="section" id="readme">
+<h3>README<a class="headerlink" href="#readme" title="Permalink to this headline">¶</a></h3>
+<p>All teams should have a project level README file that explains your
+project, and what your system aims to do. It should also provide some
+detail as to how to use your code, along with any other useful
+information (the directory structure could be useful for complex file
+structures).</p>
+<p>Teams can also add README files for separate components of the project,
+such as frontend and backend, which may detail specific
+commands/instructions.</p>
+</div>
+<div class="section" id="licenses">
+<h3>Licenses<a class="headerlink" href="#licenses" title="Permalink to this headline">¶</a></h3>
+<p>If you are creating a repository with the intention of making it
+publicly accessible eventually, you need to have a license to allow
+other developers to collaborate (and to protect you from misuse). GitHub
+provides a <a class="reference external" href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository">detailed guide on
+licenses</a>
+along with a tool to determine which license is appropriate for your
+repository.</p>
+</div>
+<div class="section" id="branch-protection">
+<h3>Branch Protection<a class="headerlink" href="#branch-protection" title="Permalink to this headline">¶</a></h3>
+<p>When working on a software project, you want to ensure that critical
+branches (production branches) are not accidentally tampered with or
+deleted. Branch protection helps solve this by allowing developers to
+configure their repository such that key branches have certain
+protections that prevent deletions or require certain checks to pass
+before modifications. Such branches are called <strong>protected branches</strong>.</p>
+<p>Find out how to protect your branches on GitHub
+<a class="reference external" href="https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/defining-the-mergeability-of-pull-requests/managing-a-branch-protection-rule">here</a>.</p>
+</div>
+<div class="section" id="integrations">
+<h3>Integrations<a class="headerlink" href="#integrations" title="Permalink to this headline">¶</a></h3>
+<p>Integrations can help manage your development workflow. - Rather than
+having to visit GitHub’s website each time you have a pull request, you
+can make use of the <a class="reference external" href="https://slack.com/intl/en-au/help/articles/232289568-GitHub-for-Slack">GitHub
+bot</a>
+on Slack to automatically send you notifications of new PRs. - Discord
+has a similar webhook that can be configured using this
+<a class="reference external" href="https://gist.github.com/jagrosh/5b1761213e33fc5b54ec7f6379034a22">guide</a>.</p>
+</div>
+</div>
+<div class="section" id="code-reviews">
+<h2>Code Reviews<a class="headerlink" href="#code-reviews" title="Permalink to this headline">¶</a></h2>
+<p>Code reviews involve your teammates reviewing your work to ensure that
+code quality is maintained, and any errors are identified.</p>
+<div class="section" id="code-review-activities">
+<h3>Code Review Activities<a class="headerlink" href="#code-review-activities" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Pair programming: Having two developers working on a single unit of
+work; one person writes the code (driver) whilst the other reviews
+code real-time (navigator).</p></li>
+<li><p>Pull requests: Having 1 or more developers review code changes
+before it is merged.</p></li>
+</ul>
+</div>
+<div class="section" id="pull-requests">
+<h3>Pull Requests<a class="headerlink" href="#pull-requests" title="Permalink to this headline">¶</a></h3>
+<p><em>Commonly referred to as PRs</em>.</p>
+<p>Pull requests allow developers to review changes made on a certain
+branch before merging it into another. When team members complete some
+functionality and want it to be merged, they create a pull request,
+requesting for their changes to be pulled into the main branch.
+Developers can nominate reviewers to look at their pull request.
+Reviewers can inspect the code and either approve the changes, or
+request changes. Once approved, the developer can merge their code into
+the main branch.</p>
+<div class="section" id="why-use-pull-requests">
+<h4>Why Use Pull Requests?<a class="headerlink" href="#why-use-pull-requests" title="Permalink to this headline">¶</a></h4>
+<ul class="simple">
+<li><p>Team members must review and check that the code changes are
+acceptable, thereby improving code quality.</p></li>
+<li><p>Errors have a greater chance of being noticed early, as there is
+more than one team member reviewing/testing the changes.</p></li>
+<li><p>They improve the team’s understanding of code as developers are
+forced to read other developers’ code; thereby dispersing knowledge
+of the code’s functionality more widely across the team.</p></li>
+</ul>
+</div>
+<div class="section" id="pull-request-templates">
+<h4>Pull Request Templates<a class="headerlink" href="#pull-request-templates" title="Permalink to this headline">¶</a></h4>
+<p>Ensuring your pull request has enough detail for a reviewer is crucial.
+If the reviewer does not understand what part of functionality has been
+added, they cannot provide a meaningful review. To avoid this, a pull
+request template can be useful. This provides a guideline on what
+information a developer should provide in the pull request, along with
+any mandatory checks that have already been completed.</p>
+<p>You can view a sample template
+<a class="reference external" href="https://unimelbcloud-my.sharepoint.com/personal/eduardo_oliveira_unimelb_edu_au/Documents/2022/SWEN90009/Book/assets/pull_request_template.md">here</a>.</p>
+<p>To see an example of how to include PR templates in your repository,
+please see this <a class="reference external" href="https://medium.com/&#64;swapnesh/why-you-should-add-a-pull-request-template-in-your-github-project-1556170e55c9">Medium
+article</a>.</p>
+</div>
+</div>
+</div>
+<div class="section" id="git-workflows-branching-strategies">
+<h2>Git Workflows (Branching Strategies)<a class="headerlink" href="#git-workflows-branching-strategies" title="Permalink to this headline">¶</a></h2>
+<p>A standard approach to organising Git actions within the project. Let us
+consider two common strategies…</p>
+<div class="section" id="feature-branching">
+<h3>Feature Branching<a class="headerlink" href="#feature-branching" title="Permalink to this headline">¶</a></h3>
+<p>Feature branching entails creating a new branch for a new feature and
+using that same branch until the feature is completed. After completion,
+the feature branch is merged back into the main branch.</p>
+<p><img alt="Feature branchingdiagram" src="../_images/image2.png" /></p>
+<p><em>Source:</em>
+<a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></p>
+<p>There are several flavours of feature branching but we will examine
+Gitflow, by far one of the most popular branching strategies.</p>
+<div class="section" id="gitflow">
+<h4>Gitflow<a class="headerlink" href="#gitflow" title="Permalink to this headline">¶</a></h4>
+<p>Gitflow relies on long-lived branches for development. There are two
+main branches, main and develop, with main being the production-ready
+codebase and develop reflecting changes to be made in the next release.
+Developers create feature branches off develop, and when complete,
+developers make a pull request to be merged into the develop branch.
+When the team is ready for a release, then a new branch is created and
+the code is tested before it is merged into the main branch.</p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-fymr{border-color:inherit;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-fymr">    <br>Advantages    </th>
+    <th class="tg-fymr">    <br>Disadvantages    </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">   <br>Branches remain in a clean state.   </td>
+    <td class="tg-0pky">   <br>Long-lived branches can be hard to integrate with the main branch; have   diverged too much.   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>Ideal for when multiple versions of a product are required.   </td>
+    <td class="tg-0pky">   <br>Releases are delayed, and if there are many changes, could be highly   problematic.   </td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">   <br>    </td>
+    <td class="tg-0pky">   <br>Final merge from develop to the main branch can have many changes which   may be overlooked by developers.   </td>
+  </tr>
+</tbody>
+</table>
+<p>You can view a guest lecture from <a class="reference external" href="https://www.canva.com/en_au/">Canva</a>
+where Gitflow is explained (from 1:16 to 1:23)
+<a class="reference external" href="https://cloudstor.aarnet.edu.au/plus/s/RbR2fyW5nT7W8cM">here</a>.
+Password: <strong>j_G3NVkx9MYz</strong>.</p>
+</div>
+</div>
+<div class="section" id="trunk-based-development">
+<h3>Trunk Based Development<a class="headerlink" href="#trunk-based-development" title="Permalink to this headline">¶</a></h3>
+<p>Trunk based development uses short-lived branches which are regularly
+merged into the trunk, reducing any delays associated with integrating
+code changes.</p>
+<p><img alt="Trunk baseddev" src="../_images/image3.png" /></p>
+<p><em>Source:</em>
+<a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></p>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-j6zm{font-weight:bold;text-align:left;vertical-align:bottom}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Advantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+    <th class="tg-j6zm">&nbsp;&nbsp;&nbsp;&nbsp;<br><span style="color:black">Disadvantages</span>&nbsp;&nbsp;&nbsp;&nbsp;</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Reduces likelihood of divergence from main.</span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Frequent merging can lead to breaking updates.</span>&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">Minimise merge conflict.</span>&nbsp;&nbsp;&nbsp;</td>
+    <td class="tg-0lax">&nbsp;&nbsp;&nbsp;<br><span style="color:black">If slow build process, then there may be delays as people merge back into&nbsp;&nbsp;&nbsp;trunk.</span>&nbsp;&nbsp;&nbsp;</td>
+  </tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="software-releases">
+<h2>Software Releases<a class="headerlink" href="#software-releases" title="Permalink to this headline">¶</a></h2>
+<p>When your team has completed a sprint or wants to make a new release,
+there are several steps you should complete.</p>
+<p>Releases are comprised of a tag and release notes.</p>
+</div>
+<div class="section" id="tags">
+<h2>Tags<a class="headerlink" href="#tags" title="Permalink to this headline">¶</a></h2>
+<p>GitHub allows developers to create tags. These provide teams to mark key
+milestones in a project by creating a tag off a certain commit. Tags are
+useful in releases, and you can name a tag by the associated version
+number, and that way developers can easily find all previous versions of
+the production-ready software by looking at the tags.</p>
+<p>Tags are also necessary when creating software that is not yet
+production ready when working for a client. They need to be able to
+access the work completed in a sprint to see changes, but if the
+application is not yet live, then a tag is used to update the client on
+project status.</p>
+</div>
+<div class="section" id="release-notes">
+<h2>Release Notes<a class="headerlink" href="#release-notes" title="Permalink to this headline">¶</a></h2>
+<p>When you are creating multiple releases, it is important to explain what
+key changes have been made to the product. In a commercial project,
+release notes inform users of changes and clearly indicate the incentive
+to upgrade to the latest version (for example, patching authentication
+security bugs is a good incentive for users to migrate to the latest
+version of a product). In your project, the release notes provide an
+appropriate level of detail for your client to understand exactly what
+features and capabilities are available in each release.</p>
+<div class="section" id="writing-good-release-notes">
+<h3>Writing Good Release Notes<a class="headerlink" href="#writing-good-release-notes" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Keep it simple and avoid technical jargon,</p></li>
+<li><p>Be specific about what has been implemented, and</p></li>
+<li><p>Group your notes logically. Creating headings for fixes,
+improvements and new features may be beneficial</p></li>
+</ul>
+<p>For an example, please refer to this <a class="reference external" href="https://github.com/slack-go/slack/releases">open-source project’s release
+notes</a>.</p>
+</div>
+</div>
+<div class="section" id="creating-a-release">
+<h2>Creating a Release<a class="headerlink" href="#creating-a-release" title="Permalink to this headline">¶</a></h2>
+<p>To create a release, please refer to this
+<a class="reference external" href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">tutorial</a>
+published by GitHub.</p>
+<p>Extra Resources</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.toptal.com/software/trunk-based-development-git-flow">Trunk vs Gitflow
+development</a></p></li>
+<li><p><a class="reference external" href="https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/">Git branching
+strategies</a></p></li>
+</ul>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./chapter_6"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../chapter_5/version_control.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Chapter 5: Version Control</p>
+        </div>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
