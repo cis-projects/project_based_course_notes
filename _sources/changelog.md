@@ -1,24 +1,6 @@
 # Change Log
 
-## v0.1.1 (2022-01-28)
-
-Copying existing subject notes (Word document) to Jupyterbook and creating a change log.
-
-### New
-
-- Add Chapter 5
-- Add Chapter 6
-- Add Chapter 7
-- Add Chapter 8
-- Add Changelog
-
-## v0.1 (2022-01-24)
-
-Copying existing subject notes (Word document) to Jupyterbook
-
-### New
-
-- Add Chapter 1
-- Add Chapter 2
-- Add Chapter 3
-- Add Chapter 4
+| Version | Date       | Description                                                                               | Changes                         | Contributor      |
+|---------|------------|-------------------------------------------------------------------------------------------|---------------------------------|------------------|
+| 0.2     | 28/01/2022 | Copying existing subject notes (Word document) to Jupyter book and creating a change log. | Add chapters 5-8 and changelog. | Eduardo Oliveira |
+| 0.1     | 24/01/2022 | Copying existing subject notes (Word document) to Jupyter book.                           | Add chapters 1-4.               | Eduardo Oliveira |

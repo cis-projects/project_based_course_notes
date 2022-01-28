@@ -4,7 +4,6 @@ The purpose of this handbook is to act as a resource for students to consult thr
 undertaking one of the below subjects:
 
 - [SWEN30006 Software Modelling and Design](https://handbook.unimelb.edu.au/2022/subjects/swen30006)
-- [SWEN90007 Software Design and Architecture](https://handbook.unimelb.edu.au/2022/subjects/swen90007)
 - [SWEN90009 Software Requirements Analysis](https://handbook.unimelb.edu.au/2022/subjects/swen90009)
 - [SWEN90014 Masters Software Engineering Project](https://handbook.unimelb.edu.au/2022/subjects/swen90014)
 - [SWEN90013 Masters Advanced Software Project](https://handbook.unimelb.edu.au/2022/subjects/swen90013)
@@ -28,3 +27,9 @@ website, if you want to raise suggestions or advice.
 ![test](resources/1.png)
 
 ```
+
+## Contributors
+
+A big thank you to the contributors who worked on these course notes. You can get in contact with them [here](https://github.com/cis-projects/course_notes).
+
+This work was supported by the University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.

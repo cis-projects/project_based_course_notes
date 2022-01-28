@@ -37,7 +37,7 @@ seen your work prior to the demonstration).
 
 ## Presenters
 
-**All** team members are required to speak in the presentation.
+**All** team members are required to speak during the presentation.
 
 ## Tools to Take Your Presentation to the Next Level
 
