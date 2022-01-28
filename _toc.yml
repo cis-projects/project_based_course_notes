@@ -10,6 +10,10 @@ parts:
     - file: chapter_2/client_communications
     - file: chapter_3/task_tracking
     - file: chapter_4/document_repository
+    - file: chapter_5/version_control    
+    - file: chapter_6/github
+    - file: chapter_7/simplified_workflow    
+    - file: chapter_8/requirements_elicitation
   - caption: Frequently Asked Questions (FAQs)
     chapters:
     - url: https://wiggly-turnip-06b.notion.site/ab27d56fbc03480a9261c4e05e8cce23?v=824921388368451691739d1e7d2b0400
