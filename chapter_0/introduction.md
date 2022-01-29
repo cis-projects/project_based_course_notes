@@ -1,6 +1,6 @@
 # Introduction
 
-The purpose of this handbook is to act as a resource for students to consult throughout the semester while 
+The purpose of these course notes is to act as a resource for students to consult throughout the semester while 
 undertaking one of the below subjects:
 
 - [SWEN30006 Software Modelling and Design](https://handbook.unimelb.edu.au/2022/subjects/swen30006)
