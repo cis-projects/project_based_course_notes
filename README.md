@@ -12,7 +12,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://www.linkedin.com/in/lukerosa/"><img src="https://avatars.githubusercontent.com/u/55215252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luke Rosa</b></sub></a><br /><a href="#content-lukearosa" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/lukerosa/"><img src="https://avatars.githubusercontent.com/u/55215252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luke Rosa</b></sub></a><br /><a href="#content-lukearosa" title="Content">🖋</a> <a href="https://github.com/cis-projects/project_based_course_notes/commits?author=lukearosa" title="Documentation">📖</a> <a href="#design-lukearosa" title="Design">🎨</a> <a href="#ideas-lukearosa" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/cis-projects/project_based_course_notes/pulls?q=is%3Apr+reviewed-by%3Alukearosa" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
