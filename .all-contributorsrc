@@ -13,6 +13,19 @@
       "contributions": [
         "content"
       ]
+    },
+    {
+      "login": "agogear",
+      "name": "Eduardo Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4740218?v=4",
+      "profile": "http://www.eduoliveira.com",
+      "contributions": [
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
