@@ -17,6 +17,41 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "agogear",
+      "name": "Eduardo Oliveira",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4740218?v=4",
+      "profile": "http://www.eduoliveira.com",
+      "contributions": [
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "Abhisha1",
+      "name": "Abhisha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35671786?v=4",
+      "profile": "https://github.com/Abhisha1",
+      "contributions": [
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "review"
+      ]
+    },
+    {
+      "login": "haoxin-li",
+      "name": "haoxin-li",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64532252?v=4",
+      "profile": "https://github.com/haoxin-li",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
