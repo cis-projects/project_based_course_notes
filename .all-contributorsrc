@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "lukearosa",
+      "name": "Luke Rosa",
+      "avatar_url": "https://avatars.githubusercontent.com/u/55215252?v=4",
+      "profile": "https://www.linkedin.com/in/lukerosa/",
+      "contributions": [
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "project_based_course_notes",
+  "projectOwner": "cis-projects",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
