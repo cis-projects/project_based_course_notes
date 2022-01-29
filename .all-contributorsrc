@@ -26,6 +26,19 @@
         "ideas",
         "review"
       ]
+    },
+    {
+      "login": "Abhisha1",
+      "name": "Abhisha",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35671786?v=4",
+      "profile": "https://github.com/Abhisha1",
+      "contributions": [
+        "content",
+        "doc",
+        "design",
+        "ideas",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,
