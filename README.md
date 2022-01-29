@@ -1,6 +1,6 @@
 # Course Notes
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## Contributors ✨
@@ -14,6 +14,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://www.linkedin.com/in/lukerosa/"><img src="https://avatars.githubusercontent.com/u/55215252?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Luke Rosa</b></sub></a><br /><a href="#content-lukearosa" title="Content">🖋</a></td>
     <td align="center"><a href="http://www.eduoliveira.com"><img src="https://avatars.githubusercontent.com/u/4740218?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eduardo Oliveira</b></sub></a><br /><a href="#content-agogear" title="Content">🖋</a> <a href="https://github.com/cis-projects/project_based_course_notes/commits?author=agogear" title="Documentation">📖</a> <a href="#design-agogear" title="Design">🎨</a> <a href="#ideas-agogear" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/cis-projects/project_based_course_notes/pulls?q=is%3Apr+reviewed-by%3Aagogear" title="Reviewed Pull Requests">👀</a></td>
+    <td align="center"><a href="https://github.com/Abhisha1"><img src="https://avatars.githubusercontent.com/u/35671786?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhisha</b></sub></a><br /><a href="#content-Abhisha1" title="Content">🖋</a> <a href="https://github.com/cis-projects/project_based_course_notes/commits?author=Abhisha1" title="Documentation">📖</a> <a href="#design-Abhisha1" title="Design">🎨</a> <a href="#ideas-Abhisha1" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/cis-projects/project_based_course_notes/pulls?q=is%3Apr+reviewed-by%3AAbhisha1" title="Reviewed Pull Requests">👀</a></td>
   </tr>
 </table>
 
