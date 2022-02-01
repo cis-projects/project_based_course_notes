@@ -1,6 +1,4 @@
-# Project-Based Course Notes
-
-## Introduction
+# Introduction
 
 The purpose of these course notes is to act as a resource for students to consult throughout the semester while 
 undertaking one of the below subjects:
