@@ -55,9 +55,9 @@ can be useful to understand why it has failed.
 
 ### Steps to Include in Your Pipeline
 
-1.  Build your application
+1. Build your application
     1.  Install necessary dependencies
-2.  Perform any formatting/linting checks
-3.  Test your application
+2. Perform any formatting/linting checks
+3. Test your application
     1.  Unit testing
     2.  Integration testing

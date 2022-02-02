@@ -1,5 +1,4 @@
-# Chapter 6: Github
-
+# Chapter 6: GitHub
 
 ## Configuring Your Team's Repository
 

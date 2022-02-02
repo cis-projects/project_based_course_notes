@@ -11,8 +11,8 @@ demonstrate how it can help streamline your development workflow.
 
 There are two teams that are core to delivering functional software:
 
--   *Developer teams:* develop, build, and test features.
--   *Operations teams:* manage the change management, security,
+- *Developer teams:* develop, build, and test features.
+- *Operations teams:* manage the change management, security,
     deployment, monitoring, and feedback.
 
 The development and operations teams previously worked in isolation -
@@ -33,10 +33,10 @@ allows teams to manage releases by using automated workflows.
 
 ### Terminology
 
--   *Automation:* using technology to perform a task in a reproducible
+- *Automation:* using technology to perform a task in a reproducible
     way, such that feedback is provided on the process itself and
     minimal human intervention is required.
--   *DevOps pipeline:* set of automated processes. Includes continuous
+- *DevOps pipeline:* set of automated processes. Includes continuous
     integration, continuous delivery/deployment, etc.
 
 ## CI/CD
@@ -51,12 +51,12 @@ process, CI/CD allows developers to make quicker releases.
 
 ### Why CI/CD?
 
-1.  Fast: the time taken for releases are significantly reduced through
+1. Fast: the time taken for releases are significantly reduced through
     automating the workflow.
-2.  Simple: the process of integrating code becomes much simpler
-3.  Fewer errors: less intervention from developers is required which
+2. Simple: the process of integrating code becomes much simpler
+3. Fewer errors: less intervention from developers is required which
     reduces the chance for human error
-4.  Isolated failures: immediate feedback provided as to which step in
+4. Isolated failures: immediate feedback provided as to which step in
     the pipeline has failed
 
 There are several CI/CD providers, but we recommend using GitHub Actions
@@ -65,12 +65,12 @@ refer to our CI/CD guide on how to get started with GitHub Actions.
 
 ### CI/CD Terminology
 
--   Continuous Integration: Integrating your code changes back to your
+- Continuous Integration: Integrating your code changes back to your
     main branch. Changes are checked by automatically building, testing
     code.
--   Continuous Delivery: Extension of CI. Automates the release process
+- Continuous Delivery: Extension of CI. Automates the release process
     so that you can deploy the application at any time.
--   Continuous Deployment: Extension of continuous delivery. Automate
+- Continuous Deployment: Extension of continuous delivery. Automate
     deployment to production environment if all other stages are
     successful.
 
@@ -100,12 +100,11 @@ steps that you want to be executed on your given condition. As such,
 teams should ensure that when they create their pipeline, they should
 include the following steps:
 
-```
--   install dependencies and build
--   format
--   run
--   test
-```
+
+- install dependencies and build
+- format
+- run
+- test
 
 ### An Example CI/CD Workflow
 
@@ -142,7 +141,7 @@ deployment tools available:
 | SaaS                           | PaaS                                                                          | IaaS                                                  |
 |--------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------|
 | Software as a service.         | Platform as a service.                                                        | Infrastructure as a service.                          |
-| The venfor manages everything. | Vendor manages architecture, but you develop the application and manage data. | You manage the infrastructure, data, and application. |
+| The vendor manages everything. | Vendor manages architecture, but you develop the application and manage data. | You manage the infrastructure, data, and application. |
 |                                |                                                                               |                                                       |
 
 ```{note}

@@ -299,26 +299,53 @@ development team to decide priority). One method of displaying the
 priority of a task is the MoSCoW task prioritisation method. Priorities
 are broken down into different levels of priority:
 
-- Must have: features that must be delivered or the software will not
+- *Must have:* features that must be delivered or the software will not
     create the expected value for the client;
-- Should have: features that have significant value to the client and
+- *Should have:* features that have significant value to the client and
     should be delivered, but not considered crucial;
-- Could have: features that the client considers nice to have but will
+- *Could have:* features that the client considers nice to have but will
     not have a material impact to value, if not delivered; and
-- Won't have: out-of-scope features; useful as next steps for your
+- *Won't have:* out-of-scope features; useful as next steps for your
     project as potential improvements for future releases.
 
 ```{admonition} Extra Resources
-
 | Link                                                                                                         | Description                                      |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
 | [Scrum Guide](https://www.atlassian.com/agile/scrum)                                                         | Comprehensive Scrum guide.                       |
 | [Sprint planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) | Details on running your sprint planning meeting. |
-
 ```
 
 Once written, these stories should be documented centrally in the team's
 document repository:
 
 ![](resources/confluence.png)
+
+#### User Story Mapping
+
+User story maps are intended to spark collaboration across agile team members, while providing them 
+with the bigger picture of how the backlog stories fit together into a larger vision of the product your team 
+is building. In agile team, product work exists as discrete backlog tasks and so visual tools are extremely helpful
+in communicating deadlines, goals, and the final product to developers in the team, as well as the client.
+This guarantees everyone is working towards the same ultimate goal.
+
+Once created, the Product Owner is responsible for driving the creationg of the user story map. However, it is
+a group exercise and should be done by the entire team. Once created, it should then be communicated to the client.
+
+##### When to Create User Story Maps
+
+The user story map can be created before or after user story prioritisation. Sometimes it can help to visualise
+user stories when prioritising them.
+
+```{admonition} Extra Resources
+To aid you in creating a user story map, you can make use of templates.
+
+| Link                                                                                  |
+|---------------------------------------------------------------------------------------|
+| [Miro template](https://miro.com/templates/user-story-map/)                           |
+| [LucidChart template](https://www.lucidchart.com/blog/how-to-create-a-user-story-map) |
+```
+
+This is an example of a user story map:
+
+![](resources/user_story_map)
