@@ -12,6 +12,11 @@ through the interactions of components and the principles that
 underpinned their development. It is required information to handover to
 the client at the end of semester, so they can continue development.
 
+```{admonition} Extra Resources
+In this subject, you will be learning the 4+1 architectural model. You can learn more about it 
+[here](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf).
+```
+
 ## 4+1 Architecture Model
 
 There are many ways of documenting the architecture of software - the
@@ -85,9 +90,3 @@ well as a sequence diagram.
 ![](resources/use_cases_description.png)
 
 ![](resources/use_cases_diagram.png)
-
-```{admonition} Extra Resources
-| Name                | Description         |
-|---------------------|---------------------|
-| [4+1 architectural model](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf) | The original paper. |
-```
