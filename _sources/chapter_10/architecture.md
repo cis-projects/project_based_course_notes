@@ -13,7 +13,7 @@ underpinned their development. It is required information to handover to
 the client at the end of semester, so they can continue development.
 
 ```{admonition} Extra Resources
-In this subject, you will be learning the 4+1 architectural model. You can learn more about it 
+In this subject, you will be learning the 4+1 architectural model. You can read the original paper
 [here](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf).
 ```
 

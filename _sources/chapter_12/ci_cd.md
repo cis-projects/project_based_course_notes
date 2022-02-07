@@ -62,12 +62,9 @@ can be useful to understand why it has failed.
     1.  Unit testing
     2.  Integration testing
 
-
-<video src="https://www.youtube.com/watch?v=5MJRtldPOEI"></video>
-
 ```{admonition} Extra Resources
 To build your first project using GitHub Actions, you can take 
-[GitHub's free course](https://lab.github.com/githubtraining/github-actions:-hello-world)
+[GitHub's free course](https://lab.github.com/githubtraining/github-actions:-hello-world).
 
-
+You can watch this explainer in a free [YouTube video](https://www.youtube.com/watch?v=5MJRtldPOEI).
 ```
