@@ -17,13 +17,13 @@ what requirements are. Broadly speaking, requirements define what teams
 need to implement. There are three key types of requirements that are
 used in software projects:
 
--   Functional requirements: These stipulate what the system should do.
+- Functional requirements: These stipulate what the system should do.
     The Agile Scrum framework expresses functional requirements as user
     stories.
--   Non-functional requirements: These requirements detail any
+- Non-functional requirements: These requirements detail any
     additional constraints that specify how a system should behave. Some
     examples include any safety, security, or performance requirements.
--   Emotional requirements: Requirements that detail how the target user
+- Emotional requirements: Requirements that detail how the target user
     should feel when interacting with the system.
 
 ## Why Do We Need to Perform Requirements Elicitation?
@@ -110,10 +110,10 @@ Motivational modelling is done through brainstorming a list of the key
 requirements of the system and stakeholders involved. The list is called
 a DO/BE/FEEL/WHO list, and should detail:
 
--   DO: what your system can do? (Functional goals)
--   BE: how your system should behave? (Non-functional goals)
--   FEEL: how users should feel when using the system? (Emotional goals)
--   WHO: key stakeholders
+- DO: what your system can do? (Functional goals)
+- BE: how your system should behave? (Non-functional goals)
+- FEEL: how users should feel when using the system? (Emotional goals)
+- WHO: key stakeholders
 
 This list is then converted into a hierarchical diagram, as shown below.
 This is a great starting point for teams to confirm the understanding of
@@ -133,10 +133,10 @@ appendix.
 Once the general user goals are understood, teams should work to expand
 and refine the information collected. This typically involves:
 
--   Verifying the motivational model is consistent with the clients
+- Verifying the motivational model is consistent with the clients
     understanding and expanding as required.
--   Developing personas to match your target users.
--   Developing prototypes.
+- Developing personas to match your target users.
+- Developing prototypes.
 
 #### Personas
 
@@ -176,6 +176,7 @@ A persona should have the following elements:
 
 Below is a list of popular tools for making personas:
 
+- [Marvel](https://marvelapp.com/)
 - [Xtensio](https://xtensio.com/)
 - [HubSpot](https://www.hubspot.com/)
 - [PersonaGenerator](https://personagenerator.com/)
@@ -239,7 +240,7 @@ product will behave. This is a great way of eliciting very specific
 feedback from the client on the placement of buttons, uses of colours,
 etc.
 
-There are many tools that can be used for creating low fidelity
+There are many tools that can be used for creating high-fidelity
 prototypes:
 
 1. Figma: One of the most used tools professionally (and they offer a

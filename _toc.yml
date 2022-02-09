@@ -29,3 +29,6 @@ parts:
     chapters:
     - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
       title: SWEN90009 Software Requirements Analysis
+    chapters:
+    - url: https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664
+      title: COMP90082 Software Project
