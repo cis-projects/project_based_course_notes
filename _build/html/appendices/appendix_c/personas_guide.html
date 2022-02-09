@@ -1,0 +1,632 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tools for Personas &#8212; Project-Based Course Notes</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Miro Tutorial" href="../appendix_d/miro_guide.html" />
+    <link rel="prev" title="Appendix B: Motivational Model Guide" href="../appendix_b/motivational_model_guide.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_0/introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Chapters
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_1/agile_methodology.html">
+   Chapter 1: Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_2/client_communications.html">
+   Chapter 2: Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_3/task_tracking.html">
+   Chapter 3: Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_4/document_repository.html">
+   Chapter 4: Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_5/version_control.html">
+   Chapter 5: Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_6/github.html">
+   Chapter 6: GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_7/simplified_workflow.html">
+   Chapter 7: A Simplified Workflow
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_8/requirements_elicitation.html">
+   Chapter 8: Requirements Elicitation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_9/technology_stack.html">
+   Chapter 9: Technology Stack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_10/architecture.html">
+   Chapter 10: Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_11/devops.html">
+   Chapter 11: DevOps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_12/ci_cd.html">
+   Chapter 12: Adding CI/CD to Your Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_13/testing.html">
+   Chapter 13: Testing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_14/final_presentation.html">
+   Chapter 14: Final Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../../chapter_15/client_handover.html">
+   Chapter 15: Client Handover
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../appendix_a/extra_tools.html">
+   Appendix A: Extra Tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../appendix_b/motivational_model_guide.html">
+   Appendix B: Motivational Model Guide
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Tools for Personas
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../appendix_d/miro_guide.html">
+   Miro Tutorial
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../appendix_e/marvel_guide.html">
+   Marvel Tutorial
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">
+   COMP90082 Software Project
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../../_sources/appendices/appendix_c/personas_guide.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/project_based_course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fappendices/appendix_c/personas_guide.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hubspot-make-my-persona">
+   Hubspot - Make My Persona
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#save-and-export">
+     Save and Export
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#any-disadvantages">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#personagenerator">
+   PersonaGenerator
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Save and Export
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Any disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#uxpressia">
+   UXPRESSIA
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xtensio">
+   Xtensio
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Tools for Personas</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hubspot-make-my-persona">
+   Hubspot - Make My Persona
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#save-and-export">
+     Save and Export
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#any-disadvantages">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#personagenerator">
+   PersonaGenerator
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Save and Export
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Any disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#uxpressia">
+   UXPRESSIA
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#xtensio">
+   Xtensio
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Any Disadvantages?
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="tools-for-personas">
+<h1>Tools for Personas<a class="headerlink" href="#tools-for-personas" title="Permalink to this headline">¶</a></h1>
+<p>There are different tools you can use to create your personas. In this tutorial, we will introduce 4 tools to you.</p>
+<div class="section" id="hubspot-make-my-persona">
+<h2>Hubspot - Make My Persona<a class="headerlink" href="#hubspot-make-my-persona" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Firstly, you do NOT need a Hubspot account to use this tool. Visit
+<a class="reference external" href="https://www.hubspot.com/make-my-persona">this link</a>.</p></li>
+<li><p>Once you click the “Build My Persona” button, it will take you through a 7-steps tour to create your persona.</p></li>
+<li><p>Or, you can just choose to skip walkthrough mode and edit it yourself.
+<img alt="Landing page of Make My Persona" src="../../_images/MakeMyPersona1.jpg" /> <img alt="Take tour or skip" src="../../_images/MakeMyPersona2.JPG" /></p></li>
+<li><p>Either way, you will get the chance to edit/add/delete sections at the end.</p></li>
+</ul>
+<div class="section" id="save-and-export">
+<h3>Save and Export<a class="headerlink" href="#save-and-export" title="Permalink to this headline">¶</a></h3>
+<p>Yes - you can save this persona and edit it later. What you do is:</p>
+<ol class="simple">
+<li><p>Once you finish the 7-steps tour, or you have chosen the option to skip the tour, you will arrive at a
+“Make My Persona Overview” page.</p></li>
+<li><p>Click the save button.
+<img alt="Click the save button" src="../../_images/MakeMyPersona3.JPG" /></p></li>
+<li><p>It will ask you to fill in some personal details.</p></li>
+<li><p>After you have filled in your personal details, click the “Download Now” button.
+<img alt="Procedure to save" src="../../_images/MakeMyPersona4.JPG" /></p></li>
+<li><p>You can download your persona as a PDF. You will also be given a link that you can use to access it in the
+future, or share with your team members
+<img alt="End of saving process" src="../../_images/MakeMyPersona5.JPG" /></p></li>
+</ol>
+</div>
+<div class="section" id="any-disadvantages">
+<h3>Any Disadvantages?<a class="headerlink" href="#any-disadvantages" title="Permalink to this headline">¶</a></h3>
+<p>For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real images options.
+You cannot copy and paste photos either.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you search for Hubspot persona on Google, you might find
+<a class="reference external" href="https://knowledge.hubspot.com/contacts/create-and-edit-personas">this tutorial</a>.
+This is <strong>VERY DIFFERENT</strong> to the Make My Persona tool. Please don’t use this one.</p>
+</div>
+</div>
+</div>
+<div class="section" id="personagenerator">
+<h2>PersonaGenerator<a class="headerlink" href="#personagenerator" title="Permalink to this headline">¶</a></h2>
+<p>This tool is pretty straight-forward. After you visit <a class="reference external" href="https://personagenerator.com/">this link</a>, you can start
+creating your persona by filling in content.</p>
+<div class="section" id="id1">
+<h3>Save and Export<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>You get two links: one is view-only, one allows editing. You can share the two links in your team to edit/view
+your personas.</p></li>
+<li><p>You can print the persona as a PDF.</p></li>
+</ul>
+</div>
+<div class="section" id="id2">
+<h3>Any disadvantages?<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>You <strong>cannot</strong> change the section title, add a new section or delete a section. In other words, the sections you can
+have on your persona are fixed. Please consider this before you choose this tool.</p>
+</div>
+</div>
+<div class="section" id="uxpressia">
+<h2>UXPRESSIA<a class="headerlink" href="#uxpressia" title="Permalink to this headline">¶</a></h2>
+<ol class="simple">
+<li><p>To use this tool, create an account with UXPRESSIA for free. Visit
+<a class="reference external" href="https://uxpressia.com/personas-online-tool">this link</a>.</p></li>
+<li><p>Firstly, you need to sign up.</p></li>
+<li><p>After you have signed up successfully, you will arrive at your personal workspace. Create a project.
+<img alt="Create a project in personal workspace" src="../../_images/UXPRESSIA1.JPG" /></p></li>
+<li><p>In your project, you can create your persona. Click “ADD NEW”
+<img alt="Add a new file in project" src="../../_images/UXPRESSIA2.JPG" /></p></li>
+<li><p>Select “PERSONAS”. You can start with a blank one, then edit it yourself.
+<img alt="Start with a blank persona" src="../../_images/UXPRESSIA3.JPG" /></p></li>
+<li><p>Uxpressia allows you to be very flexible with your sections - you can add/delete them, and there are different
+types of sections to choose from (e.g. text, sliders).
+<img alt="Blank persona" src="../../_images/UXPRESSIA4.JPG" /></p></li>
+</ol>
+<div class="section" id="id3">
+<h3>Any Disadvantages?<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>The following restrictions are limitations of a free plan:</p>
+<ol class="simple">
+<li><p>You can only create one persona per project.</p></li>
+<li><p>You can only create one project per account</p></li>
+<li><p>You can only export it as a PNG.</p></li>
+<li><p>To share your persona, you need to share your project first. The free plan only let you share your project with
+1 person via email.</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You could form small teams of 2 within the team to work on a persona. For review, the smaller teams can
+exchange their personas. You will need to create multiple accounts with UXPRESSIA.</p>
+</div>
+</div>
+</div>
+<div class="section" id="xtensio">
+<h2>Xtensio<a class="headerlink" href="#xtensio" title="Permalink to this headline">¶</a></h2>
+<p>Visit <a class="reference external" href="https://xtensio.com/user-persona-template/">this link</a> to start exploring.</p>
+<div class="section" id="id4">
+<h3>Any Disadvantages?<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>The following restrictions are limitations of a free plan:</p>
+<ol class="simple">
+<li><p>You cannot share the work with anyone.</p></li>
+<li><p>You cannot download it as a PNG or PDF.</p></li>
+<li><p>Your work expires after a couple of hours.
+<img alt="Work expires after a couple of hours for Xtensio's free version" src="../../_images/Xtensio1.JPG" /></p></li>
+</ol>
+<p>We do not recommend the free version of this tool due to the above limitations.  If your team has explored other
+tools and decided that you want to use this one, check out their
+<a class="reference external" href="https://xtensio.com/pricing/?_gl=1*rkelh8*_ga*OTU0NjY3MjY3LjE2NDIzOTQ0ODE.*_ga_EFSR9CLTP4*MTY0MjM5NDQ4MC4xLjEuMTY0MjM5NTU2Mi41Nw..">pricing</a>.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./appendices/appendix_c"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="../appendix_b/motivational_model_guide.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Appendix B: Motivational Model Guide</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="../appendix_d/miro_guide.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Miro Tutorial</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By School of Computing and Information Systems, The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

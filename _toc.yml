@@ -25,6 +25,10 @@ parts:
     chapters:
     - file: appendices/appendix_a/extra_tools
     - file: appendices/appendix_b/motivational_model_guide
+    - file: appendices/appendix_c/personas_guide
+    - file: appendices/appendix_d/miro_guide
+    - file: appendices/appendix_e/marvel_guide
+    - file: appendices/appendix_e/figma_guide
   - caption: Frequently Asked Questions (FAQs)
     chapters:
     - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
