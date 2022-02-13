@@ -1,8 +1,9 @@
-# Tools for Personas
+# Appendix C: Tools for Personas
 
 There are different tools you can use to create your personas. In this tutorial, we will introduce 4 tools to you.
 
 ## Hubspot - Make My Persona
+
 - Firstly, you do NOT need a Hubspot account to use this tool. Visit 
 [this link](https://www.hubspot.com/make-my-persona).
 - Once you click the "Build My Persona" button, it will take you through a 7-steps tour to create your persona. 
@@ -11,6 +12,7 @@ There are different tools you can use to create your personas. In this tutorial,
 - Either way, you will get the chance to edit/add/delete sections at the end. 
 
 ### Save and Export
+
 Yes - you can save this persona and edit it later. What you do is: 
 1. Once you finish the 7-steps tour, or you have chosen the option to skip the tour, you will arrive at a 
 "Make My Persona Overview" page. 
@@ -26,6 +28,7 @@ future, or share with your team members
 ![End of saving process](resources/MakeMyPersona5.JPG)
 
 ### Any Disadvantages?
+
 For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real images options. 
 You cannot copy and paste photos either.
 
@@ -36,19 +39,23 @@ This is **VERY DIFFERENT** to the Make My Persona tool. Please don't use this on
 ```
 
 ## PersonaGenerator
+
 This tool is pretty straight-forward. After you visit [this link](https://personagenerator.com/), you can start 
 creating your persona by filling in content.
 
 ### Save and Export
+
 - You get two links: one is view-only, one allows editing. You can share the two links in your team to edit/view 
 your personas.
 - You can print the persona as a PDF. 
 
 ### Any disadvantages?
+
 You **cannot** change the section title, add a new section or delete a section. In other words, the sections you can 
 have on your persona are fixed. Please consider this before you choose this tool. 
 
 ## UXPRESSIA
+
 1. To use this tool, create an account with UXPRESSIA for free. Visit 
 [this link](https://uxpressia.com/personas-online-tool).
 2. Firstly, you need to sign up. 
@@ -66,6 +73,7 @@ types of sections to choose from (e.g. text, sliders).
 ![Blank persona](resources/UXPRESSIA4.JPG)
 
 ### Any Disadvantages?
+
 The following restrictions are limitations of a free plan:
 1. You can only create one persona per project. 
 2. You can only create one project per account
@@ -83,6 +91,7 @@ exchange their personas. You will need to create multiple accounts with UXPRESSI
 Visit [this link](https://xtensio.com/user-persona-template/) to start exploring.
 
 ### Any Disadvantages?
+
 The following restrictions are limitations of a free plan:
 1. You cannot share the work with anyone.
 2. You cannot download it as a PNG or PDF.

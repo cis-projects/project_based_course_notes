@@ -1,4 +1,5 @@
-# Marvel Tutorial
+# Appendix E: Marvel Tutorial
+
 This tutorial shows you how you can use Marvel to help you create your paper prototype. 
 
 ## Before You Start Prototyping
@@ -15,6 +16,7 @@ than on your code.
 Now that you are clear on the purpose behind the task, we would like to provide some advice to help you:
 
 ### No.1: Completeness of Scenarios
+
 During your usability test, you will have tasks for your users/clients to perform. It's really important to make 
 sure that these scenarios in your paper prototype are complete. What does that mean? Let me give you an example. 
 
@@ -28,11 +30,13 @@ pages but a lot of buttons are non-clickable**.  Remember - you want to run usab
 interacting with the system to improve your design. Half-completed scenarios won't help you with that - it will even 
 create confusions for users/clients. If you are designing a large system and there are a LOT of user stories to 
 cover, we advise you to:
+
 1. Ask yourself: what are the most important things that users must be able to accomplish on the application? 
 What user stories MUST be tested?
 2. Select 4 - 5 user stories or scenarios from your list, and start prototyping. Make sure they are complete. 
 
 ### No.2: Don't Give the Answer Away
+
 Let's use our booking hotel room example again. Make sure you don't give away clues or describe the steps to your 
 users. Don't say "First you would login, then you would click the Find Destination button, then you would browse
 all the hotels available, then..." the instructions that you give will prevent you from discovering design flaws. 
@@ -43,13 +47,16 @@ activity. For example, a better task would be:
 Visit our site and see what's on offer.*
 
 ### No.3: Remember This Is a Low-Fidelity Prototype
+
 Low-fidelity prototype shows only major navigation and content elements. You don't need to include details such as 
 the colour scheme, images, styling, or meaningful content. 
 
 ### Want Some More Resources?
+
 Check out some tutorials and resources for running usability tests in the [More Resources](#more-resources) section.
 
 ## Tips For Marvel
+
 Here are some tips for using Marvel to create your prototype:
 
 1. Make sure that you hide hotspot hints 
@@ -63,6 +70,7 @@ your screens into **sections** on Marvel. Checkout this series of short
 on sections.
 
 ## Initial Set Up
+
 1. Follow [this link](https://marvelapp.com/) to create an Marvel account.
 2. During your sign up process, Marvel might ask you to create your first Marvel Whiteboard. You can choose "Skip for now" to ignore this option, because what you will be needing is **NOT** a whiteboard.                                                 
 ![](resources/Marvel1.JPG)
@@ -70,6 +78,7 @@ on sections.
 4. Using a free account, you only get ONE editable project. Keep that in mind before you create a second project.
 
 ## Create Your First Project
+
 1. After you have signed up, you can "Create project".                                                                        
 ![](resources/Marvel2.JPG)
 2. There will be options to choose from - select the "Prototype" option.                                                      
@@ -79,6 +88,7 @@ on sections.
 5. Create project.
 
 ## Prototyping
+
 - Once you have created your project, you can start prototyping! There are two stages to create your paper prototype:
   1. Design your screens - what are they going to look like?   
   2. Design the interactions and transitions between your screens. 
@@ -90,6 +100,7 @@ on sections.
 ![](resources/Marvel5.JPG)
 
 ## Prototyping - An Example
+
 Let's walk through an example.  Let's say you are designing an application for universities that will help university 
 students decide which subjects to take in the future. Your clients have told you that they want the application to 
 be a mobile app.

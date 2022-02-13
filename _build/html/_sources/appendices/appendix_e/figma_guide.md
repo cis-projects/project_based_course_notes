@@ -1,7 +1,9 @@
-# Figma Tutorial
+# Appendix E: Figma Tutorial
+
 This tutorial shows you how you can use Figma to help you create your digital prototype.
 
 ## Before you Start Prototyping
+
 You have completed your paper prototype and collected feedback from your clients.  Now you can use the feedback you 
 receive to create digital (high-fidelity) prototype that is much closer to what the final version of system-to-be
 would look like. 
@@ -14,12 +16,14 @@ before you start coding.
 With that in mind, we want to remind you of some important key points:
 
 ### No.1: Digital Prototype Is High-Fidelity
+
 Compared to low-fidelity prototype, high-fidelity prototype is much closer to the final version of your 
 system-to-be. You need to be a lot more specific, introducing colour scheme, styling, images and meaningful, 
 realistic content into it. There are not only major navigation elements, but also the more detailed ones in digital 
 prototype. It is what the real product would look like - except there is no code. 
 
 ### No.2: Completeness of Scenarios
+
 During your usability test, you will have tasks for your users/clients to perform. It's really important to make 
 sure that these scenarios in your digital prototype are complete. What does that mean? Let me give you an example. 
 
@@ -33,11 +37,13 @@ pages but a lot of buttons are non-clickable**.  Remember - you want to run usab
 interacting with the system to improve your design. Half-completed scenarios won't help you with that - it will even 
 create confusions for users/clients. If you are designing a large system and there are a LOT of scenarios or user 
 stories to cover, we advise you to:
+
 1. Ask yourself: what are the most important things that users must be able to accomplish on the application? 
 What user stories MUST be tested?
 2. Select 4 - 5 user stories or scenarios from your list, and start prototyping. Make sure they are complete. 
 
 ### No.3: Don't Give the Answer Away
+
 Let's use our booking hotel room example again. Make sure you don't give away clues or describe the steps to your 
 users. Don't say "First you would log in, then you would click the Find Destination button, then you would browse 
 all the hotels available, then..." the instructions that you give will prevent you from discovering design flaws. 
