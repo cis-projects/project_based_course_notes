@@ -2,6 +2,15 @@
 
 There are different tools you can use to create your personas. In this tutorial, we will introduce 4 tools to you.
 
+## This Person Does Not Exist
+
+This tool is to be used in conjunction with other tools that help you create personas. It uses AI to create photos 
+of people who do not actually exist. Every time you refresh their website, a new photo is generated. You can use 
+this tool for the photos of your personas.
+
+Please don’t use real people’s photo (unless they give you the permission) in your personas. If you use other 
+people’s photo without asking their permission, it could result in privacy breaches.
+
 ## Hubspot - Make My Persona
 
 - Firstly, you do NOT need a Hubspot account to use this tool. Visit 
@@ -10,6 +19,18 @@ There are different tools you can use to create your personas. In this tutorial,
 - Or, you can just choose to skip walkthrough mode and edit it yourself.
 ![Landing page of Make My Persona](resources/MakeMyPersona1.jpg) ![Take tour or skip](resources/MakeMyPersona2.JPG)
 - Either way, you will get the chance to edit/add/delete sections at the end. 
+
+```{warning}
+For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real 
+images options. You cannot copy and paste photos either. For this reason, we recommend that you use other 
+tools instead.
+```
+
+```{warning}
+If you search for Hubspot persona on Google, you might find 
+[this tutorial](https://knowledge.hubspot.com/contacts/create-and-edit-personas). This is VERY DIFFERENT 
+to the Make My Persona tool. Please don't use this one.
+```
 
 ### Save and Export
 
@@ -26,17 +47,6 @@ Yes - you can save this persona and edit it later. What you do is:
 5. You can download your persona as a PDF. You will also be given a link that you can use to access it in the 
 future, or share with your team members 
 ![End of saving process](resources/MakeMyPersona5.JPG)
-
-### Any Disadvantages?
-
-For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real images options. 
-You cannot copy and paste photos either.
-
-```{warning}
-If you search for Hubspot persona on Google, you might find 
-[this tutorial](https://knowledge.hubspot.com/contacts/create-and-edit-personas). 
-This is **VERY DIFFERENT** to the Make My Persona tool. Please don't use this one. 
-```
 
 ## PersonaGenerator
 
@@ -88,6 +98,12 @@ exchange their personas. You will need to create multiple accounts with UXPRESSI
 
 ## Xtensio
 
+```{warning}
+We do not recommend the free version of this tool due to the below limitations. If your team has explored other 
+tools and decided that you want to use this one, check out their 
+[pricing](https://xtensio.com/pricing/?_gl=1*rkelh8*_ga*OTU0NjY3MjY3LjE2NDIzOTQ0ODE.*_ga_EFSR9CLTP4*MTY0MjM5NDQ4MC4xLjEuMTY0MjM5NTU2Mi41Nw..).
+```
+
 Visit [this link](https://xtensio.com/user-persona-template/) to start exploring.
 
 ### Any Disadvantages?
@@ -97,7 +113,3 @@ The following restrictions are limitations of a free plan:
 2. You cannot download it as a PNG or PDF.
 3. Your work expires after a couple of hours. 
 ![Work expires after a couple of hours for Xtensio's free version](resources/Xtensio1.JPG)
-
-We do not recommend the free version of this tool due to the above limitations.  If your team has explored other 
-tools and decided that you want to use this one, check out their 
-[pricing](https://xtensio.com/pricing/?_gl=1*rkelh8*_ga*OTU0NjY3MjY3LjE2NDIzOTQ0ODE.*_ga_EFSR9CLTP4*MTY0MjM5NDQ4MC4xLjEuMTY0MjM5NTU2Mi41Nw..).

@@ -122,10 +122,14 @@ stories.
 
 ![Motivational model](resources/motivational_model.jpg)
 
-
-```{note}
-For more information on how to create a motivational model, see the
-appendix.
+```{admonition} Extra Resources
+You can visis the appendix for more information on how to use the university's supplied motivational modeller.
+If you wish to use a different tool, here are a few:
+| Tool                                            |
+|-------------------------------------------------|
+| [Lucidchart](https://www.lucidchart.com/pages/) |
+| [Draw.io](https://www.draw.io/)                 |
+| [Astah](https://astah.net/)                     |
 ```
 
 ### 2. Elaboration
@@ -182,8 +186,68 @@ Below is a list of popular tools for making personas:
 - [PersonaGenerator](https://personagenerator.com/)
 - [UXPressia](https://uxpressia.com/)
 
-Personas should also be diverse in demographics and backgrounds (age,
-ethnicity, education, etc.) to capture real-life users.
+##### Diversity and Inclusion
+
+Personas should also be diverse in demographics and backgrounds (age, ethnicity, education, etc.) to capture 
+real-life users. Why is that important?
+
+Firstly, it will help us gain a better understanding of our target end-users. Secondly, it is crucial for us to 
+recognise diversity in people and create an inclusive environment together in every aspect of our lives. It is not 
+just the way we treat other people, but also the work we produce. Persona is one example.
+
+Let us think about a couple of examples for Personas. The system we are designing is for the engineering workforce 
+of which 13.6% are female 
+([Women in Engineering report](http://www.professionalsaustralia.org.au/professional-women/wp-content/uploads/sites/48/2021/06/Women-in-Engineering-report.pdf)). 
+Do you think we recognise the diversity of our target end-users and are being inclusive, if all the personas we 
+create are male? No, we are not. What if the system-to-be is for nurses and midwives where 11.3% are male 
+([Factsheet, Nursing and Midwifery 2019](https://hwd.health.gov.au/resources/publications/factsheet-nrmw-2019.pdf))?
+
+Another example, our project is to re-design the user interface of our client's website. Our client tells us that 
+80% of the end-users are female. Therefore, in our female personas we said that they like pink. In fact, our team 
+is going to design the interface to be pink. Do you think we have recognised the diversity of our end-users? Do 
+all women like pink? We encourage you to be mindful of stereotypes. Design decision should be made after you 
+have thoroughly considered different factors (e.g. What's the goal of the website? How do we want our users to feel 
+when they interact with it? Does our client's company have a colour scheme in their existing design that the new 
+website should be consistent with?) rather than solely relying on our prior beliefs or stereotypes.
+
+The examples we give above are related to gender. Diversity can take on many other forms, such as ethnicity, 
+education background, age and so on. We strongly encourage you to create personas that cover the diverse 
+demographics and backgrounds of your target end-users.
+
+#### 9 Consistency Principles
+
+It is really important that the user stories, personas and motivational model are consistent with each other, 
+following the 9 principles (CP stands for Consistency Principle):
+
+- CP1: There should be at least one persona for every role in the motivational model.
+- CP2: Every persona should relate to a role in the motivational model.
+- CP3: The grouping of user stories into epics should be reflected in the motivational models.
+- CP4: Every user story needs to relate to one of the nodes in the model.
+- CP5: There should be at least one user story for every leaf node in the motivational model.
+- CP6: There should be at least one user story for every quality goal.
+- CP7: Every quality goal occurring within a user story should appear in the motivational model.
+- CP8: There should be at least one user story for every emotional goal.
+- CP9: Every emotional goal occurring within a user story should appear in the motivational model.
+
+The natural question to ask is why is it so important that we make sure these artefacts consistent with one another. 
+Firstly, software development teams are increasingly multidisciplinary due to the expansion of application domains
+where software is essential. The increase in disciplines places greater demands on communication as less knowledge 
+can be assumed. Both technical and non-technical team members are able – and often expected – to contribute to 
+ongoing discussions and decisions about requirements. Given the challenges, we need to create requirements 
+artefacts that are understandable to non-technical users, easily understood by developers, and are consistent with 
+each other in order to improve communication between software developers and industry partners.
+
+Personas and user stories can be used to specify customer requirements. A persona is a description of an archetypal 
+user of a software system, created from research about the potential real users of the software system. A user 
+story statement should relate to both a persona and a goal. A goal is an intended outcome of a persona 
+interacting with a software system. Personas provide the rationale for the existence of user stories. The 
+success of software products is highly dependent on validations performed on users’ goals. The relationships 
+between personas, user stories and goals are critical.
+
+Motivational models present a hierarchical diagram of the goals of a system at a high level of abstraction. They 
+complement personas and user stories which focus more on user needs rather than on system features. The 9 
+consistency principles help us ensure that personas, user stories and motivational models are consistent with 
+each other, ultimately achieving a better understanding of the requirements among stakeholders.
 
 #### Prototypes
 
@@ -218,14 +282,15 @@ system.
 There are many tools that can be used for creating low fidelity
 prototypes:
 
-1.  Microsoft PowerPoint: While sometimes slow and cumbersome,
+1. Microsoft PowerPoint: While sometimes slow and cumbersome,
     PowerPoint comes complete with several good features for drawing and
     designing UI elements. ![](resources/low_fidelity_prototype.png) *This is an example of a watch UI
     created through PowerPoint. User interaction elements can be
     created, and a user scenario was created to take the client through
     during a meeting.*
-2.  Miro can also be used to quickly create wireframes using their
+2. Miro can also be used to quickly create wireframes using their
     templates: [Miro wireframe templates](https://miro.com/templates/low-fidelity-wireframes/)
+3. Marvel: Please see the appendix for a tutorial.
 
 ###### Building a High-Fidelity Prototype
 
@@ -244,7 +309,7 @@ There are many tools that can be used for creating high-fidelity
 prototypes:
 
 1. Figma: One of the most used tools professionally (and they offer a
-    free [student version](https://www.figma.com/education/))
+    free [student version](https://www.figma.com/education/)).
 2. Axure: Fully featured with a steep learning curve, but probably
     worth it if you wish to pursue UI design professionally (and they
     also offer a free [student version](https://www.axure.com/edu)).
