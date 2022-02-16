@@ -50,7 +50,11 @@
       "avatar_url": "https://avatars.githubusercontent.com/u/64532252?v=4",
       "profile": "https://github.com/haoxin-li",
       "contributions": [
-        "review"
+        "review",
+        "content",
+        "doc",
+        "design",
+        "ideas"
       ]
     }
   ],
