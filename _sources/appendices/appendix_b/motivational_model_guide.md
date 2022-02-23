@@ -129,6 +129,7 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     on the goal in the hierarchy and re-drag it to the required level.
 5. Goals aligned in the same column will be on the same level in the
     rendered model in step 3. To create a hierarchy:
+
 - Considering a model as a tree, the major goal of project is
     represented as a root node and is placed at the top of the
     hierarchy.
@@ -151,7 +152,7 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     required level in the 'Drag here to create a new cluster' area:
 ![](resources/image16.png)
 6. The goals in do/be/feel/concern/who lists can be edited in 'Write Goal List', 
-'Cluster Goals/Arrange into Hierarchy' and 'Render Model' tabs of MMTool.
+'Cluster Goals/Arrange into Hierarchy', and 'Render Model' tabs of MMTool.
 
 ### Step 3: Render Model
 
