@@ -3,8 +3,6 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Here is my nifty citation {cite}`perez2011python`.
-
 The purpose of this handbook is to act as a resource for students to consult throughout the semester while 
 undertaking one of the below subjects:
 
