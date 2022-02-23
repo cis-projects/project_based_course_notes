@@ -247,7 +247,12 @@ between personas, user stories and goals are critical.
 Motivational models present a hierarchical diagram of the goals of a system at a high level of abstraction. They 
 complement personas and user stories which focus more on user needs rather than on system features. The 9 
 consistency principles help us ensure that personas, user stories and motivational models are consistent with 
-each other, ultimately achieving a better understanding of the requirements among stakeholders.
+each other, ultimately achieving a better understanding of the requirements among stakeholders 
+{cite}`test`.
+
+:cite:p:`test` 
+
+Here is my nifty citation {cite}`perez2011python`.
 
 #### Prototypes
 
