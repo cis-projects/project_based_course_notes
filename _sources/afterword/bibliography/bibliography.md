@@ -1,6 +1,6 @@
-# Appendix F: Bibliography
+# Bibliography
 
-*This file consists of a complete bibliography for this book.*
+*This file consists of a complete bibliography for this book sorted alphabetically.*
 
 ```{bibliography}
 ```
