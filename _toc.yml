@@ -35,3 +35,6 @@ parts:
     - file: appendices/appendix_d/miro_guide
     - file: appendices/appendix_e/marvel_guide
     - file: appendices/appendix_e/figma_guide
+  - caption: Afterword
+    chapters:
+    - file: afterword/bibliography/bibliography

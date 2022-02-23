@@ -8,7 +8,7 @@ product itself.
 The purpose of this section is to understand more about requirements
 elicitation, the broad spectrum of tasks involved to help teams derive
 their requirements. By the end of this, you should understand what
-artefacts are used to represent the project specifications.
+artefacts are used to represent the project specifications {cite:p}`OliveiraESterlingL`.
 
 ## What Are Requirements?
 

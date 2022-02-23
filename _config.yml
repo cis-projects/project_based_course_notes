@@ -4,11 +4,14 @@
 title: Project-Based Course Notes
 author: School of Computing and Information Systems, The University of Melbourne
 logo: logo.png
+exclude_patterns: ["README.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
+
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
   execute_notebooks: force
+  exclude_patterns: ["README.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
 
 ## Define the name of the latex output file for PDF builds
 latex:
