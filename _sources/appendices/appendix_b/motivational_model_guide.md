@@ -237,5 +237,8 @@ return to the dashboard at any point of time:
 
 ## Signing Out
 
-1. Click on username present in the top-right corner: ![](resources/image24.png)
-2. Click on 'Sign out' button to sign out from the tool: ![](resources/image25.png)
+1. Click on username present in the top-right corner: 
+![](resources/image24.png)
+
+2. Click on 'Sign out' button to sign out from the tool:
+![](resources/image25.png)
