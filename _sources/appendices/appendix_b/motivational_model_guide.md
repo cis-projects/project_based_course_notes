@@ -128,8 +128,7 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     area, it is by default placed at the bottom of the hierarchy. Click
     on the goal in the hierarchy and re-drag it to the required level.
 5. Goals aligned in the same column will be on the same level in the
-    rendered model in step 3.
-To create a hierarchy,
+    rendered model in step 3. To create a hierarchy:
 - Considering a model as a tree, the major goal of project is
     represented as a root node and is placed at the top of the
     hierarchy.
@@ -181,7 +180,6 @@ denoting the level of subtree.
 ![](resources/image21.png)
 
 7. In the rendered model:
-
 - The notations (parallelogram, cloud, heart, and person) used in the
     model can be expandable and shrinkable.
 - The text in the notations is editable.
