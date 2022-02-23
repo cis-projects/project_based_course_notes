@@ -137,7 +137,7 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     at one level under the root node.
 - Click on the goal and move the goal slightly to the right side. Once
 the goal is moved to the right position, a hyphen, -, will appear
-denoting the level of subtree.
+denoting the level of subtree:
 ![](resources/image15.png)
 - Activities related to each subtree are further extended to detail
     the associated goals and are right aligned at one level to the
