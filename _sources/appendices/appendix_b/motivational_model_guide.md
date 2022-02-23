@@ -45,22 +45,16 @@ Project Name (Team Name) should not be renamed.
 1. Click on '+' under 'Create Model' in Figure 1 to create a new model.
 2. Enter model name in the displayed 'New Model' window and click
     'Create':
-
 ![](resources/image2.png)
 
 3. On clicking Create in the New Model window, user will be navigated
     to the Write Goal List tab of the Model.
-
 ![](resources/image3.png)
 
 4. To Rename the model:
-
 - Click on stack button corresponding to a model in project folder:
-
 ![](resources/image4.png)
-
 - Enter the model's name in 'Model Rename' window and Click 'Confirm':
-
 ![](resources/image5.png)
 
 ### Steps to Create a Motivational Model
@@ -90,21 +84,17 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     elicitation can be uploaded in the left pane of Write Goal List tab.
 2.  Click 'Upload Image' button and select the image to upload from your
     personal device:
-
 ![](resources/image6.png)
 
 3.  Enter New Functional Goal under Do in the right pane of Write Goal
     List tab.
-
 ![](resources/image7.png)
 
 4.  User will be able to enter required number of goals by pressing
     Enter on keyboard.
-
 ![](resources/image8.png)
 
 5.  Click on 'Be' in the right pane to enter New Quality Goal:
-
 ![](resources/image9.png)
 
 6. Similarly, click on 'Feel' to enter the emotional goals, 'Concern'
@@ -112,18 +102,15 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     the project.
 7. *To Delete the uploaded image*: Click **\'X\'** in the top-right
     corner of the uploaded image:
-
 ![](resources/image10.png)
 
 8. *To Delete the entered goals*: Place the cursor on the goal that
     needs to be deleted and click delete icon corresponding to the goal
     in the list:
-
 ![](resources/image11.png)
 
 9. *To Rename the entered goals*: Click on the corresponding goal in
     the list to get the cursor and rename the goal:
-
 ![](resources/image12.png)
 
 ### Step 2: Cluster Goals/Arrange into Hierarchy
@@ -131,12 +118,10 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
 1. Click on 'Cluster Goals/Arrange into Hierarchy' tab.
 2. The lists created in the 'Write Goal List' tab are displayed on the
     left pane in the 'Cluster Goals/Arrange into Hierarchy' tab:
-
 ![](resources/image13.png)
 
 3. Select a goal to drag and drop into 'Drag here to create a new
     cluster' area of the tab:
-
 ![](resources/image14.png)
 
 4. When a goal is dropped in the 'Drag here to create a new cluster'
@@ -144,24 +129,19 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     on the goal in the hierarchy and re-drag it to the required level.
 5. Goals aligned in the same column will be on the same level in the
     rendered model in step 3.
-
 To create a hierarchy,
-
 - Considering a model as a tree, the major goal of project is
     represented as a root node and is placed at the top of the
     hierarchy.
 - The high-level functional requirements (functional goals) of the
     project can be further divided into subtrees and are aligned right
     at one level under the root node.
-
 ```{tip}
 Click on the goal and move the goal slightly to the right side. Once
 the goal is moved to the right position, a hyphen, -, will appear
 denoting the level of subtree.
 ```
-
 ![](resources/image15.png)
-
 - Activities related to each subtree are further extended to detail
     the associated goals and are right aligned at one level to the
     subtree.
@@ -172,7 +152,6 @@ denoting the level of subtree.
     clicking on the goal and moving them to the left.
 - All the goals in the lists can be dragged and dropped at the
     required level in the **'**Drag here to create a new cluster' area.
-
 ![](resources/image16.png)
 
 6. The goals in do/be/feel/concern/who lists can be edited in 'Write
@@ -182,28 +161,23 @@ denoting the level of subtree.
 ### Step 3: Render Model
 
 1. Click on the 'Render Model' tab to render the model:
-
 ![](resources/image17.png)
 
 2. Click on 'Render' button in the top-right corner of 'Render Model'
     tab to render the motivational model from the hierarchy created in
     the Step 2.
 3. The model rendered is:
-
 ![](resources/image18.png)
 
 4. The shapes may overlap in the rendered model. Model needs to be
     adjusted manually to make it presentable and clear:
-
 ![](resources/image19.png)
 
 5. Click on 'Save' button present at the top to save the model:
-
 ![](resources/image20.png)
 
 6. Click on 'Export' button at the top-right corner to export the
     rendered model:
-
 ![](resources/image21.png)
 
 7. In the rendered model:
@@ -217,14 +191,12 @@ denoting the level of subtree.
 
 Click on 'Notes' button in the top-right corner of the model to write
 any information related to the team discussion as required:
-
 ![](resources/image22.png)
 
 ## Returning to the Dashboard
 
 Click on the 'Return' button in the top-right corner of the model to
 return to the dashboard at any point of time:
-
 ![](resources/image23.png)
 
 ## View Profile
