@@ -137,7 +137,8 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
     at one level under the root node.
 - Click on the goal and move the goal slightly to the right side. Once 
     the goal is moved to the right position, a hyphen, -, will appear
-    denoting the level of subtree: ![](resources/image15.png)
+    denoting the level of subtree:
+![](resources/image15.png)
 - Activities related to each subtree are further extended to detail
     the associated goals and are right aligned at one level to the
     subtree.
@@ -147,10 +148,10 @@ Steps to create Do/Be/Feel/Who lists in the MMTool:
 - The goals can be re-dragged to the upper level of the hierarchy by
     clicking on the goal and moving them to the left.
 - All the goals in the lists can be dragged and dropped at the
-    required level in the **'**Drag here to create a new cluster' area: ![](resources/image16.png)
-6. The goals in do/be/feel/concern/who lists can be edited in 'Write
-    Goal List', 'Cluster Goals/Arrange into Hierarchy' and 'Render
-    Model' tabs of MMTool.
+    required level in the 'Drag here to create a new cluster' area:
+![](resources/image16.png)
+6. The goals in do/be/feel/concern/who lists can be edited in 'Write Goal List', 
+'Cluster Goals/Arrange into Hierarchy' and 'Render Model' tabs of MMTool.
 
 ### Step 3: Render Model
 
