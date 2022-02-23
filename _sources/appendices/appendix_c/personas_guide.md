@@ -1,6 +1,6 @@
 # Appendix C: Tools for Personas
 
-There are different tools you can use to create your personas. In this tutorial, we will introduce 4 tools to you.
+There are different tools you can use to create your personas. In this tutorial, we will introduce tools to you.
 
 ## This Person Does Not Exist
 
@@ -11,26 +11,26 @@ this tool for the photos of your personas.
 Please don’t use real people’s photo (unless they give you the permission) in your personas. If you use other 
 people’s photo without asking their permission, it could result in privacy breaches.
 
+Visit the [website](https://thispersondoesnotexist.com/).
+
 ## Hubspot - Make My Persona
+
+```{warning}
+For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real 
+images options. You cannot copy and paste photos either. For this reason, we recommend that you use other 
+tools instead.
+
+If you search for Hubspot persona on Google, you might find 
+[this tutorial](https://knowledge.hubspot.com/contacts/create-and-edit-personas). This is VERY DIFFERENT 
+to the Make My Persona tool. Please don't use this one.
+```
 
 - Firstly, you do NOT need a Hubspot account to use this tool. Visit 
 [this link](https://www.hubspot.com/make-my-persona).
 - Once you click the "Build My Persona" button, it will take you through a 7-steps tour to create your persona. 
 - Or, you can just choose to skip walkthrough mode and edit it yourself.
 ![Landing page of Make My Persona](resources/MakeMyPersona1.jpg) ![Take tour or skip](resources/MakeMyPersona2.JPG)
-- Either way, you will get the chance to edit/add/delete sections at the end. 
-
-```{warning}
-For the persona photo, you can only use a pre-defined set of avatar (around 15 choices) - no real 
-images options. You cannot copy and paste photos either. For this reason, we recommend that you use other 
-tools instead.
-```
-
-```{warning}
-If you search for Hubspot persona on Google, you might find 
-[this tutorial](https://knowledge.hubspot.com/contacts/create-and-edit-personas). This is VERY DIFFERENT 
-to the Make My Persona tool. Please don't use this one.
-```
+- Either way, you will get the chance to edit/add/delete sections at the end.
 
 ### Save and Export
 
