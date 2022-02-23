@@ -230,19 +230,12 @@ return to the dashboard at any point of time:
 ## View Profile
 
 1. Click on username present in the top-right corner:
-
 ![](resources/image24.png)
 
 2. Click on **'Profile'** button to view your profile details:
-
 ![](resources/image25.png)
 
 ## Signing Out
 
-1. Click on username present in the top-right corner:
-
-![](resources/image24.png)
-
-2. Click on 'Sign out' button to sign out from the tool:
-
-![](resources/image25.png)
+1. Click on username present in the top-right corner: ![](resources/image24.png)
+2. Click on 'Sign out' button to sign out from the tool: ![](resources/image25.png)
