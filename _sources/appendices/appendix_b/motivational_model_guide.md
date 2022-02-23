@@ -148,7 +148,6 @@ denoting the level of subtree: ![](resources/image15.png)
     clicking on the goal and moving them to the left.
 - All the goals in the lists can be dragged and dropped at the
     required level in the **'**Drag here to create a new cluster' area: ![](resources/image16.png)
-
 6. The goals in do/be/feel/concern/who lists can be edited in 'Write
     Goal List', 'Cluster Goals/Arrange into Hierarchy' and 'Render
     Model' tabs of MMTool.
