@@ -10,6 +10,8 @@ elicitation, the broad spectrum of tasks involved to help teams derive
 their requirements. By the end of this, you should understand what
 artefacts are used to represent the project specifications.
 
+{cite}`test`
+
 ## What Are Requirements?
 
 Before we look at how requirements elicitation works, let us consider
