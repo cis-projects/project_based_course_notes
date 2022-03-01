@@ -3,8 +3,7 @@
 Thanks to the students listed below who have raised issues in order to improve this book.
 
 ```{tip}
-If you want a place in this Hall of Fame, all you have to do is spot a typo or raise an idea on how we can improve 
-these notes.
+If you want a place in this Hall of Fame, all you have to do is spot an issue in these notes.
 ```
 
 | GitHub Avatar                      | GitHub Username                        | Contribution                 |
