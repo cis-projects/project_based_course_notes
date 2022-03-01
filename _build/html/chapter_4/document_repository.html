@@ -244,6 +244,11 @@
    Bibliography
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/hall_of_fame/hall_of_fame.html">
+   Hall of Fame
+  </a>
+ </li>
 </ul>
 
     </div>
@@ -285,9 +290,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/chapter_4/document_repository.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/chapter_4/document_repository.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -320,6 +325,23 @@
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cis-projects/project_based_course_notes/master?urlpath=tree/docs/chapter_4/document_repository.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
         </div>
 
@@ -384,7 +406,7 @@
 <h1>Chapter 4: Document Repository<a class="headerlink" href="#chapter-4-document-repository" title="Permalink to this headline">¶</a></h1>
 <p>Throughout the semester, you and your team will generate a lot of
 knowledge - in the form of software requirements, architecture, and
-testing documents, etc. This knowledge will need to be centrally stored
+testing documents, etc. This knowledge will need to be centrally stored,
 so it is accessible to the entire team and to the client at handover.</p>
 <p>Document repositories solve this issue by acting as a central store of
 all project information and should be the first place your team
@@ -398,8 +420,27 @@ companies use it.</p>
 <h2>Creating Your Team’s Space<a class="headerlink" href="#creating-your-team-s-space" title="Permalink to this headline">¶</a></h2>
 <p>The first step is to create your team’s Confluence space. Only one team
 member needs to do this and then grant every other team member access.</p>
-<p>To set up the space, please follow these instructions: <a class="reference external" href="https://www.youtube.com/watch?v=FFF4D4I19ms&amp;t=259s">Creating a space
-in Confluence</a>.</p>
+<p>To set up the space, please follow these instructions:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">YouTubeVideo</span>
+
+<span class="n">YouTubeVideo</span><span class="p">(</span><span class="s1">&#39;FFF4D4I19ms&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<iframe
+    width="400"
+    height="300"
+    src="https://www.youtube.com/embed/FFF4D4I19ms"
+    frameborder="0"
+    allowfullscreen
+
+></iframe>
+</div></div>
+</div>
 </div>
 <div class="section" id="set-up-your-space">
 <h2>Set Up Your Space<a class="headerlink" href="#set-up-your-space" title="Permalink to this headline">¶</a></h2>
@@ -416,7 +457,7 @@ code repository, etc.</p></li>
 <p><img alt="" src="../_images/home_page.png" /></p>
 <p>Once the home page is set up, the next pages to create are meeting
 pages. Over the semester, you will be required to hold team, client, and
-supervisor meetings and you are expected to keep minutes for all
+supervisor meetings, and you are expected to keep minutes for all
 meetings.</p>
 <p>So, one logical way of structuring the Confluence space could be:</p>
 <p><img alt="" src="../_images/meetings.png" /></p>

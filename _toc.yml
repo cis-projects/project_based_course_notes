@@ -38,3 +38,4 @@ parts:
   - caption: Afterword
     chapters:
     - file: afterword/bibliography/bibliography
+    - file: afterword/hall_of_fame/hall_of_fame
