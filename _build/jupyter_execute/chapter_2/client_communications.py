@@ -67,7 +67,7 @@
 # client with the minutes they wrote. You don't need to send the entire
 # copy of notes (which can take a long time for your client to read). You
 # could write down the main points in the meeting notes. Doing so will
-# allow the client to correct and mistakes and makes sure the team does
+# allow the client to correct any mistakes and makes sure the team does
 # not waste time on work that is incorrect.
 # 
 # ## Sharing a Team Calendar
