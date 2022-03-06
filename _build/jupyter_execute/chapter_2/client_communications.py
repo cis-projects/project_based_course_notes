@@ -5,7 +5,7 @@
 # 
 # In this subject, your team will be delivering a project to a client.
 # Most students are likely to only have had experience mostly with
-# university assignments and will be unfamiliar with how to interaction
+# university assignments and will be unfamiliar with how to interact
 # with a client.
 # 
 # Your client will be assigned by the Subject Coordinator, and once your
