@@ -13,5 +13,5 @@ If you want a place in this Hall of Fame, all you have to do is spot an issue in
 
 | GitHub Avatar                                                           | GitHub Username                              | Awards                                                              |
 |-------------------------------------------------------------------------|----------------------------------------------|---------------------------------------------------------------------|
-| <img src="http://github.com/dward19.png" width="200" height="200" />    | [@dward19](https://github.com/dward19)       | <img src="resources/grammar_trophy.png" width="200" height="150" /> |
+| <img src="http://github.com/dward19.png" width="200" height="200" />    | [@dward19](https://github.com/dward19)       | <img src="resources/grammar_trophy.png" /> |
 | <img src="http://github.com/grantupson.png" width="200" height="200" /> | [@grantupson](https://github.com/GrantUpson) | <img src="resources/grammar_trophy.png" width="200" height="150" /> |
