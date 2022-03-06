@@ -1,5 +1,9 @@
 # Hall of Fame
 
+```{admonition} Under Construction
+This page is currently under construction and will be completed soon.
+```
+
 The Hall of Fame is a space to recognise the contributions of students who have spotted bugs, typos, mistakes, etc.
 All contributions will help us improve the quality of the work for future students.
 
