@@ -56,6 +56,15 @@ tools and a debugger.
 | [PlantUML integration](https://plugins.jetbrains.com/plugin/7017-plantuml-integration) | A plugin to create diagrams.              |
 | [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme)            |                                           |
 
+## Design Tools
+
+### Architecture Diagrams
+
+| Tool                                                              | Description                                                            |
+|-------------------------------------------------------------------|------------------------------------------------------------------------|
+| [DrawIO](https://app.diagrams.net/)                               | Online Tool for creating Architecture, UML and other diagrams          |
+| [Microsoft Visio](https://studentit.unimelb.edu.au/software)      | Microsoft tool for diagrams, can be downloaded from the uni softwares  |
+
 
 ## Communication Tools
 
