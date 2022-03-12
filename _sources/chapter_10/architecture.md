@@ -12,10 +12,12 @@ through the interactions of components and the principles that
 underpinned their development. It is required information to handover to
 the client at the end of semester, so they can continue development.
 
-```{admonition} Extra Resources
+:::{admonition} Extra Resources
+:class: tip
+
 In this subject, you will be learning the 4+1 architectural model. You can read the original paper
 [here](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf).
-```
+:::
 
 ## 4+1 Architecture Model
 
