@@ -320,13 +320,14 @@ etc.
 There are many tools that can be used for creating high-fidelity
 prototypes:
 
-1. Figma: One of the most used tools professionally (and they offer a
+- Figma: One of the most used tools professionally (and they offer a
     free [student version](https://www.figma.com/education/)).
-2. Axure: Fully featured with a steep learning curve, but probably
+- Axure: Fully featured with a steep learning curve, but probably
     worth it if you wish to pursue UI design professionally (and they
     also offer a free [student version](https://www.axure.com/edu)).
-3. Adobe XD: Far less fully featured but integrates well with other
-    Adobe products. They also offer student discounts for their [full suite of products](https://www.adobe.com/au/creativecloud/buy/students.html).
+- Adobe XD: Far less fully featured but integrates well with other
+    Adobe products. They also offer student discounts for their 
+[full suite of products](https://www.adobe.com/au/creativecloud/buy/students.html).
 
 ### 3. Negotiation, Validation, and Specification
 
@@ -363,8 +364,7 @@ changes to code.
 
 One tool that can automate this process for you is
 [Maze](https://help.figma.com/hc/en-us/articles/360041246514-Test-your-Figma-prototypes-with-Maze).
-These tools typically exist with all high-fidelity prototypes listed
-above.
+These tools typically exist with all high-fidelity prototypes listed above.
 
 Finally, once all your requirements have been finalised and the client
 is happy with them, you will have your set of specifications. This
