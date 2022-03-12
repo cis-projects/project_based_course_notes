@@ -1,0 +1,713 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miro Tutorial &#8212; Project-Based Course Notes</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Figma Tutorial" href="figma_guide.html" />
+    <link rel="prev" title="Tools for Personas" href="personas_tools.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">
+   COMP90082 Software Project
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Topics
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/agile_methodology.html">
+   Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/client_communications.html">
+   Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/task_tracking.html">
+   Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/document_repository.html">
+   Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/github.html">
+   GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/simplified_workflow.html">
+   A Simplified Workflow
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../topics/requirements_elicitation.html">
+   Requirements Elicitation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/marvel_guide.html">
+     Marvel Tutorial
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/technology_stack.html">
+   Technology Stack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/architecture.html">
+   Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/devops.html">
+   DevOps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/ci_cd.html">
+   Adding CI/CD to Your Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/testing.html">
+   Testing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/final_presentation.html">
+   Final Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/client_handover.html">
+   Client Handover
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Appendices
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="extra_tools.html">
+   Extra Tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="motivational_model_guide.html">
+   Motivational Model Guide
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="personas_tools.html">
+   Tools for Personas
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Miro Tutorial
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="figma_guide.html">
+   Figma Tutorial
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Afterword
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/hall_of_fame.html">
+   Hall of Fame
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/collaborate.html">
+   Collaborate With Us
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/references/miro_guide.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/project_based_course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Freferences/miro_guide.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#set-up">
+   Set Up
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tips-before-you-start">
+   Tips Before you Start
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#number-of-editable-boards">
+     Number of Editable Boards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#template">
+     Template
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#frame">
+     Frame
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#use-miro">
+   Use Miro
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-brainstorming">
+     Miro for Brainstorming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-sprint-retrospective">
+     Miro for Sprint Retrospective
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-user-story-map">
+     Miro for User Story Map
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#export">
+   Export
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Miro Tutorial</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#set-up">
+   Set Up
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tips-before-you-start">
+   Tips Before you Start
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#number-of-editable-boards">
+     Number of Editable Boards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#template">
+     Template
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#frame">
+     Frame
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#use-miro">
+   Use Miro
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-brainstorming">
+     Miro for Brainstorming
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-sprint-retrospective">
+     Miro for Sprint Retrospective
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#miro-for-user-story-map">
+     Miro for User Story Map
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#export">
+   Export
+  </a>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="miro-tutorial">
+<h1>Miro Tutorial<a class="headerlink" href="#miro-tutorial" title="Permalink to this headline">¶</a></h1>
+<p>Miro is an online collaborative whiteboard platform that can be useful to you in SWEN90009. In this tutorial, we
+will first help you set up an account. Then, we discuss how Miro can be useful for some tasks in SWEN90009.</p>
+<div class="section" id="set-up">
+<h2>Set Up<a class="headerlink" href="#set-up" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Sign up for free on <a class="reference external" href="https://miro.com/">Miro website</a>.</p></li>
+<li><p>Once you have signed up, Miro will let you set up your team. If you use your university student
+email address to sign up, you might notice that there are some teams that you can join in your organisation
+already - but that’s not what we need. In this subject, you will need to create your own project team.</p></li>
+</ul>
+<div class="figure align-default" id="miro1">
+<img alt="../_images/miro1.jpg" src="../_images/miro1.jpg" />
+</div>
+<ul class="simple">
+<li><p>Invite your team members.</p></li>
+</ul>
+<div class="figure align-default" id="miro2">
+<img alt="../_images/miro2.jpg" src="../_images/miro2.jpg" />
+</div>
+</div>
+<div class="section" id="tips-before-you-start">
+<h2>Tips Before you Start<a class="headerlink" href="#tips-before-you-start" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="number-of-editable-boards">
+<h3>Number of Editable Boards<a class="headerlink" href="#number-of-editable-boards" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>For a free account, your team only has 3 editable boards. Once you create more than 3 boards, only the 3 most
+recently created ones are editable.</p></li>
+<li><p>How to make sure that you do not run out of boards? You can draw multiple diagrams on one board, and put each
+diagram inside a <a class="reference external" href="#frame">frame</a>.</p></li>
+</ul>
+</div>
+<div class="section" id="template">
+<h3>Template<a class="headerlink" href="#template" title="Permalink to this headline">¶</a></h3>
+<p>Miro has a library of templates to help you get started with your task. There are two main ways to explore and
+add templates:</p>
+<ul class="simple">
+<li><p><em>Option 1:</em> On your Miro main page, you should see a list of templates suggestions. Click on a template to create a
+new board with the chosen template, or select “Show all templates” to explore more templates options.</p></li>
+</ul>
+<div class="figure align-default" id="miro3">
+<img alt="../_images/miro3.jpg" src="../_images/miro3.jpg" />
+</div>
+<ul class="simple">
+<li><p><em>Option 2:</em> Open a board you have already created, and add a new template in.</p></li>
+</ul>
+<div class="figure align-default" id="miro4">
+<img alt="../_images/miro4.jpg" src="../_images/miro4.jpg" />
+</div>
+</div>
+<div class="section" id="frame">
+<h3>Frame<a class="headerlink" href="#frame" title="Permalink to this headline">¶</a></h3>
+<p>Frame can help you organise your board, especially if you run out of boards and decide to put multiple diagrams in
+one board. Also, if you want to export your board to a PDF, it is essential that you put content inside a frame
+(each frame will be a single page on the PDF).</p>
+<p><strong>How to add a frame:</strong></p>
+<ul class="simple">
+<li><p>On the toolbar, select the frame icon (marked in red).</p></li>
+<li><p>Then, you can select the desired frame dimension. In this example, let us select “custom”.</p></li>
+</ul>
+<div class="figure align-default" id="miro5">
+<img alt="../_images/miro5.jpg" src="../_images/miro5.jpg" />
+</div>
+<ul class="simple">
+<li><p>Adjust the size of the frame so that your artefact is completely covered in the frame, as shown in the image
+below. You can give this frame a title, and change the background colour of your frame.</p></li>
+</ul>
+<div class="figure align-default" id="miro6">
+<img alt="../_images/miro6.jpg" src="../_images/miro6.jpg" />
+</div>
+</div>
+</div>
+<div class="section" id="use-miro">
+<h2>Use Miro<a class="headerlink" href="#use-miro" title="Permalink to this headline">¶</a></h2>
+<p>Miro allows you and your team to interact and collaborate on this platform. We strongly encourage you to use that to
+your advantage. <a class="reference external" href="#miro-for-brainstorming">Brainstorming</a> and
+<a class="reference external" href="#miro-for-sprint-retrospective">Sprint Retrospective meeting</a> are two great examples that you can use Miro to have
+interactive team meetings.</p>
+<p>Miro has a lot of templates at your disposal.  In addition to brainstorming and retrospective meeting, check out the
+one for <a class="reference external" href="#miro-for-user-story-map">User Story Map</a>.</p>
+<div class="section" id="miro-for-brainstorming">
+<h3>Miro for Brainstorming<a class="headerlink" href="#miro-for-brainstorming" title="Permalink to this headline">¶</a></h3>
+<p>Let’s walk through an example. Let’s say you are designing an application that will help students decide which
+subject to take in the future.</p>
+<ul class="simple">
+<li><p>Write down the question that needs to be solved on your board. You can add it as text.</p></li>
+<li><p>Add the “Brainwriting” template to your board. Check out the <a class="reference external" href="#template">Template</a> section on how to add a
+template on a board.</p></li>
+</ul>
+<div class="figure align-default" id="miro7">
+<img alt="../_images/miro7.jpg" src="../_images/miro7.jpg" />
+</div>
+<ul class="simple">
+<li><p>You will find that the sticky notes are already created for you, ready to be filled in. Here are some tips
+for you:</p>
+<ul>
+<li><p>You can use tag to help you organise your ideas into categories.</p></li>
+<li><p>You can add reaction to ideas</p></li>
+</ul>
+</li>
+</ul>
+<div class="figure align-default" id="miro8">
+<img alt="../_images/miro8.jpg" src="../_images/miro8.jpg" />
+</div>
+<ul class="simple">
+<li><p>You can also add comments on the ideas</p>
+<ul>
+<li><p>Select the comment tool in the tool bar</p></li>
+<li><p>Click on one of the sticky notes, and start adding comments</p></li>
+</ul>
+</li>
+</ul>
+<div class="figure align-default" id="miro9">
+<img alt="../_images/miro9.jpg" src="../_images/miro9.jpg" />
+</div>
+<p>You don’t have to start with any template. Feel free to start with an empty board and create sticky notes as you
+run the brainstorm session.</p>
+</div>
+<div class="section" id="miro-for-sprint-retrospective">
+<h3>Miro for Sprint Retrospective<a class="headerlink" href="#miro-for-sprint-retrospective" title="Permalink to this headline">¶</a></h3>
+<p>Miro has lots of templates for Retrospective meeting.  Search for “retrospective” in their template pool and
+select the one that suits your team the best.  Retrospective Start/Stop/Continue is a template that we would
+recommend.</p>
+</div>
+<div class="section" id="miro-for-user-story-map">
+<h3>Miro for User Story Map<a class="headerlink" href="#miro-for-user-story-map" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Miro has two templates for User Story Map. Feel free to choose one and add it to your board. In this example,
+we will select the basic one.</p></li>
+</ul>
+<div class="figure align-default" id="miro10">
+<img alt="../_images/miro10.jpg" src="../_images/miro10.jpg" />
+</div>
+<ul class="simple">
+<li><p>Fill in the template and <a class="reference external" href="#export">export</a> your diagram.</p></li>
+</ul>
+<div class="figure align-default" id="miro11">
+<img alt="../_images/miro11.jpg" src="../_images/miro11.jpg" />
+</div>
+</div>
+</div>
+<div class="section" id="export">
+<h2>Export<a class="headerlink" href="#export" title="Permalink to this headline">¶</a></h2>
+<p>There are two main ways to export your diagrams: export as an image or PDF.</p>
+<ul class="simple">
+<li><p>Click the Export option at the top of your board.</p></li>
+</ul>
+<div class="figure align-default" id="miro12">
+<img alt="../_images/miro12.jpg" src="../_images/miro12.jpg" />
+</div>
+<ul class="simple">
+<li><p>Either export as an image or PDF.  If you want to export it as a PDF, make sure you add a <a class="reference external" href="#frame">frame</a>.</p></li>
+</ul>
+<div class="figure align-default" id="miro13">
+<img alt="../_images/miro13.jpg" src="../_images/miro13.jpg" />
+</div>
+<div class="tip admonition">
+<p class="admonition-title">Extra Resources</p>
+<p>There is so much more you can explore with Miro! For more tutorials and help,
+feel free to check out their <a class="reference external" href="https://help.miro.com/hc/en-us">website</a>.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./references"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="personas_tools.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Tools for Personas</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="figma_guide.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Figma Tutorial</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By School of Computing and Information Systems, The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
