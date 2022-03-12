@@ -32,10 +32,12 @@ perspectives.
 
 There are five views in the 4+1 view model:
 
-![](resources/views.png)
-
-*Source:*
-[Medium](https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258)
+```{figure} resources/views.png
+---
+name: views
+---
+{cite:p}`PasanDevinJayawardene`
+```
 
 ### Logical View
 
@@ -46,9 +48,15 @@ the logical view.
 Examples of diagrams that can be used to support the logical model are
 domain and database models.
 
-![](resources/domain_model.png)
+```{figure} resources/domain_model.png
+---
+name: domain_model
+```
 
-![](resources/database_model.png)
+```{figure} resources/database_model.png
+---
+name: database_model
+```
 
 ### Process View
 
@@ -65,9 +73,15 @@ management. To demonstrate the development view, your team could
 describe the architectural goals and constraints, as well as system
 diagrams, and API descriptions (if any).
 
-![](resources/goals.png)
+```{figure} resources/goals.png
+---
+name: goals
+```
 
-![](resources/system.png)
+```{figure} resources/system.png
+---
+name: system
+```
 
 ### Physical View
 
@@ -78,9 +92,15 @@ components, and it represented using the deployment diagram.
 
 Diagrams that can support the physical view are deployment diagrams.
 
-![](resources/deployment.png)
+```{figure} resources/deployment.png
+---
+name: deployment
+```
 
-![](resources/pipeline.png)
+```{figure} resources/pipeline.png
+---
+name: pipeline
+```
 
 ### Scenario/Use Case View
 
@@ -89,6 +109,12 @@ case diagram. Your team should select use case(s) of architectural
 significance to demonstrate using use case description and diagram, as
 well as a sequence diagram.
 
-![](resources/use_cases_description.png)
+```{figure} resources/use_cases_description.png
+---
+name: use_cases_description
+```
 
-![](resources/use_cases_diagram.png)
+```{figure} resources/use_cases_diagram.png
+---
+name: use_cases_diagram
+```
