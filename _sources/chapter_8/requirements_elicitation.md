@@ -288,7 +288,7 @@ system.
 There are many tools that can be used for creating low fidelity
 prototypes:
 
-1. Microsoft PowerPoint: While sometimes slow and cumbersome,
+- Microsoft PowerPoint: While sometimes slow and cumbersome,
     PowerPoint comes complete with several good features for drawing and
     designing UI elements.
 ```{figure} resources/low_fidelity_prototype.png
@@ -300,9 +300,9 @@ name: low_fidelity_prototype
     created, and a user scenario was created to take the client through
     during a meeting.*
 
-3. Miro can also be used to quickly create wireframes using their
+- Miro can also be used to quickly create wireframes using their
     templates: [Miro wireframe templates](https://miro.com/templates/low-fidelity-wireframes/)
-4. Marvel: Please see the appendix for a tutorial.
+- Marvel: Please see the appendix for a tutorial.
 
 ###### Building a High-Fidelity Prototype
 
