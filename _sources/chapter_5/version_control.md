@@ -65,7 +65,11 @@ several statuses.
 | Modified   | The local file differs from the file in the remote repository.                                                                                                   |
 | Staged     | Changes to the local file are ready to be pushed to the remote repository so the file in the remote repository matches exactly the file in the local repository. |
 
-![Diagram of file status](resources/git_commands.png)
+```{figure} resources/git_commands.png
+---
+name: git_commands
+---
+```
 
 ### Branching
 
@@ -122,13 +126,15 @@ running the command git pull \[remote\] \[branch\]. This will fetch the
 latest changes from the remote repository and integrate them with their
 local files.
 
-```{admonition} Extra Resources
-1.  [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship)
-2.  [GitKraken](https://www.gitkraken.com): A great GUI that sits on
-    top of Git's command line integration to provide a more
-    user-friendly way of interacting with version control
-    systems.
-```
+:::{admonition} Extra Resources
+:class: tip
+
+| Link                                                                                            | Description                                                                                                                                     |
+|-------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Git explained in 100 seconds](https://www.youtube.com/watch?v=hwP7WQkmECE&ab_channel=Fireship) |                                                                                                                                                 |
+| [GitKraken](https://www.gitkraken.com)                                                          | A great GUI that sits on top of Git's command line integration to provide a more user-friendly way of interacting with version control systems. |
+| [Sourcetree](https://www.sourcetreeapp.com)                                                     | Another good GUI.                                                                                                                               |
+:::
 
 ```{admonition} What's Next
 This was a very general introduction to Git. Throughout this semester,

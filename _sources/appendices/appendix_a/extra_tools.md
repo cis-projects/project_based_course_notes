@@ -11,11 +11,6 @@ A graphical user interface is an interface that permits interaction with git sys
 They are especially good for visualising code changes in large repositories or for developers new to git.
 ```
 
-| Tool                                        |
-|---------------------------------------------|
-| [GitKraken](https://www.gitkraken.com)      |
-| [Sourcetree](https://www.sourcetreeapp.com) |
-
 ## Integrated Development Environment (IDE) Tools
 
 ```{note}
