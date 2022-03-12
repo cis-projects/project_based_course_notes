@@ -136,13 +136,13 @@ tools and decided that you want to use this one, check out their
 
 Visit [this link](https://xtensio.com/user-persona-template/) to start exploring.
 
-### Any Disadvantages?
+### Disadvantages
 
 The following restrictions are limitations of a free plan:
 - You cannot share the work with anyone.
 - You cannot download it as a PNG or PDF.
 - Your work expires after a couple of hours.
-```{figure} resources/xtension.jpg
+```{figure} resources/xtensio.jpg
 ---
-name: xtension
+name: xtensio
 ```

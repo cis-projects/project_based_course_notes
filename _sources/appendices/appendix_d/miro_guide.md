@@ -1,17 +1,24 @@
 # Appendix D: Miro Tutorial
+
 Miro is an online collaborative whiteboard platform that can be useful to you in SWEN90009. In this tutorial, we 
 will first help you set up an account. Then, we discuss how Miro can be useful for some tasks in SWEN90009.
 
 ## Set Up
 
-1. Sign up for free on [Miro website](https://miro.com/).
-2. Once you have signed up, Miro will let you set up your team. (Note: If you use your university student 
+- Sign up for free on [Miro website](https://miro.com/).
+- Once you have signed up, Miro will let you set up your team. If you use your university student 
 email address to sign up, you might notice that there are some teams that you can join in your organisation 
-already - but that's not what we need. In this subject, you will need to create your own project team. )
-![](resources/Miro1.JPG)
+already - but that's not what we need. In this subject, you will need to create your own project team.
+```{figure} resources/miro1.jpg
+---
+name: miro1
+```
    
-3. Invite your team members.                                                                                                  
-![](resources/Miro2.JPG)
+- Invite your team members.
+```{figure} resources/miro2.jpg
+---
+name: miro2
+```
 
 ## Tips Before you Start
 
@@ -27,12 +34,18 @@ diagram inside a [frame](#frame).
 Miro has a library of templates to help you get started with your task. There are two main ways to explore and 
 add templates:
 
-1. Option 1: On your Miro main page, you should see a list of templates suggestions. Click on a template to create a 
+- *Option 1:* On your Miro main page, you should see a list of templates suggestions. Click on a template to create a 
 new board with the chosen template, or select "Show all templates" to explore more templates options.
-![](resources/Miro3.JPG)
+```{figure} resources/miro3.jpg
+---
+name: miro3
+```
 
-2. Option 2: Open a board you have already created, and add a new template in.
-![](resources/Miro4.JPG)
+- *Option 2:* Open a board you have already created, and add a new template in.
+```{figure} resources/miro4.jpg
+---
+name: miro4
+```
 
 ### Frame
 
@@ -42,13 +55,19 @@ one board. Also, if you want to export your board to a PDF, it is essential that
 
 **How to add a frame:**
 
-1. On the tool bar, select the frame icon (marked in red).  
-2. Then, you can select the desired frame dimention. In this example, let us select "custom".                                 
-![](resources/Miro5.JPG)
+- On the toolbar, select the frame icon (marked in red).  
+- Then, you can select the desired frame dimension. In this example, let us select "custom".
+```{figure} resources/miro5.jpg
+---
+name: miro5
+```
 
-3. Ajust the size of the frame so that your artefact is completely covered in the frame, as shown in the image 
-below. You can give this frame a title, and change the background colour of your frame. 
-![](resources/Miro6.JPG)
+- Adjust the size of the frame so that your artefact is completely covered in the frame, as shown in the image 
+below. You can give this frame a title, and change the background colour of your frame.
+```{figure} resources/miro6.jpg
+---
+name: miro6
+```
  
 ## Use Miro
 
@@ -65,21 +84,30 @@ one for [User Story Map](#miro-for-user-story-map).
 Let's walk through an example. Let's say you are designing an application that will help students decide which 
 subject to take in the future. 
 
-1. Write down the question that needs to be solved on your board. You can add it as text.
-2. Add the "Brainwriting" template to your board. Check out the [Template](#template) section on how to add a 
-template on a board. 
-![](resources/Miro7.JPG)
+- Write down the question that needs to be solved on your board. You can add it as text.
+- Add the "Brainwriting" template to your board. Check out the [Template](#template) section on how to add a 
+template on a board.
+```{figure} resources/miro7.jpg
+---
+name: miro7
+```
 
-3. You will find that the sticky notes are already created for you, ready to be filled in. Here are some tips 
+- You will find that the sticky notes are already created for you, ready to be filled in. Here are some tips 
 for you:
    - You can use tag to help you organise your ideas into categories.
    - You can add reaction to ideas 
-![](resources/Miro8.JPG)
+```{figure} resources/miro8.jpg
+---
+name: miro8
+```
 
-5. You can also add comments on the ideas 
+- You can also add comments on the ideas 
    - Select the comment tool in the tool bar
    - Click on one of the sticky notes, and start adding comments
-![](resources/Miro9.JPG)
+```{figure} resources/miro9.jpg
+---
+name: miro9
+```
 
 You don't have to start with any template. Feel free to start with an empty board and create sticky notes as you 
 run the brainstorm session.
@@ -92,23 +120,37 @@ recommend.
 
 ### Miro for User Story Map
 
-1. Miro has two templates for User Story Map. Feel free to choose one and add it to your board. In this example, 
+- Miro has two templates for User Story Map. Feel free to choose one and add it to your board. In this example, 
 we will select the basic one.
-![](resources/Miro10.JPG)
+```{figure} resources/miro10.jpg
+---
+name: miro10
+```
 
-2. Fill in the template and [export](#export) your diagram. 
-![](resources/Miro11.JPG)
+- Fill in the template and [export](#export) your diagram. 
+```{figure} resources/miro11.jpg
+---
+name: miro11
+```
 
 ## Export
 
 There are two main ways to export your diagrams: export as an image or PDF.
-1. Click the Export option at the top of your board.                                                                          
-![](resources/Miro12.JPG)
-
-2. Either export as an image or PDF.  If you want to export it as a PDF, make sure you add a [frame](#frame).                 
-![](resources/Miro13.JPG)
-
-```{admonition} Extra Resources
-There are so much more you can explore with Miro!  For more tutorials and help, 
-feel free to check out their [website](https://help.miro.com/hc/en-us).
+- Click the Export option at the top of your board.
+```{figure} resources/miro12.jpg
+---
+name: miro12
 ```
+
+- Either export as an image or PDF.  If you want to export it as a PDF, make sure you add a [frame](#frame).
+```{figure} resources/miro13.jpg
+---
+name: miro13
+```
+
+:::{admonition} Extra Resources
+:class: tip
+
+There is so much more you can explore with Miro! For more tutorials and help, 
+feel free to check out their [website](https://help.miro.com/hc/en-us).
+:::
