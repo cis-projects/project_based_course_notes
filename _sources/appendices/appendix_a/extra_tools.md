@@ -4,12 +4,6 @@ This is a collection of some of the academic staff’s favourite tools.
 
 ## Integrated Development Environment (IDE) Tools
 
-```{note}
-An integrated development environment is a software application that provides comprehensive facilities to computer 
-programmers for software development. An IDE normally consists of at least a source code editor, build automation 
-tools and a debugger.
-```
-
 ### IDEs
 
 | IDE                                                                 | Development Type |

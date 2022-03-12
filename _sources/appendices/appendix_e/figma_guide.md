@@ -53,7 +53,9 @@ activity. For example, a better task would be:
 *You are planning a trip with your family to Sydney from 24th December - 2nd January. You want to book a hotel room. 
 Visit our site and see what's on offer.*
 
-```{admonition} Extra Resources
+:::{admonition} Extra Resources
+:class: tip
+
 If you haven't checked these resources out, we highly recommend you have a look:
 - This [tutorial](https://www.nngroup.com/articles/task-scenarios-usability-testing/) gives you more guidance 
 and advice on how you should run your usability tests.
@@ -63,6 +65,6 @@ of users to run usability tests with.
 Figma is free for students. Check out [this website](https://www.figma.com/education/) to verify your education 
 status.
 
-1. Figma have some written [tutorials](https://help.figma.com/hc/en-us/sections/4403936156695-Build-prototypes) on how to build prototypes as well. 
-2. Figma have a series of videos tutorials for beginners, covering design creation and prototypes building. The first tutorial of the series is [here](https://www.youtube.com/watch?v=dXQ7IHkTiMM).
-```
+- Figma have written [tutorials](https://help.figma.com/hc/en-us/sections/4403936156695-Build-prototypes) on how to build prototypes as well. 
+- Figma have a series of videos tutorials for beginners, covering design creation and prototypes building. The first tutorial of the series is [here](https://www.youtube.com/watch?v=dXQ7IHkTiMM).
+:::
