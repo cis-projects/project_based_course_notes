@@ -368,8 +368,6 @@ name: user-story-map
 :class: tip
 To aid you in creating a user story map, you can make use of templates.
 
-| Link                                                                                  |
-|---------------------------------------------------------------------------------------|
-| [Miro template](https://miro.com/templates/user-story-map/)                           |
-| [LucidChart template](https://www.lucidchart.com/blog/how-to-create-a-user-story-map) |
+- [Miro template](https://miro.com/templates/user-story-map/) 
+- [LucidChart template](https://www.lucidchart.com/blog/how-to-create-a-user-story-map)
 :::
