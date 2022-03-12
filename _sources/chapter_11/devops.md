@@ -20,10 +20,12 @@ the developer team worked on the product while the operations team
 handled the release. This led to a lot of problems when it came to when
 it came to integrate code and manage the release.
 
-![](resources/devops.jpg)
-
-*Source:*
-[Accenture](https://www.accenture.com/us-en/blogs/software-engineering-blog/shinde-development-operations-silos)
+```{figure} resources/devops.jpg
+---
+name: devops
+---
+{cite:p}`Accenture`
+```
 
 ## DevOps Explained
 
@@ -74,10 +76,12 @@ refer to our CI/CD guide on how to get started with GitHub Actions.
     deployment to production environment if all other stages are
     successful.
 
-![](resources/cicd.png)
-
-*Source:*
-[Atlassian](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+```{figure} resources/cicd.png
+---
+name: cicd
+---
+{cite:p}`AtlassianCICD`
+```
 
 ## DevOps Pipeline
 
@@ -99,7 +103,6 @@ pass. When creating your pipeline, these kinds of checks are written as
 steps that you want to be executed on your given condition. As such,
 teams should ensure that when they create their pipeline, they should
 include the following steps:
-
 
 - install dependencies and build
 - format
@@ -127,10 +130,12 @@ deployment provider to deploy from the main branch.
 
 This workflow is shown below:
 
-![](resources/example_workflow.png)
-
-*Source:*
-[Gitlab](https://docs.gitlab.com/ee/ci/introduction/)
+```{figure} resources/example_workflow.png
+---
+name: example_workflow
+---
+{cite:p}`GitLab`
+```
 
 ## Deployment
 
@@ -153,22 +158,24 @@ as this allows you to focus on building the application.
 
 ### PaaS Providers
 
--   [Heroku](https://www.heroku.com/)
--   [AWS elastic beanstalk](https://aws.amazon.com/elasticbeanstalk/)
--   [Netlify](https://www.netlify.com/)
--   [Microsoft Azure Cloud Services](https://azure.microsoft.com/en-us/services/cloud-services/)
--   [GitHub Pages](https://pages.github.com/)
+- [Heroku](https://www.heroku.com/)
+- [AWS elastic beanstalk](https://aws.amazon.com/elasticbeanstalk/)
+- [Netlify](https://www.netlify.com/)
+- [Microsoft Azure Cloud Services](https://azure.microsoft.com/en-us/services/cloud-services/)
+- [GitHub Pages](https://pages.github.com/)
 
 ### PaaS Deployment
 
 Deployment could be achieved in several ways and is up to your team to
 choose a deployment strategy:
 
--   Configure PaaS deployment tool to deploy automatically from your
+- Configure PaaS deployment tool to deploy automatically from your
     main branch.
--   Specify the deployment as a step in your pipeline.
+- Specify the deployment as a step in your pipeline.
 
-```{admonition} Extra Resources
--   [Short summary of CI/CD](https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship)
--   [PaaS vs SaaS vs IaaS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
-```
+:::{admonition} Extra Resources
+:class: tip
+
+- [Short summary of CI/CD](https://www.youtube.com/watch?v=scEDHsr3APg&ab_channel=Fireship)
+- [PaaS vs SaaS vs IaaS](https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/)
+:::
