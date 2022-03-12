@@ -10,7 +10,7 @@ architecture of the system. Detailing the architecture serves the
 purpose of assuring the client that the development team has thought
 through the interactions of components and the principles that
 underpinned their development. It is required information to handover to
-the client at the end of semester, so they can continue development.
+the client at the end of semester, so they can continue development {cite:p}`PhilippeKruchten`
 
 :::{admonition} Extra Resources
 :class: tip
