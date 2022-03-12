@@ -1,4 +1,4 @@
-# Marvel Tutorial
+# Paper Prototype Tool - Marvel
 
 This tutorial shows you how you can use Marvel to help you create your paper prototype. 
 
