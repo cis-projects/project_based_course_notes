@@ -299,9 +299,10 @@ name: low_fidelity_prototype
     created through PowerPoint. User interaction elements can be
     created, and a user scenario was created to take the client through
     during a meeting.*
-2. Miro can also be used to quickly create wireframes using their
+
+3. Miro can also be used to quickly create wireframes using their
     templates: [Miro wireframe templates](https://miro.com/templates/low-fidelity-wireframes/)
-3. Marvel: Please see the appendix for a tutorial.
+4. Marvel: Please see the appendix for a tutorial.
 
 ###### Building a High-Fidelity Prototype
 
@@ -369,17 +370,17 @@ Finally, once all your requirements have been finalised and the client
 is happy with them, you will have your set of specifications. This
 should include:
 
--   User stories.
--   Motivational model.
--   Personas.
--   Prototypes.
+- User stories.
+- Motivational model.
+- Personas.
+- Prototypes.
 
-```{admonition} Extra Resources
-- [A Complete Beginner's Guide to Usability
-    Testing](https://maze.co/guides/usability-testing/)
-```
+:::{admonition} Extra Resources
+:class: tip
+
+- [A Complete Beginner's Guide to Usability Testing](https://maze.co/guides/usability-testing/)
+:::
 
 ```{admonition} What's Next
-Now that your team has elicited the requirements - it is time to start
-designing the application.
+Now that your team has elicited the requirements - it is time to start designing the application.
 ```
