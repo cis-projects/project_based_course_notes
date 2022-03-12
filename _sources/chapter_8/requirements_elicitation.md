@@ -123,7 +123,7 @@ stories.
 ![Motivational model](resources/motivational_model.jpg)
 
 ```{admonition} Extra Resources
-You can visis the appendix for more information on how to use the university's supplied motivational modeller.
+Please see the appendix for more information on how to use the university's supplied motivational modeller.
 If you wish to use a different tool, here are a few:
 | Tool                                            |
 |-------------------------------------------------|

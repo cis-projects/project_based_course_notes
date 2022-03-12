@@ -148,6 +148,14 @@ Trunk based development uses short-lived branches which are regularly
 merged into the trunk, reducing any delays associated with integrating
 code changes.
 
+```{figure} resources/trunk_development.png
+---
+name: trunk-development
+---
+*Source:*
+[Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
+```
+
 ![Trunk based dev](resources/trunk_development.png)
 
 *Source:*

@@ -11,12 +11,12 @@ most popular version control system is Git:
 
 ## Why Use Version Control?
 
--   Complete history of code so that any new breaking changes to
+- Complete history of code so that any new breaking changes to
     codebase can be reverted.
--   Simplifies collaboration, everyone has access to the latest version
+- Simplifies collaboration, everyone has access to the latest version
     of the codebase.
--   Improved transparency, code attributed to author.
--   Collaboration, branches can be created to work on a feature without
+- Improved transparency, code attributed to author.
+- Collaboration, branches can be created to work on a feature without
     holding up the team.
 
 ## Introduction to Git
