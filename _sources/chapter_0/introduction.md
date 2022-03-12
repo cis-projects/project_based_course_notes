@@ -33,9 +33,9 @@ assist future years.
 
 ````{panels}
 You can raise an issue in the right-hand corner if you spot typos, mistakes, bugs, etc.
-You can also view our student [Hall of Fame](../afterword/hall_of_fame/hall_of_fame).
+You can also view our student [Hall of Fame](../afterword/hall_of_fame/hall_of_fame) to see students who have 
+helped improve these notes.
 ```{figure} resources/github_issue.png
-name: github-issue
 ```
 ---
 You can also [Collaborate With Us](../afterword/collaborate/collaborate), if you have ideas for topics not covered in these notes.

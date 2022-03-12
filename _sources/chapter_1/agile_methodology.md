@@ -75,9 +75,13 @@ Scrum teams have three key roles: product owner, scrum master, and development t
 The product owner ensures the team delivers the most value to the client. They have a strong 
 understanding of the project, which is used to prioritise user stories in upcoming sprints.
 
-![](resources/product_owner.png)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```{figure} resources/product_owner.png
+---
+name: product-owner
+---
+Source:
+[Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```
 
 Product owners are required to maintain close ties with the client and
 seek their validation and input. They are also the conduit for
@@ -95,9 +99,13 @@ allocate tasks. Instead, it is their responsibility to ensure that they
 oversee how the project is tracking, and work to unblock developers to
 continue meeting objectives.
 
-![](resources/scrum_master.png)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```{figure} resources/scrum_master.png
+---
+name: scrum-master
+---
+Source:
+[Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```
 
 #### Development Team
 
@@ -105,9 +113,14 @@ The development team refers to the team members who are implementing the
 system. In your project, **all team members** must be a part of the
 development team (including the Scrum master and product owner).
 
-![](resources/development_team.png)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```{figure} resources/development_team.png
+---
+name: development-team
+---
+{cite:p}`OliveiraESterlingL`
+Source:
+[Atlassian](https://www.atlassian.com/agile/scrum/roles)
+```
 
 There are several other roles that teams may benefit from using. Please
 note that these are not Scrum roles:
