@@ -79,8 +79,7 @@ understanding of the project, which is used to prioritise user stories in upcomi
 ---
 name: product-owner
 ---
-Source:
-[Atlassian](https://www.atlassian.com/agile/scrum/roles)
+{cite:p}`AtlassianScrumRoles`
 ```
 
 Product owners are required to maintain close ties with the client and
@@ -103,8 +102,7 @@ continue meeting objectives.
 ---
 name: scrum-master
 ---
-Source:
-[Atlassian](https://www.atlassian.com/agile/scrum/roles)
+{cite:p}`AtlassianScrumRoles`
 ```
 
 #### Development Team
@@ -118,8 +116,6 @@ development team (including the Scrum master and product owner).
 name: development-team
 ---
 {cite:p}`AtlassianScrumRoles`
-Source:
-[Atlassian](https://www.atlassian.com/agile/scrum/roles)
 ```
 
 There are several other roles that teams may benefit from using. Please
@@ -154,9 +150,12 @@ development of a project. These ceremonies are important in facilitating
 team communication and reducing the feedback loop. The table below shows
 the key details of the Scrum ceremonies.
 
-![](resources/scrum_ceremonies.svg)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/scrum/sprints)
+```{figure} resources/scrum_ceremonies.svg
+---
+name: scrum-ceremonies
+---
+{cite:p}`AtlassianSprints`
+```
 
 | Ceremony             | When                 | Who                             | Preparation                                             | Duration                                                              | Process                                                                                                                                                                                                                                                                                              | Outcome                                                         |
 |----------------------|----------------------|---------------------------------|---------------------------------------------------------|-----------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
@@ -179,9 +178,12 @@ and the client to help build the product.
 These requirements are then represented as initiatives, epics, tasks,
 and subtasks.
 
-![](resources/requirements.png)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/project-management/user-stories)
+```{figure} resources/requirements.png
+---
+name: requirements
+---
+{cite:p}`AtlassianUserStories`
+```
 
 ### Initiatives
 
@@ -295,13 +297,12 @@ story points of a user story - we will look at planning poker today:
 
 The estimates should be added to your chosen task tracking tool.
 
-```{admonition} Extra Resources
-
+:::{admonition} Extra Resources
+:class: tip
 | Link                                             | Description                            |
 |--------------------------------------------------|----------------------------------------|
 | [Planning Poker](https://www.planningpoker.com/) | A free tool that gamifies the process. |
-
-```
+:::
 
 #### User Story Prioritisation
 
@@ -321,18 +322,23 @@ are broken down into different levels of priority:
 - *Won't have:* out-of-scope features; useful as next steps for your
     project as potential improvements for future releases.
 
-```{admonition} Extra Resources
+:::{admonition} Extra Resources
+:class: tip
 | Link                                                                                                         | Description                                      |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
 | [Scrum Guide](https://www.atlassian.com/agile/scrum)                                                         | Comprehensive Scrum guide.                       |
 | [Sprint planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) | Details on running your sprint planning meeting. |
-```
+:::
 
 Once written, these stories should be documented centrally in the team's
 document repository:
 
-![](resources/confluence.png)
+```{figure} resources/confluence.png
+---
+name: confluence
+---
+```
 
 #### User Story Mapping
 
@@ -350,15 +356,20 @@ a group exercise and should be done by the entire team. Once created, it should 
 The user story map can be created before or after user story prioritisation. Sometimes it can help to visualise
 user stories when prioritising them.
 
-```{admonition} Extra Resources
+This is an example of a user story map:
+
+```{figure} resources/user_story_map
+---
+name: user-story-map
+---
+```
+
+:::{admonition} Extra Resources
+:class: tip
 To aid you in creating a user story map, you can make use of templates.
 
 | Link                                                                                  |
 |---------------------------------------------------------------------------------------|
 | [Miro template](https://miro.com/templates/user-story-map/)                           |
 | [LucidChart template](https://www.lucidchart.com/blog/how-to-create-a-user-story-map) |
-```
-
-This is an example of a user story map:
-
-![](resources/user_story_map)
+:::
