@@ -19,6 +19,13 @@ being given to you from a university professor). As such, the learning curve for
 This handbook should help you acclimate yourselves to content learned throughout the semester and can be used as a 
 resource to reference when you have questions.
 
+## Contributors
+
+A big thank you to the contributors who worked on these course notes. You can get in contact with them 
+[here](https://github.com/cis-projects/project_based_course_notes).
+
+This work was supported by the University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.
+
 :::{admonition} Help Us Improve These Notes
 :class: tip, dropdown
 This handbook will act as a living guide for future students, so any improvements we make to these notes will greatly 
@@ -28,19 +35,9 @@ assist future years.
 You can raise an issue in the right-hand corner if you spot typos, mistakes, bugs, etc.
 You can also view our student [Hall of Fame](../afterword/hall_of_fame/hall_of_fame).
 ```{figure} resources/github_issue.png
----
 name: github-issue
----
 ```
-
 ---
 You can also [Collaborate With Us](../afterword/collaborate/collaborate), if you have ideas for topics not covered in these notes.
 ````
 :::
-
-## Contributors
-
-A big thank you to the contributors who worked on these course notes. You can get in contact with them 
-[here](https://github.com/cis-projects/project_based_course_notes).
-
-This work was supported by the University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.
