@@ -117,7 +117,7 @@ development team (including the Scrum master and product owner).
 ---
 name: development-team
 ---
-{cite:p}`OliveiraESterlingL`
+{cite:p}`AtlassianScrumRoles`
 Source:
 [Atlassian](https://www.atlassian.com/agile/scrum/roles)
 ```
