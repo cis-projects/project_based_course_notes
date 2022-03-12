@@ -113,3 +113,12 @@ name: use_cases_description
 ---
 name: use_cases_diagram
 ```
+
+:::{admonition} Extra Resources
+:class: tip
+
+| Link                                                         | Description                                                            |
+|--------------------------------------------------------------|------------------------------------------------------------------------|
+| [DrawIO](https://app.diagrams.net/)                          | Online Tool for creating architecture, UML, and other diagrams.        |
+| [Microsoft Visio](https://studentit.unimelb.edu.au/software) | Microsoft tool for diagrams, can be downloaded from the uni softwares. |
+:::

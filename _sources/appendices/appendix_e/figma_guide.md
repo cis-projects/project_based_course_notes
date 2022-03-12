@@ -15,14 +15,14 @@ before you start coding.
 
 With that in mind, we want to remind you of some important key points:
 
-### No.1: Digital Prototype Is High-Fidelity
+### Digital Prototype Is High-Fidelity
 
 Compared to low-fidelity prototype, high-fidelity prototype is much closer to the final version of your 
 system-to-be. You need to be a lot more specific, introducing colour scheme, styling, images and meaningful, 
 realistic content into it. There are not only major navigation elements, but also the more detailed ones in digital 
 prototype. It is what the real product would look like - except there is no code. 
 
-### No.2: Completeness of Scenarios
+### Completeness of Scenarios
 
 During your usability test, you will have tasks for your users/clients to perform. It's really important to make 
 sure that these scenarios in your digital prototype are complete. What does that mean? Let me give you an example. 
@@ -42,7 +42,7 @@ stories to cover, we advise you to:
 What user stories MUST be tested?
 2. Select 4 - 5 user stories or scenarios from your list, and start prototyping. Make sure they are complete. 
 
-### No.3: Don't Give the Answer Away
+### Don't Give the Answer Away
 
 Let's use our booking hotel room example again. Make sure you don't give away clues or describe the steps to your 
 users. Don't say "First you would log in, then you would click the Find Destination button, then you would browse 
