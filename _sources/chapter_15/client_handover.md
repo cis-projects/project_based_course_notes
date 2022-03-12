@@ -1,12 +1,12 @@
 # Chapter 15: Client Handover
 
-At the end of the semester, you are required to handover your web application to your client in a state that will 
+At the end of the semester, you are required to hand over your web application to your client in a state that will 
 allow them to continue development. That means they must be given accurate information and develop an understanding of 
 the current state of the application.
 
 You are required to hold a meeting with the client in which you will discuss and demonstrate the final delivered 
 application and the user stories implemented (and those not implemented). 
-In the meeting you should handover a tag of the code repository, which should include:
+In the meeting you should hand over a tag of the code repository, which should include:
 
 - All code developed throughout the semester.
 - The correct code license with ownership transferred to the client.

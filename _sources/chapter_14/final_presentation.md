@@ -94,5 +94,4 @@ PowerPoint templates:
     -   Add your group name to your Zoom handle.
     -   Make sure your audio and video are clear.
 -   Practice how you will transition between speakers.
-
 ```

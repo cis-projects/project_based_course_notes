@@ -72,7 +72,7 @@ By default, all tasks are created with medium priority:
 
 ```{figure} resources/priority_1.png
 ---
-name: priority-1
+name: priority_1
 ---
 ```
 
@@ -81,7 +81,7 @@ task:
 
 ```{figure} resources/priority_2.png
 ---
-name: priority-2
+name: priority_2
 ---
 ```
 
@@ -172,7 +172,7 @@ and, as it is still open, it is correctly still in the backlog.
 
 ```{figure} resources/story_open.png
 ---
-name: story-open
+name: story_open
 ---
 ```
 
@@ -196,7 +196,7 @@ the current sprint.
 
 ```{figure} resources/story_in_progress.png
 ---
-name: story-in-progress
+name: story_in_progress
 ---
 ```
 
@@ -212,7 +212,7 @@ by team members.
     then one commits the code, and the other developers approve the code
     as reviewed. This is by far the fastest way to review work and
     recommended.
-3.  Walkthrough: As a substitute for the regular review process, a
+3.  Walk-through: As a substitute for the regular review process, a
     developer can walk through their task with other teammates as part
     of a collaborative process where teammates can ask questions. The
     whole team is not required to be present - your team should decide
@@ -225,7 +225,7 @@ assigned to the current sprint.
 
 ```{figure} resources/story_in_review.png
 ---
-name: story-in-review
+name: story_in_review
 ---
 ```
 
@@ -255,7 +255,7 @@ showing the task was reviewed with no issues found.
 
 ```{figure} resources/story_done.png
 ---
-name: story-done
+name: story_done
 ---
 ```
 

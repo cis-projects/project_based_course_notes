@@ -77,7 +77,7 @@ understanding of the project, which is used to prioritise user stories in upcomi
 
 ```{figure} resources/product_owner.png
 ---
-name: product-owner
+name: product_owner
 ---
 {cite:p}`AtlassianScrumRoles`
 ```
@@ -100,7 +100,7 @@ continue meeting objectives.
 
 ```{figure} resources/scrum_master.png
 ---
-name: scrum-master
+name: scrum_master
 ---
 {cite:p}`AtlassianScrumRoles`
 ```
@@ -113,7 +113,7 @@ development team (including the Scrum master and product owner).
 
 ```{figure} resources/development_team.png
 ---
-name: development-team
+name: development_team
 ---
 {cite:p}`AtlassianScrumRoles`
 ```
@@ -152,7 +152,7 @@ the key details of the Scrum ceremonies.
 
 ```{figure} resources/scrum_ceremonies.svg
 ---
-name: scrum-ceremonies
+name: scrum_ceremonies
 ---
 {cite:p}`AtlassianSprints`
 ```

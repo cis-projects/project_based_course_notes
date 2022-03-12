@@ -28,25 +28,34 @@ to the Make My Persona tool. Please don't use this one.
 - Firstly, you do NOT need a Hubspot account to use this tool. Visit 
 [this link](https://www.hubspot.com/make-my-persona).
 - Once you click the "Build My Persona" button, it will take you through a 7-steps tour to create your persona. 
-- Or, you can just choose to skip walkthrough mode and edit it yourself.
-![Landing page of Make My Persona](resources/MakeMyPersona1.jpg) ![Take tour or skip](resources/MakeMyPersona2.JPG)
+- Or, you can just choose to skip the walk-through mode and edit it yourself.
+```{figure} resources/MakeMyPersona1.jpg
+---
+name: make_my_persona1.jpg
+```
+
+```{figure} resources/MakeMyPersona2.jpg
+---
+name: make_my_persona2.jpg
+```
+
 - Either way, you will get the chance to edit/add/delete sections at the end.
 
 ### Save and Export
 
 Yes - you can save this persona and edit it later. What you do is: 
-1. Once you finish the 7-steps tour, or you have chosen the option to skip the tour, you will arrive at a 
+- Once you finish the 7-steps tour, or you have chosen the option to skip the tour, you will arrive at a 
 "Make My Persona Overview" page. 
-2. Click the save button.
-![Click the save button](resources/MakeMyPersona3.JPG)
+- Click the save button.
+![](resources/MakeMyPersona3.JPG)
 
 3. It will ask you to fill in some personal details.
 4. After you have filled in your personal details, click the "Download Now" button. 
-![Procedure to save](resources/MakeMyPersona4.JPG)
+![](resources/MakeMyPersona4.JPG)
 
 5. You can download your persona as a PDF. You will also be given a link that you can use to access it in the 
 future, or share with your team members 
-![End of saving process](resources/MakeMyPersona5.JPG)
+![](resources/MakeMyPersona5.JPG)
 
 ## PersonaGenerator
 
@@ -70,17 +79,17 @@ have on your persona are fixed. Please consider this before you choose this tool
 [this link](https://uxpressia.com/personas-online-tool).
 2. Firstly, you need to sign up. 
 3. After you have signed up successfully, you will arrive at your personal workspace. Create a project. 
-![Create a project in personal workspace](resources/UXPRESSIA1.JPG)
+![](resources/UXPRESSIA1.JPG)
 
 4. In your project, you can create your persona. Click "ADD NEW"
-![Add a new file in project](resources/UXPRESSIA2.JPG)
+![](resources/UXPRESSIA2.JPG)
 
 5. Select "PERSONAS". You can start with a blank one, then edit it yourself.
-![Start with a blank persona](resources/UXPRESSIA3.JPG)
+![](resources/UXPRESSIA3.JPG)
 
 6. Uxpressia allows you to be very flexible with your sections - you can add/delete them, and there are different 
 types of sections to choose from (e.g. text, sliders). 
-![Blank persona](resources/UXPRESSIA4.JPG)
+![](resources/UXPRESSIA4.JPG)
 
 ### Any Disadvantages?
 
@@ -112,4 +121,4 @@ The following restrictions are limitations of a free plan:
 1. You cannot share the work with anyone.
 2. You cannot download it as a PNG or PDF.
 3. Your work expires after a couple of hours. 
-![Work expires after a couple of hours for Xtensio's free version](resources/Xtensio1.JPG)
+![](resources/Xtensio1.JPG)

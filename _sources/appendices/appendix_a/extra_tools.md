@@ -2,15 +2,6 @@
 
 This is a collection of some of the academic staff’s favourite tools.
 
-## Version Control Tools
-
-### Git Graphical User Interfaces (GUIs)
-
-```{note}
-A graphical user interface is an interface that permits interaction with git system commands in an easier way.
-They are especially good for visualising code changes in large repositories or for developers new to git.
-```
-
 ## Integrated Development Environment (IDE) Tools
 
 ```{note}
