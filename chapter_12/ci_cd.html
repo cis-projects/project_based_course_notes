@@ -295,9 +295,9 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/chapter_12/ci_cd.md"><button type="button"
+        <a class="dropdown-buttons" href="../_sources/chapter_12/ci_cd.ipynb"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
+                data-placement="left">.ipynb</button></a>
         <!-- Download PDF via print -->
         <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
                 onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
@@ -330,6 +330,23 @@
             class="fas fa-expand"></i></button></a>
 
             <!-- Launch buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Launch interactive content"><i class="fas fa-rocket"></i></button>
+    <div class="dropdown-buttons">
+        
+        <a class="binder-button" href="https://mybinder.org/v2/gh/cis-projects/project_based_course_notes/master?urlpath=tree/docs/chapter_12/ci_cd.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Launch Binder" data-toggle="tooltip"
+                data-placement="left"><img class="binder-button-logo"
+                    src="../_static/images/logo_binder.svg"
+                    alt="Interact on binder">Binder</button></a>
+        
+        
+        
+        
+    </div>
+</div>
 
         </div>
 
@@ -429,7 +446,7 @@
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>There are many tools available to create a CI/CD pipeline. This
-guide will demonstrate using GitHub Actions.</p>
+guide will demonstrate the use of GitHub Actions.</p>
 </div>
 <div class="section" id="github-actions">
 <h2>GitHub Actions<a class="headerlink" href="#github-actions" title="Permalink to this headline">¶</a></h2>
@@ -488,7 +505,9 @@ it must be a YAML file. For example, ci-cd.yaml.</p></li>
 </div>
 <div class="section" id="understanding-the-workflow-syntax">
 <h3>Understanding the Workflow Syntax<a class="headerlink" href="#understanding-the-workflow-syntax" title="Permalink to this headline">¶</a></h3>
-<p><img alt="" src="../_images/workflow.png" /></p>
+<div class="figure align-default" id="workflow">
+<img alt="../_images/workflow.png" src="../_images/workflow.png" />
+</div>
 </div>
 <div class="section" id="viewing-your-workflow-execution">
 <h3>Viewing Your Workflow Execution<a class="headerlink" href="#viewing-your-workflow-execution" title="Permalink to this headline">¶</a></h3>
@@ -513,11 +532,30 @@ can be useful to understand why it has failed.</p>
 </ol>
 </li>
 </ol>
-<div class="admonition-extra-resources admonition">
+<div class="tip admonition">
 <p class="admonition-title">Extra Resources</p>
 <p>To build your first project using GitHub Actions, you can take
 <a class="reference external" href="https://lab.github.com/githubtraining/github-actions:-hello-world">GitHub’s free course</a>.</p>
-<p>You can watch this explainer in a free <a class="reference external" href="https://www.youtube.com/watch?v=5MJRtldPOEI">YouTube video</a>.</p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">YouTubeVideo</span>
+
+<span class="n">YouTubeVideo</span><span class="p">(</span><span class="s1">&#39;5MJRtldPOEI&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_html">
+<iframe
+    width="400"
+    height="300"
+    src="https://www.youtube.com/embed/5MJRtldPOEI"
+    frameborder="0"
+    allowfullscreen
+
+></iframe>
+</div></div>
 </div>
 </div>
 </div>
