@@ -84,12 +84,12 @@ member of the development team).
 There are several tools that can be used to automate unit testing
 (depending on the language chosen for your project). Some examples are:
 
-1.  [JUnit](https://junit.org/junit5/): a popular and free
+- [JUnit](https://junit.org/junit5/): a popular and free
     testing tool for Java.
-2.  [Jest](https://jestjs.io): a popular and free testing
+- [Jest](https://jestjs.io): a popular and free testing
     tool for JavaScript.
-3.  [Testing library](https://testing-library.com/).
-4.  [Mocha](https://mochajs.org): a popular and free
+- [Testing library](https://testing-library.com/).
+- [Mocha](https://mochajs.org): a popular and free
     testing tool for JavaScript.
 
 ### Integration Testing
@@ -127,7 +127,6 @@ module. An example test case might be:
 |--------------|-------------------------------------------------------------|-----------------------------------------------------|-------------------------------------------------------------|
 | 1            | Test the link between the authentication and email modules. | Enter login and credentials and click login button. | User should be successfully redirected to the email module. |
 
-
 This is just one example of testing the integration between two
 components - when conducting actual integration testing, there would
 likely be many more tests.
@@ -137,8 +136,8 @@ likely be many more tests.
 There are several tools that can be used to automate integration testing
 (depending on the language chosen for your project). Some examples are:
 
-1. [Playwright](https://playwright.dev/)
-2. [Cypress](https://www.cypress.io/)
+- [Playwright](https://playwright.dev/)
+- [Cypress](https://www.cypress.io/)
 
 ### Acceptance Testing
 
@@ -173,7 +172,11 @@ Given that \[condition\], when \[something happens\], then \[result\].
 As an example, here is a list of the acceptance criteria for a project
 from semester 2, 2021:
 
-![](resources/acceptance_criteria.png)
+```{figure} resources/acceptance_criteria.png
+---
+name: acceptance_criteria
+---
+```
 
 You can see in the screenshot above that the acceptance criteria links
 to: epic, user story, and details the criteria for a pass result.
@@ -181,7 +184,11 @@ to: epic, user story, and details the criteria for a pass result.
 This criterion was then test using acceptance tests and the results were
 manually captured in screenshots and added to the Confluence page:
 
-![](resources/acceptance_testing.png)
+```{figure} resources/acceptance_testing.png
+---
+name: acceptance_testing
+---
+```
 
 The details in the acceptance test (screenshots + steps involved) allow
 the tests to be easily reproduced by the development team, client, or
@@ -200,7 +207,11 @@ academic staff in the future.
 
 The hierarchy of testing can be visualised as:
 
-![](resources/testing_hierarchy.svg)
+```{figure} resources/testing_hierarchy.svg
+---
+name: testing_hierarchy
+---
+```
 
 ## Test Plan
 
@@ -227,7 +238,8 @@ Testing plans are important as they ensure:
 -   Bug reporting strategy (when a bug is identified, what process
     should the team follow?).
 
-You can view a very thorough example of a test plan [here](https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/).
+You can view a very thorough example of a test plan 
+[here](https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/).
 
 ## Code Coverage
 
@@ -240,27 +252,30 @@ good indicator of test extensiveness. Code coverage score greater than
 
 Code coverage works by testing many or all the below:
 
-1.  *Function coverage:* how many of the functions defined have been
+- *Function coverage:* how many of the functions defined have been
     called.
-2.  *Statement coverage:* how many of the statements in the program have
+- *Statement coverage:* how many of the statements in the program have
     been executed.
-3.  *Branches coverage:* how many of the branches of the control
+- *Branches coverage:* how many of the branches of the control
     structures (if statements for instance) have been executed.
-4.  *Condition coverage:* how many of the Boolean sub-expressions have
+- *Condition coverage:* how many of the Boolean sub-expressions have
     been tested for a true and a false value.
-5.  *Line coverage:* how many of lines of source code have been tested.
+- *Line coverage:* how many of lines of source code have been tested.
 
 Code coverage reports are created in the process by tools (detailed
 below) and are displayed:
 
-![](resources/code_coverage.png)
-
-*Source*: [Atlassian](https://www.atlassian.com/continuous-delivery/software-testing/code-coverage)
+```{figure} resources/code_coverage.png
+---
+name: code_coverage
+---
+{cite:p}`AtlassianCodeCoverage`
+```
 
 ### Automating Code Coverage
 
 There are many tools that can automate code coverage, but the two most
 popular are:
 
-1. [Cypress](https://docs.cypress.io/guides/tooling/code-coverage#Introduction).
-2. [Istanbul](https://github.com/gotwarlost/istanbul).
+- [Cypress](https://docs.cypress.io/guides/tooling/code-coverage#Introduction).
+- [Istanbul](https://github.com/gotwarlost/istanbul).

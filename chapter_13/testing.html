@@ -657,7 +657,7 @@ member of the development team).</p>
 <h5>Automated Unit Testing<a class="headerlink" href="#automated-unit-testing" title="Permalink to this headline">¶</a></h5>
 <p>There are several tools that can be used to automate unit testing
 (depending on the language chosen for your project). Some examples are:</p>
-<ol class="simple">
+<ul class="simple">
 <li><p><a class="reference external" href="https://junit.org/junit5/">JUnit</a>: a popular and free
 testing tool for Java.</p></li>
 <li><p><a class="reference external" href="https://jestjs.io">Jest</a>: a popular and free testing
@@ -665,7 +665,7 @@ tool for JavaScript.</p></li>
 <li><p><a class="reference external" href="https://testing-library.com/">Testing library</a>.</p></li>
 <li><p><a class="reference external" href="https://mochajs.org">Mocha</a>: a popular and free
 testing tool for JavaScript.</p></li>
-</ol>
+</ul>
 </div>
 </div>
 </div>
@@ -720,10 +720,10 @@ likely be many more tests.</p>
 <h4>Automated Integration Testing<a class="headerlink" href="#automated-integration-testing" title="Permalink to this headline">¶</a></h4>
 <p>There are several tools that can be used to automate integration testing
 (depending on the language chosen for your project). Some examples are:</p>
-<ol class="simple">
+<ul class="simple">
 <li><p><a class="reference external" href="https://playwright.dev/">Playwright</a></p></li>
 <li><p><a class="reference external" href="https://www.cypress.io/">Cypress</a></p></li>
-</ol>
+</ul>
 </div>
 </div>
 <div class="section" id="acceptance-testing">
@@ -766,12 +766,16 @@ tests).</p>
 </table>
 <p>As an example, here is a list of the acceptance criteria for a project
 from semester 2, 2021:</p>
-<p><img alt="" src="../_images/acceptance_criteria.png" /></p>
+<div class="figure align-default" id="acceptance-criteria">
+<img alt="../_images/acceptance_criteria.png" src="../_images/acceptance_criteria.png" />
+</div>
 <p>You can see in the screenshot above that the acceptance criteria links
 to: epic, user story, and details the criteria for a pass result.</p>
 <p>This criterion was then test using acceptance tests and the results were
 manually captured in screenshots and added to the Confluence page:</p>
-<p><img alt="" src="../_images/acceptance_testing.png" /></p>
+<div class="figure align-default" id="id1">
+<img alt="../_images/acceptance_testing.png" src="../_images/acceptance_testing.png" />
+</div>
 <p>The details in the acceptance test (screenshots + steps involved) allow
 the tests to be easily reproduced by the development team, client, or
 academic staff in the future.</p>
@@ -789,7 +793,8 @@ academic staff in the future.</p>
 <div class="section" id="visualising-testing">
 <h3>Visualising Testing<a class="headerlink" href="#visualising-testing" title="Permalink to this headline">¶</a></h3>
 <p>The hierarchy of testing can be visualised as:</p>
-<p><img alt="" src="../_images/testing_hierarchy.svg" /></p>
+<div class="figure align-default" id="testing-hierarchy">
+<img alt="../_images/testing_hierarchy.svg" src="../_images/testing_hierarchy.svg" /></div>
 </div>
 </div>
 <div class="section" id="test-plan">
@@ -817,7 +822,8 @@ when testing will occur.</p></li>
 <li><p>Bug reporting strategy (when a bug is identified, what process
 should the team follow?).</p></li>
 </ul>
-<p>You can view a very thorough example of a test plan <a class="reference external" href="https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/">here</a>.</p>
+<p>You can view a very thorough example of a test plan
+<a class="reference external" href="https://www.softwaretestinghelp.com/test-plan-sample-softwaretesting-and-quality-assurance-templates/">here</a>.</p>
 </div>
 </div>
 <div class="section" id="code-coverage">
@@ -829,7 +835,7 @@ does not necessarily mean you have tested the right things), it is a
 good indicator of test extensiveness. Code coverage score greater than
 80% is generally considered sufficient.</p>
 <p>Code coverage works by testing many or all the below:</p>
-<ol class="simple">
+<ul class="simple">
 <li><p><em>Function coverage:</em> how many of the functions defined have been
 called.</p></li>
 <li><p><em>Statement coverage:</em> how many of the statements in the program have
@@ -839,19 +845,21 @@ structures (if statements for instance) have been executed.</p></li>
 <li><p><em>Condition coverage:</em> how many of the Boolean sub-expressions have
 been tested for a true and a false value.</p></li>
 <li><p><em>Line coverage:</em> how many of lines of source code have been tested.</p></li>
-</ol>
+</ul>
 <p>Code coverage reports are created in the process by tools (detailed
 below) and are displayed:</p>
-<p><img alt="" src="../_images/code_coverage.png" /></p>
-<p><em>Source</em>: <a class="reference external" href="https://www.atlassian.com/continuous-delivery/software-testing/code-coverage">Atlassian</a></p>
+<div class="figure align-default" id="id3">
+<img alt="../_images/code_coverage.png" src="../_images/code_coverage.png" />
+<p class="caption"><span class="caption-number">Fig. 15 </span><span class="caption-text"><span id="id2">[<a class="reference internal" href="../afterword/bibliography/bibliography.html#id16">Atla</a>]</span></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
 <div class="section" id="automating-code-coverage">
 <h3>Automating Code Coverage<a class="headerlink" href="#automating-code-coverage" title="Permalink to this headline">¶</a></h3>
 <p>There are many tools that can automate code coverage, but the two most
 popular are:</p>
-<ol class="simple">
+<ul class="simple">
 <li><p><a class="reference external" href="https://docs.cypress.io/guides/tooling/code-coverage#Introduction">Cypress</a>.</p></li>
 <li><p><a class="reference external" href="https://github.com/gotwarlost/istanbul">Istanbul</a>.</p></li>
-</ol>
+</ul>
 </div>
 </div>
 </div>
