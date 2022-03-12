@@ -118,10 +118,13 @@ Feature branching entails creating a new branch for a new feature and
 using that same branch until the feature is completed. After completion,
 the feature branch is merged back into the main branch.
 
-![Feature branching diagram](resources/feature_development.png)
-
-*Source:*
+```{figure} resources/feature_development.png
+---
+name: feature-branching
+---
+Source:
 [Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
+```
 
 There are several flavours of feature branching but we will examine
 Gitflow, by far one of the most popular branching strategies.
@@ -152,14 +155,9 @@ code changes.
 ---
 name: trunk-development
 ---
-*Source:*
+Source:
 [Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
 ```
-
-![Trunk based dev](resources/trunk_development.png)
-
-*Source:*
-[Optimizely](https://www.optimizely.com/optimization-glossary/trunk-based-development/)
 
 | Advantages                                  | Disadvantages                                                                    |
 |---------------------------------------------|----------------------------------------------------------------------------------|
