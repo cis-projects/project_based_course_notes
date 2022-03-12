@@ -212,6 +212,7 @@ To create a release, please refer to this
 published by GitHub.
 
 ```{admonition} Extra Resources
+:class: tip
 - [Trunk vs Gitflow development](https://www.toptal.com/software/trunk-based-development-git-flow)
 - [Git branching strategies](https://launchdarkly.com/blog/git-branching-strategies-vs-trunk-based-development/)
 ```
