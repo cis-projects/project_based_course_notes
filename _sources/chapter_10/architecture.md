@@ -9,15 +9,10 @@ Once the application's stack is chosen, it is important to outline the
 architecture of the system. Detailing the architecture serves the
 purpose of assuring the client that the development team has thought
 through the interactions of components and the principles that
-underpinned their development. It is required information to handover to
-the client at the end of semester, so they can continue development {cite:p}`PhilippeKruchten`
+underpinned their development. It is required information to hand over to
+the client at the end of semester, so they can continue development.
 
-:::{admonition} Extra Resources
-:class: tip
-
-In this subject, you will be learning the 4+1 architectural model. You can read the original paper
-[here](https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf).
-:::
+In this subject, you will be learning the 4+1 architectural model {cite:p}`PhilippeKruchten`.
 
 ## 4+1 Architecture Model
 
@@ -106,8 +101,8 @@ name: pipeline
 
 Shows a subset of important use cases and is represented using a use
 case diagram. Your team should select use case(s) of architectural
-significance to demonstrate using use case description and diagram, as
-well as a sequence diagram.
+significance to demonstrate in the use case descriptions and diagrams, as
+well as a sequence diagrams.
 
 ```{figure} resources/use_cases_description.png
 ---
