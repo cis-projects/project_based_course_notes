@@ -3,7 +3,7 @@
 
 title: Project-Based Course Notes
 author: School of Computing and Information Systems, The University of Melbourne
-logo: logo.png
+logo: resources/logo.png
 exclude_patterns: ["README.md"]  # Patterns to skip when building the book. Can be glob-style (for example "*skip.ipynb")
 
 
@@ -31,6 +31,6 @@ repository:
 # Add GitHub buttons to your book
 # See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
 html:
-  favicon: favicon.png
+  favicon: resources/favicon.png
   use_issues_button: true
   use_repository_button: true

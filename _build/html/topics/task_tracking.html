@@ -1,0 +1,786 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Tracking &#8212; Project-Based Course Notes</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Document Repository" href="document_repository.html" />
+    <link rel="prev" title="Client Communications" href="client_communications.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">
+   COMP90082 Software Project
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Topics
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="agile_methodology.html">
+   Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="client_communications.html">
+   Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="document_repository.html">
+   Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="github.html">
+   GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="simplified_workflow.html">
+   A Simplified Workflow
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="requirements_elicitation.html">
+   Requirements Elicitation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="motivational_model_guide.html">
+     Motivational Model Guide
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="personas_tools.html">
+     Tools for Personas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="marvel_guide.html">
+     Paper Prototype Tool - Marvel
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="figma_guide.html">
+     Digital Prototype Tool - Figma
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="technology_stack.html">
+   Technology Stack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="architecture.html">
+   Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="devops.html">
+   DevOps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ci_cd.html">
+   Adding CI/CD to Your Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="testing.html">
+   Testing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="final_presentation.html">
+   Final Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="client_handover.html">
+   Client Handover
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Extra Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../extra_resources/extra_tools.html">
+   Extra Tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../extra_resources/miro_guide.html">
+   Miro Tutorial
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Afterword
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/hall_of_fame.html">
+   Hall of Fame
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/collaborate.html">
+   Collaborate With Us
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/topics/task_tracking.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/project_based_course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/task_tracking.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#setting-up-your-team-s-task-management">
+   Setting Up Your Team’s Task Management
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#requirements">
+     Requirements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#backlog">
+     Backlog
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#workflow">
+     Workflow
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#defining-a-workflow">
+       Defining a Workflow
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#an-example-workflow">
+       An Example Workflow
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#good-hygiene">
+     Good Hygiene
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Task Tracking</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#setting-up-your-team-s-task-management">
+   Setting Up Your Team’s Task Management
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#requirements">
+     Requirements
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#backlog">
+     Backlog
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#workflow">
+     Workflow
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#defining-a-workflow">
+       Defining a Workflow
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#an-example-workflow">
+       An Example Workflow
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#good-hygiene">
+     Good Hygiene
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="task-tracking">
+<h1>Task Tracking<a class="headerlink" href="#task-tracking" title="Permalink to this headline">¶</a></h1>
+<p>Task tracking, also known as task management, is far more than a simple
+to-do list. It means tracking tasks from beginning to end, delegating
+subtasks to teammates, and setting deadlines to make sure projects are
+done on time.</p>
+<p>There are several benefits to using task tracking software:</p>
+<ol class="simple">
+<li><p>Centralise tasks, increasing team visibility of task progress.</p></li>
+<li><p>Prioritise tasks as a team.</p></li>
+<li><p>Improve collaboration, allowing any team member to work across any
+task.</p></li>
+<li><p>Track team progress.</p></li>
+</ol>
+<p>As discussed in agile methodology, task tracking is an important part of
+representing requirements in an agile way.</p>
+<p>In this subject, you are required to make use of a task tracking tool.
+As a team, you will need to agree on a tool to use. There are a several
+tools to choose from (this list is not exhaustive):</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Name</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.atlassian.com/software/jira">Jira</a></p></td>
+<td><p>The industry-leading task tracking software. A good tool to learn if you want to enter the software industry.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://trello.com/en">Trello</a></p></td>
+<td><p>A very popular tool. Less feature-rich than Jira but quicker and easier to set up.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://docs.github.com/en/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards">GitHub Project Board</a></p></td>
+<td><p>New, compared to the other tools. Easy to set up as it comes with your repository but lacking many features.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://asana.com/?noredirect">asana</a></p></td>
+<td><p>Like Trello, but a more mobile-friendly application.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://linear.app/">Linear</a></p></td>
+<td><p>Much like asana.</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="setting-up-your-team-s-task-management">
+<h2>Setting Up Your Team’s Task Management<a class="headerlink" href="#setting-up-your-team-s-task-management" title="Permalink to this headline">¶</a></h2>
+<p>Once your team has decided on a tool to use, the next step is to
+populate it.</p>
+<p>Regardless of your choice of task tracking tools, all require similar
+set-ups and the same level of detail.</p>
+<div class="section" id="requirements">
+<h3>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h3>
+<p>As discussed in agile methodology, all requirements of the system must
+be translated into epics, user stories, subtasks, etc. in your chosen
+task tracking tool.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please see the chapter on requirements elicitation to understand how to elicit requirements from a client.</p>
+</div>
+</div>
+<div class="section" id="backlog">
+<h3>Backlog<a class="headerlink" href="#backlog" title="Permalink to this headline">¶</a></h3>
+<p>The backlog contains all pieces of work for the semester. Any work
+completed by the development team should have an associated task in the
+tracking tool. At the beginning of the semester, the Product Owner
+should populate the backlog with all requirements received from the
+initial client meeting.</p>
+<p>The backlog will look like this once populated:</p>
+<div class="figure align-default" id="id1">
+<img alt="../_images/backlog.png" src="../_images/backlog.png" />
+</div>
+<p>Once the backlog is populated, the Product Owner and client should
+jointly determine the priority of each task. The priorities of tasks
+help the development team determine what task to pick up next. It is
+expected the development team will work on high priority tasks first
+before moving on to lower priority tasks.</p>
+<p>By default, all tasks are created with medium priority:</p>
+<div class="figure align-default" id="priority-1">
+<img alt="../_images/priority_1.png" src="../_images/priority_1.png" />
+</div>
+<p>However, the priority can be changed to any of the below by editing the
+task:</p>
+<div class="figure align-default" id="priority-2">
+<img alt="../_images/priority_2.png" src="../_images/priority_2.png" />
+</div>
+<p>The priority of all user stories in the backlog should reflect the
+prioritisation given by the client (please see the chapter on
+requirements elicitation).</p>
+<p>Over the course of the year, the development team then uses the backlog
+as its single source of truth for work, and as the project progresses,
+work should be added and removed from the backlog.</p>
+</div>
+<div class="section" id="workflow">
+<h3>Workflow<a class="headerlink" href="#workflow" title="Permalink to this headline">¶</a></h3>
+<p>As a team, you should have a defined flow that all work must follow. A
+workflow covers all steps that must be done for work to be considered
+“ready for development” and then subsequently “ready for review” and
+then “complete”. Creating a workflow ensures that all team members
+understand and follow the same process, thus ensuring a high quality of
+work completed with far less oversight necessary. As workload increases,
+having a defined workflow ensures that the team’s processes are
+scalable.</p>
+<div class="section" id="defining-a-workflow">
+<h4>Defining a Workflow<a class="headerlink" href="#defining-a-workflow" title="Permalink to this headline">¶</a></h4>
+<p>When defining a workflow, it can be tempting to make it complicated -
+avoid this temptation. Most important when creating a workflow is that
+it is understood by the team and highly repeatable.</p>
+<ol class="simple">
+<li><p>All tasks that are created are first created in the backlog. Tasks
+that are selected for development are then moved into the upcoming
+sprint.</p></li>
+<li><p>Once a developer commences work on an issue, the issue is moved to
+the next status.</p></li>
+<li><p>Once development work has finished, the task should be moved to the
+next status for review by teammate(s). The task must be reviewed by
+another team member (not the one who completed the work).</p></li>
+<li><p>If the review passes successfully (no bugs are found), the task
+should be moved to a completed status. If it fails review, it should
+be moved backwards to the prior status so the developer can address
+the bugs found.</p></li>
+</ol>
+</div>
+<div class="section" id="an-example-workflow">
+<h4>An Example Workflow<a class="headerlink" href="#an-example-workflow" title="Permalink to this headline">¶</a></h4>
+<p>The following is just one example of a workflow, and you are welcome to
+define your own that best suits your team - this is by no means the best
+workflow.</p>
+<div class="figure align-default" id="id3">
+<img alt="../_images/workflow.png" src="../_images/workflow.png" />
+<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text"><span id="id2">[<a class="reference internal" href="../afterword/bibliography.html#id7">Atlf</a>]</span></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<p>Status: Open</p>
+<p>This is the status that is assigned to all newly created tasks in the
+current sprint. For a task to be able to be moved from status open to in
+progress, it must have a definition of ready (DoR). A task with a
+definition of ready means it can be picked up by any developer and that
+developer can begin work immediately.</p>
+<p>It is up to your team to decide on the definition of ready, however, a
+few examples of what might be required for a task to be considered ready
+for development can include (but is not limited to) the following:</p>
+<ol class="simple">
+<li><p>The story should be written exactly in the ‘user story’ format and
+added to the User Stories page in the document repository. If it is
+not a user story, then it does not need to follow this format nor be
+added to the document repository.</p></li>
+<li><p>The story should be created in the appropriate epic in the task
+tracking tool and added to the backlog.</p></li>
+<li><p>It must have acceptance criteria written and added to the Acceptance
+Criteria page in the team’s document repository.</p></li>
+<li><p>The acceptance criteria must be understood and agreed to by the team
+<em>(we will discuss the acceptance criteria in status: in progress
+below)</em>.</p></li>
+<li><p>The team must estimate the story during a sprint planning meeting.</p></li>
+<li><p>The task must have an assignee.</p></li>
+<li><p>The task must have a due date.</p></li>
+</ol>
+<p>The following is an example of a well populated user story in Jira. It
+has a title in the form of a user story, acceptance criteria, priority,
+and, as it is still open, it is correctly still in the backlog.</p>
+<div class="figure align-default" id="story-open">
+<img alt="../_images/story_open.png" src="../_images/story_open.png" />
+</div>
+<p>Status: In Progress</p>
+<p>This status indicates that development work has commenced. For a task to
+be properly in progress, it must abide by the following:</p>
+<ol class="simple">
+<li><p>It should have a single assignee. If more than one developer is
+completing the work, then the task is too big, and should be broken
+down into smaller, iterative tasks.</p></li>
+<li><p>It should have an estimation of story points.</p></li>
+<li><p>It should have a deadline when development is expected to be
+completed.</p></li>
+<li><p>It should be contained in a sprint.</p></li>
+</ol>
+<p>The following is an example of a well populated user story in Jira. It
+has a title in the form of a user story, acceptance criteria, priority,
+assignee, due date, and, as the story is in progress, it is assigned to
+the current sprint.</p>
+<div class="figure align-default" id="story-in-progress">
+<img alt="../_images/story_in_progress.png" src="../_images/story_in_progress.png" />
+</div>
+<p>Status: In Review</p>
+<p>There are several methods that can be used to review work done
+by team members.</p>
+<ol class="simple">
+<li><p>Manual review: reviewers pick up tasks that have status: in review
+and review the code manually. This involves reading the code
+line-by-line, running tests, etc.</p></li>
+<li><p>Peer programming: Two or more developers work together on a task,
+then one commits the code, and the other developers approve the code
+as reviewed. This is by far the fastest way to review work and
+recommended.</p></li>
+<li><p>Walk-through: As a substitute for the regular review process, a
+developer can walk through their task with other teammates as part
+of a collaborative process where teammates can ask questions. The
+whole team is not required to be present - your team should decide
+on a quorum required to receive approval.</p></li>
+</ol>
+<p>The following is an example of a well populated user story in Jira. It
+has a title in the form of a user story, acceptance criteria, priority,
+assignee, reviewer, due date, and, as the story is in review, it is
+assigned to the current sprint.</p>
+<div class="figure align-default" id="story-in-review">
+<img alt="../_images/story_in_review.png" src="../_images/story_in_review.png" />
+</div>
+<p>Status: Done</p>
+<p>As well as a definition of ready, the team should have a definition of
+done (DoD). The definition of done stipulates what is required before a
+task can be moved to status: done.</p>
+<p>It is up to your team to decide on the definition of done, however, a
+few examples of what might be required for a task to be considered done
+can include (but is not limited to) the following:</p>
+<ol class="simple">
+<li><p>Code is peer-reviewed.</p></li>
+<li><p>Code is commented.</p></li>
+<li><p>Code is checked in to trunk.</p></li>
+<li><p>Code is deployed to test environment.</p></li>
+<li><p>Code passes all testing listed in the team’s document repository.</p></li>
+<li><p>End-user documentation is updated (for example, how-to guides).</p></li>
+<li><p>Code is live on the production server.</p></li>
+</ol>
+<p>The following is an example of a well populated user story in Jira. It
+has a title in the form of a user story, acceptance criteria, priority,
+assignee, reviewer, due date, and, as the story is complete, it is
+assigned to the current sprint. It also has comments from the reviewer
+showing the task was reviewed with no issues found.</p>
+<div class="figure align-default" id="story-done">
+<img alt="../_images/story_done.png" src="../_images/story_done.png" />
+</div>
+</div>
+</div>
+<div class="section" id="good-hygiene">
+<h3>Good Hygiene<a class="headerlink" href="#good-hygiene" title="Permalink to this headline">¶</a></h3>
+<p>Task tracking tools are common spaces shared by the entire team. They
+are where teammates go to understand the status of an issue or what to
+work on next, supervisors use it to monitor team progress, product
+owners use it to communicate progress to the client, etc. It is
+therefore imperative that they are kept in good shape:</p>
+<ul class="simple">
+<li><p>Make sure that issues are updated frequently as coding continues.</p></li>
+<li><p>Add comments to describe the status of an issue as you progress it.</p></li>
+<li><p>Update the deadline if it is pushed back- or forward.</p></li>
+<li><p>Move the issue between statuses as necessary.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">Extra Resources</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Link</p></th>
+<th class="head"><p>Description</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.atlassian.com/software/jira/guides/getting-started/best-practices">Jira best practices</a></p></td>
+<td><p>Best practices to follow throughout the semester. It covers creating issues, sprint, etc.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.atlassian.com/software/jira/templates/scrum">Jira scrum board template</a></p></td>
+<td><p>A template that might inspire you.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://trello.com/templates/engineering/agile-sprint-board-ZqN99gGN">Trello board template</a></p></td>
+<td><p>A template that might inspire you.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./topics"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="client_communications.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Client Communications</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="document_repository.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Document Repository</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By School of Computing and Information Systems, The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>
