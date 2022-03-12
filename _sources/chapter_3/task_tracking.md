@@ -56,7 +56,11 @@ initial client meeting.
 
 The backlog will look like this once populated:
 
-![](resources/backlog.png)
+```{figure} resources/backlog.png
+---
+name: backlog
+---
+```
 
 Once the backlog is populated, the Product Owner and client should
 jointly determine the priority of each task. The priorities of tasks
@@ -66,12 +70,20 @@ before moving on to lower priority tasks.
 
 By default, all tasks are created with medium priority:
 
-![](resources/priority_1.png)
+```{figure} resources/priority_1.png
+---
+name: priority-1
+---
+```
 
 However, the priority can be changed to any of the below by editing the
 task:
 
-![](resources/priority_2.png)
+```{figure} resources/priority_2.png
+---
+name: priority-2
+---
+```
 
 The priority of all user stories in the backlog should reflect the
 prioritisation given by the client (please see the chapter on
@@ -120,9 +132,12 @@ The following is just one example of a workflow, and you are welcome to
 define your own that best suits your team - this is by no means the best
 workflow.
 
-![](resources/workflow.png)
-
-*Source:* [Atlassian](https://www.atlassian.com/agile/project-management/workflow)
+```{figure} resources/workflow.png
+---
+name: workflow
+---
+{cite:p}`AtlassianWorkflow`
+```
 
 Status: Open
 
@@ -155,7 +170,11 @@ The following is an example of a well populated user story in Jira. It
 has a title in the form of a user story, acceptance criteria, priority,
 and, as it is still open, it is correctly still in the backlog.
 
-![](resources/story_open.png)
+```{figure} resources/story_open.png
+---
+name: story-open
+---
+```
 
 Status: In Progress
 
@@ -175,7 +194,11 @@ has a title in the form of a user story, acceptance criteria, priority,
 assignee, due date, and, as the story is in progress, it is assigned to
 the current sprint.
 
-![](resources/story_in_progress.png)
+```{figure} resources/story_in_progress.png
+---
+name: story-in-progress
+---
+```
 
 Status: In Review
 
@@ -200,7 +223,11 @@ has a title in the form of a user story, acceptance criteria, priority,
 assignee, reviewer, due date, and, as the story is in review, it is
 assigned to the current sprint.
 
-![](resources/story_in_review.png)
+```{figure} resources/story_in_review.png
+---
+name: story-in-review
+---
+```
 
 Status: Done
 
@@ -226,7 +253,11 @@ assignee, reviewer, due date, and, as the story is complete, it is
 assigned to the current sprint. It also has comments from the reviewer
 showing the task was reviewed with no issues found.
 
-![](resources/story_done.png)
+```{figure} resources/story_done.png
+---
+name: story-done
+---
+```
 
 ### Good Hygiene
 
@@ -241,12 +272,11 @@ therefore imperative that they are kept in good shape:
 -   Update the deadline if it is pushed back- or forward.
 -   Move the issue between statuses as necessary.
 
-```{admonition} Extra Resources
-
+:::{admonition} Extra Resources
+:class: tip
 | Link                                                                                                 | Description                                                                               |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [Jira best practices](https://www.atlassian.com/software/jira/guides/getting-started/best-practices) | Best practices to follow throughout the semester. It covers creating issues, sprint, etc. |
 | [Jira scrum board template](https://www.atlassian.com/software/jira/templates/scrum)                 | A template that might inspire you.                                                        |
 | [Trello board template](https://trello.com/templates/engineering/agile-sprint-board-ZqN99gGN)        | A template that might inspire you.                                                        |
-
-```
+:::
