@@ -19,10 +19,12 @@ weighing the options and deciding as a team.
 Modern web frameworks are comprised of a frontend framework, backend
 framework, web server, and data persistence.
 
-![](resources/stack.png)
-
-*Source:*
-[RubyGarage](https://rubygarage.org/blog/technology-stack-for-web-development)
+```{figure} resources/stack.png
+---
+name: stack
+---
+{cite:p}`RubyGarage`
+```
 
 There are many choices available for tech stacks, some of the most
 popular are detailed below.
@@ -67,7 +69,10 @@ And lastly, your web application needs a web server to handle requests.
 -   [Nginx](https://www.nginx.com/)
 -   [Apache](https://www.apache.org/)
 
-```{admonition} Extra Resources
--   [stackshare.io](https://stackshare.io/stacks) is a free website your
-    team can use to view the stack companies use and their reviews.
-```
+:::{admonition} Extra Resources
+:class: tip
+
+| Link                                          | Description                                                                         |
+|-----------------------------------------------|-------------------------------------------------------------------------------------|
+| [stackshare.io](https://stackshare.io/stacks) | A free website your team can use to view the stack companies use and their reviews. |
+:::
