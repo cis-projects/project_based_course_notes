@@ -83,11 +83,11 @@ the main branch.
 
 #### Why Use Pull Requests?
 
--   Team members must review and check that the code changes are
+- Team members must review and check that the code changes are
     acceptable, thereby improving code quality.
--   Errors have a greater chance of being noticed early, as there is
+- Errors have a greater chance of being noticed early, as there is
     more than one team member reviewing/testing the changes.
--   They improve the team's understanding of code as developers are
+- They improve the team's understanding of code as developers are
     forced to read other developers' code; thereby dispersing knowledge
     of the code's functionality more widely across the team.
 

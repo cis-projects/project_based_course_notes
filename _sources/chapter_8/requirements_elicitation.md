@@ -120,17 +120,22 @@ This is a great starting point for teams to confirm the understanding of
 the project requirements, with the bottom leaves corresponding to user
 stories.
 
-![Motivational model](resources/motivational_model.jpg)
+```{figure} resources/motivational_model.jpg
+---
+name: motivational_model
+---
+```
 
-```{admonition} Extra Resources
+:::{admonition} Extra Resources
+:class: tip
+
 Please see the appendix for more information on how to use the university's supplied motivational modeller.
 If you wish to use a different tool, here are a few:
-| Tool                                            |
-|-------------------------------------------------|
-| [Lucidchart](https://www.lucidchart.com/pages/) |
-| [Draw.io](https://www.draw.io/)                 |
-| [Astah](https://astah.net/)                     |
-```
+
+- [Lucidchart](https://www.lucidchart.com/pages/)
+- [Draw.io](https://www.draw.io/)
+- [Astah](https://astah.net/)
+:::
 
 ### 2. Elaboration
 
@@ -158,10 +163,12 @@ design a car for a person, it is important to understand which category
 your client falls in, to make sure the car you design is suited to their
 purpose. This is how personas can be useful.
 
-![](resources/persona.png)
-
-*Source:*
-[99Designs](https://99designs.com.au/blog/business/how-to-create-user-personas/)
+```{figure} resources/persona.png
+---
+name: persona
+---
+{cite:p}`99DesignsPersonas`
+```
 
 It might seem weird to use fictional characters but using real people
 (like your client, a team member, etc.) could result in data privacy
@@ -196,11 +203,10 @@ recognise diversity in people and create an inclusive environment together in ev
 just the way we treat other people, but also the work we produce. Persona is one example.
 
 Let us think about a couple of examples for Personas. The system we are designing is for the engineering workforce 
-of which 13.6% are female 
-([Women in Engineering report](http://www.professionalsaustralia.org.au/professional-women/wp-content/uploads/sites/48/2021/06/Women-in-Engineering-report.pdf)). 
+of which 13.6% are female {cite:p}`ProfessionalsAustralia`.
 Do you think we recognise the diversity of our target end-users and are being inclusive, if all the personas we 
 create are male? No, we are not. What if the system-to-be is for nurses and midwives where 11.3% are male 
-([Factsheet, Nursing and Midwifery 2019](https://hwd.health.gov.au/resources/publications/factsheet-nrmw-2019.pdf))?
+{cite:p}`DoH`?
 
 Another example, our project is to re-design the user interface of our client's website. Our client tells us that 
 80% of the end-users are female. Therefore, in our female personas we said that they like pink. In fact, our team 
@@ -284,7 +290,12 @@ prototypes:
 
 1. Microsoft PowerPoint: While sometimes slow and cumbersome,
     PowerPoint comes complete with several good features for drawing and
-    designing UI elements. ![](resources/low_fidelity_prototype.png) *This is an example of a watch UI
+    designing UI elements.
+```{figure} resources/low_fidelity_prototype.png
+---
+name: low_fidelity_prototype
+```
+*This is an example of a watch UI
     created through PowerPoint. User interaction elements can be
     created, and a user scenario was created to take the client through
     during a meeting.*

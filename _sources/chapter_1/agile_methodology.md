@@ -299,6 +299,7 @@ The estimates should be added to your chosen task tracking tool.
 
 :::{admonition} Extra Resources
 :class: tip
+
 | Link                                             | Description                            |
 |--------------------------------------------------|----------------------------------------|
 | [Planning Poker](https://www.planningpoker.com/) | A free tool that gamifies the process. |
@@ -324,6 +325,7 @@ are broken down into different levels of priority:
 
 :::{admonition} Extra Resources
 :class: tip
+
 | Link                                                                                                         | Description                                      |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
@@ -366,6 +368,7 @@ name: user-story-map
 
 :::{admonition} Extra Resources
 :class: tip
+
 To aid you in creating a user story map, you can make use of templates.
 
 - [Miro template](https://miro.com/templates/user-story-map/) 
