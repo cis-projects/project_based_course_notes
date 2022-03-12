@@ -29,14 +29,14 @@ to the Make My Persona tool. Please don't use this one.
 [this link](https://www.hubspot.com/make-my-persona).
 - Once you click the "Build My Persona" button, it will take you through a 7-steps tour to create your persona. 
 - Or, you can just choose to skip the walk-through mode and edit it yourself.
-```{figure} resources/MakeMyPersona1.jpg
+```{figure} resources/make_my_persona1.jpg
 ---
-name: make_my_persona1.jpg
+name: make_my_persona1
 ```
 
-```{figure} resources/MakeMyPersona2.jpg
+```{figure} resources/make_my_persona2.jpg
 ---
-name: make_my_persona2.jpg
+name: make_my_persona2
 ```
 
 - Either way, you will get the chance to edit/add/delete sections at the end.
@@ -47,15 +47,24 @@ Yes - you can save this persona and edit it later. What you do is:
 - Once you finish the 7-steps tour, or you have chosen the option to skip the tour, you will arrive at a 
 "Make My Persona Overview" page. 
 - Click the save button.
-![](resources/MakeMyPersona3.JPG)
+```{figure} resources/make_my_persona3.jpg
+---
+name: make_my_persona3
+```
 
-3. It will ask you to fill in some personal details.
-4. After you have filled in your personal details, click the "Download Now" button. 
-![](resources/MakeMyPersona4.JPG)
+- It will ask you to fill in some personal details.
+- After you have filled in your personal details, click the "Download Now" button.
+```{figure} resources/make_my_persona4.jpg
+---
+name: make_my_persona4
+```
 
-5. You can download your persona as a PDF. You will also be given a link that you can use to access it in the 
-future, or share with your team members 
-![](resources/MakeMyPersona5.JPG)
+- You can download your persona as a PDF. You will also be given a link that you can use to access it in the 
+future, or share with your team members.
+```{figure} resources/make_my_persona5.jpg
+---
+name: make_my_persona5
+```
 
 ## PersonaGenerator
 
@@ -68,30 +77,42 @@ creating your persona by filling in content.
 your personas.
 - You can print the persona as a PDF. 
 
-### Any disadvantages?
+### Disadvantages
 
 You **cannot** change the section title, add a new section or delete a section. In other words, the sections you can 
 have on your persona are fixed. Please consider this before you choose this tool. 
 
 ## UXPRESSIA
 
-1. To use this tool, create an account with UXPRESSIA for free. Visit 
+- To use this tool, create an account with UXPRESSIA for free. Visit 
 [this link](https://uxpressia.com/personas-online-tool).
-2. Firstly, you need to sign up. 
-3. After you have signed up successfully, you will arrive at your personal workspace. Create a project. 
-![](resources/UXPRESSIA1.JPG)
+- Firstly, you need to sign up. 
+- After you have signed up successfully, you will arrive at your personal workspace. Create a project.
+```{figure} resources/uxpressia1.jpg
+---
+name: uxpressia1
+```
 
-4. In your project, you can create your persona. Click "ADD NEW"
-![](resources/UXPRESSIA2.JPG)
+- In your project, you can create your persona. Click "ADD NEW"
+```{figure} resources/uxpressia2.jpg
+---
+name: uxpressia2
+```
 
-5. Select "PERSONAS". You can start with a blank one, then edit it yourself.
-![](resources/UXPRESSIA3.JPG)
+- Select "PERSONAS". You can start with a blank one, then edit it yourself.
+```{figure} resources/uxpressia3.jpg
+---
+name: uxpressia3
+```
 
-6. Uxpressia allows you to be very flexible with your sections - you can add/delete them, and there are different 
-types of sections to choose from (e.g. text, sliders). 
-![](resources/UXPRESSIA4.JPG)
+- Uxpressia allows you to be very flexible with your sections - you can add/delete them, and there are different 
+types of sections to choose from (e.g. text, sliders).
+```{figure} resources/uxpressia4.jpg
+---
+name: uxpressia4
+```
 
-### Any Disadvantages?
+### Disadvantages
 
 The following restrictions are limitations of a free plan:
 1. You can only create one persona per project. 
@@ -118,7 +139,10 @@ Visit [this link](https://xtensio.com/user-persona-template/) to start exploring
 ### Any Disadvantages?
 
 The following restrictions are limitations of a free plan:
-1. You cannot share the work with anyone.
-2. You cannot download it as a PNG or PDF.
-3. Your work expires after a couple of hours. 
-![](resources/Xtensio1.JPG)
+- You cannot share the work with anyone.
+- You cannot download it as a PNG or PDF.
+- Your work expires after a couple of hours.
+```{figure} resources/xtension.jpg
+---
+name: xtension
+```
