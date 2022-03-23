@@ -56,13 +56,14 @@ Introducing your team:
 - [ ] Review the project charter and develop the project plan
 
 
+***
+
+
 ## Email to Industry Host (Kick-Off Meeting) (Sample)
 
-TO: Industry host(s)
-
-CC: Subject Coordinator; UoM academic supervisor; Project team
-
-SUBJECT: SUBJECT_CODE Industry Project | Kick-Off Meeting 
+> **TO**: Industry host(s)  <br>
+> **CC**: Subject Coordinator; UoM academic supervisor; Project team <br>
+> **SUBJECT**: SUBJECT_CODE Industry Project | Kick-Off Meeting  <br>
 
 Dear **Name**, 
 
@@ -91,79 +92,69 @@ Again, thank you for hosting this project, and we look forward to meeting you so
 
 Kind regards, 
 
-Add: **Name**
-
-Subject Code, Master of Name
-
-University of Melbourne 
-
-Add: Contact number 
-
-Add: Email address 
-
-Add: LinkedIn profile link
+Add: **Name** <br>
+Subject Code, Master of Name <br>
+University of Melbourne  <br>
+Add: Contact number  <br>
+Add: Email address  <br>
+Add: LinkedIn profile link <br>
 
 
+***
 
 
 ## Meeting Agenda and Minutes (Sample)
-______________________________________________________________________________________________________
-Meeting Title: Project Kick-Off Meeting
 
-Date:
-
-Time:
-
-Attendees:
-
-______________________________________________________________________________________________________
-Item: Introductions
-Allocated time: 10 minutes
-Notes:
+> **Meeting Title**: Project Kick-Off Meeting  <br>
+> **Date**: <br>
+> **Time**: <br>
+> **Attendees**: <br>
 
 
-Item: Project Scope/Overview
-Allocated time: 10 minutes
-Notes:
+Item: Introductions <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
 
 
-Item: Expected Deliverables/Outcomes
-Allocated time: 10 minutes
-Notes:
+Item: Project Scope/Overview <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
 
 
-Item: Timelines
-Allocated time: 10 minutes
-Notes:
+Item: Expected Deliverables/Outcomes <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
 
 
-Item: Communications
-Allocated time: 10 minutes
-Notes:
+Item: Timelines <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
 
 
-Item: Next Steps
-Allocated time: 10 minutes
-Notes:
+Item: Communications <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
 
 
-______________________________________________________________________________________________________
-Action Items:
-Other items:
-Key Dates:
-______________________________________________________________________________________________________
+Item: Next Steps <br>
+Allocated time: 10 minutes <br>
+Notes: <br>
+
+
+Action Items: <br>
+Other items: <br>
+Key Dates: <br>
 
 **(If using Confluence, adopt their standard meeting minutes templates)**
 
 
+***
 
 ## Email to Industry Host (Post Meeting) (Sample)
 
-TO: Industry host(s)
-
-CC: Subject Coordinator; UoM academic supervisor; Project team
-
-SUBJECT: SUBJECT_CODE Industry Project | Minutes and Project Charter 
+> **TO**: Industry host(s) <br>
+> **CC**: Subject Coordinator; UoM academic supervisor; Project team <br>
+> **SUBJECT**: SUBJECT_CODE Industry Project | Minutes and Project Charter  <br>
 
 Dear **Name**,
 
@@ -176,18 +167,14 @@ Again, thank you and we look forward to working with you throughout this project
 
 Kind regards, 
 
-Add: Name
+Add: Name  <br>
+Master of **NAME** <br>
+University of Melbourne  <br>
+Add: Contact number  <br>
+Add: Email address  <br>
+Add: LinkedIn profile link <br>
 
-Master of **NAME**
-
-University of Melbourne 
-
-Add: Contact number 
-
-Add: Email address 
-
-Add: LinkedIn profile link
-
+***
 
 ## Other Items
 
@@ -196,7 +183,7 @@ It is important to reach out if you have any questions, as keeping these to your
 ### Zoom meetings
 - For many of you, Zoom will be your primary platform for communicating with each other and your industry host.
 
-To create a better experience for you and your host, when creating a Zoom meeting, please ensure you are creating it using your unimelb.edu.au Zoom account. By using your UniMelb Zoom account, your meetings will have unlimited length, as opposed to 40 mins for non-UniMelb/free Zoom accounts.
+	To create a better experience for you and your host, when creating a Zoom meeting, please ensure you are creating it using your unimelb.edu.au Zoom account. By using your UniMelb Zoom account, your meetings will have unlimited length, as opposed to 40 mins for non-UniMelb/free Zoom accounts.
 
 - If you experience difficulty setting up your UniMelb Zoom account or have any other questions, please review the universities online resources or contact Student IT.
 
@@ -205,7 +192,7 @@ To create a better experience for you and your host, when creating a Zoom meetin
 ### Professionalism online
 - To present professionally it’s important to set up the below:
 
-Update your email settings to include an email signature including: preferred name, email address, mobile number, LinkedIn profile.
+	- Update your email settings to include an email signature including: preferred name, email address, mobile number, LinkedIn profile.
 
-Update your Zoom settings with: preferred name, professionally appropriate photo and a virtual background.
+	- Update your Zoom settings with: preferred name, professionally appropriate photo and a virtual background.
 
