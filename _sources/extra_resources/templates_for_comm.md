@@ -145,7 +145,7 @@ Action Items: <br>
 Other items: <br>
 Key Dates: <br>
 
-**(If using Confluence, adopt their standard meeting minutes templates)**
+**If using Confluence, adopt their standard [meeting minutes templates](https://www.atlassian.com/software/confluence/templates/meeting-notes)**
 
 
 ***
