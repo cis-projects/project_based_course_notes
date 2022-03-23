@@ -35,6 +35,10 @@
 # To decide a common time to meet, you can use a scheduling tool, like
 # [When2Meet](https://www.when2meet.com), to elicit their availability.
 # 
+# ### Templates for Client Communications
+# 
+# Available [here](https://cis-projects.github.io/project_based_course_notes/extra_resources/templates_for_comm.html).
+# 
 # ### Creating Meeting Invites
 # 
 # Once an available time has been decided with your client, the Product

@@ -34,6 +34,7 @@ parts:
     - file: topics/client_handover
   - caption: Extra Resources
     chapters:
+    - file: extra_resources/templates_for_comm
     - file: extra_resources/extra_tools
     - file: extra_resources/miro_guide
   - caption: Afterword
