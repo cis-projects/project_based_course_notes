@@ -24,7 +24,7 @@ resource to reference when you have questions.
 A big thank you to the contributors who worked on these course notes. You can get in contact with them 
 [here](https://github.com/cis-projects/project_based_course_notes).
 
-This work was initiated by [Dr Eduardo Oliveira](https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira) through the support of University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.
+This work was initiated by Dr Eduardo Oliveira through the support of University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.
 
 :::{admonition} Help Us Improve These Notes
 :class: tip, dropdown

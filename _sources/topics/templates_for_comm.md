@@ -1,9 +1,12 @@
 # Templates for Client Communication
 
-** This page was created (and kindly shared with us) by the amazing team at the Faculty of Science, Careers & Industry. **
+:::{admonition} Acknowledgements
+:class: tip
 
+This page was created (and kindly shared with us) by the amazing team at the Faculty of Science, Careers & Industry.
+:::
 
-## Organising your Kick-off Meeting
+## Organising Your Kick-off Meeting
 
 The kick-off meeting is an important milestone in your project for many reasons, it’s the first time you will meet your host, provide your interpretation of the project, and provides you with the opportunity to ask any questions you may have.
 To best prepare you for this meeting it is suggested you meet with your team to review the steps below. It is recommended you tick the items as you work through them to ensure nothing is missed and you and your team are well prepared at this initial meeting.
@@ -16,24 +19,24 @@ Your group will need to meet to discuss:
 - [ ] What background (if any) reading/research is required by your industry partner before you meet them?
 - [ ] Familiarise yourself with your industry partner organisation and the people you will be meeting
 
-### Step 2 – Contacting your industry partner
+### Step 2 – Contacting Your Industry Partner
 
 Introducing your team:
 
-- [ ] Send an email introduction (using the template available below) to your industry host and cc your subject coordinator, your UoM academic supervisor, and your project team
-- [ ] Request suitable times from your industry host for the initial meeting, keeping in mind they will be very busy
-- [ ] Ask the preferred duration
+    [ ] Send an email introduction (using the template available below) to your industry host and cc your subject coordinator, your UoM academic supervisor, and your project team
+    [ ] Request suitable times from your industry host for the initial meeting, keeping in mind they will be very busy
+    [ ] Ask the preferred duration
 - [ ] Ask your host if they have any specific items for the agenda
 - [ ] Confirm if they prefer Zoom, Teams, or another platform
 
-### Step 3 – Schedule the meeting
+### Step 3 – Schedule the Meeting
 
 - [ ] Set up a google calendar: https://www.google.com/calendar. [Details available here](https://cis-projects.github.io/project_based_course_notes/topics/client_communications.html)
 - [ ] Ensure you invite all key people to the meeting: industry host(s), project team, subject coordinator, and UoM academic supervisor
 - [ ] Include link to virtual meeting
 - [ ] Create agenda for the meeting (using the agenda template on page 4) and attach this to the meeting invite
 
-### Step 4 – Prepare for the meeting
+### Step 4 – Prepare for the Meeting
 
 - [ ] What reading have you been requested to do prior to your initial meeting with your industry host?
 - [ ] What further research can your group undertake about the host organisation and the people you will be meeting? (Google, LinkedIn, company databases such as Company360 etc)
@@ -42,14 +45,14 @@ Introducing your team:
 - [ ] Who will chair the meeting and who will take minutes/notes?
 - [ ] Practice your ‘elevator pitch’ – Who are you? What skillset do you bring? Why are you interested in the project?
 
-### Step 5 – Conducting the meeting
+### Step 5 – Conducting the Meeting
 
 - [ ] Ensure the person taking minutes is prepared and ready to take notes
 - [ ] If meeting online, ensure your cameras are ON
 - [ ] Ask questions prepared earlier and take notes on your understanding and add new questions if the need arises
 - [ ] Confirm next steps with your industry host
 
-### Step 6 – Post meeting
+### Step 6 – Post-Meeting
 
 - [ ] Review the minutes
 - [ ] Within 24 hrs of your meeting, send email (using the template on the page 5) including all decisions and next steps with a request to confirm accuracy. Include relevant industry hosts(s), your project team, your subject coordinator and UoM academic supervisor
