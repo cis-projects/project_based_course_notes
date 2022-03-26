@@ -1,0 +1,768 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Templates &#8212; Project-Based Course Notes</title>
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/togglebutton.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
+    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Task Tracking" href="task_tracking.html" />
+    <link rel="prev" title="Client Communications" href="client_communications.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="../index.html">
+      
+        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+        
+      
+      
+      <img src="../_static/logo.png" class="logo" alt="logo">
+      
+      
+      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../introduction.html">
+   Introduction
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Frequently Asked Questions (FAQs)
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
+   SWEN90009 Software Requirements Analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">
+   COMP90082 Software Project
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Topics
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="agile_methodology.html">
+   Agile Methodology
+  </a>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="client_communications.html">
+   Client Communications
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     Templates
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="task_tracking.html">
+   Task Tracking
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="document_repository.html">
+   Document Repository
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="version_control.html">
+   Version Control
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="github.html">
+   GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="simplified_workflow.html">
+   A Simplified Workflow
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="requirements_elicitation.html">
+   Requirements Elicitation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="motivational_model_guide.html">
+     Motivational Model Guide
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="personas_tools.html">
+     Tools for Personas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="marvel_guide.html">
+     Paper Prototype Tool - Marvel
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="figma_guide.html">
+     Digital Prototype Tool - Figma
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="technology_stack.html">
+   Technology Stack
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="architecture.html">
+   Architecture
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="devops.html">
+   DevOps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="ci_cd.html">
+   Adding CI/CD to Your Project
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="testing.html">
+   Testing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="final_presentation.html">
+   Final Presentation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="client_handover.html">
+   Client Handover
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Extra Resources
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../extra_resources/extra_tools.html">
+   Extra Tools
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../extra_resources/miro_guide.html">
+   Miro Tutorial
+  </a>
+ </li>
+</ul>
+<p aria-level="2" class="caption" role="heading">
+ <span class="caption-text">
+  Afterword
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/bibliography.html">
+   Bibliography
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/hall_of_fame.html">
+   Hall of Fame
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../afterword/collaborate.html">
+   Collaborate With Us
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="../_sources/topics/templates_for_comm.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/cis-projects/project_based_course_notes"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/templates_for_comm.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organising-your-kick-off-meeting">
+   Organising Your Kick-off Meeting
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-1-getting-started">
+     Step 1 – Getting Started
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-2-contacting-your-industry-partner">
+     Step 2 – Contacting Your Industry Partner
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-3-schedule-the-meeting">
+     Step 3 – Schedule the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-4-prepare-for-the-meeting">
+     Step 4 – Prepare for the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-5-conducting-the-meeting">
+     Step 5 – Conducting the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-6-post-meeting">
+     Step 6 – Post-Meeting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email-to-industry-host-kick-off-meeting-sample">
+   Email to Industry Host (Kick-Off Meeting) (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#meeting-agenda-and-minutes-sample">
+   Meeting Agenda and Minutes (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email-to-industry-host-post-meeting-sample">
+   Email to Industry Host (Post Meeting) (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-items">
+   Other Items
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#zoom-meetings">
+     Zoom Meetings
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#professionalism-online">
+     Professionalism Online
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+            <!-- Table of contents that is only displayed when printing the page -->
+            <div id="jb-print-docs-body" class="onlyprint">
+                <h1>Templates</h1>
+                <!-- Table of contents -->
+                <div id="print-main-content">
+                    <div id="jb-print-toc">
+                        
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#organising-your-kick-off-meeting">
+   Organising Your Kick-off Meeting
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-1-getting-started">
+     Step 1 – Getting Started
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-2-contacting-your-industry-partner">
+     Step 2 – Contacting Your Industry Partner
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-3-schedule-the-meeting">
+     Step 3 – Schedule the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-4-prepare-for-the-meeting">
+     Step 4 – Prepare for the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-5-conducting-the-meeting">
+     Step 5 – Conducting the Meeting
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#step-6-post-meeting">
+     Step 6 – Post-Meeting
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email-to-industry-host-kick-off-meeting-sample">
+   Email to Industry Host (Kick-Off Meeting) (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#meeting-agenda-and-minutes-sample">
+   Meeting Agenda and Minutes (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#email-to-industry-host-post-meeting-sample">
+   Email to Industry Host (Post Meeting) (Sample)
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#other-items">
+   Other Items
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#zoom-meetings">
+     Zoom Meetings
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#professionalism-online">
+     Professionalism Online
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            
+              <div>
+                
+  <div class="tex2jax_ignore mathjax_ignore section" id="templates">
+<h1>Templates<a class="headerlink" href="#templates" title="Permalink to this headline">¶</a></h1>
+<div class="note admonition">
+<p class="admonition-title">Acknowledgements</p>
+<p>This page was created (and kindly shared with us) by the amazing team at the Faculty of Science, Careers &amp; Industry.</p>
+</div>
+<div class="section" id="organising-your-kick-off-meeting">
+<h2>Organising Your Kick-off Meeting<a class="headerlink" href="#organising-your-kick-off-meeting" title="Permalink to this headline">¶</a></h2>
+<p>The kick-off meeting is an important milestone in your project for many reasons, it’s the first time you will meet your host, provide your interpretation of the project, and provides you with the opportunity to ask any questions you may have.
+To best prepare you for this meeting it is suggested you meet with your team to review the steps below. It is recommended you tick the items as you work through them to ensure nothing is missed and you and your team are well prepared at this initial meeting.</p>
+<div class="section" id="step-1-getting-started">
+<h3>Step 1 – Getting Started<a class="headerlink" href="#step-1-getting-started" title="Permalink to this headline">¶</a></h3>
+<p>Your group will need to meet to discuss:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Who will be your main communicator with your industry partner?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> What background (if any) reading/research is required by your industry partner before you meet them?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Familiarise yourself with your industry partner organisation and the people you will be meeting</p></li>
+</ul>
+</div>
+<div class="section" id="step-2-contacting-your-industry-partner">
+<h3>Step 2 – Contacting Your Industry Partner<a class="headerlink" href="#step-2-contacting-your-industry-partner" title="Permalink to this headline">¶</a></h3>
+<p>Introducing your team:</p>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Send an email introduction (using the template available below) to your industry host and cc your subject
+coordinator, your UoM academic supervisor, and your project team</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Request suitable times from your industry host for the initial meeting, keeping in mind they will be very busy</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ask the preferred duration</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ask your host if they have any specific items for the agenda</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Confirm if they prefer Zoom, Teams, or another platform</p></li>
+</ul>
+</div>
+<div class="section" id="step-3-schedule-the-meeting">
+<h3>Step 3 – Schedule the Meeting<a class="headerlink" href="#step-3-schedule-the-meeting" title="Permalink to this headline">¶</a></h3>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Set up a google calendar: <a class="reference external" href="https://www.google.com/calendar">https://www.google.com/calendar</a>. <a class="reference external" href="https://cis-projects.github.io/project_based_course_notes/topics/client_communications.html">Details available here</a></p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ensure you invite all key people to the meeting: industry host(s), project team, subject coordinator, and UoM academic supervisor</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Include link to virtual meeting</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Create agenda for the meeting (using the agenda template on page 4) and attach this to the meeting invite</p></li>
+</ul>
+</div>
+<div class="section" id="step-4-prepare-for-the-meeting">
+<h3>Step 4 – Prepare for the Meeting<a class="headerlink" href="#step-4-prepare-for-the-meeting" title="Permalink to this headline">¶</a></h3>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> What reading have you been requested to do prior to your initial meeting with your industry host?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> What further research can your group undertake about the host organisation and the people you will be meeting? (Google, LinkedIn, company databases such as Company360 etc)</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> What questions will your team ask and who will ask them?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> What will you wear?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Who will chair the meeting and who will take minutes/notes?</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Practice your ‘elevator pitch’ – Who are you? What skillset do you bring? Why are you interested in the project?</p></li>
+</ul>
+</div>
+<div class="section" id="step-5-conducting-the-meeting">
+<h3>Step 5 – Conducting the Meeting<a class="headerlink" href="#step-5-conducting-the-meeting" title="Permalink to this headline">¶</a></h3>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ensure the person taking minutes is prepared and ready to take notes</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> If meeting online, ensure your cameras are ON</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Ask questions prepared earlier and take notes on your understanding and add new questions if the need arises</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Confirm next steps with your industry host</p></li>
+</ul>
+</div>
+<div class="section" id="step-6-post-meeting">
+<h3>Step 6 – Post-Meeting<a class="headerlink" href="#step-6-post-meeting" title="Permalink to this headline">¶</a></h3>
+<ul class="contains-task-list simple">
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Review the minutes</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Within 24 hrs of your meeting, send email (using the template on the page 5) including all decisions and next steps with a request to confirm accuracy. Include relevant industry hosts(s), your project team, your subject coordinator and UoM academic supervisor</p></li>
+<li class="task-list-item"><p><input class="task-list-item-checkbox" disabled="disabled" type="checkbox"> Review the project charter and develop the project plan</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="email-to-industry-host-kick-off-meeting-sample">
+<h2>Email to Industry Host (Kick-Off Meeting) (Sample)<a class="headerlink" href="#email-to-industry-host-kick-off-meeting-sample" title="Permalink to this headline">¶</a></h2>
+<p>TO: Industry host(s)</p>
+<p>CC: Subject Coordinator; UoM academic supervisor; Project team</p>
+<p>SUBJECT: SUBJECT_CODE Industry Project | Kick-Off Meeting</p>
+<p>Dear <strong>Name</strong>,</p>
+<p>My name is <strong>Name</strong> and I am a student at the University of Melbourne completing <strong>SUBJECT_NAME</strong> of the Master of <strong>NAME</strong>. I am representing the student project team (insert names) assigned to your 2022 Industry Project. Thank you for providing us the opportunity to contribute to your team and (<strong>insert organisation name</strong> here) by hosting this project. We are excited about working on this project with you and learning from you and the (<strong>insert organisation name here</strong>) team.</p>
+<p>We would like to organise the initial meeting to discuss the proposed project in more detail. Our proposed agenda items are: introductions; project overview/scope; expected deliverables/outcome; timelines; and our communications throughout the year. If you have any additional agenda items, please let me know. Our expectation is the meeting will last approximately 1 hour. Can you please confirm?</p>
+<p>Here are possible dates available for our team:</p>
+<ul class="simple">
+<li><p>Monday 14 March at 2-3pm</p></li>
+<li><p>Tuesday 15 March at 11am-12pm</p></li>
+<li><p>Friday 18 March at 1-2pm</p></li>
+</ul>
+<p>Please let me know your preference or suggest alternatives.</p>
+<p>Given ongoing physical distancing restrictions, we anticipate most of our meetings will be virtual. When we schedule meetings, do you prefer Zoom, Teams, or another platform?</p>
+<p>Once the date/time is confirmed, I will send a calendar invite. If you want others from your team included, can you please forward their email addresses?
+To learn a little more about your project team, below are links to each of our LinkedIn profiles:</p>
+<ul class="simple">
+<li><p>Team Member 1 Name (Add link to name)</p></li>
+<li><p>Team Member 2 Name (Add link to name)</p></li>
+<li><p>Team Member 3 Name (Add link to name)</p></li>
+<li><p>Team Member 4 Name (Add link to name)</p></li>
+</ul>
+<p>Again, thank you for hosting this project, and we look forward to meeting you soon and learning more about the project.</p>
+<p>Kind regards,</p>
+<p>Add: <strong>Name</strong></p>
+<p>Subject Code, Master of Name</p>
+<p>University of Melbourne</p>
+<p>Add: Contact number</p>
+<p>Add: Email address</p>
+<p>Add: LinkedIn profile link</p>
+</div>
+<div class="section" id="meeting-agenda-and-minutes-sample">
+<h2>Meeting Agenda and Minutes (Sample)<a class="headerlink" href="#meeting-agenda-and-minutes-sample" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p>Meeting Title: Project Kick-Off Meeting</p>
+<p>Date:</p>
+<p>Time:</p>
+<p>Attendees:</p>
+<hr class="docutils" />
+<p>Item: Introductions
+Allocated time: 10 minutes
+Notes:</p>
+<p>Item: Project Scope/Overview
+Allocated time: 10 minutes
+Notes:</p>
+<p>Item: Expected Deliverables/Outcomes
+Allocated time: 10 minutes
+Notes:</p>
+<p>Item: Timelines
+Allocated time: 10 minutes
+Notes:</p>
+<p>Item: Communications
+Allocated time: 10 minutes
+Notes:</p>
+<p>Item: Next Steps
+Allocated time: 10 minutes
+Notes:</p>
+<hr class="docutils" />
+<p>Action Items:
+Other items:
+Key Dates:</p>
+<hr class="docutils" />
+<p><strong>(If using Confluence, adopt their standard meeting minutes templates)</strong></p>
+</div>
+<div class="section" id="email-to-industry-host-post-meeting-sample">
+<h2>Email to Industry Host (Post Meeting) (Sample)<a class="headerlink" href="#email-to-industry-host-post-meeting-sample" title="Permalink to this headline">¶</a></h2>
+<p>TO: Industry host(s)</p>
+<p>CC: Subject Coordinator; UoM academic supervisor; Project team</p>
+<p>SUBJECT: SUBJECT_CODE Industry Project | Minutes and Project Charter</p>
+<p>Dear <strong>Name</strong>,</p>
+<p>Thank you for your time during our introductory meeting. It was wonderful to meet you and we are excited to start this project.
+Attached are the minutes taken during the meeting and the project charter we have developed. We look forward to discussing these with you during our next meeting on XX XXX.</p>
+<p>In the interim, please let me know if you have any questions/comments.</p>
+<p>Again, thank you and we look forward to working with you throughout this project!</p>
+<p>Kind regards,</p>
+<p>Add: Name</p>
+<p>Master of <strong>NAME</strong></p>
+<p>University of Melbourne</p>
+<p>Add: Contact number</p>
+<p>Add: Email address</p>
+<p>Add: LinkedIn profile link</p>
+</div>
+<div class="section" id="other-items">
+<h2>Other Items<a class="headerlink" href="#other-items" title="Permalink to this headline">¶</a></h2>
+<p>It is important to reach out if you have any questions, as keeping these to yourself or within your team can delay projects and/or they can veer in the wrong direction. If you have questions for your industry host, ask them! And if you’re unsure, please feel free to email your subject coordinator and/or academic supervisor.</p>
+<div class="section" id="zoom-meetings">
+<h3>Zoom Meetings<a class="headerlink" href="#zoom-meetings" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>For many of you, Zoom will be your primary platform for communicating with each other and your industry host.</p></li>
+</ul>
+<p>To create a better experience for you and your host, when creating a Zoom meeting, please ensure you are creating it using your <a class="reference external" href="http://unimelb.edu.au">unimelb.edu.au</a> Zoom account. By using your UniMelb Zoom account, your meetings will have unlimited length, as opposed to 40 mins for non-UniMelb/free Zoom accounts.</p>
+<ul class="simple">
+<li><p>If you experience difficulty setting up your UniMelb Zoom account or have any other questions, please review the universities online resources or contact Student IT.</p></li>
+<li><p>Some host organisations do not permit Zoom due to security issues. If your host prefers Teams, please explain to them they will have to create the calendar invites, as the UniMelb Teams student licence does not include Calendar functionality.</p></li>
+</ul>
+</div>
+<div class="section" id="professionalism-online">
+<h3>Professionalism Online<a class="headerlink" href="#professionalism-online" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>To present professionally it’s important to set up the below:</p></li>
+</ul>
+<p>Update your email settings to include an email signature including: preferred name, email address, mobile number, LinkedIn profile.</p>
+<p>Update your Zoom settings with: preferred name, professionally appropriate photo and a virtual background.</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./topics"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+            
+                <!-- Previous / next buttons -->
+<div class='prev-next-area'> 
+    <a class='left-prev' id="prev-link" href="client_communications.html" title="previous page">
+        <i class="fas fa-angle-left"></i>
+        <div class="prev-next-info">
+            <p class="prev-next-subtitle">previous</p>
+            <p class="prev-next-title">Client Communications</p>
+        </div>
+    </a>
+    <a class='right-next' id="next-link" href="task_tracking.html" title="next page">
+    <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Task Tracking</p>
+    </div>
+    <i class="fas fa-angle-right"></i>
+    </a>
+</div>
+            
+        </div>
+    </div>
+    <footer class="footer">
+  <p>
+    
+      By School of Computing and Information Systems, The University of Melbourne<br/>
+    
+        &copy; Copyright 2021.<br/>
+  </p>
+</footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+
+  </body>
+</html>

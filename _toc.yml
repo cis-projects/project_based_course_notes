@@ -14,6 +14,8 @@ parts:
     chapters:
     - file: topics/agile_methodology
     - file: topics/client_communications
+      sections:
+        - file: topics/templates_for_comm
     - file: topics/task_tracking
     - file: topics/document_repository
     - file: topics/version_control
@@ -34,7 +36,6 @@ parts:
     - file: topics/client_handover
   - caption: Extra Resources
     chapters:
-    - file: extra_resources/templates_for_comm
     - file: extra_resources/extra_tools
     - file: extra_resources/miro_guide
   - caption: Afterword
