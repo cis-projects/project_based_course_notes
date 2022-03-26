@@ -1,7 +1,7 @@
-# Templates for Client Communication
+# Templates
 
 :::{admonition} Acknowledgements
-:class: tip
+:class: note
 
 This page was created (and kindly shared with us) by the amazing team at the Faculty of Science, Careers & Industry.
 :::
@@ -15,17 +15,18 @@ To best prepare you for this meeting it is suggested you meet with your team to 
 
 Your group will need to meet to discuss:
 
-- [ ] Who will be your main communicator with your industry partner?
-- [ ] What background (if any) reading/research is required by your industry partner before you meet them?
-- [ ] Familiarise yourself with your industry partner organisation and the people you will be meeting
+[ ] Who will be your main communicator with your industry partner?  
+[ ] What background (if any) reading/research is required by your industry partner before you meet them?  
+[ ] Familiarise yourself with your industry partner organisation and the people you will be meeting
 
 ### Step 2 – Contacting Your Industry Partner
 
 Introducing your team:
 
-    [ ] Send an email introduction (using the template available below) to your industry host and cc your subject coordinator, your UoM academic supervisor, and your project team
-    [ ] Request suitable times from your industry host for the initial meeting, keeping in mind they will be very busy
-    [ ] Ask the preferred duration
+- [ ] Send an email introduction (using the template available below) to your industry host and cc your subject 
+coordinator, your UoM academic supervisor, and your project team
+- [ ] Request suitable times from your industry host for the initial meeting, keeping in mind they will be very busy
+- [ ] Ask the preferred duration
 - [ ] Ask your host if they have any specific items for the agenda
 - [ ] Confirm if they prefer Zoom, Teams, or another platform
 
@@ -158,8 +159,6 @@ ________________________________________________________________________________
 
 **(If using Confluence, adopt their standard meeting minutes templates)**
 
-
-
 ## Email to Industry Host (Post Meeting) (Sample)
 
 TO: Industry host(s)
@@ -191,12 +190,12 @@ Add: Email address
 
 Add: LinkedIn profile link
 
-
 ## Other Items
 
 It is important to reach out if you have any questions, as keeping these to yourself or within your team can delay projects and/or they can veer in the wrong direction. If you have questions for your industry host, ask them! And if you’re unsure, please feel free to email your subject coordinator and/or academic supervisor.
 
-### Zoom meetings
+### Zoom Meetings
+
 - For many of you, Zoom will be your primary platform for communicating with each other and your industry host.
 
 To create a better experience for you and your host, when creating a Zoom meeting, please ensure you are creating it using your unimelb.edu.au Zoom account. By using your UniMelb Zoom account, your meetings will have unlimited length, as opposed to 40 mins for non-UniMelb/free Zoom accounts.
@@ -205,10 +204,10 @@ To create a better experience for you and your host, when creating a Zoom meetin
 
 - Some host organisations do not permit Zoom due to security issues. If your host prefers Teams, please explain to them they will have to create the calendar invites, as the UniMelb Teams student licence does not include Calendar functionality.
 
-### Professionalism online
+### Professionalism Online
+
 - To present professionally it’s important to set up the below:
 
 Update your email settings to include an email signature including: preferred name, email address, mobile number, LinkedIn profile.
 
 Update your Zoom settings with: preferred name, professionally appropriate photo and a virtual background.
-
