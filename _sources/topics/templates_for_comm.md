@@ -15,9 +15,9 @@ To best prepare you for this meeting it is suggested you meet with your team to 
 
 Your group will need to meet to discuss:
 
-[ ] Who will be your main communicator with your industry partner?  
-[ ] What background (if any) reading/research is required by your industry partner before you meet them?  
-[ ] Familiarise yourself with your industry partner organisation and the people you will be meeting
+[] Who will be your main communicator with your industry partner?  
+[] What background (if any) reading/research is required by your industry partner before you meet them?  
+[] Familiarise yourself with your industry partner organisation and the people you will be meeting
 
 ### Step 2 – Contacting Your Industry Partner
 
