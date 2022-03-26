@@ -15,9 +15,9 @@ To best prepare you for this meeting it is suggested you meet with your team to 
 
 Your group will need to meet to discuss:
 
-[] Who will be your main communicator with your industry partner?  
-[] What background (if any) reading/research is required by your industry partner before you meet them?  
-[] Familiarise yourself with your industry partner organisation and the people you will be meeting
+- [ ] Who will be your main communicator with your industry partner?  
+- [ ] What background (if any) reading/research is required by your industry partner before you meet them?  
+- [ ] Familiarise yourself with your industry partner organisation and the people you will be meeting
 
 ### Step 2 – Contacting Your Industry Partner
 
@@ -58,7 +58,6 @@ coordinator, your UoM academic supervisor, and your project team
 - [ ] Review the minutes
 - [ ] Within 24 hrs of your meeting, send email (using the template on the page 5) including all decisions and next steps with a request to confirm accuracy. Include relevant industry hosts(s), your project team, your subject coordinator and UoM academic supervisor
 - [ ] Review the project charter and develop the project plan
-
 
 ## Email to Industry Host (Kick-Off Meeting) (Sample)
 
@@ -106,9 +105,6 @@ Add: Contact number
 Add: Email address 
 
 Add: LinkedIn profile link
-
-
-
 
 ## Meeting Agenda and Minutes (Sample)
 ______________________________________________________________________________________________________
@@ -201,7 +197,6 @@ It is important to reach out if you have any questions, as keeping these to your
 To create a better experience for you and your host, when creating a Zoom meeting, please ensure you are creating it using your unimelb.edu.au Zoom account. By using your UniMelb Zoom account, your meetings will have unlimited length, as opposed to 40 mins for non-UniMelb/free Zoom accounts.
 
 - If you experience difficulty setting up your UniMelb Zoom account or have any other questions, please review the universities online resources or contact Student IT.
-
 - Some host organisations do not permit Zoom due to security issues. If your host prefers Teams, please explain to them they will have to create the calendar invites, as the UniMelb Teams student licence does not include Calendar functionality.
 
 ### Professionalism Online
