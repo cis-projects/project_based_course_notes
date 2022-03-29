@@ -74,6 +74,7 @@ on sections.
 ---
 name: marvel1
 ```
+
 - If you want to invite your team members to your workspace, keep in mind that for a free account, you can have 6 people in TOTAL (including yourself!) to **edit** the workspace projects. 
 - Using a free account, you only get ONE editable project. Keep that in mind before you create a second project.
 
