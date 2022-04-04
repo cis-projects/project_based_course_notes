@@ -33,7 +33,6 @@ parts:
         - file: topics/architecture
     - file: topics/deployment
       sections:      
-        - file: topics/devops
         - file: topics/ci_cd
     - file: topics/testing
     - file: topics/final_presentation

@@ -52,8 +52,6 @@
     <link rel="shortcut icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Adding CI/CD to Your Project" href="ci_cd.html" />
-    <link rel="prev" title="Architecture" href="architecture.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -119,15 +117,20 @@
   Topics
  </span>
 </p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="agile_methodology.html">
    Agile Methodology
   </a>
  </li>
- <li class="toctree-l1 has-children">
+ <li class="toctree-l1">
   <a class="reference internal" href="client_communications.html">
    Client Communications
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="document_repository.html">
+   Document Repository
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -142,34 +145,9 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="task_tracking.html">
-   Task Tracking
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="document_repository.html">
-   Document Repository
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="version_control.html">
-   Version Control
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="github.html">
-   GitHub
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="simplified_workflow.html">
-   A Simplified Workflow
-  </a>
- </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="requirements_elicitation.html">
-   Requirements Elicitation
+   Design Sprint
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -199,25 +177,64 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="technology_stack.html">
-   Technology Stack
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="devsprint.html">
+   Development Sprint
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="task_tracking.html">
+     Task Tracking
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="version_control.html">
+     Version Control
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="github.html">
+     GitHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="simplified_workflow.html">
+     A Simplified Workflow
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="technology_stack.html">
+     Technology Stack
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="architecture.html">
+     Architecture
+    </a>
+   </li>
+  </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="architecture.html">
-   Architecture
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="deployment.html">
+   Deployment
   </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   DevOps
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ci_cd.html">
-   Adding CI/CD to Your Project
-  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ci_cd.html">
+     Adding CI/CD to Your Project
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="testing.html">
@@ -566,7 +583,7 @@ handled the release. This led to a lot of problems when it came to when
 it came to integrate code and manage the release.</p>
 <div class="figure align-default" id="id2">
 <img alt="../_images/devops.jpg" src="../_images/devops.jpg" />
-<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text"><span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id13">Acc</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text"><span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id13">Acc</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 <div class="section" id="devops-explained">
@@ -624,7 +641,7 @@ successful.</p></li>
 </ul>
 <div class="figure align-default" id="cicd">
 <img alt="../_images/cicd.png" src="../_images/cicd.png" />
-<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text"><span id="id3">[<a class="reference internal" href="../afterword/bibliography.html#id14">Atlb</a>]</span></span><a class="headerlink" href="#cicd" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text"><span id="id3">[<a class="reference internal" href="../afterword/bibliography.html#id14">Atlb</a>]</span></span><a class="headerlink" href="#cicd" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -673,7 +690,7 @@ deployment provider to deploy from the main branch.</p>
 <p>This workflow is shown below:</p>
 <div class="figure align-default" id="example-workflow">
 <img alt="../_images/example_workflow.png" src="../_images/example_workflow.png" />
-<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text"><span id="id4">[<a class="reference internal" href="../afterword/bibliography.html#id15">Git</a>]</span></span><a class="headerlink" href="#example-workflow" title="Permalink to this image">¶</a></p>
+<p class="caption"><span class="caption-text"><span id="id4">[<a class="reference internal" href="../afterword/bibliography.html#id15">Git</a>]</span></span><a class="headerlink" href="#example-workflow" title="Permalink to this image">¶</a></p>
 </div>
 </div>
 </div>
@@ -766,21 +783,7 @@ main branch.</p></li>
               
             
                 <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="architecture.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Architecture</p>
-        </div>
-    </a>
-    <a class='right-next' id="next-link" href="ci_cd.html" title="next page">
-    <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Adding CI/CD to Your Project</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
-    </a>
+<div class='prev-next-area'>
 </div>
             
         </div>

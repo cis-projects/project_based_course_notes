@@ -52,7 +52,7 @@
     <link rel="shortcut icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="DevOps" href="devops.html" />
+    <link rel="next" title="Adding CI/CD to Your Project" href="ci_cd.html" />
     <link rel="prev" title="Architecture" href="architecture.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -126,13 +126,13 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="document_repository.html">
-   Document Repository
+  <a class="reference internal" href="client_communications.html">
+   Client Communications
   </a>
  </li>
  <li class="toctree-l1 has-children">
-  <a class="reference internal" href="client_communications.html">
-   Client Communications
+  <a class="reference internal" href="document_repository.html">
+   Document Repository
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
@@ -231,11 +231,6 @@
    </i>
   </label>
   <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="devops.html">
-     DevOps
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ci_cd.html">
      Adding CI/CD to Your Project
@@ -379,6 +374,97 @@
         <!-- Table of contents -->
         <div class="d-none d-md-block col-md-2 bd-toc show noprint">
             
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav" aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops">
+   DevOps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#before-devops">
+   Before DevOps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops-explained">
+   DevOps Explained
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminology">
+     Terminology
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ci-cd">
+   CI/CD
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-ci-cd">
+     What Is CI/CD?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-ci-cd">
+     Why CI/CD?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ci-cd-terminology">
+     CI/CD Terminology
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops-pipeline">
+   DevOps Pipeline
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creating-your-pipeline">
+     Creating Your Pipeline
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#an-example-ci-cd-workflow">
+     An Example CI/CD Workflow
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   Deployment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#paas">
+   PaaS
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#paas-providers">
+     PaaS Providers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#paas-deployment">
+     PaaS Deployment
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+            </nav>
         </div>
     </div>
 </div>
@@ -391,6 +477,97 @@
                 <div id="print-main-content">
                     <div id="jb-print-toc">
                         
+                        <div>
+                            <h2> Contents </h2>
+                        </div>
+                        <nav aria-label="Page">
+                            <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops">
+   DevOps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#before-devops">
+   Before DevOps
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops-explained">
+   DevOps Explained
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#terminology">
+     Terminology
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ci-cd">
+   CI/CD
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#what-is-ci-cd">
+     What Is CI/CD?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#why-ci-cd">
+     Why CI/CD?
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ci-cd-terminology">
+     CI/CD Terminology
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#devops-pipeline">
+   DevOps Pipeline
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#creating-your-pipeline">
+     Creating Your Pipeline
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#an-example-ci-cd-workflow">
+     An Example CI/CD Workflow
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id5">
+   Deployment
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#paas">
+   PaaS
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#paas-providers">
+     PaaS Providers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#paas-deployment">
+     PaaS Deployment
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+                        </nav>
                     </div>
                 </div>
             </div>
@@ -400,6 +577,202 @@
   <div class="tex2jax_ignore mathjax_ignore section" id="deployment">
 <h1>Deployment<a class="headerlink" href="#deployment" title="Permalink to this headline">¶</a></h1>
 <p>The purpose of this section is to help you to understand more about the deployment of your software solutions.</p>
+<div class="section" id="devops">
+<h2>DevOps<a class="headerlink" href="#devops" title="Permalink to this headline">¶</a></h2>
+<p>DevOps is about integrating developer and operations teams to improve
+collaboration and productivity through automating
+a system’s workflows (infrastructure, deployment process etc.).</p>
+<p>The purpose of this guide is to introduce students to DevOps and
+demonstrate how it can help streamline your development workflow.</p>
+</div>
+<div class="section" id="before-devops">
+<h2>Before DevOps<a class="headerlink" href="#before-devops" title="Permalink to this headline">¶</a></h2>
+<p>There are two teams that are core to delivering functional software:</p>
+<ul class="simple">
+<li><p><em>Developer teams:</em> develop, build, and test features.</p></li>
+<li><p><em>Operations teams:</em> manage the change management, security,
+deployment, monitoring, and feedback.</p></li>
+</ul>
+<p>The development and operations teams previously worked in isolation -
+the developer team worked on the product while the operations team
+handled the release. This led to a lot of problems when it came to when
+it came to integrate code and manage the release.</p>
+<div class="figure align-default" id="id2">
+<img alt="../_images/devops.jpg" src="../_images/devops.jpg" />
+<p class="caption"><span class="caption-number">Fig. 12 </span><span class="caption-text"><span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id13">Acc</a>]</span></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+<div class="section" id="devops-explained">
+<h2>DevOps Explained<a class="headerlink" href="#devops-explained" title="Permalink to this headline">¶</a></h2>
+<p>DevOps aims to break down these silos by enabling developer and
+operations teams to work together. This increases collaboration and
+allows teams to manage releases by using automated workflows.</p>
+<div class="section" id="terminology">
+<h3>Terminology<a class="headerlink" href="#terminology" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><em>Automation:</em> using technology to perform a task in a reproducible
+way, such that feedback is provided on the process itself and
+minimal human intervention is required.</p></li>
+<li><p><em>DevOps pipeline:</em> set of automated processes. Includes continuous
+integration, continuous delivery/deployment, etc.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="ci-cd">
+<h2>CI/CD<a class="headerlink" href="#ci-cd" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="what-is-ci-cd">
+<h3>What Is CI/CD?<a class="headerlink" href="#what-is-ci-cd" title="Permalink to this headline">¶</a></h3>
+<p>CI/CD refers to continuous integration and continuous
+delivery/deployment. These are a set of practices that allow teams to
+deliver software to a production environment without having to rely on
+cumbersome manual processes. Through automating parts of the release
+process, CI/CD allows developers to make quicker releases.</p>
+</div>
+<div class="section" id="why-ci-cd">
+<h3>Why CI/CD?<a class="headerlink" href="#why-ci-cd" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p>Fast: the time taken for releases are significantly reduced through
+automating the workflow.</p></li>
+<li><p>Simple: the process of integrating code becomes much simpler</p></li>
+<li><p>Fewer errors: less intervention from developers is required which
+reduces the chance for human error</p></li>
+<li><p>Isolated failures: immediate feedback provided as to which step in
+the pipeline has failed</p></li>
+</ol>
+<p>There are several CI/CD providers, but we recommend using GitHub Actions
+as it is free and easy to use. When you have created your repository,
+refer to our CI/CD guide on how to get started with GitHub Actions.</p>
+</div>
+<div class="section" id="ci-cd-terminology">
+<h3>CI/CD Terminology<a class="headerlink" href="#ci-cd-terminology" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Continuous Integration: Integrating your code changes back to your
+main branch. Changes are checked by automatically building, testing
+code.</p></li>
+<li><p>Continuous Delivery: Extension of CI. Automates the release process
+so that you can deploy the application at any time.</p></li>
+<li><p>Continuous Deployment: Extension of continuous delivery. Automate
+deployment to production environment if all other stages are
+successful.</p></li>
+</ul>
+<div class="figure align-default" id="cicd">
+<img alt="../_images/cicd.png" src="../_images/cicd.png" />
+<p class="caption"><span class="caption-number">Fig. 13 </span><span class="caption-text"><span id="id3">[<a class="reference internal" href="../afterword/bibliography.html#id14">Atlb</a>]</span></span><a class="headerlink" href="#cicd" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="devops-pipeline">
+<h2>DevOps Pipeline<a class="headerlink" href="#devops-pipeline" title="Permalink to this headline">¶</a></h2>
+<p>Teams should use CI/CD within their projects, using either continuous
+delivery or deployment. CI/CD is achieved using pipelines.</p>
+<div class="section" id="creating-your-pipeline">
+<h3>Creating Your Pipeline<a class="headerlink" href="#creating-your-pipeline" title="Permalink to this headline">¶</a></h3>
+<p>Pipelines refer to a set of steps executed when some condition is met.
+Often, teams will customise their pipelines to be triggered on pull
+requests. This means, when a developer creates a pull request to merge
+code changes from their branch to the main branch, the pipeline will
+automatically run the set of steps specified.</p>
+<p>Ordinarily, developers perform several checks before merging any code.
+You want to make sure your project builds successfully, the code follows
+any formatting conventions, and that all the test cases written still
+pass. When creating your pipeline, these kinds of checks are written as
+steps that you want to be executed on your given condition. As such,
+teams should ensure that when they create their pipeline, they should
+include the following steps:</p>
+<ul class="simple">
+<li><p>install dependencies and build</p></li>
+<li><p>format</p></li>
+<li><p>run</p></li>
+<li><p>test</p></li>
+</ul>
+</div>
+<div class="section" id="an-example-ci-cd-workflow">
+<h3>An Example CI/CD Workflow<a class="headerlink" href="#an-example-ci-cd-workflow" title="Permalink to this headline">¶</a></h3>
+<p>Let us consider an example of how this may look. Once you have your
+pipeline, the workflow is simple. Consider the case where your pipeline
+is triggered on pull requests. A team member makes a pull request from
+their own branch, dev/authentication, into the main branch, main. This
+will trigger the pipeline to execute, and it will sequentially build,
+format, run, and test as stipulated in the pipeline. If any step fails,
+it will indicate which step failed and developers can even inspect the
+logs to find why.</p>
+<p>Once all the steps successfully complete, the pipeline will indicate
+that the code has passed all its checks. This will then allow other
+developers to review the code themselves, before approving the pull
+request. Once the code is accepted, a developer can merge the code from
+dev/authentication into main. From here, you can either have a separate
+pipeline set up to handle the deployment process or allow your
+deployment provider to deploy from the main branch.</p>
+<p>This workflow is shown below:</p>
+<div class="figure align-default" id="example-workflow">
+<img alt="../_images/example_workflow.png" src="../_images/example_workflow.png" />
+<p class="caption"><span class="caption-number">Fig. 14 </span><span class="caption-text"><span id="id4">[<a class="reference internal" href="../afterword/bibliography.html#id15">Git</a>]</span></span><a class="headerlink" href="#example-workflow" title="Permalink to this image">¶</a></p>
+</div>
+</div>
+</div>
+<div class="section" id="id5">
+<h2>Deployment<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>Deployment refers to the set of steps that are required to <em>make your
+application accessible to the public</em>. There are three types of
+deployment tools available:</p>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p>SaaS</p></th>
+<th class="head"><p>PaaS</p></th>
+<th class="head"><p>IaaS</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Software as a service.</p></td>
+<td><p>Platform as a service.</p></td>
+<td><p>Infrastructure as a service.</p></td>
+</tr>
+<tr class="row-odd"><td><p>The vendor manages everything.</p></td>
+<td><p>Vendor manages architecture, but you develop the application and manage data.</p></td>
+<td><p>You manage the infrastructure, data, and application.</p></td>
+</tr>
+<tr class="row-even"><td><p></p></td>
+<td><p></p></td>
+<td><p></p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For this subject, we highly recommend you use PaaS deployment tools
+as this allows you to focus on building the application.</p>
+</div>
+</div>
+<div class="section" id="paas">
+<h2>PaaS<a class="headerlink" href="#paas" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="paas-providers">
+<h3>PaaS Providers<a class="headerlink" href="#paas-providers" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.heroku.com/">Heroku</a></p></li>
+<li><p><a class="reference external" href="https://aws.amazon.com/elasticbeanstalk/">AWS elastic beanstalk</a></p></li>
+<li><p><a class="reference external" href="https://www.netlify.com/">Netlify</a></p></li>
+<li><p><a class="reference external" href="https://azure.microsoft.com/en-us/services/cloud-services/">Microsoft Azure Cloud Services</a></p></li>
+<li><p><a class="reference external" href="https://pages.github.com/">GitHub Pages</a></p></li>
+</ul>
+</div>
+<div class="section" id="paas-deployment">
+<h3>PaaS Deployment<a class="headerlink" href="#paas-deployment" title="Permalink to this headline">¶</a></h3>
+<p>Deployment could be achieved in several ways and is up to your team to
+choose a deployment strategy:</p>
+<ul class="simple">
+<li><p>Configure PaaS deployment tool to deploy automatically from your
+main branch.</p></li>
+<li><p>Specify the deployment as a step in your pipeline.</p></li>
+</ul>
+<div class="tip admonition">
+<p class="admonition-title">Extra Resources</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=scEDHsr3APg&amp;ab_channel=Fireship">Short summary of CI/CD</a></p></li>
+<li><p><a class="reference external" href="https://www.bmc.com/blogs/saas-vs-paas-vs-iaas-whats-the-difference-and-how-to-choose/">PaaS vs SaaS vs IaaS</a></p></li>
+</ul>
+</div>
+</div>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </div>
@@ -436,10 +809,10 @@
             <p class="prev-next-title">Architecture</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="devops.html" title="next page">
+    <a class='right-next' id="next-link" href="ci_cd.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">DevOps</p>
+        <p class="prev-next-title">Adding CI/CD to Your Project</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
