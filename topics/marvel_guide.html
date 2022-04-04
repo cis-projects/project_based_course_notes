@@ -53,13 +53,21 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="High Fidelity Prototype Tool - Figma" href="figma_guide.html" />
-    <link rel="prev" title="User Stories" href="userstory.html" />
+    <link rel="prev" title="Tools for Personas" href="personas_tools.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
 
     <!-- Google Analytics -->
     
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
+<script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){ dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'G-RYD1BC7LLQ');
+                </script>
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -120,17 +128,34 @@
  </span>
 </p>
 <ul class="current nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="agile_methodology.html">
    Agile Methodology
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="task_tracking.html">
+     Task Tracking
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="version_control.html">
+     Version Control
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="client_communications.html">
    Client Communications
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -144,19 +169,24 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="document_repository.html">
-   Document Repository
+   Document Repository (Confluence)
   </a>
  </li>
  <li class="toctree-l1 current active has-children">
   <a class="reference internal" href="requirements_elicitation.html">
-   Design Sprint
+   Requirements Elicitation
   </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="userstory.html">
+     User Stories
+    </a>
+   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="motivational_model_guide.html">
      Motivational Model Guide
@@ -165,11 +195,6 @@
    <li class="toctree-l2">
     <a class="reference internal" href="personas_tools.html">
      Tools for Personas
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="userstory.html">
-     User Stories
     </a>
    </li>
    <li class="toctree-l2 current active">
@@ -186,24 +211,14 @@
  </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="devsprint.html">
-   Development Sprint
+   Development
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="task_tracking.html">
-     Task Tracking
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="version_control.html">
-     Version Control
-    </a>
-   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="github.html">
      GitHub
@@ -230,12 +245,17 @@
   <a class="reference internal" href="deployment.html">
    Deployment
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="devops.html">
+     DevOps
+    </a>
+   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="ci_cd.html">
      Adding CI/CD to Your Project
@@ -796,11 +816,11 @@ with designing your screens and the interactions between screens - make sure to 
             
                 <!-- Previous / next buttons -->
 <div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="userstory.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="personas_tools.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">User Stories</p>
+            <p class="prev-next-title">Tools for Personas</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="figma_guide.html" title="next page">

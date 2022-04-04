@@ -59,6 +59,14 @@
 
     <!-- Google Analytics -->
     
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
+<script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){ dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'G-RYD1BC7LLQ');
+                </script>
+
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -119,71 +127,12 @@
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../topics/agile_methodology.html">
    Agile Methodology
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../topics/client_communications.html">
-   Client Communications
-  </a>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../topics/document_repository.html">
-   Document Repository
-  </a>
   <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
   <label for="toctree-checkbox-1">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../topics/templates_for_comm.html">
-     Templates
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../topics/requirements_elicitation.html">
-   Design Sprint
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../topics/motivational_model_guide.html">
-     Motivational Model Guide
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../topics/personas_tools.html">
-     Tools for Personas
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../topics/marvel_guide.html">
-     Paper Prototype Tool - Marvel
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../topics/figma_guide.html">
-     Digital Prototype Tool - Figma
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../topics/devsprint.html">
-   Development Sprint
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-  <label for="toctree-checkbox-3">
    <i class="fas fa-chevron-down">
    </i>
   </label>
@@ -198,6 +147,77 @@
      Version Control
     </a>
    </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../topics/client_communications.html">
+   Client Communications
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/templates_for_comm.html">
+     Templates
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../topics/document_repository.html">
+   Document Repository (Confluence)
+  </a>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../topics/requirements_elicitation.html">
+   Requirements Elicitation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/userstory.html">
+     User Stories
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/motivational_model_guide.html">
+     Motivational Model Guide
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/personas_tools.html">
+     Tools for Personas
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/marvel_guide.html">
+     Low Fidelity Prototype Tool - Marvel
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/figma_guide.html">
+     High Fidelity Prototype Tool - Figma
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../topics/devsprint.html">
+   Development
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
    <li class="toctree-l2">
     <a class="reference internal" href="../topics/github.html">
      GitHub
@@ -224,12 +244,17 @@
   <a class="reference internal" href="../topics/deployment.html">
    Deployment
   </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-  <label for="toctree-checkbox-4">
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
    <i class="fas fa-chevron-down">
    </i>
   </label>
   <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../topics/devops.html">
+     DevOps
+    </a>
+   </li>
    <li class="toctree-l2">
     <a class="reference internal" href="../topics/ci_cd.html">
      Adding CI/CD to Your Project
