@@ -14,9 +14,9 @@ parts:
     chapters:
     - file: topics/agile_methodology
     - file: topics/client_communications
-    - file: topics/document_repository    
       sections:
-        - file: topics/templates_for_comm
+        - file: topics/templates_for_comm    
+    - file: topics/document_repository    
     - file: topics/requirements_elicitation
       sections:
         - file: topics/motivational_model_guide
