@@ -1,4 +1,4 @@
-# Digital Prototype Tool - Figma
+# High Fidelity Prototype Tool - Figma
 
 This tutorial shows you how you can use Figma to help you create your digital prototype.
 

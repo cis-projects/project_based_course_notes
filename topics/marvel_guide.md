@@ -1,13 +1,13 @@
-# Paper Prototype Tool - Marvel
+# Low Fidelity Prototype Tool - Marvel
 
-This tutorial shows you how you can use Marvel to help you create your paper prototype. 
+This tutorial shows you how you can use Marvel to help you create your paper and/or low fidelity prototype. 
 
 ## Before You Start Prototyping
 
-Before you start prototyping, let us remind ourselves - why are we creating paper prototypes?  What's the purpose 
+Before you start prototyping, let us remind ourselves - why are we creating paper and/or low fidelity prototypes?  What's the purpose 
 again?
 
-The purpose of creating paper prototypes is to design the user interfaces of the system-to-be so that you can run 
+The purpose of creating paper and/or low fidelity prototypes is to design the user interfaces of the system-to-be so that you can run 
 usability test with end-users and clients to make sure it is fit for purpose. If you discover any problem during 
 usability testing, you can go back and modify your design.  By the end of the process, you have a validated 
 prototype before you start coding.  Improving design on your prototype is probably going to be much less expansive 
@@ -18,7 +18,7 @@ Now that you are clear on the purpose behind the task, we would like to provide 
 ### Completeness of Scenarios
 
 During your usability test, you will have tasks for your users/clients to perform. It's really important to make 
-sure that these scenarios in your paper prototype are complete. What does that mean? Let me give you an example. 
+sure that these scenarios in your paper and/or low fidelity prototype are complete. What does that mean? Let me give you an example. 
 
 Imagine that you have a scenario where a user needs to book a hotel room.  On the interface, you have an option to 
 confirm or cancel. You made sure that the "Confirm" button is clickable, and you prepared the transition to the 
