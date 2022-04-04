@@ -34,3 +34,4 @@ html:
   favicon: resources/favicon.png
   use_issues_button: true
   use_repository_button: true
+  google_analytics_id: G-RYD1BC7LLQ
