@@ -60,14 +60,6 @@
 
     <!-- Google Analytics -->
     
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-880BHPLVVF"></script>
-<script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){ dataLayer.push(arguments); }
-                    gtag('js', new Date());
-                    gtag('config', 'G-880BHPLVVF');
-                </script>
-
   </head>
   <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
     
@@ -133,6 +125,11 @@
    Agile Methodology
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="document_repository.html">
+   Document Repository
+  </a>
+ </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="client_communications.html">
    Client Communications
@@ -150,34 +147,9 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="task_tracking.html">
-   Task Tracking
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="document_repository.html">
-   Document Repository
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="version_control.html">
-   Version Control
-  </a>
- </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   GitHub
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="simplified_workflow.html">
-   A Simplified Workflow
-  </a>
- </li>
  <li class="toctree-l1 has-children">
   <a class="reference internal" href="requirements_elicitation.html">
-   Requirements Elicitation
+   Design Sprint
   </a>
   <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
   <label for="toctree-checkbox-2">
@@ -207,40 +179,72 @@
    </li>
   </ul>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="technology_stack.html">
-   Technology Stack
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="devsprint.html">
+   Development Sprint
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="architecture.html">
-   Architecture
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="devops.html">
-   DevOps
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="ci_cd.html">
-   Adding CI/CD to Your Project
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="testing.html">
-   Testing
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="final_presentation.html">
-   Final Presentation
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="client_handover.html">
-   Client Handover
-  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="task_tracking.html">
+     Task Tracking
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="version_control.html">
+     Version Control
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     GitHub
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="simplified_workflow.html">
+     A Simplified Workflow
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="technology_stack.html">
+     Technology Stack
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="architecture.html">
+     Architecture
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="devops.html">
+     DevOps
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="ci_cd.html">
+     Adding CI/CD to Your Project
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="testing.html">
+     Testing
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="final_presentation.html">
+     Final Presentation
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="client_handover.html">
+     Client Handover
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
@@ -730,7 +734,7 @@ using that same branch until the feature is completed. After completion,
 the feature branch is merged back into the main branch.</p>
 <div class="figure align-default" id="id1">
 <img alt="../_images/feature_development.png" src="../_images/feature_development.png" />
-<p class="caption"><span class="caption-number">Fig. 7 </span><span class="caption-text">Source:
+<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Source:
 <a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </div>
 <p>There are several flavours of feature branching but we will examine
@@ -771,7 +775,7 @@ merged into the trunk, reducing any delays associated with integrating
 code changes.</p>
 <div class="figure align-default" id="trunk-development">
 <img alt="../_images/trunk_development.png" src="../_images/trunk_development.png" />
-<p class="caption"><span class="caption-number">Fig. 8 </span><span class="caption-text">Source:
+<p class="caption"><span class="caption-number">Fig. 9 </span><span class="caption-text">Source:
 <a class="reference external" href="https://www.optimizely.com/optimization-glossary/trunk-based-development/">Optimizely</a></span><a class="headerlink" href="#trunk-development" title="Permalink to this image">¶</a></p>
 </div>
 <table class="colwidths-auto table">
