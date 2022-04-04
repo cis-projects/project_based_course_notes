@@ -29,7 +29,7 @@ parts:
             - file: topics/personas_tools        
             - file: topics/marvel_guide
             - file: topics/figma_guide      
-            - file: extra_resources/miro_guide            
+            - file: topics/miro_guide            
     - file: topics/devsprint
       sections:
         - file: topics/github
@@ -38,9 +38,7 @@ parts:
         - file: topics/architecture
         - file: topics/code_review
         - file: topics/software_licenses      
-        - file: topics/devtools     
-          sections:
-            - file: extra_resources/extra_tools            
+        - file: topics/devtools       
     - file: topics/deployment
       sections:      
         - file: topics/devops        
