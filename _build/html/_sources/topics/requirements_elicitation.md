@@ -1,4 +1,6 @@
-# Requirements Elicitation
+# Design Sprint
+
+## Requirements Elicitation
 
 Successful products are those that meet the needs of the client and can
 be easily adopted by the target user. Building a successful product can
