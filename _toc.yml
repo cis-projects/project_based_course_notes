@@ -23,12 +23,13 @@ parts:
     - file: topics/requirements_elicitation
       sections:
         - file: topics/userstory     
-        - file: topics/tools     
+        - file: topics/reqtools     
           sections:
             - file: topics/motivational_model_guide   
             - file: topics/personas_tools        
             - file: topics/marvel_guide
             - file: topics/figma_guide      
+            - file: extra_resources/miro_guide            
     - file: topics/devsprint
       sections:
         - file: topics/github
@@ -36,7 +37,10 @@ parts:
         - file: topics/technology_stack
         - file: topics/architecture
         - file: topics/code_review
-        - file: topics/software_licenses                
+        - file: topics/software_licenses      
+        - file: topics/devtools     
+          sections:
+            - file: extra_resources/extra_tools            
     - file: topics/deployment
       sections:      
         - file: topics/devops        
@@ -44,10 +48,6 @@ parts:
     - file: topics/testing
     - file: topics/final_presentation
     - file: topics/client_handover
-  - caption: Extra Resources
-    chapters:
-    - file: extra_resources/extra_tools
-    - file: extra_resources/miro_guide
   - caption: Afterword
     chapters:
     - file: afterword/bibliography
