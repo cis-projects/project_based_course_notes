@@ -13,27 +13,33 @@ parts:
   - caption: Topics
     chapters:
     - file: topics/agile_methodology
+      sections:
+        - file: topics/task_tracking
+        - file: topics/version_control    
     - file: topics/client_communications
       sections:
         - file: topics/templates_for_comm    
     - file: topics/document_repository    
     - file: topics/requirements_elicitation
       sections:
-        - file: topics/motivational_model_guide
-        - file: topics/personas_tools
-        - file: topics/userstory        
-        - file: topics/marvel_guide
-        - file: topics/figma_guide      
+        - file: topics/userstory     
+        - file: topics/tools     
+          sections:
+            - file: topics/motivational_model_guide   
+            - file: topics/personas_tools        
+            - file: topics/marvel_guide
+            - file: topics/figma_guide      
     - file: topics/devsprint
       sections:
-        - file: topics/task_tracking
-        - file: topics/version_control
         - file: topics/github
         - file: topics/simplified_workflow
         - file: topics/technology_stack
         - file: topics/architecture
+        - file: topics/code_review
+        - file: topics/software_licenses                
     - file: topics/deployment
       sections:      
+        - file: topics/devops        
         - file: topics/ci_cd
     - file: topics/testing
     - file: topics/final_presentation

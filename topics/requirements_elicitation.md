@@ -1,6 +1,4 @@
-# Design Sprint
-
-## Requirements Elicitation
+# Requirements Elicitation
 
 Successful products are those that meet the needs of the client and can
 be easily adopted by the target user. Building a successful product can
@@ -372,10 +370,10 @@ Finally, once all your requirements have been finalised and the client
 is happy with them, you will have your set of specifications. This
 should include:
 
-- User stories.
 - Motivational model.
 - Personas.
 - Prototypes.
+- User stories.
 
 :::{admonition} Extra Resources
 :class: tip

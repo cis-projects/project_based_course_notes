@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# # Document Repository
+# # Document Repository (Confluence)
 # 
 # Throughout the semester, you and your team will generate a lot of
 # knowledge - in the form of software requirements, architecture, and
