@@ -7,6 +7,6 @@ Special thanks to [Jianzhong Qi](https://findanexpert.unimelb.edu.au/profile/430
 :::
 
 
-This academic honesty training module including eight 2-minute videos. 
+This academic honesty training module includes eight 2-minute videos. 
 
 Have fun!
