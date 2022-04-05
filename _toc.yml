@@ -46,6 +46,18 @@ parts:
     - file: topics/testing
     - file: topics/final_presentation
     - file: topics/client_handover
+  - caption: Extras
+    chapters:
+    - file: extras/academic_honesty
+      sections:
+        - file: extras/help_nonstudents
+        - file: extras/answer_student
+        - file: extras/help_students
+        - file: extras/answer_online
+        - file: extras/outsource_assignment
+        - file: extras/lock_screen
+        - file: extras/protect_code
+        - file: extras/working_friends
   - caption: Afterword
     chapters:
     - file: afterword/bibliography
