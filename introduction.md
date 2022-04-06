@@ -3,6 +3,7 @@
 The purpose of these course notes is to act as a resource for students to consult throughout the semester while 
 undertaking one of the below subjects:
 
+- [COMP30022 IT Project](https://handbook.unimelb.edu.au/2022/subjects/comp30022)
 - [SWEN30006 Software Modelling and Design](https://handbook.unimelb.edu.au/2022/subjects/swen30006)
 - [SWEN90009 Software Requirements Analysis](https://handbook.unimelb.edu.au/2022/subjects/swen90009)
 - [SWEN90014 Masters Software Engineering Project](https://handbook.unimelb.edu.au/2022/subjects/swen90014)
