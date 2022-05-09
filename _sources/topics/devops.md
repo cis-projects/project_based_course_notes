@@ -150,9 +150,12 @@ application accessible to the public*. There are usually three models of cloud s
 
 ```{note}
 Examples:
-SaaS: Dropbox, Salesforce, Cisco WebEx, GoToMeeting
-PaaS: AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine
-IaaS: DigitalOcean, Amazon Web Services (AWS), Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
+
+- SaaS: Dropbox, Salesforce, Cisco WebEx, GoToMeeting
+
+- PaaS: AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine
+
+- IaaS: DigitalOcean, Amazon Web Services (AWS), Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
 
 For this subject, we highly recommend you use PaaS deployment tools as this allows you to focus on building the application.
 ```
