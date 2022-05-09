@@ -140,8 +140,7 @@ name: example_workflow
 ## Deployment
 
 Deployment refers to the set of steps that are required to *make your
-application accessible to the public*. There are three types of
-deployment tools available:
+application accessible to the public*. There are usually three models of cloud service to compare:
 
 | SaaS                           | PaaS                                                                          | IaaS                                                  |
 |--------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------|
@@ -150,8 +149,12 @@ deployment tools available:
 |                                |                                                                               |                                                       |
 
 ```{note}
-For this subject, we highly recommend you use PaaS deployment tools
-as this allows you to focus on building the application.
+Examples:
+SaaS: Dropbox, Salesforce, Cisco WebEx, GoToMeeting
+PaaS: AWS Elastic Beanstalk, Windows Azure, Heroku, Google App Engine
+IaaS: DigitalOcean, Amazon Web Services (AWS), Cisco Metapod, Microsoft Azure, Google Compute Engine (GCE)
+
+For this subject, we highly recommend you use PaaS deployment tools as this allows you to focus on building the application.
 ```
 
 ## PaaS
