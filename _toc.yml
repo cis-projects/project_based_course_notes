@@ -14,14 +14,14 @@ parts:
     chapters:
     - file: topics/agile_methodology
       sections:
+        - file: topics/document_repository    
         - file: topics/task_tracking
         - file: topics/version_control    
-    - file: topics/client_communications
-      sections:
-        - file: topics/templates_for_comm    
-    - file: topics/document_repository    
     - file: topics/requirements_elicitation
       sections:
+        - file: topics/client_communications
+          sections:
+            - file: topics/templates_for_comm    
         - file: topics/userstory     
         - file: topics/reqtools     
           sections:
