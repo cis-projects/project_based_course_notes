@@ -1,4 +1,4 @@
-# Requirements Elicitation
+# Requirements Engineering
 
 Successful products are those that meet the needs of the client and can
 be easily adopted by the target user. Building a successful product can
@@ -6,7 +6,7 @@ be difficult if teams do not understand the core business need of the
 product itself.
 
 The purpose of this section is to understand more about requirements
-elicitation, the broad spectrum of tasks involved to help teams derive
+engineering (elicitation, elaboration, validation), the broad spectrum of tasks involved to help teams derive
 their requirements. By the end of this, you should understand what
 artefacts are used to represent the project specifications {cite:p}`OliveiraESterlingL`.
 
