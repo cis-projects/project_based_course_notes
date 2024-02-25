@@ -1,6 +1,6 @@
 # Agile Methodology
 
-In this subject, you will form teams and operate according to the agile
+In most of the subjects listed here, you will form teams and operate according to the agile
 methodology. This chapter will help familiarise students with the agile
 framework for project management and software development.
 
@@ -16,7 +16,7 @@ types of SDLCs: formal and Agile.
 | [Incremental](https://www.guru99.com/what-is-incremental-model-in-sdlc-advantages-disadvantages.html)                                               | Formal |
 | [V-Model](https://www.tutorialspoint.com/sdlc/sdlc_v_model.htm#:~:text=The%20V%2Dmodel%20is%20an,for%20each%20corresponding%20development%20stage.) | Formal |
 | [Kanban](https://www.atlassian.com/agile/kanban)                                                                                                    | Agile  |
-| [Scrum](#scrum)                                                                                                                                     | Agile  |
+| [Scrum](https://www.atlassian.com/agile/scrum)                                                                                                                                     | Agile  |
 | [Extreme Programming](http://www.extremeprogramming.org/)                                                                                           | Agile  |
 
 ```{attention}
@@ -63,7 +63,7 @@ planning can re-prioritise the changed requirements.
 
 Sprints are a short time-boxed period in which a scrum team endeavours to complete a set 
 amount of work. The duration of sprints can be determined by teams, but typically duration 
-is between 2-4 weeks. As sprints have several [ceremonies](#scrum-ceremonies) that must be 
+is between 2-4 weeks. As sprints have several ceremonies that must be 
 completed, teams should determine what works best for them.
 
 ### Scrum Roles
