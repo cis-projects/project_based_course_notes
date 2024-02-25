@@ -9,21 +9,7 @@ will first help you set up an account. Then, we discuss how Miro can be useful f
 - Once you have signed up, Miro will let you set up your team. If you use your university student 
 email address to sign up, you might notice that there are some teams that you can join in your organisation 
 already - but that's not what we need. In this subject, you will need to create your own project team.
-
-```{figure} resources/miro1
----
-name: miro1
----
-```
-
-   
 - Invite your team members.
-
-```{figure} resources/miro2.jpg
----
-name: miro2
----
-```
 
 ## Tips Before you Start
 
