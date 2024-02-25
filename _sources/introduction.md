@@ -1,44 +1,47 @@
 # Introduction
 
-The purpose of these course notes is to act as a resource for students to consult throughout the semester while 
-undertaking one of the below subjects:
+## Elevate Your Software Engineering Journey
 
-- [COMP30022 IT Project](https://handbook.unimelb.edu.au/2022/subjects/comp30022)
-- [SWEN30006 Software Modelling and Design](https://handbook.unimelb.edu.au/2022/subjects/swen30006)
-- [SWEN90009 Software Requirements Analysis](https://handbook.unimelb.edu.au/2022/subjects/swen90009)
-- [SWEN90014 Masters Software Engineering Project](https://handbook.unimelb.edu.au/2022/subjects/swen90014)
-- [SWEN90013 Masters Advanced Software Project](https://handbook.unimelb.edu.au/2022/subjects/swen90013)
-- [COMP90082 Software Project](https://handbook.unimelb.edu.au/2022/subjects/comp90082)
+Embark on an exciting phase of your academic career with these comprehensive course notes, meticulously crafted to support your success in key capstone subjects within the software engineering discipline. Whether you're diving into the complexities of software modeling, tackling the intricacies of requirements analysis, or bringing innovative solutions to life, this hub is your go-to resource.
 
-These subjects all involve either the development of requirements of a software system or the implementation of that 
-system into code from requirements.
+### Subjects Covered
 
-For many students, this is the first time you will be working in teams using agile methodologies, working with a 
-client, and potentially even the first time you are developing software requirements (rather than the requirements 
-being given to you from a university professor). As such, the learning curve for this subject can be steep for some.
+- [COMP30022 IT Project](https://handbook.unimelb.edu.au/2024/subjects/comp30022) - Embark on a collaborative IT project journey.
+- [SWEN30006 Software Modelling and Design](https://handbook.unimelb.edu.au/2024/subjects/swen30006) - Master the art of software modeling and design.
+- [SWEN90009 Software Requirements Analysis](https://handbook.unimelb.edu.au/2024/subjects/swen90009) - Dive deep into the world of software requirements.
+- [SWEN90014 Masters Software Engineering Project](https://handbook.unimelb.edu.au/2024/subjects/swen90014) - Tackle advanced software engineering development, deployment and testing challenges.
+- [SWEN90013 Masters Advanced Software Project](https://handbook.unimelb.edu.au/2024/subjects/swen90013) - Push the boundaries of software project management, monitoring, execution, deployment.
+- [COMP90082 Software Project](https://handbook.unimelb.edu.au/2024/subjects/comp90082) - Deliver impactful software solutions to real-world problems.
 
-This handbook should help you acclimate yourselves to content learned throughout the semester and can be used as a 
-resource to reference when you have questions.
+## Why This Resource?
 
-## Contributors
+For many of you, these subjects represent an important moment — the transition from theoretical knowledge to practical application, from student to industry innovator. This is your arena to apply agile methodologies, collaborate effectively, and engage with industry clients, perhaps for the first time. We understand the challenges ahead and have designed these notes to smooth your path to becoming a confident software engineer.
 
-A big thank you to the contributors who worked on these course notes. You can get in contact with them 
-[here](https://github.com/cis-projects/project_based_course_notes).
+## Structured for Success
 
-This work was initiated by [Dr Eduardo Oliveira](https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira) through the support of University of Melbourne Chancellery Academic – Dual Delivery Contributions grant.
+Our materials are organised around the **software development lifecycle**, including:
 
-:::{admonition} Help Us Improve These Notes
+- **Agile Methodology**: Embrace the flexibility and efficiency of agile practices.
+- **Requirements Engineering**: Learn to capture and analyse user needs meticulously.
+- **Development**: Dive into coding best practices and collaborative development.
+- **Deployment and Testing**: Understand the nuances of deploying and rigorously testing software.
+- **Final Presentations**: Gain insights into delivering persuasive and impactful presentations.
+- **Handover to Industry Partners**: Master the art of transitioning your project for real-world use.
+
+## Contributors and Acknowledgments
+
+A heartfelt thanks to our dedicated contributors, whose expertise and insights enrich these course notes. Connect with them and explore their contributions [here](https://github.com/cis-projects/project_based_course_notes).
+
+Special appreciation goes to [Dr Eduardo Oliveira](https://findanexpert.unimelb.edu.au/profile/653031-eduardo-araujo-oliveira) and the University of Melbourne Chancellery Academic – Dual Delivery Contributions grant for making this initiative possible.
+
+:::{admonition} Join the Journey of Continuous Improvement
 :class: tip, dropdown
-This handbook will act as a living guide for future students, so any improvements we make to these notes will greatly 
-assist future years.
+Your feedback and contributions can significantly enhance the learning experience for future students. Here's how you can help:
+- **Report Issues**: Notice a typo or error? Raise an issue on GitHub and join our [Student Hall of Fame](afterword/hall_of_fame) for contributors.
+- **Collaborate**: Have suggestions or topics you'd like to see included? Let's [Collaborate](afterword/collaborate) and expand our knowledge base together.
 
-````{panels}
-You can raise an issue in the right-hand corner if you spot typos, mistakes, bugs, etc.
-You can also view our student [Hall of Fame](afterword/hall_of_fame) to see students who have 
-helped improve these notes.
 ```{figure} resources/github_issue.png
 ```
----
-You can also [Collaborate With Us](afterword/collaborate), if you have ideas for topics not covered in these notes.
-````
 :::
+
+Embark on this journey with us, leveraging these notes to not just navigate your capstone subjects but to excel in them. Together, let's build a foundation for a future where technology and innovation converge to create solutions that matter.
