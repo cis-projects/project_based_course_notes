@@ -1,4 +1,4 @@
-# Generating User Stories from Personas with ChatGPT
+# Generating User Stories from Personas
 
 ## Introduction to User Stories
 
