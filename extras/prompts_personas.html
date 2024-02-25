@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Creating Diverse and Inclusive User Personas with ChatGPT &#8212; Project-Based Course Notes</title>
+    <title>Creating Diverse and Inclusive User Personas &#8212; Project-Based Course Notes</title>
   
   
   
@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -74,8 +74,8 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Generating User Stories from Personas with ChatGPT" href="prompts_userstories.html" />
-    <link rel="prev" title="Generative AI" href="genai.html" />
+    <link rel="next" title="Generating User Stories from Personas" href="prompts_userstories.html" />
+    <link rel="prev" title="Guide to Using GenAI" href="genai.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -240,9 +240,12 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Extras</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="genai.html">Generative AI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Creating Diverse and Inclusive User Personas with ChatGPT</a></li>
-<li class="toctree-l2"><a class="reference internal" href="prompts_userstories.html">Generating User Stories from Personas with ChatGPT</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="genai.html">Guide to Using GenAI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Creating Diverse and Inclusive User Personas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompts_userstories.html">Generating User Stories from Personas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompts_usecases.html">Generating Use Cases from User Stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompts_acceptancetests.html">Generating Acceptance Tests from User Stories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompts_codereview.html">GenAI for Code Review</a></li>
 </ul>
 </li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="academic_honesty.html">Academic Honesty Training</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
@@ -447,7 +450,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Creating Diverse and Inclusive User Personas with ChatGPT</h1>
+    <h1>Creating Diverse and Inclusive User Personas</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -472,8 +475,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="creating-diverse-and-inclusive-user-personas-with-chatgpt">
-<h1>Creating Diverse and Inclusive User Personas with ChatGPT<a class="headerlink" href="#creating-diverse-and-inclusive-user-personas-with-chatgpt" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="creating-diverse-and-inclusive-user-personas">
+<h1>Creating Diverse and Inclusive User Personas<a class="headerlink" href="#creating-diverse-and-inclusive-user-personas" title="Link to this heading">#</a></h1>
 <p>Understanding your users is a cornerstone of successful software development. This guide will help you generate comprehensive, diverse, and inclusive personas for the end-users of your software projects. By following the structured prompt provided, you can ensure that your development efforts are user-centered and considerate of a wide range of needs and backgrounds.</p>
 <section id="prompt-for-generating-user-personas">
 <h2>Prompt for Generating User Personas<a class="headerlink" href="#prompt-for-generating-user-personas" title="Link to this heading">#</a></h2>
@@ -626,7 +629,7 @@ Aarav&#39;s persona highlights the need for a software solution that not only fa
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Generative AI</p>
+        <p class="prev-next-title">Guide to Using GenAI</p>
       </div>
     </a>
     <a class="right-next"
@@ -634,7 +637,7 @@ Aarav&#39;s persona highlights the need for a software solution that not only fa
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Generating User Stories from Personas with ChatGPT</p>
+        <p class="prev-next-title">Generating User Stories from Personas</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
