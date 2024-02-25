@@ -52,6 +52,8 @@ parts:
       sections:
         - file: extras/prompts_personas
         - file: extras/prompts_userstories
+        - file: extras/prompts_usecases                
+        - file: extras/prompts_acceptancetests
         - file: extras/prompts_codereview                
     - file: extras/academic_honesty
       sections:

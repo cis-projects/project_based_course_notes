@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Guide to Using GenAI &#8212; Project-Based Course Notes</title>
+    <title>Generating Use Cases from User Stories &#8212; Project-Based Course Notes</title>
   
   
   
@@ -70,12 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/genai';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/prompts_usecases';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Creating Diverse and Inclusive User Personas with ChatGPT" href="prompts_personas.html" />
-    <link rel="prev" title="Client Handover" href="../topics/client_handover.html" />
+    <link rel="next" title="Generating Acceptance Tests from User Stories" href="prompts_acceptancetests.html" />
+    <link rel="prev" title="Generating User Stories from Personas with ChatGPT" href="prompts_userstories.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -240,10 +240,10 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Extras</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Guide to Using GenAI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="genai.html">Guide to Using GenAI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="prompts_personas.html">Creating Diverse and Inclusive User Personas with ChatGPT</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_userstories.html">Generating User Stories from Personas with ChatGPT</a></li>
-<li class="toctree-l2"><a class="reference internal" href="prompts_usecases.html">Generating Use Cases from User Stories</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Generating Use Cases from User Stories</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_acceptancetests.html">Generating Acceptance Tests from User Stories</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_codereview.html">GenAI for Code Review</a></li>
 </ul>
@@ -336,7 +336,7 @@
       
       
       
-      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/genai.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/prompts_usecases.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -366,7 +366,7 @@
       
       
       
-      <li><a href="../_sources/extras/genai.md" target="_blank"
+      <li><a href="../_sources/extras/prompts_usecases.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -450,7 +450,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Guide to Using GenAI</h1>
+    <h1>Generating Use Cases from User Stories</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -460,13 +460,17 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guide-to-using-generative-ai-in-swen90009-and-comp90082-subjects-included-in-this-course-notes">Guide to Using Generative AI in SWEN90009 and COMP90082 Subjects Included in this Course Notes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-generative-ai">What is Generative AI?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#good-practices">Good Practices</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-resources-for-you">Our Resources for You</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-resources">General Resources</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-importance-of-use-cases">The Importance of Use Cases</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generating-use-cases-a-guided-approach">Generating Use Cases: A Guided Approach</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-from-user-stories-to-use-cases">Example: From User Stories to Use Cases</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#user-story-1">User Story 1</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#generated-use-case">Generated Use Case</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#user-story-2">User Story 2</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Generated Use Case</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -478,82 +482,90 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="guide-to-using-genai">
-<h1>Guide to Using GenAI<a class="headerlink" href="#guide-to-using-genai" title="Link to this heading">#</a></h1>
-<section id="guide-to-using-generative-ai-in-swen90009-and-comp90082-subjects-included-in-this-course-notes">
-<h2>Guide to Using Generative AI in SWEN90009 and COMP90082 Subjects Included in this Course Notes<a class="headerlink" href="#guide-to-using-generative-ai-in-swen90009-and-comp90082-subjects-included-in-this-course-notes" title="Link to this heading">#</a></h2>
-<p>Welcome to our guide on integrating Generative AI into your software engineering studies. This document aims to provide you with an understanding of how to effectively use generative AI tools, adhere to responsible practices, and access valuable resources to enhance your learning experience.</p>
-<p>Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us (also great to keep you posted on our initiatives here):</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="generating-use-cases-from-user-stories">
+<h1>Generating Use Cases from User Stories<a class="headerlink" href="#generating-use-cases-from-user-stories" title="Link to this heading">#</a></h1>
+<p>In software engineering, translating user stories into use cases is a crucial step in the requirements engineering process. This transformation helps bridge the gap between user needs and the functional design of the system. Use cases provide a detailed description of how users interact with the system to achieve their goals, offering a clearer, step-by-step narrative that developers and stakeholders can follow.</p>
+<section id="the-importance-of-use-cases">
+<h2>The Importance of Use Cases<a class="headerlink" href="#the-importance-of-use-cases" title="Link to this heading">#</a></h2>
+<p>Use cases extend user stories by adding context and specificity, making them invaluable for:</p>
 <ul class="simple">
-<li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
-<li><p><strong>Assessment, AI and Academic Integrity</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/">https://melbourne-cshe.unimelb.edu.au/ai-aai/</a></p></li>
-<li><p><strong>Advice for students regarding Turnitin and AI writing detection</strong>: <a class="reference external" href="https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/">https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/</a></p></li>
-<li><p><strong>Using AI to enhance assessment</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/</a></p></li>
+<li><p><strong>Design and Implementation</strong>: Guiding the development team in building the system’s functionality.</p></li>
+<li><p><strong>Testing and Validation</strong>: Serving as a basis for creating test cases and ensuring the system meets user expectations.</p></li>
+<li><p><strong>Communication</strong>: Facilitating a common understanding among all project stakeholders.</p></li>
 </ul>
 </section>
-<section id="what-is-generative-ai">
-<h2>What is Generative AI?<a class="headerlink" href="#what-is-generative-ai" title="Link to this heading">#</a></h2>
-<p>Generative AI refers to artificial intelligence systems that can generate new content, including code, text, images, and more, based on the training data they have been fed. In software engineering, generative AI can assist in various tasks, such as coding, documentation, and testing, thereby augmenting the development process.</p>
-</section>
-<section id="good-practices">
-<h2>Good Practices<a class="headerlink" href="#good-practices" title="Link to this heading">#</a></h2>
-<p>When using generative AI in software engineering, consider the following practices to ensure effectiveness, responsibility, awareness and integrity:</p>
-<ul class="simple">
-<li><p><strong>Understand the Limitations</strong>: Recognise that generative AI tools are not infallible and should be used as assistants rather than replacements for human judgment.</p></li>
-<li><p><strong>Verify the Output</strong>: Always review and test the code or content generated by AI to ensure it meets your project’s requirements and standards.</p></li>
-<li><p><strong>Cite Your Sources</strong>: If your project or research benefits from generative AI, make sure to acknowledge the use of these tools in your documentation.</p></li>
-<li><p><strong>Respect Privacy and Confidentiality</strong>: Be cautious when feeding sensitive or proprietary data into generative AI systems, as this may raise privacy and confidentiality concerns. This is especially important in the context of capstone subjects where you have a chance to work with real-world industry partners.</p></li>
-</ul>
-</section>
-<section id="recommendations">
-<h2>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>Start Small</strong>: Initially, use generative AI for smaller tasks as you become familiar with its capabilities and limitations.</p></li>
-<li><p><strong>Collaborate and Discuss</strong>: Use generative AI as a tool for brainstorming and collaboration among team members, enhancing creativity and efficiency.</p></li>
-<li><p><strong>Stay Updated</strong>: Generative AI technology is rapidly evolving. Keep yourself updated on the latest developments and tools that can benefit your projects. When in doubt, ask your subject coordinator for advice.</p></li>
-</ul>
-</section>
-<section id="our-resources-for-you">
-<h2>Our Resources for You<a class="headerlink" href="#our-resources-for-you" title="Link to this heading">#</a></h2>
-<p>Yes! We welcome the use of responsible generative AI tools.</p>
-<p>Below are links to some of our recently developed generative AI prompts, scripts and resources to help you in your software engineering subjects:</p>
-<ul class="simple">
-<li><p><strong>ChatGPT Pull Request Review Action</strong>: <a class="github reference external" href="https://github.com/agogear/chatgpt-pr-review/">agogear/chatgpt-pr-review</a></p>
-<ul>
-<li><p>A GitHub Action that helps you with code reviews.</p></li>
-</ul>
-</li>
-<li><p><strong>AI-powered peer review process: An approach to enhance computer science students’ engagement with code review in industry-based subjects (2023 ASCILITE Paper)</strong>: <a class="reference external" href="https://publications.ascilite.org/index.php/APUB/article/download/482/557/">https://publications.ascilite.org/index.php/APUB/article/download/482/557/</a></p></li>
-</ul>
-</section>
-<section id="general-resources">
-<h2>General Resources<a class="headerlink" href="#general-resources" title="Link to this heading">#</a></h2>
-<p>Below are links to some popular generative AI tools and resources that you might find useful in your software engineering subjects:</p>
-<ul class="simple">
-<li><p><strong>GitHub Copilot</strong>: <a class="reference external" href="https://copilot.github.com/">https://copilot.github.com/</a></p>
-<ul>
-<li><p>An AI pair programmer that helps you write better code by suggesting whole lines or blocks of code.</p></li>
-</ul>
-</li>
-<li><p><strong>OpenAI Codex</strong>: <a class="reference external" href="https://openai.com/codex/">https://openai.com/codex/</a></p>
-<ul>
-<li><p>A powerful AI model trained to understand and generate code, powering tools like GitHub Copilot.</p></li>
-</ul>
-</li>
-<li><p><strong>ChatGPT for Software Engineering</strong>: <a class="reference external" href="https://openai.com/chatgpt/">https://openai.com/chatgpt/</a></p>
-<ul>
-<li><p>Useful for generating coding snippets, explaining code, and more.</p></li>
-</ul>
-</li>
-</ul>
-</section>
-<section id="conclusion">
-<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
-<p>Generative AI holds great promise for the field of software engineering, offering tools that can significantly enhance learning, creativity, and productivity. By following the practices outlined above and exploring the recommended resources, you can effectively incorporate these technologies into your studies and projects.</p>
-<p>Remember, the goal is to use generative AI as a complement to your skills, in responsible ways, enabling you to achieve more while maintaining high standards of quality and integrity in your work.</p>
-</section>
-<div class="toctree-wrapper compound">
+<section id="generating-use-cases-a-guided-approach">
+<h2>Generating Use Cases: A Guided Approach<a class="headerlink" href="#generating-use-cases-a-guided-approach" title="Link to this heading">#</a></h2>
+<p>To generate use cases from user stories, we can use the following structured prompt with generative AI:</p>
+<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>Given the user story: [Insert User Story Here],
+Generate a detailed use case, including:
+<span class="k">-</span><span class="w"> </span>Title: A concise title for the use case.
+<span class="k">-</span><span class="w"> </span>Actor: The user or system initiating the use case.
+<span class="k">-</span><span class="w"> </span>Preconditions: Conditions that must be true before the use case begins.
+<span class="k">-</span><span class="w"> </span>Main Flow: A step-by-step description of the interaction between the actor and the system to achieve the goal.
+<span class="k">-</span><span class="w"> </span>Alternate Flows: Any variations in the interaction sequence.
+<span class="k">-</span><span class="w"> </span>Postconditions: The state of the system after the use case completes.
+</pre></div>
 </div>
+<section id="example-from-user-stories-to-use-cases">
+<h3>Example: From User Stories to Use Cases<a class="headerlink" href="#example-from-user-stories-to-use-cases" title="Link to this heading">#</a></h3>
+<section id="user-story-1">
+<h4>User Story 1<a class="headerlink" href="#user-story-1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>As Alex, I want to easily create a professional profile highlighting my teaching philosophy and preferred subjects so that potential employers can understand my unique approach to education.</p></li>
+</ul>
+</section>
+<section id="generated-use-case">
+<h4>Generated Use Case<a class="headerlink" href="#generated-use-case" title="Link to this heading">#</a></h4>
+<p><strong>Use Case Name</strong>: Creating a Professional Profile</p>
+<ol class="arabic simple">
+<li><p><strong>Actor</strong>: Alex</p></li>
+<li><p><strong>Precondition</strong>: Alex is registered and logged into the system.</p></li>
+<li><p><strong>Main Flow</strong>:</p>
+<ul class="simple">
+<li><p>Alex selects the option to create a new professional profile.</p></li>
+<li><p>Alex is prompted to enter details about their teaching philosophy and preferred subjects.</p></li>
+<li><p>The system validates the entered information and saves the profile.</p></li>
+<li><p>The system displays a confirmation message that the profile is successfully created.</p></li>
+</ul>
+</li>
+<li><p><strong>Postconditions</strong>: Alex’s professional profile is visible to potential employers.</p></li>
+<li><p><strong>Exceptions</strong>:</p>
+<ul class="simple">
+<li><p>If any required information is missing, Alex is prompted to complete all fields.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="user-story-2">
+<h4>User Story 2<a class="headerlink" href="#user-story-2" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>As Alex, I want to filter job opportunities by location and accessibility features so that I can find schools that match my needs and values.</p></li>
+</ul>
+</section>
+<section id="id1">
+<h4>Generated Use Case<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<p><strong>Use Case Name</strong>: Filtering Job Opportunities</p>
+<ol class="arabic simple">
+<li><p><strong>Actor</strong>: Alex</p></li>
+<li><p><strong>Precondition</strong>: Alex has accessed the job opportunities section.</p></li>
+<li><p><strong>Main Flow</strong>:</p>
+<ul class="simple">
+<li><p>Alex inputs preferred location and accessibility features into the filter criteria.</p></li>
+<li><p>The system retrieves and displays a list of job opportunities matching the criteria.</p></li>
+<li><p>Alex reviews the filtered job opportunities.</p></li>
+</ul>
+</li>
+<li><p><strong>Postconditions</strong>: Alex can identify and select job opportunities that match their preferences.</p></li>
+<li><p><strong>Exceptions</strong>:</p>
+<ul class="simple">
+<li><p>If no matches are found, the system informs Alex and suggests adjusting the filter criteria.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -587,20 +599,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../topics/client_handover.html"
+       href="prompts_userstories.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Client Handover</p>
+        <p class="prev-next-title">Generating User Stories from Personas with ChatGPT</p>
       </div>
     </a>
     <a class="right-next"
-       href="prompts_personas.html"
+       href="prompts_acceptancetests.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Creating Diverse and Inclusive User Personas with ChatGPT</p>
+        <p class="prev-next-title">Generating Acceptance Tests from User Stories</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -620,13 +632,17 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guide-to-using-generative-ai-in-swen90009-and-comp90082-subjects-included-in-this-course-notes">Guide to Using Generative AI in SWEN90009 and COMP90082 Subjects Included in this Course Notes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-generative-ai">What is Generative AI?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#good-practices">Good Practices</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-resources-for-you">Our Resources for You</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-resources">General Resources</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-importance-of-use-cases">The Importance of Use Cases</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#generating-use-cases-a-guided-approach">Generating Use Cases: A Guided Approach</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example-from-user-stories-to-use-cases">Example: From User Stories to Use Cases</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#user-story-1">User Story 1</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#generated-use-case">Generated Use Case</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#user-story-2">User Story 2</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Generated Use Case</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
