@@ -1,6 +1,6 @@
 # Guide to Using GenAI
 
-## Guide to Using Generative AI in the Software Engineering Subjects Included in this Course Notes
+## Guide to Using Generative AI in SWEN90009 and COMP90082 Subjects Included in this Course Notes
 
 Welcome to our guide on integrating Generative AI into your software engineering studies. This document aims to provide you with an understanding of how to effectively use generative AI tools, adhere to responsible practices, and access valuable resources to enhance your learning experience.
 
