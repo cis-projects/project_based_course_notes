@@ -48,6 +48,11 @@ parts:
     - file: topics/client_handover
   - caption: Extras
     chapters:
+    - file: extras/genai
+      sections:
+        - file: extras/prompts_personas
+        - file: extras/prompts_userstories
+        - file: extras/prompts_codereview                
     - file: extras/academic_honesty
       sections:
         - file: extras/help_nonstudents

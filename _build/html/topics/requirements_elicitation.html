@@ -1,712 +1,506 @@
 
 <!DOCTYPE html>
 
-<html>
+
+<html lang="en" data-content_root="../" >
+
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Requirements Engineering &#8212; Project-Based Course Notes</title>
-    
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
 
-    
-  <link rel="stylesheet"
-    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
-  <link rel="preload" as="font" type="font/woff2" crossorigin
-    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+  
+  <link href="../_static/vendor/fontawesome/6.5.1/css/all.min.css?digest=8d27b9dea8ad943066ae" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.1/webfonts/fa-regular-400.woff2" />
 
-    
-      
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae" />
+  <script src="../_static/vendor/fontawesome/6.5.1/js/all.min.js?digest=8d27b9dea8ad943066ae"></script>
 
-    
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-book-theme.css?digest=c3fdc42140077d1ad13ad2f1588a4309" />
-    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
-    
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
-
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/togglebutton.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
-    <script src="../_static/sphinx-book-theme.d59cb220de22ca1c485ebbdc042f0030.js"></script>
-    <script async="async" src="https://unpkg.com/thebe@0.5.1/lib/index.js"></script>
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=efea14e4"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
     <script>
-        const thebe_selector = ".thebe"
-        const thebe_selector_input = "pre"
-        const thebe_selector_output = ".output"
-    </script>
-    <script async="async" src="../_static/sphinx-thebe.js"></script>
-    <link rel="shortcut icon" href="../_static/favicon.png"/>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-RYD1BC7LLQ');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'topics/requirements_elicitation';</script>
+    <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Client Communications" href="client_communications.html" />
     <link rel="prev" title="Version Control" href="version_control.html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="docsearch:language" content="None">
-    
-
-    <!-- Google Analytics -->
-    
-<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-RYD1BC7LLQ"></script>
-<script>
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){ dataLayer.push(arguments); }
-                    gtag('js', new Date());
-                    gtag('config', 'G-RYD1BC7LLQ');
-                </script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
-    
-    <div class="container-fluid" id="banner"></div>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
 
-    
+  
+  
+  <a id="pst-skip-link" class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
 
-    <div class="container-xl">
-      <div class="row">
-          
-<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
-    
-        <div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../index.html">
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
       
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
         
-      
-      
-      <img src="../_static/logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Project-Based Course Notes</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
-  <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
-</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
-    <div class="bd-toc-item active">
-        <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../introduction.html">
-   Introduction
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Frequently Asked Questions (FAQs)
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">
-   SWEN90009 Software Requirements Analysis
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">
-   COMP90082 Software Project
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Topics
- </span>
-</p>
-<ul class="current nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="agile_methodology.html">
-   Agile Methodology
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
-  <label for="toctree-checkbox-1">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="document_repository.html">
-     Document Repository (Confluence)
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="task_tracking.html">
-     Task Tracking
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="version_control.html">
-     Version Control
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 current active has-children">
-  <a class="current reference internal" href="#">
-   Requirements Engineering
-  </a>
-  <input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
-  <label for="toctree-checkbox-2">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="client_communications.html">
-     Client Communications
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
-    <label for="toctree-checkbox-3">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="templates_for_comm.html">
-       Templates
-      </a>
-     </li>
-    </ul>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="userstory.html">
-     User Stories
-    </a>
-   </li>
-   <li class="toctree-l2 has-children">
-    <a class="reference internal" href="reqtools.html">
-     Tools
-    </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
-    <label for="toctree-checkbox-4">
-     <i class="fas fa-chevron-down">
-     </i>
-    </label>
-    <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="motivational_model_guide.html">
-       Motivational Model Guide
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="personas_tools.html">
-       Tools for Personas
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="marvel_guide.html">
-       Low Fidelity Prototype Tool - Marvel
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="figma_guide.html">
-       High Fidelity Prototype Tool - Figma
-      </a>
-     </li>
-     <li class="toctree-l3">
-      <a class="reference internal" href="miro_guide.html">
-       Miro Tutorial
-      </a>
-     </li>
-    </ul>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="devsprint.html">
-   Development
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
-  <label for="toctree-checkbox-5">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="github.html">
-     GitHub
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="simplified_workflow.html">
-     A Simplified Workflow
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="technology_stack.html">
-     Technology Stack
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="architecture.html">
-     Architecture
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="code_review.html">
-     Code Review
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="software_licenses.html">
-     Software Licenses
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="devtools.html">
-     Tools
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="deployment.html">
-   Deployment
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
-  <label for="toctree-checkbox-6">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="devops.html">
-     DevOps
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="ci_cd.html">
-     Adding CI/CD to Your Project
-    </a>
-   </li>
-  </ul>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="testing.html">
-   Testing
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="final_presentation.html">
-   Final Presentation
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="client_handover.html">
-   Client Handover
-  </a>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Extras
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1 has-children">
-  <a class="reference internal" href="../extras/academic_honesty.html">
-   Academic Honesty Training
-  </a>
-  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
-  <label for="toctree-checkbox-7">
-   <i class="fas fa-chevron-down">
-   </i>
-  </label>
-  <ul>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/help_nonstudents.html">
-     Getting help from non student friends
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/answer_student.html">
-     Copying the answer from a fellow student
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/help_students.html">
-     Getting help from fellow students
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/answer_online.html">
-     Copying the answer from online sources
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/outsource_assignment.html">
-     Do not outsource assignment
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/lock_screen.html">
-     Lock screen when leaving your monitor
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/protect_code.html">
-     Protect your code Github
-    </a>
-   </li>
-   <li class="toctree-l2">
-    <a class="reference internal" href="../extras/working_friends.html">
-     Working and discussing with friends in the right way
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-<p aria-level="2" class="caption" role="heading">
- <span class="caption-text">
-  Afterword
- </span>
-</p>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../afterword/bibliography.html">
-   Bibliography
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../afterword/hall_of_fame.html">
-   Hall of Fame
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../afterword/collaborate.html">
-   Collaborate With Us
-  </a>
- </li>
-</ul>
 
-    </div>
-</nav> <!-- To handle the deprecated key -->
-
-<div class="navbar_extra_footer">
-  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
-</div>
-
-</div>
-
-
-          
-
-
-          
-<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+  
+  <div class="sidebar-header-items sidebar-primary__section">
     
-    <div class="topbar container-xl fixed-top">
-    <div class="topbar-contents row">
-        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
-        <div class="col pl-md-4 topbar-main">
-            
-            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
-                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
-                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
-                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-arrow-left"></i>
-                <i class="fas fa-arrow-up"></i>
-            </button>
-            
-            
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
-            class="fas fa-download"></i></button>
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
 
-    <div class="dropdown-buttons">
-        <!-- ipynb file if we had a myst markdown file -->
+  
+
+<a class="navbar-brand logo" href="../introduction.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Project-Based Course Notes - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Project-Based Course Notes - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
         
-        <!-- Download raw file -->
-        <a class="dropdown-buttons" href="../_sources/topics/requirements_elicitation.md"><button type="button"
-                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
-                data-placement="left">.md</button></a>
-        <!-- Download PDF via print -->
-        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
-                onclick="printPdf(this)" data-toggle="tooltip" data-placement="left">.pdf</button>
-    </div>
-</div>
-
-            <!-- Source interaction buttons -->
-
-<div class="dropdown-buttons-trigger">
-    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
-        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
-    <div class="dropdown-buttons sourcebuttons">
-        <a class="repository-button"
-            href="https://github.com/cis-projects/project_based_course_notes"><button type="button" class="btn btn-secondary topbarbtn"
-                data-toggle="tooltip" data-placement="left" title="Source repository"><i
-                    class="fab fa-github"></i>repository</button></a>
-        <a class="issues-button"
-            href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/requirements_elicitation.html&body=Your%20issue%20content%20here."><button
-                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
-                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
-        
-    </div>
-</div>
-
-            <!-- Full screen (wrap in <a> to have style consistency -->
-
-<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
-        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
-        title="Fullscreen mode"><i
-            class="fas fa-expand"></i></button></a>
-
-            <!-- Launch buttons -->
-
-        </div>
-
-        <!-- Table of contents -->
-        <div class="d-none d-md-block col-md-2 bd-toc show noprint">
-            
-            <div class="tocsection onthispage pt-5 pb-3">
-                <i class="fas fa-list"></i> Contents
-            </div>
-            <nav id="bd-toc-nav" aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-are-requirements">
-   What Are Requirements?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#why-do-we-need-to-perform-requirements-elicitation">
-   Why Do We Need to Perform Requirements Elicitation?
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#background-research">
-     0. Background Research
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#initial-client-meeting-and-elicitation">
-     1. Initial Client Meeting and Elicitation
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#client-meeting">
-       Client Meeting
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#elicitation">
-       Elicitation
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#motivational-modelling">
-         Motivational Modelling
-        </a>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#elaboration">
-     2. Elaboration
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#personas">
-       Personas
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#writing-personas">
-         Writing Personas
-        </a>
-       </li>
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#diversity-and-inclusion">
-         Diversity and Inclusion
-        </a>
-       </li>
-      </ul>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#consistency-principles">
-       9 Consistency Principles
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#prototypes">
-       Prototypes
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#classes-of-prototypes">
-         Classes of Prototypes
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#building-a-low-fidelity-prototype">
-           Building a Low Fidelity Prototype
-          </a>
-         </li>
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#building-a-high-fidelity-prototype">
-           Building a High-Fidelity Prototype
-          </a>
-         </li>
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../introduction.html">
+                    Introduction
+                </a>
+            </li>
         </ul>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#negotiation-validation-and-specification">
-     3. Negotiation, Validation, and Specification
-    </a>
-   </li>
-  </ul>
- </li>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Frequently Asked Questions (FAQs)</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference external" href="https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef">SWEN90009 Software Requirements Analysis</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://wiggly-turnip-06b.notion.site/a8713810d04744a38979f6c25b850393?v=18b952eb75764c828cefd37187a78664">COMP90082 Software Project</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Topics</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="agile_methodology.html">Agile Methodology</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="document_repository.html">Document Repository (Confluence)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="task_tracking.html">Task Tracking</a></li>
+<li class="toctree-l2"><a class="reference internal" href="version_control.html">Version Control</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Requirements Engineering</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="client_communications.html">Client Communications</a><input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-3"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="templates_for_comm.html">Templates</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="userstory.html">User Stories</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="reqtools.html">Tools</a><input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-4"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l3"><a class="reference internal" href="motivational_model_guide.html">Motivational Model Guide</a></li>
+<li class="toctree-l3"><a class="reference internal" href="personas_tools.html">Tools for Personas</a></li>
+<li class="toctree-l3"><a class="reference internal" href="marvel_guide.html">Low Fidelity Prototype Tool - Marvel</a></li>
+<li class="toctree-l3"><a class="reference internal" href="figma_guide.html">High Fidelity Prototype Tool - Figma</a></li>
+<li class="toctree-l3"><a class="reference internal" href="miro_guide.html">Miro Tutorial</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="devsprint.html">Development</a><input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-5"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="github.html">GitHub</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simplified_workflow.html">A Simplified Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="technology_stack.html">Technology Stack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html">Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="code_review.html">Code Review</a></li>
+<li class="toctree-l2"><a class="reference internal" href="software_licenses.html">Software Licenses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="devtools.html">Tools</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="deployment.html">Deployment</a><input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="devops.html">DevOps</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ci_cd.html">Adding CI/CD to Your Project</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="testing.html">Testing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="final_presentation.html">Final Presentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="client_handover.html">Client Handover</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Extras</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../extras/genai.html">Generative AI</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../extras/prompts_personas.html">Creating Diverse and Inclusive User Personas with ChatGPT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/prompts_userstories.html">Generating User Stories from Personas with ChatGPT</a></li>
+</ul>
+</li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../extras/academic_honesty.html">Academic Honesty Training</a><input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-8"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="../extras/help_nonstudents.html">Getting help from non student friends</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/answer_student.html">Copying the answer from a fellow student</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/help_students.html">Getting help from fellow students</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/answer_online.html">Copying the answer from online sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/outsource_assignment.html">Do not outsource assignment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/lock_screen.html">Lock screen when leaving your monitor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/protect_code.html">Protect your code Github</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../extras/working_friends.html">Working and discussing with friends in the right way</a></li>
+</ul>
+</li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Afterword</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../afterword/bibliography.html">Bibliography</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../afterword/hall_of_fame.html">Hall of Fame</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../afterword/collaborate.html">Collaborate With Us</a></li>
 </ul>
 
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/cis-projects/project_based_course_notes" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/requirements_elicitation.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/topics/requirements_elicitation.md" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.md</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Requirements Engineering</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-requirements">What Are Requirements?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-do-we-need-to-perform-requirements-elicitation">Why Do We Need to Perform Requirements Elicitation?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-research">0. Background Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initial-client-meeting-and-elicitation">1. Initial Client Meeting and Elicitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#client-meeting">Client Meeting</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#elicitation">Elicitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#elaboration">2. Elaboration</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#personas">Personas</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-personas">Writing Personas</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#diversity-and-inclusion">Diversity and Inclusion</a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#consistency-principles">9 Consistency Principles</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#prototypes">Prototypes</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#classes-of-prototypes">Classes of Prototypes</a><ul class="nav section-nav flex-column">
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#building-a-low-fidelity-prototype">Building a Low Fidelity Prototype</a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#building-a-high-fidelity-prototype">Building a High-Fidelity Prototype</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#negotiation-validation-and-specification">3. Negotiation, Validation, and Specification</a></li>
+</ul>
+</li>
+</ul>
             </nav>
         </div>
     </div>
 </div>
-    <div id="main-content" class="row">
-        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
-            <!-- Table of contents that is only displayed when printing the page -->
-            <div id="jb-print-docs-body" class="onlyprint">
-                <h1>Requirements Engineering</h1>
-                <!-- Table of contents -->
-                <div id="print-main-content">
-                    <div id="jb-print-toc">
-                        
-                        <div>
-                            <h2> Contents </h2>
-                        </div>
-                        <nav aria-label="Page">
-                            <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#what-are-requirements">
-   What Are Requirements?
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#why-do-we-need-to-perform-requirements-elicitation">
-   Why Do We Need to Perform Requirements Elicitation?
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#background-research">
-     0. Background Research
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#initial-client-meeting-and-elicitation">
-     1. Initial Client Meeting and Elicitation
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#client-meeting">
-       Client Meeting
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#elicitation">
-       Elicitation
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#motivational-modelling">
-         Motivational Modelling
-        </a>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#elaboration">
-     2. Elaboration
-    </a>
-    <ul class="nav section-nav flex-column">
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#personas">
-       Personas
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#writing-personas">
-         Writing Personas
-        </a>
-       </li>
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#diversity-and-inclusion">
-         Diversity and Inclusion
-        </a>
-       </li>
-      </ul>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#consistency-principles">
-       9 Consistency Principles
-      </a>
-     </li>
-     <li class="toc-h4 nav-item toc-entry">
-      <a class="reference internal nav-link" href="#prototypes">
-       Prototypes
-      </a>
-      <ul class="nav section-nav flex-column">
-       <li class="toc-h5 nav-item toc-entry">
-        <a class="reference internal nav-link" href="#classes-of-prototypes">
-         Classes of Prototypes
-        </a>
-        <ul class="nav section-nav flex-column">
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#building-a-low-fidelity-prototype">
-           Building a Low Fidelity Prototype
-          </a>
-         </li>
-         <li class="toc-h6 nav-item toc-entry">
-          <a class="reference internal nav-link" href="#building-a-high-fidelity-prototype">
-           Building a High-Fidelity Prototype
-          </a>
-         </li>
-        </ul>
-       </li>
-      </ul>
-     </li>
-    </ul>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#negotiation-validation-and-specification">
-     3. Negotiation, Validation, and Specification
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
 
-                        </nav>
-                    </div>
-                </div>
-            </div>
-            
-              <div>
+              
                 
-  <div class="tex2jax_ignore mathjax_ignore section" id="requirements-engineering">
-<h1>Requirements Engineering<a class="headerlink" href="#requirements-engineering" title="Permalink to this headline">¶</a></h1>
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="requirements-engineering">
+<h1>Requirements Engineering<a class="headerlink" href="#requirements-engineering" title="Link to this heading">#</a></h1>
 <p>Successful products are those that meet the needs of the client and can
 be easily adopted by the target user. Building a successful product can
 be difficult if teams do not understand the core business need of the
@@ -714,9 +508,9 @@ product itself.</p>
 <p>The purpose of this section is to understand more about requirements
 engineering (elicitation, elaboration, validation), the broad spectrum of tasks involved to help teams derive
 their requirements. By the end of this, you should understand what
-artefacts are used to represent the project specifications <span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id2">OS21</a>]</span>.</p>
-<div class="section" id="what-are-requirements">
-<h2>What Are Requirements?<a class="headerlink" href="#what-are-requirements" title="Permalink to this headline">¶</a></h2>
+artefacts are used to represent the project specifications <span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id2" title="Eduardo Oliveira and Leon Sterling. Motivational models for validating agile requirements in software engineering subjects. 19th International Conference on Software Engineering Research and Practice, 2021.">OS21</a>]</span>.</p>
+<section id="what-are-requirements">
+<h2>What Are Requirements?<a class="headerlink" href="#what-are-requirements" title="Link to this heading">#</a></h2>
 <p>Before we look at how requirements elicitation works, let us consider
 what requirements are. Broadly speaking, requirements define what teams
 need to implement. There are three key types of requirements that are
@@ -731,9 +525,9 @@ examples include any safety, security, or performance requirements.</p></li>
 <li><p>Emotional requirements: Requirements that detail how the target user
 should feel when interacting with the system.</p></li>
 </ul>
-</div>
-<div class="section" id="why-do-we-need-to-perform-requirements-elicitation">
-<h2>Why Do We Need to Perform Requirements Elicitation?<a class="headerlink" href="#why-do-we-need-to-perform-requirements-elicitation" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="why-do-we-need-to-perform-requirements-elicitation">
+<h2>Why Do We Need to Perform Requirements Elicitation?<a class="headerlink" href="#why-do-we-need-to-perform-requirements-elicitation" title="Link to this heading">#</a></h2>
 <p>Teams are provided with a high-level project brief and are tasked with
 extracting the project requirements. Requirements elicitation helps
 teams understand what these requirements are, whilst also building a
@@ -749,8 +543,8 @@ solutions that successfully solve the client’s pain points.</p>
 <p>The process of requirements engineering, which is simply all the
 activities required to have your detailed specifications, are discussed
 below.</p>
-<div class="section" id="background-research">
-<h3>0. Background Research<a class="headerlink" href="#background-research" title="Permalink to this headline">¶</a></h3>
+<section id="background-research">
+<h3>0. Background Research<a class="headerlink" href="#background-research" title="Link to this heading">#</a></h3>
 <p>Before you speak to your client, you should develop a general
 understanding of the project to aid your team in directing the meeting
 and forming helpful questions. For example, a previous year was tasked
@@ -762,11 +556,11 @@ problem domain, to look for potential functionality that the client may
 want. Understanding the client’s competitors, peers, etc. will save the
 client work in having to explain all facets of their business and
 industry to your team.</p>
-</div>
-<div class="section" id="initial-client-meeting-and-elicitation">
-<h3>1. Initial Client Meeting and Elicitation<a class="headerlink" href="#initial-client-meeting-and-elicitation" title="Permalink to this headline">¶</a></h3>
-<div class="section" id="client-meeting">
-<h4>Client Meeting<a class="headerlink" href="#client-meeting" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="initial-client-meeting-and-elicitation">
+<h3>1. Initial Client Meeting and Elicitation<a class="headerlink" href="#initial-client-meeting-and-elicitation" title="Link to this heading">#</a></h3>
+<section id="client-meeting">
+<h4>Client Meeting<a class="headerlink" href="#client-meeting" title="Link to this heading">#</a></h4>
 <p>The first client meeting is your chance to understand more about your
 client, the project, and their expectations. During this meeting, teams
 should try to establish a basic understanding of the problem.
@@ -781,9 +575,9 @@ questions you would like to ask ahead of time. Emailing your client with
 the agenda can be beneficial to ensure they are prepared. The meeting
 itself should have a facilitator and note taker assigned ahead of time,
 with team members jumping in as required.</p>
-</div>
-<div class="section" id="elicitation">
-<h4>Elicitation<a class="headerlink" href="#elicitation" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="elicitation">
+<h4>Elicitation<a class="headerlink" href="#elicitation" title="Link to this heading">#</a></h4>
 <p>Following your initial meeting, the team should work through the meeting
 minutes to extract the key requirements. Teams should work to extract
 the user goals - the objectives the target user of the system would want
@@ -796,8 +590,8 @@ by the client, that cannot be feasibly achieved, then these should be
 clearly identified.</p>
 <p>The process of writing your requirements can be done by different
 methods.</p>
-<div class="section" id="motivational-modelling">
-<h5>Motivational Modelling<a class="headerlink" href="#motivational-modelling" title="Permalink to this headline">¶</a></h5>
+<section id="motivational-modelling">
+<h5>Motivational Modelling<a class="headerlink" href="#motivational-modelling" title="Link to this heading">#</a></h5>
 <p>One popular technique is to use motivational modelling. This technique
 allows the functional, non-functional, and emotional goals of the system
 to represented in a diagram. The benefit is that diagrams are often
@@ -816,9 +610,9 @@ a DO/BE/FEEL/WHO list, and should detail:</p>
 This is a great starting point for teams to confirm the understanding of
 the project requirements, with the bottom leaves corresponding to user
 stories.</p>
-<div class="figure align-default" id="motivational-model">
+<figure class="align-default" id="motivational-model">
 <img alt="../_images/motivational_model.jpg" src="../_images/motivational_model.jpg" />
-</div>
+</figure>
 <div class="tip admonition">
 <p class="admonition-title">Extra Resources</p>
 <p>Please see the appendix for more information on how to use the university’s supplied motivational modeller.
@@ -829,11 +623,11 @@ If you wish to use a different tool, here are a few:</p>
 <li><p><a class="reference external" href="https://astah.net/">Astah</a></p></li>
 </ul>
 </div>
-</div>
-</div>
-</div>
-<div class="section" id="elaboration">
-<h3>2. Elaboration<a class="headerlink" href="#elaboration" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+</section>
+<section id="elaboration">
+<h3>2. Elaboration<a class="headerlink" href="#elaboration" title="Link to this heading">#</a></h3>
 <p>Once the general user goals are understood, teams should work to expand
 and refine the information collected. This typically involves:</p>
 <ul class="simple">
@@ -842,8 +636,8 @@ understanding and expanding as required.</p></li>
 <li><p>Developing personas to match your target users.</p></li>
 <li><p>Developing prototypes.</p></li>
 </ul>
-<div class="section" id="personas">
-<h4>Personas<a class="headerlink" href="#personas" title="Permalink to this headline">¶</a></h4>
+<section id="personas">
+<h4>Personas<a class="headerlink" href="#personas" title="Link to this heading">#</a></h4>
 <p>Personas refer to fictional characters that represent the different
 types of users that may use your product. They play a key role in
 helping teams empathise and understand the users of the product, through
@@ -856,16 +650,18 @@ look for fast and luxurious cars to fit their lifestyles. If you had to
 design a car for a person, it is important to understand which category
 your client falls in, to make sure the car you design is suited to their
 purpose. This is how personas can be useful.</p>
-<div class="figure align-default" id="persona">
+<figure class="align-default" id="persona">
 <img alt="../_images/persona.png" src="../_images/persona.png" />
-<p class="caption"><span class="caption-number">Fig. 6 </span><span class="caption-text"><span id="id2">[<a class="reference internal" href="../afterword/bibliography.html#id8">99designs</a>]</span></span><a class="headerlink" href="#persona" title="Permalink to this image">¶</a></p>
-</div>
+<figcaption>
+<p><span class="caption-number">Fig. 6 </span><span class="caption-text"><span id="id2">[<a class="reference internal" href="../afterword/bibliography.html#id8" title="99designs. How to create a user persona. URL: https://99designs.com.au/blog/business/how-to-create-user-personas/.">99designs</a>]</span></span><a class="headerlink" href="#persona" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
 <p>It might seem weird to use fictional characters but using real people
 (like your client, a team member, etc.) could result in data privacy
 breaches, as well as unrealistic use cases, if they are not well aligned
 to actual user requirements.</p>
-<div class="section" id="writing-personas">
-<h5>Writing Personas<a class="headerlink" href="#writing-personas" title="Permalink to this headline">¶</a></h5>
+<section id="writing-personas">
+<h5>Writing Personas<a class="headerlink" href="#writing-personas" title="Link to this heading">#</a></h5>
 <p>A persona should have the following elements:</p>
 <ul class="simple">
 <li><p>Fictional name.</p></li>
@@ -882,19 +678,19 @@ to actual user requirements.</p>
 <li><p><a class="reference external" href="https://personagenerator.com/">PersonaGenerator</a></p></li>
 <li><p><a class="reference external" href="https://uxpressia.com/">UXPressia</a></p></li>
 </ul>
-</div>
-<div class="section" id="diversity-and-inclusion">
-<h5>Diversity and Inclusion<a class="headerlink" href="#diversity-and-inclusion" title="Permalink to this headline">¶</a></h5>
+</section>
+<section id="diversity-and-inclusion">
+<h5>Diversity and Inclusion<a class="headerlink" href="#diversity-and-inclusion" title="Link to this heading">#</a></h5>
 <p>Personas should also be diverse in demographics and backgrounds (age, ethnicity, education, etc.) to capture
 real-life users. Why is that important?</p>
 <p>Firstly, it will help us gain a better understanding of our target end-users. Secondly, it is crucial for us to
 recognise diversity in people and create an inclusive environment together in every aspect of our lives. It is not
 just the way we treat other people, but also the work we produce. Persona is one example.</p>
 <p>Let us think about a couple of examples for Personas. The system we are designing is for the engineering workforce
-of which 13.6% are female <span id="id3">[<a class="reference internal" href="../afterword/bibliography.html#id9">Aus</a>]</span>.
+of which 13.6% are female <span id="id3">[<a class="reference internal" href="../afterword/bibliography.html#id9" title="Professionals Australia. Women in engineering report. URL: http://www.professionalsaustralia.org.au/professional-women/wp-content/uploads/sites/48/2021/06/Women-in-Engineering-report.pdf.">Aus</a>]</span>.
 Do you think we recognise the diversity of our target end-users and are being inclusive, if all the personas we
 create are male? No, we are not. What if the system-to-be is for nurses and midwives where 11.3% are male
-<span id="id4">[<a class="reference internal" href="../afterword/bibliography.html#id10">oH</a>]</span>?</p>
+<span id="id4">[<a class="reference internal" href="../afterword/bibliography.html#id10" title="Department of Health. Factsheet, nursing and midwifery 2019. URL: https://hwd.health.gov.au/resources/publications/factsheet-nrmw-2019.pdf.">oH</a>]</span>?</p>
 <p>Another example, our project is to re-design the user interface of our client’s website. Our client tells us that
 80% of the end-users are female. Therefore, in our female personas we said that they like pink. In fact, our team
 is going to design the interface to be pink. Do you think we have recognised the diversity of our end-users? Do
@@ -905,10 +701,10 @@ website should be consistent with?) rather than solely relying on our prior beli
 <p>The examples we give above are related to gender. Diversity can take on many other forms, such as ethnicity,
 education background, age and so on. We strongly encourage you to create personas that cover the diverse
 demographics and backgrounds of your target end-users.</p>
-</div>
-</div>
-<div class="section" id="consistency-principles">
-<h4>9 Consistency Principles<a class="headerlink" href="#consistency-principles" title="Permalink to this headline">¶</a></h4>
+</section>
+</section>
+<section id="consistency-principles">
+<h4>9 Consistency Principles<a class="headerlink" href="#consistency-principles" title="Link to this heading">#</a></h4>
 <p>It is really important that the user stories, personas and motivational model are consistent with each other,
 following the 9 principles (CP stands for Consistency Principle):</p>
 <ul class="simple">
@@ -939,9 +735,9 @@ between personas, user stories and goals are critical.</p>
 complement personas and user stories which focus more on user needs rather than on system features. The 9
 consistency principles help us ensure that personas, user stories and motivational models are consistent with
 each other, ultimately achieving a better understanding of the requirements among stakeholders.</p>
-</div>
-<div class="section" id="prototypes">
-<h4>Prototypes<a class="headerlink" href="#prototypes" title="Permalink to this headline">¶</a></h4>
+</section>
+<section id="prototypes">
+<h4>Prototypes<a class="headerlink" href="#prototypes" title="Link to this heading">#</a></h4>
 <p>Coding a system can be complex, and time-consuming. If your client
 realises they do not like the design of the system, or perhaps some
 interface needs to be reworked, doing this on the actual system can be
@@ -955,8 +751,8 @@ final product should look or behave like. These are much quicker to
 build and allow teams to get feedback from the client much earlier,
 reducing the likelihood of major changes to the system’s interface
 later.</p>
-<div class="section" id="classes-of-prototypes">
-<h5>Classes of Prototypes<a class="headerlink" href="#classes-of-prototypes" title="Permalink to this headline">¶</a></h5>
+<section id="classes-of-prototypes">
+<h5>Classes of Prototypes<a class="headerlink" href="#classes-of-prototypes" title="Link to this heading">#</a></h5>
 <ul class="simple">
 <li><p><em>Paper prototype/Low fidelity prototype</em>: Hand drawing of user
 interface to allow it to be rapidly designed, simulated, and tested.
@@ -967,8 +763,8 @@ to what the final product should look like. These prototypes are made
 using no-code programs and should determine the final design of the
 system.</p></li>
 </ul>
-<div class="section" id="building-a-low-fidelity-prototype">
-<h6>Building a Low Fidelity Prototype<a class="headerlink" href="#building-a-low-fidelity-prototype" title="Permalink to this headline">¶</a></h6>
+<section id="building-a-low-fidelity-prototype">
+<h6>Building a Low Fidelity Prototype<a class="headerlink" href="#building-a-low-fidelity-prototype" title="Link to this heading">#</a></h6>
 <p>There are many tools that can be used for creating low fidelity
 prototypes:</p>
 <ul class="simple">
@@ -976,9 +772,9 @@ prototypes:</p>
 PowerPoint comes complete with several good features for drawing and
 designing UI elements.</p></li>
 </ul>
-<div class="figure align-default" id="low-fidelity-prototype">
+<figure class="align-default" id="low-fidelity-prototype">
 <img alt="../_images/low_fidelity_prototype.png" src="../_images/low_fidelity_prototype.png" />
-</div>
+</figure>
 <p><em>This is an example of a watch UI
 created through PowerPoint. User interaction elements can be
 created, and a user scenario was created to take the client through
@@ -988,9 +784,9 @@ during a meeting.</em></p>
 templates: <a class="reference external" href="https://miro.com/templates/low-fidelity-wireframes/">Miro wireframe templates</a></p></li>
 <li><p>Marvel: Please see the appendix for a tutorial.</p></li>
 </ul>
-</div>
-<div class="section" id="building-a-high-fidelity-prototype">
-<h6>Building a High-Fidelity Prototype<a class="headerlink" href="#building-a-high-fidelity-prototype" title="Permalink to this headline">¶</a></h6>
+</section>
+<section id="building-a-high-fidelity-prototype">
+<h6>Building a High-Fidelity Prototype<a class="headerlink" href="#building-a-high-fidelity-prototype" title="Link to this heading">#</a></h6>
 <p>The benefit of using a high-fidelity prototype vs. a low fidelity
 prototype is it allows development teams to be much more specific about
 how a product will look, feel, and act without having to code it (which
@@ -1013,12 +809,12 @@ also offer a free <a class="reference external" href="https://www.axure.com/edu"
 Adobe products. They also offer student discounts for their
 <a class="reference external" href="https://www.adobe.com/au/creativecloud/buy/students.html">full suite of products</a>.</p></li>
 </ul>
-</div>
-</div>
-</div>
-</div>
-<div class="section" id="negotiation-validation-and-specification">
-<h3>3. Negotiation, Validation, and Specification<a class="headerlink" href="#negotiation-validation-and-specification" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+</section>
+</section>
+<section id="negotiation-validation-and-specification">
+<h3>3. Negotiation, Validation, and Specification<a class="headerlink" href="#negotiation-validation-and-specification" title="Link to this heading">#</a></h3>
 <p>As the various requirements artefacts are developed, teams should be
 validating these with the client. If there is some disagreement between
 what the team believes is achievable and what the client wants, teams
@@ -1067,11 +863,11 @@ should include:</p>
 <p class="admonition-title">What’s Next</p>
 <p>Now that your team has elicited the requirements - it is time to start designing the application.</p>
 </div>
-</div>
-</div>
+</section>
+</section>
 <div class="toctree-wrapper compound">
 </div>
-</div>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1085,7 +881,7 @@ should include:</p>
             mode: "python"
         },
         kernelOptions: {
-            kernelName: "python3",
+            name: "python3",
             path: "./topics"
         },
         predefinedOutput: true
@@ -1093,44 +889,133 @@ should include:</p>
     </script>
     <script>kernelName = 'python3'</script>
 
-              </div>
+                </article>
               
-            
-                <!-- Previous / next buttons -->
-<div class='prev-next-area'> 
-    <a class='left-prev' id="prev-link" href="version_control.html" title="previous page">
-        <i class="fas fa-angle-left"></i>
-        <div class="prev-next-info">
-            <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title">Version Control</p>
-        </div>
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="version_control.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Version Control</p>
+      </div>
     </a>
-    <a class='right-next' id="next-link" href="client_communications.html" title="next page">
-    <div class="prev-next-info">
+    <a class="right-next"
+       href="client_communications.html"
+       title="next page">
+      <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
         <p class="prev-next-title">Client Communications</p>
-    </div>
-    <i class="fas fa-angle-right"></i>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
     </a>
 </div>
+                </footer>
+              
+            </div>
             
-        </div>
-    </div>
-    <footer class="footer">
-  <p>
-    
-      By School of Computing and Information Systems, The University of Melbourne<br/>
-    
-        &copy; Copyright 2021.<br/>
-  </p>
-</footer>
-</main>
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
 
-      </div>
-    </div>
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-are-requirements">What Are Requirements?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-do-we-need-to-perform-requirements-elicitation">Why Do We Need to Perform Requirements Elicitation?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#background-research">0. Background Research</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initial-client-meeting-and-elicitation">1. Initial Client Meeting and Elicitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#client-meeting">Client Meeting</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#elicitation">Elicitation</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#elaboration">2. Elaboration</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#personas">Personas</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#writing-personas">Writing Personas</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#diversity-and-inclusion">Diversity and Inclusion</a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#consistency-principles">9 Consistency Principles</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#prototypes">Prototypes</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#classes-of-prototypes">Classes of Prototypes</a><ul class="nav section-nav flex-column">
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#building-a-low-fidelity-prototype">Building a Low Fidelity Prototype</a></li>
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#building-a-high-fidelity-prototype">Building a High-Fidelity Prototype</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#negotiation-validation-and-specification">3. Negotiation, Validation, and Specification</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <div class="footer-item">
+    
+<p class="component-author">
+By School of Computing and Information Systems, The University of Melbourne
+</p>
 
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2023.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=8d27b9dea8ad943066ae"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=8d27b9dea8ad943066ae"></script>
+
+  <footer class="bd-footer">
+  </footer>
   </body>
 </html>
