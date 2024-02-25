@@ -1,4 +1,4 @@
-# GenAI for Code Review
+# Reviewing Your Code
 
 As part of enhancing your skills in software engineering, it's crucial to learn how to effectively review code. Not only does this practice help in identifying potential defects, but it also contributes to the overall quality of the software development process. In this guide, we introduce a structured approach to code review using ChatGPT, leveraging a research-informed prompt that focuses on various aspects of code quality.
 
