@@ -1,4 +1,4 @@
-# Creating Diverse and Inclusive User Personas with ChatGPT
+# Creating Diverse and Inclusive User Personas
 
 Understanding your users is a cornerstone of successful software development. This guide will help you generate comprehensive, diverse, and inclusive personas for the end-users of your software projects. By following the structured prompt provided, you can ensure that your development efforts are user-centered and considerate of a wide range of needs and backgrounds.
 
