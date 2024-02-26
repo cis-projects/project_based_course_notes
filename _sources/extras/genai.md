@@ -4,6 +4,7 @@
 :class: tip, dropdown
 Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
 - **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+- **Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.**
 :::
 
 
@@ -59,7 +60,7 @@ Adhere to principles of academic integrity and ethical conduct in all interactio
 
 ## Our Resources for You 
 
-Below are links to some of our recently developed generative AI prompts, scripts and resources to help you in your software engineering subjects:
+Below are links to some of our recently developed generative AI prompts, scripts and resources to help you in your software engineering subjects **(you must confirm if your subject coordinator is happy for you to use genAI within your subjects)**:
 
 - **ChatGPT Pull Request Review Action**: [https://github.com/agogear/chatgpt-pr-review/](https://github.com/agogear/chatgpt-pr-review/)
   - A GitHub Action that helps you with code reviews.
