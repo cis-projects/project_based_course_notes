@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Creating Diverse and Inclusive User Personas &#8212; Project-Based Course Notes</title>
+    <title>Hands-On Tutorial &#8212; Project-Based Course Notes</title>
   
   
   
@@ -70,12 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/prompts_personas';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/prompts_tutorial';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Generating User Stories from Personas" href="prompts_userstories.html" />
-    <link rel="prev" title="Hands-On Tutorial" href="prompts_tutorial.html" />
+    <link rel="next" title="Creating Diverse and Inclusive User Personas" href="prompts_personas.html" />
+    <link rel="prev" title="Guide to Using GenAI" href="genai.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -241,9 +241,9 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Extras</span></p>
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="genai.html">Guide to Using GenAI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="prompts_tutorial.html">Hands-On Tutorial</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Hands-On Tutorial</a></li>
 
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Creating Diverse and Inclusive User Personas</a></li>
+<li class="toctree-l2"><a class="reference internal" href="prompts_personas.html">Creating Diverse and Inclusive User Personas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_userstories.html">Generating User Stories from Personas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_usecases.html">Generating Use Cases from User Stories</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_acceptancetests.html">Generating Acceptance Tests from User Stories</a></li>
@@ -338,7 +338,7 @@
       
       
       
-      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/prompts_personas.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/prompts_tutorial.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -368,7 +368,7 @@
       
       
       
-      <li><a href="../_sources/extras/prompts_personas.md" target="_blank"
+      <li><a href="../_sources/extras/prompts_tutorial.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -452,7 +452,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Creating Diverse and Inclusive User Personas</h1>
+    <h1>Hands-On Tutorial</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -462,11 +462,38 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-for-generating-user-personas">Prompt for Generating User Personas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-this-guide">Using This Guide</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-prompt-use">Example of Prompt Use</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-for-prompt-example">Result for Prompt Example</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Hands-On Tutorial</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-prompt-engineering-for-software-engineering-projects">Basics of Prompt Engineering for Software Engineering Projects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started-with-prompt-engineering">Getting Started with Prompt Engineering</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-prompt-engineering-matters">Why Prompt Engineering Matters</a></li>
 </ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities">Hands-On Activities</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-crafting-your-first-prompt">Activity 1: Crafting Your First Prompt</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#good-examples">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bad-examples">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-enhancing-prompts-with-specificity">Activity 2: Enhancing Prompts with Specificity</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-addressing-ethical-and-inclusive-design">Activity 3: Addressing Ethical and Inclusive Design</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-4-iterative-prompt-improvement">Activity 4: Iterative Prompt Improvement</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-refinement-process">Continuous Refinement Process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -477,9 +504,8 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="creating-diverse-and-inclusive-user-personas">
-<h1>Creating Diverse and Inclusive User Personas<a class="headerlink" href="#creating-diverse-and-inclusive-user-personas" title="Link to this heading">#</a></h1>
-<p>Understanding your users is a cornerstone of successful software development. This guide will help you generate comprehensive, diverse, and inclusive personas for the end-users of your software projects. By following the structured prompt provided, you can ensure that your development efforts are user-centered and considerate of a wide range of needs and backgrounds.</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="hands-on-tutorial">
+<h1>Hands-On Tutorial<a class="headerlink" href="#hands-on-tutorial" title="Link to this heading">#</a></h1>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Official Statements from The University of Melbourne</p>
 <p>Always make sure you’re following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment</p>
@@ -487,118 +513,122 @@ document.write(`
 <li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
 </ul>
 </div>
-<section id="prompt-for-generating-user-personas">
-<h2>Prompt for Generating User Personas<a class="headerlink" href="#prompt-for-generating-user-personas" title="Link to this heading">#</a></h2>
-<p>To generate a detailed and diverse persona for your software’s end-user, use the following prompt with ChatGPT. Customize the prompt as necessary to fit the specific context and requirements of your project, especially regarding the diversity aspects you want to emphasize.</p>
-<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>Generate a comprehensive and diverse persona for [specifiy here] end-user of a software project aimed at [comprehensive description of the software purpose and target industry]. 
-Ensure the persona reflects inclusivity and diversity in terms of [choose from: age, gender, ethnicity, socio-economic status, education level, geographical location, accessibility needs, etc.], relevant to the software&#39;s target audience. The persona should include:
-
-<span class="k">1.</span> <span class="gs">**Name and Background**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A name that reflects the persona&#39;s cultural or geographical background.
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A brief background including profession, age, and any other demographic details chosen to reflect diversity.
-
-<span class="k">2.</span> <span class="gs">**Profile**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A detailed profile encompassing the persona&#39;s technical proficiency, lifestyle, and how they interact with technology on a daily basis.
-
-<span class="k">3.</span> <span class="gs">**Goals**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Primary and secondary goals when using the software. What are they trying to achieve?
-
-<span class="k">4.</span> <span class="gs">**Frustrations and Pain Points**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Specific frustrations or challenges they face in their current situation or with existing solutions that the new software could address.
-
-<span class="k">5.</span> <span class="gs">**Motivations**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>What motivates them to look for a solution like the one being developed? This could include personal or professional motivations.
-
-<span class="k">6.</span> <span class="gs">**Software Interaction Scenarios**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Describe scenarios in which the persona would interact with the software, including where, when, and how these interactions might take place.
-
-<span class="k">7.</span> <span class="gs">**Accessibility and Inclusivity Needs**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Any specific requirements or considerations to ensure the software is accessible and inclusive for this persona.
-
-<span class="k">8.</span> <span class="gs">**Quote**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A quote that sums up what this persona most desires from the software solution.
-
-Please ensure the persona is detailed enough to guide the development process and validate prototypes, helping to create a software solution that is truly user-centered and inclusive.
-</pre></div>
-</div>
+<section id="basics-of-prompt-engineering-for-software-engineering-projects">
+<h2>Basics of Prompt Engineering for Software Engineering Projects<a class="headerlink" href="#basics-of-prompt-engineering-for-software-engineering-projects" title="Link to this heading">#</a></h2>
+<p>Welcome to your quick hands-on tutorial on prompt engineering with generative AI! As future software engineers working with real-world industry partners, getting better at the art of prompt engineering is crucial. This tutorial will guide you through creating effective prompts that yield useful, ethical, critical and responsible outputs. Let’s go through this journey together to enhance your genAI collaboration skills!</p>
 </section>
-<section id="using-this-guide">
-<h2>Using This Guide<a class="headerlink" href="#using-this-guide" title="Link to this heading">#</a></h2>
+<section id="getting-started-with-prompt-engineering">
+<h2>Getting Started with Prompt Engineering<a class="headerlink" href="#getting-started-with-prompt-engineering" title="Link to this heading">#</a></h2>
+<p>Prompt engineering is the art of crafting queries that guide AI to produce desired outcomes. A well-engineered prompt leads to more accurate, relevant, and useful responses, enhancing your project’s innovation and efficiency.</p>
+<section id="why-prompt-engineering-matters">
+<h3>Why Prompt Engineering Matters<a class="headerlink" href="#why-prompt-engineering-matters" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><strong>Adapt and Iterate</strong>: Tailor the prompt to fit your project’s context and generate multiple personas to represent a broad spectrum of potential users.</p></li>
-<li><p><strong>Prototype Testing</strong>: Use the personas to simulate user interactions with your software prototype, identifying areas for improvement.</p></li>
-<li><p><strong>Focus on Inclusivity</strong>: Review each persona to ensure your software design considers diverse needs, especially in terms of accessibility and inclusivity.</p></li>
+<li><p><strong>Enhances AI’s usefulness</strong>: Proper prompts lead to more accurate and relevant outputs.</p></li>
+<li><p><strong>Saves time</strong>: Reduces iterations needed to get usable outputs.</p></li>
+<li><p><strong>Encourages ethical use</strong>: Crafting prompts with consideration of fairness and bias ensures responsible AI usage.</p></li>
 </ul>
-<p>Creating user personas is not just about ticking boxes for diversity; it’s about understanding and empathizing with the varied experiences and needs of your software’s potential users. By incorporating these diverse perspectives into your design process, you can build more inclusive, effective, and successful software solutions.</p>
 </section>
-<section id="example-of-prompt-use">
-<h2>Example of Prompt Use<a class="headerlink" href="#example-of-prompt-use" title="Link to this heading">#</a></h2>
-<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span>Generate a comprehensive and diverse persona representing a higher education student as an end-user of a software project aimed at allowing students undertaking &quot;Secondary School Teaching&quot; postgrad course to create professional profiles that will then become visible to schools&#39; principals. Idea is that schools&#39; principals will be able to browse through this new software to find the higher education student that has the best profile to be hired for that school. This software project is aimed at minimizing teacher shortages in schools in Australia.
-
-Ensure the persona reflects inclusivity and diversity in terms of [choose from: age, gender, ethnicity, socio-economic status, education level, geographical location, accessibility needs, etc.], relevant to the software&#39;s target audience. The persona should include:
-
-<span class="k">1.</span> <span class="gs">**Name and Background**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A name that reflects the persona&#39;s cultural or geographical background.
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A brief background including profession, age, and any other demographic details chosen to reflect diversity.
-
-<span class="k">2.</span> <span class="gs">**Profile**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A detailed profile encompassing the persona&#39;s technical proficiency, lifestyle, and how they interact with technology on a daily basis.
-
-<span class="k">3.</span> <span class="gs">**Goals**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Primary and secondary goals when using the software. What are they trying to achieve?
-
-<span class="k">4.</span> <span class="gs">**Frustrations and Pain Points**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Specific frustrations or challenges they face in their current situation or with existing solutions that the new software could address.
-
-<span class="k">5.</span> <span class="gs">**Motivations to Use This New Software**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>What motivates them to look for a solution like the one being developed? This could include personal or professional motivations.
-
-<span class="k">6.</span> <span class="gs">**Software Interaction Scenarios**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Describe scenarios in which the persona would interact with the software, including where, when, and how these interactions might take place.
-
-<span class="k">7.</span> <span class="gs">**Accessibility and Inclusivity Needs**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Any specific requirements or considerations to ensure the software is accessible and inclusive for this persona.
-
-<span class="k">8.</span> <span class="gs">**Quote**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>A quote that sums up what this persona most desires from the software solution.
-
-Please ensure the persona is detailed enough to guide the development process and validate prototypes, helping to create a software solution that is truly user-centered and inclusive.
-</pre></div>
-</div>
 </section>
-<section id="result-for-prompt-example">
-<h2>Result for Prompt Example<a class="headerlink" href="#result-for-prompt-example" title="Link to this heading">#</a></h2>
-<div class="highlight-markdown notranslate"><div class="highlight"><pre><span></span><span class="gu">### Persona for Higher Education Student Software Project</span>
-
-<span class="k">1.</span> <span class="gs">**Name and Background**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span><span class="gs">**Name**</span>: Aarav Patel
-<span class="w">   </span><span class="k">-</span><span class="w"> </span><span class="gs">**Background**</span>: Aarav is a 28-year-old postgraduate student enrolled in a &quot;Secondary School Teaching&quot; course. He has a background in science education with a bachelor&#39;s degree in Biology. Aarav is of Indian-Australian heritage, reflecting the multicultural aspect of Australia&#39;s population. He lives in Melbourne, Victoria, and has faced challenges in finding teaching positions that align with his qualifications and personal teaching philosophy.
-
-<span class="k">2.</span> <span class="gs">**Profile**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Aarav is moderately proficient with technology, comfortable using standard educational and professional platforms but sometimes struggles with newer, more complex software. He enjoys integrating technology into his teaching methods and is always looking for innovative ways to engage his students. Aarav leads a busy lifestyle, balancing his studies with part-time work as a tutor.
-
-<span class="k">3.</span> <span class="gs">**Goals**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span><span class="gs">**Primary Goal**</span>: To secure a full-time teaching position in a secondary school that values innovative teaching methods and offers opportunities for career progression.
-<span class="w">   </span><span class="k">-</span><span class="w"> </span><span class="gs">**Secondary Goal**</span>: To build a professional network with schools and principals, gaining visibility and establishing himself as a promising new teacher in the science education sector.
-
-<span class="k">4.</span> <span class="gs">**Frustrations and Pain Points**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Aarav is frustrated by the limited opportunities for direct engagement with potential employers. He finds that traditional job application processes do not allow him to fully showcase his teaching philosophy or the innovative methods he plans to bring to the classroom.
-
-<span class="k">5.</span> <span class="gs">**Motivations to Use This New Software**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Aarav is motivated by the prospect of a platform that allows him to create a dynamic professional profile that goes beyond a standard resume. He is attracted to the idea of a system where he can present his teaching philosophy, methodologies, and personal achievements in a more engaging way, directly to the principals of potential schools.
-
-<span class="k">6.</span> <span class="gs">**Software Interaction Scenarios**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>Aarav would primarily use the software during the evenings and weekends, taking the time to carefully craft his profile. He envisions using the platform to upload video introductions, teaching demos, and testimonials from mentors and peers. Aarav also plans to actively browse through schools&#39; profiles to understand their values and needs, tailoring his application to align with schools looking for innovative science teachers.
-
-<span class="k">7.</span> <span class="gs">**Accessibility and Inclusivity Needs**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>The software must be user-friendly for individuals with varying levels of tech proficiency. Aarav suggests that the platform should offer guidance or tutorials on how to effectively present information. Additionally, it should be accessible to users with disabilities, ensuring that all potential teachers have an equal opportunity to showcase their skills.
-
-<span class="k">8.</span> <span class="gs">**Quote**</span>:
-<span class="w">   </span><span class="k">-</span><span class="w"> </span>&quot;I want a platform that allows me to be more than just a piece of paper. I&#39;m looking for a place where I can truly express my passion for teaching and innovation in education.&quot;
-
-Aarav&#39;s persona highlights the need for a software solution that not only facilitates the job-seeking process for postgraduate teaching students but also addresses the broader issue of teacher shortages in Australia by making the recruitment process more dynamic, inclusive, and accessible.
-</pre></div>
-</div>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="hands-on-activities">
+<h1>Hands-On Activities<a class="headerlink" href="#hands-on-activities" title="Link to this heading">#</a></h1>
+<p>The following activities will guide you through creating, refining, and critically evaluating prompts for generative AI, focusing on developing a software solution to minimise teacher shortages in Australian schools. Let’s dive into it, ensuring responsible, ethical, and effective use. Give it a go! Explore these and try to come up with even better prompts than the suggested ones!</p>
+<section id="activity-1-crafting-your-first-prompt">
+<h2>Activity 1: Crafting Your First Prompt<a class="headerlink" href="#activity-1-crafting-your-first-prompt" title="Link to this heading">#</a></h2>
+<p><strong>Objective</strong>: Learn to craft a basic prompt that outlines your software development goal.</p>
+<section id="good-examples">
+<h3>Good Examples<a class="headerlink" href="#good-examples" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Generate a user story for a software system designed to connect postgraduate teaching students with Australian schools experiencing teacher shortages.”</p>
+<p><strong>Why Good</strong>: This prompt is clear and directly relates to the project goal, specifying the end-users and the problem being addressed.</p>
+</li>
+<li><p><strong>Prompt</strong>: “List key features needed in a platform that enables school principals to discover and connect with potential teaching candidates.”</p>
+<p><strong>Why Good</strong>: It targets a specific task within the project scope, prompting for actionable output that can inform software development.</p>
+</li>
+</ol>
+</section>
+<section id="bad-examples">
+<h3>Bad Examples<a class="headerlink" href="#bad-examples" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Make an app for schools teaching shortage.”</p>
+<p><strong>Why Bad</strong>: This prompt lacks specificity about the app’s purpose, the target users, and how it addresses the problem of teacher shortages.</p>
+<p><strong>Improvement</strong>: “Design an application that helps Australian school principals find qualified postgraduate teaching students to fill open teaching positions.”</p>
+</li>
+<li><p><strong>Prompt</strong>: “Write some code to help schools.”</p>
+<p><strong>Why Bad</strong>: It’s overly vague, with no context about what the code should accomplish or how it relates to the project goals.</p>
+<p><strong>Improvement</strong>: “Generate a code snippet that implements a feature allowing postgraduate students to create and upload their professional profiles to a database accessible by school principals.”</p>
+</li>
+</ol>
+</section>
+</section>
+<section id="activity-2-enhancing-prompts-with-specificity">
+<h2>Activity 2: Enhancing Prompts with Specificity<a class="headerlink" href="#activity-2-enhancing-prompts-with-specificity" title="Link to this heading">#</a></h2>
+<p><strong>Objective</strong>: Refine your prompts to include detailed information about the software goal, end-users, and context.</p>
+<section id="id1">
+<h3>Good Examples<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Outline a database schema for storing postgraduate teaching students’ profiles, including fields for qualifications, teaching specialties, and availability, to be used by school principals.”</p>
+<p><strong>Why Good</strong>: This prompt provides a clear, detailed request relevant to the software’s functionality and its users.</p>
+</li>
+<li><p><strong>Prompt</strong>: “Describe a user interface flow for school principals to search, filter, and view the profiles of potential teaching candidates within the software platform.”</p>
+<p><strong>Why Good</strong>: It asks for a detailed design element that directly contributes to the software’s usability for one of the primary user groups.</p>
+</li>
+</ol>
+</section>
+<section id="id2">
+<h3>Bad Examples<a class="headerlink" href="#id2" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Do something about students profiles.”</p>
+<p><strong>Why Bad</strong>: Lacks detail on what should be done with the profiles and for whom.</p>
+<p><strong>Improvement</strong>: “Develop a feature within the software that allows postgraduate teaching students to create detailed professional profiles, highlighting their teaching credentials and subject matter expertise.”</p>
+</li>
+<li><p><strong>Prompt</strong>: “Schools need teachers in the app.”</p>
+<p><strong>Why Bad</strong>: While true, it does not direct AI to generate any specific or actionable output related to the software project.</p>
+<p><strong>Improvement</strong>: “Create a notification system within the software that alerts school principals when new teaching candidates matching their search criteria join the platform.”</p>
+</li>
+</ol>
+</section>
+</section>
+<section id="activity-3-addressing-ethical-and-inclusive-design">
+<h2>Activity 3: Addressing Ethical and Inclusive Design<a class="headerlink" href="#activity-3-addressing-ethical-and-inclusive-design" title="Link to this heading">#</a></h2>
+<p><strong>Objective</strong>: Craft prompts that consider ethical implications and promote inclusivity.</p>
+<section id="id3">
+<h3>Good Examples<a class="headerlink" href="#id3" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Design a feature that ensures equitable visibility of all postgraduate teaching candidates’ profiles to school principals, regardless of background.”</p>
+<p><strong>Why Good</strong>: It addresses the need for fairness and inclusivity in the software’s design, promoting equal opportunities for all candidates.</p>
+</li>
+<li><p><strong>Prompt</strong>: “Implement a privacy feature that allows candidates to control which parts of their profile are visible to school principals.”</p>
+<p><strong>Why Good</strong>: This prompt emphasises the importance of user privacy and control, an essential ethical consideration in software development.</p>
+</li>
+</ol>
+</section>
+<section id="id4">
+<h3>Bad Examples<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<ol class="arabic">
+<li><p><strong>Prompt</strong>: “Filter out non-English speakers.”</p>
+<p><strong>Why Bad</strong>: This prompt suggests an unethical and non-inclusive feature that discriminates against candidates based on language proficiency.</p>
+<p><strong>Improvement</strong>: “Include language proficiency options in the teaching candidates’ profiles, allowing school principals to search for teachers based on language skills needed for their school.”</p>
+</li>
+<li><p><strong>Prompt</strong>: “Make the interface flashy.”</p>
+<p><strong>Why Bad</strong>: A “flashy” interface might not be accessible to all users, ignoring the principles of inclusive design.</p>
+<p><strong>Improvement</strong>: “Design a user-friendly and accessible interface for the software that adheres to WCAG (Web Content Accessibility Guidelines) to ensure it is usable by school principals and candidates with varying levels of ability.”</p>
+</li>
+</ol>
+</section>
+</section>
+<section id="activity-4-iterative-prompt-improvement">
+<h2>Activity 4: Iterative Prompt Improvement<a class="headerlink" href="#activity-4-iterative-prompt-improvement" title="Link to this heading">#</a></h2>
+<p><strong>Objective</strong>: Learn to refine prompts based on feedback and initial outcomes to enhance clarity and effectiveness.</p>
+<section id="continuous-refinement-process">
+<h3>Continuous Refinement Process<a class="headerlink" href="#continuous-refinement-process" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Evaluate the output</strong>: After generating an initial response from AI, critically assess its relevance and usefulness.</p></li>
+<li><p><strong>Identify gaps</strong>: Determine what’s missing or could be improved in the AI-generated response.</p></li>
+<li><p><strong>Refine the prompt</strong>: Incorporate specific feedback, additional context, or clearer objectives into the prompt.</p></li>
+<li><p><strong>Repeat</strong>: Continuously iterate on this process to hone in on the most effective prompts and solutions.</p></li>
+</ol>
+</section>
 </section>
 </section>
 
@@ -633,20 +663,20 @@ Aarav&#39;s persona highlights the need for a software solution that not only fa
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="prompts_tutorial.html"
+       href="genai.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Hands-On Tutorial</p>
+        <p class="prev-next-title">Guide to Using GenAI</p>
       </div>
     </a>
     <a class="right-next"
-       href="prompts_userstories.html"
+       href="prompts_personas.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Generating User Stories from Personas</p>
+        <p class="prev-next-title">Creating Diverse and Inclusive User Personas</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -666,11 +696,38 @@ Aarav&#39;s persona highlights the need for a software solution that not only fa
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#prompt-for-generating-user-personas">Prompt for Generating User Personas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-this-guide">Using This Guide</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-of-prompt-use">Example of Prompt Use</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-for-prompt-example">Result for Prompt Example</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">Hands-On Tutorial</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#basics-of-prompt-engineering-for-software-engineering-projects">Basics of Prompt Engineering for Software Engineering Projects</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-started-with-prompt-engineering">Getting Started with Prompt Engineering</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-prompt-engineering-matters">Why Prompt Engineering Matters</a></li>
 </ul>
+</li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#hands-on-activities">Hands-On Activities</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-1-crafting-your-first-prompt">Activity 1: Crafting Your First Prompt</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#good-examples">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bad-examples">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-2-enhancing-prompts-with-specificity">Activity 2: Enhancing Prompts with Specificity</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-3-addressing-ethical-and-inclusive-design">Activity 3: Addressing Ethical and Inclusive Design</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Good Examples</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Bad Examples</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#activity-4-iterative-prompt-improvement">Activity 4: Iterative Prompt Improvement</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#continuous-refinement-process">Continuous Refinement Process</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>

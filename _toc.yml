@@ -50,6 +50,7 @@ parts:
     chapters:
     - file: extras/genai
       sections:
+        - file: extras/prompts_tutorial        
         - file: extras/prompts_personas
         - file: extras/prompts_userstories
         - file: extras/prompts_usecases                

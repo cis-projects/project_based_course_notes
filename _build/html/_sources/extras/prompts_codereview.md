@@ -2,6 +2,12 @@
 
 As part of enhancing your skills in software engineering, it's crucial to learn how to effectively review code. Not only does this practice help in identifying potential defects, but it also contributes to the overall quality of the software development process. In this guide, we introduce a structured approach to code review using ChatGPT, leveraging a research-informed prompt that focuses on various aspects of code quality.
 
+:::{admonition} Official Statements from The University of Melbourne
+:class: tip, dropdown
+Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
+- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+:::
+
 ## The Code Review Prompt
 
 When requesting ChatGPT to review your software code, use the following structured prompt to guide the analysis. This prompt is designed to cover a comprehensive checklist that addresses common areas where defects may occur in software code. By following this prompt, you can ensure a thorough review that touches on critical components of code quality.
