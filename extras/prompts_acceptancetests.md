@@ -6,6 +6,7 @@ Acceptance tests are critical components of the requirements engineering process
 :class: tip, dropdown
 Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
 - **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+- **Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.**
 :::
 
 ## The Importance of Acceptance Tests

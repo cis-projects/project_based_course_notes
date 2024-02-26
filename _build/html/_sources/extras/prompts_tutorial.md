@@ -4,6 +4,7 @@
 :class: tip, dropdown
 Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
 - **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+- **Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.**
 :::
 
 ## Basics of Prompt Engineering for Software Engineering Projects
@@ -20,7 +21,7 @@ Prompt engineering is the art of crafting queries that guide AI to produce desir
 - **Saves time**: Reduces iterations needed to get usable outputs.
 - **Encourages ethical use**: Crafting prompts with consideration of fairness and bias ensures responsible AI usage.
 
-# Hands-On Activities
+# Activities
 
 The following activities will guide you through creating, refining, and critically evaluating prompts for generative AI, focusing on developing a software solution to minimise teacher shortages in Australian schools. Let's dive into it, ensuring responsible, ethical, and effective use. Give it a go! Explore these and try to come up with even better prompts than the suggested ones!
 
