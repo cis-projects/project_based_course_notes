@@ -2,6 +2,12 @@
 
 In software engineering, translating user stories into use cases is a crucial step in the requirements engineering process. This transformation helps bridge the gap between user needs and the functional design of the system. Use cases provide a detailed description of how users interact with the system to achieve their goals, offering a clearer, step-by-step narrative that developers and stakeholders can follow.
 
+:::{admonition} Official Statements from The University of Melbourne
+:class: tip, dropdown
+Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
+- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+:::
+
 ## The Importance of Use Cases
 
 Use cases extend user stories by adding context and specificity, making them invaluable for:

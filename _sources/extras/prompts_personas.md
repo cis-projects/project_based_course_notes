@@ -2,6 +2,12 @@
 
 Understanding your users is a cornerstone of successful software development. This guide will help you generate comprehensive, diverse, and inclusive personas for the end-users of your software projects. By following the structured prompt provided, you can ensure that your development efforts are user-centered and considerate of a wide range of needs and backgrounds.
 
+:::{admonition} Official Statements from The University of Melbourne
+:class: tip, dropdown
+Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
+- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+:::
+
 ## Prompt for Generating User Personas
 
 To generate a detailed and diverse persona for your software's end-user, use the following prompt with ChatGPT. Customize the prompt as necessary to fit the specific context and requirements of your project, especially regarding the diversity aspects you want to emphasize.

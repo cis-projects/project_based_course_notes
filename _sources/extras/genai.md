@@ -1,5 +1,12 @@
 # Guide to Using GenAI
 
+:::{admonition} Official Statements from The University of Melbourne
+:class: tip, dropdown
+Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
+- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+:::
+
+
 ## Guide to Using Generative AI in SWEN90009 and COMP90082 Subjects Included in this Course Notes
 
 Welcome to our guide on integrating Generative AI into your software engineering studies. This document aims to provide you with an understanding of how to effectively use generative AI tools, adhere to responsible practices, and access valuable resources to enhance your learning experience.
@@ -9,7 +16,6 @@ Below are links to some University of Melbourne generative AI resources that you
 - **Assessment, AI and Academic Integrity**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/](https://melbourne-cshe.unimelb.edu.au/ai-aai/)
 - **Advice for students regarding Turnitin and AI writing detection**: [https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/](https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/)
 - **Using AI to enhance assessment**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/)
-
 
 ## What is Generative AI?
 

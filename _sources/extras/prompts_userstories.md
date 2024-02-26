@@ -1,5 +1,11 @@
 # Generating User Stories from Personas
 
+:::{admonition} Official Statements from The University of Melbourne
+:class: tip, dropdown
+Always make sure you're following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment
+- **Official Statements from The University of Melbourne**: [https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/](https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/)
+:::
+
 ## Introduction to User Stories
 
 User stories are a fundamental aspect of agile software development, serving as concise, simple descriptions of a feature from the perspective of the end-user. They typically follow the format: "As a [type of user], I want [an action] so that [a benefit/a value]." User stories help teams focus on delivering value to users, ensuring the development process addresses real user needs.
