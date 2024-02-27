@@ -1,4 +1,4 @@
-# Guide to Using GenAI
+# Generative AI
 
 :::{admonition} Official Statements from The University of Melbourne
 :class: tip, dropdown
