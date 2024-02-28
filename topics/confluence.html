@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Architecture &#8212; Project-Based Course Notes</title>
+    <title>Confluence &#8212; Project-Based Course Notes</title>
   
   
   
@@ -70,12 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'topics/architecture';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'topics/confluence';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Code Review" href="code_review.html" />
-    <link rel="prev" title="Development" href="devsprint.html" />
+    <link rel="next" title="Task Tracking" href="task_tracking.html" />
+    <link rel="prev" title="Agile Methodology" href="agile_methodology.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -197,15 +197,15 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Topics</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1 has-children"><a class="reference internal" href="agile_methodology.html">Agile Methodology</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l2"><a class="reference internal" href="confluence.html">Confluence</a></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="agile_methodology.html">Agile Methodology</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Confluence</a></li>
 <li class="toctree-l2"><a class="reference internal" href="task_tracking.html">Task Tracking</a></li>
 <li class="toctree-l2"><a class="reference internal" href="version_control.html">Version Control</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="requirements_elicitation.html">Requirements Engineering</a></li>
-<li class="toctree-l1 current active has-children"><a class="reference internal" href="devsprint.html">Development</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">Architecture</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="devsprint.html">Development</a><input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-2"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html">Architecture</a></li>
 <li class="toctree-l2"><a class="reference internal" href="code_review.html">Code Review</a></li>
 <li class="toctree-l2"><a class="reference internal" href="software_licenses.html">Software Licenses</a></li>
 <li class="toctree-l2"><a class="reference internal" href="devtools.html">Tools</a></li>
@@ -323,7 +323,7 @@
       
       
       
-      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/architecture.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Ftopics/confluence.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -353,7 +353,7 @@
       
       
       
-      <li><a href="../_sources/topics/architecture.md" target="_blank"
+      <li><a href="../_sources/topics/confluence.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -437,7 +437,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Architecture</h1>
+    <h1>Confluence</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -447,14 +447,20 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#architecture-model">4+1 Architecture Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logical-view">Logical View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#process-view">Process View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#development-view">Development View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#physical-view">Physical View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-use-case-view">Scenario/Use Case View</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-confluence">Why Confluence?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-team-s-confluence-space">Setting Up Your Team’s Confluence Space</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initial-steps">Initial Steps</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-your-confluence-space">Structuring Your Confluence Space</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#home-page-setup">Home Page Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-documentation">Meeting Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-page-contents">Meeting Page Contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-considerations">Important Considerations</a></li>
 </ul>
             </nav>
         </div>
@@ -466,115 +472,71 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="architecture">
-<h1>Architecture<a class="headerlink" href="#architecture" title="Link to this heading">#</a></h1>
-<p>Software architecture is the fundamental organisation of the system
-under development. It includes all components, their interactions, the
-environment in which they operate, and the principles used to design the
-software.</p>
-<p>Once the application’s stack is chosen, it is important to outline the
-architecture of the system. Detailing the architecture serves the
-purpose of assuring the client that the development team has thought
-through the interactions of components and the principles that
-underpinned their development. It is required information to hand over to
-the client at the end of semester, so they can continue development.</p>
-<p>In this subject, you will be learning the 4+1 architectural model <span id="id1">[<a class="reference internal" href="../afterword/bibliography.html#id3" title="Philippe Kruchten. Architectural blueprints—the “4+1” view model of software architecture. IEEE Software, 1995. URL: https://www.cs.ubc.ca/~gregor/teaching/papers/4+1view-architecture.pdf.">Kru95</a>]</span>.</p>
-<section id="architecture-model">
-<h2>4+1 Architecture Model<a class="headerlink" href="#architecture-model" title="Link to this heading">#</a></h2>
-<p>There are many ways of documenting the architecture of software - the
-one we will teach is the 4+1 architecture model.</p>
-<p>It was originally developed in the 1990s and is used to describe the
-architecture using several, concurrent views. End-users, developers,
-system engineers, and project managers all have unique views of the
-system, hence the viewpoints are used to describe it from their
-perspectives.</p>
-<p>There are five views in the 4+1 view model:</p>
-<figure class="align-default" id="views">
-<img alt="../_images/views.png" src="../_images/views.png" />
-<figcaption>
-<p><span class="caption-number">Fig. 4 </span><span class="caption-text"><span id="id2">[<a class="reference internal" href="../afterword/bibliography.html#id12" title="Pasan Devin Jayawardene. 4+1 architectural view model in software. URL: https://medium.com/javarevisited/4-1-architectural-view-model-in-software-ec407bf27258.">Jay</a>]</span></span><a class="headerlink" href="#views" title="Link to this image">#</a></p>
-</figcaption>
-</figure>
-<section id="logical-view">
-<h3>Logical View<a class="headerlink" href="#logical-view" title="Link to this heading">#</a></h3>
-<p>The logical view is concerned with the functionality that the system
-provides to end-users. Domain and class diagrams are used to represent
-the logical view.</p>
-<p>Examples of diagrams that can be used to support the logical model are
-domain and database models.</p>
-<figure class="align-default" id="domain-model">
-<img alt="../_images/domain_model.png" src="../_images/domain_model.png" />
-</figure>
-<figure class="align-default" id="database-model">
-<img alt="../_images/database_model.png" src="../_images/database_model.png" />
-</figure>
+  <section class="tex2jax_ignore mathjax_ignore" id="confluence">
+<h1>Confluence<a class="headerlink" href="#confluence" title="Link to this heading">#</a></h1>
+<p>In the lifecycle of a software engineering project, teams generate substantial amounts of knowledge, including software requirements, architectural designs, and testing documentation. This wealth of information requires a centralised storage solution to ensure it remains accessible to all team members and can be efficiently handed over to the client upon project completion. Document repositories address this need by serving as the central hub for all project-related information.</p>
+<section id="why-confluence">
+<h2>Why Confluence?<a class="headerlink" href="#why-confluence" title="Link to this heading">#</a></h2>
+<p>While various document repository platforms are available, Confluence is highly recommended for its widespread industry adoption and compatibility with software engineering practices. Known for its robustness and flexibility, Confluence is an invaluable tool for students aspiring to careers in software engineering, as familiarity with it opens doors in companies that prioritise agile and collaborative work environments.</p>
 </section>
-<section id="process-view">
-<h3>Process View<a class="headerlink" href="#process-view" title="Link to this heading">#</a></h3>
-<p>The process view deals with the dynamic aspects of the system, explains
-the system processes and how they communicate, and focuses on the run
-time behaviour of the system. Sequence state diagrams are used to
-represent this view.</p>
-</section>
-<section id="development-view">
-<h3>Development View<a class="headerlink" href="#development-view" title="Link to this heading">#</a></h3>
-<p>This view is represented by the package diagram and illustrates a system
-from a programmer’s perspective and is concerned with software
-management. To demonstrate the development view, your team could
-describe the architectural goals and constraints, as well as system
-diagrams, and API descriptions (if any).</p>
-<figure class="align-default" id="goals">
-<img alt="../_images/goals.png" src="../_images/goals.png" />
-</figure>
-<figure class="align-default" id="system">
-<img alt="../_images/system.png" src="../_images/system.png" />
-</figure>
-</section>
-<section id="physical-view">
-<h3>Physical View<a class="headerlink" href="#physical-view" title="Link to this heading">#</a></h3>
-<p>The physical view depicts the system from a system engineer’s point of
-view. It is concerned with the topology of software components on the
-physical layer, as well as the physical connections between these
-components, and it represented using the deployment diagram.</p>
-<p>Diagrams that can support the physical view are deployment diagrams.</p>
-<figure class="align-default" id="deployment">
-<img alt="../_images/deployment.png" src="../_images/deployment.png" />
-</figure>
-<figure class="align-default" id="pipeline">
-<img alt="../_images/pipeline.png" src="../_images/pipeline.png" />
-</figure>
-</section>
-<section id="scenario-use-case-view">
-<h3>Scenario/Use Case View<a class="headerlink" href="#scenario-use-case-view" title="Link to this heading">#</a></h3>
-<p>Shows a subset of important use cases and is represented using a use
-case diagram. Your team should select use case(s) of architectural
-significance to demonstrate in the use case descriptions and diagrams, as
-well as a sequence diagrams.</p>
-<figure class="align-default" id="use-cases-description">
-<img alt="../_images/use_cases_description.png" src="../_images/use_cases_description.png" />
-</figure>
-<figure class="align-default" id="use-cases-diagram">
-<img alt="../_images/use_cases_diagram.png" src="../_images/use_cases_diagram.png" />
-</figure>
+<section id="setting-up-your-team-s-confluence-space">
+<h2>Setting Up Your Team’s Confluence Space<a class="headerlink" href="#setting-up-your-team-s-confluence-space" title="Link to this heading">#</a></h2>
+<p>Creating a dedicated space on Confluence for your project is the foundational step towards efficient project documentation and management. Typically, one team member initiates this process by establishing the space and granting access to the rest of the team. However, in certain courses, this space may be pre-configured by a project mentor. Always verify the process with your subject coordinator to ensure compliance with course requirements.</p>
 <div class="tip admonition">
-<p class="admonition-title">Extra Resources</p>
-<table class="table">
-<thead>
-<tr class="row-odd"><th class="head"><p>Link</p></th>
-<th class="head"><p>Description</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p><a class="reference external" href="https://app.diagrams.net/">DrawIO</a></p></td>
-<td><p>Online Tool for creating architecture, UML, and other diagrams.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference external" href="https://studentit.unimelb.edu.au/software">Microsoft Visio</a></p></td>
-<td><p>Microsoft tool for diagrams, can be downloaded from the uni softwares.</p></td>
-</tr>
-</tbody>
-</table>
+<p class="admonition-title">To set up the space, please follow these instructions</p>
+<p>Creating a space in Confluence. Watch it <a class="reference external" href="https://youtu.be/FFF4D4I19ms">here</a>.</p>
 </div>
+<section id="initial-steps">
+<h3>Initial Steps<a class="headerlink" href="#initial-steps" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p><strong>Create the Space:</strong> [Your project mentor] will follow the Confluence guidelines to create a new space for your project. Only project mentor needs to perform this action.</p></li>
+<li><p><strong>Grant Access:</strong> Project mentor will ensure every team member has access to the space to contribute and retrieve information seamlessly.</p></li>
+</ol>
 </section>
+</section>
+<section id="structuring-your-confluence-space">
+<h2>Structuring Your Confluence Space<a class="headerlink" href="#structuring-your-confluence-space" title="Link to this heading">#</a></h2>
+<p>A well-organised Confluence space is crucial for navigation ease and information retrieval efficiency. The following sections outline a recommended structure for your project space.</p>
+<section id="home-page-setup">
+<h3>Home Page Setup<a class="headerlink" href="#home-page-setup" title="Link to this heading">#</a></h3>
+<p>The home page acts as the gateway to your project’s documentation, providing a snapshot of essential information:</p>
+<ul class="simple">
+<li><p><strong>Project Summary:</strong> An overview of the project’s objectives and scope.</p></li>
+<li><p><strong>Team Details:</strong> Contact information and roles for the client, supervisor, and development team members.</p></li>
+<li><p><strong>Important Links:</strong> Direct links to ancillary tools, such as task tracking systems and code repositories.</p></li>
+</ul>
+</section>
+<section id="meeting-documentation">
+<h3>Meeting Documentation<a class="headerlink" href="#meeting-documentation" title="Link to this heading">#</a></h3>
+<p>Regular meetings are a staple of agile project management, necessitating a structured approach to documenting discussions, decisions, and action items. Consider organising your meeting documentation as follows:</p>
+<ul class="simple">
+<li><p><strong>Meeting Pages:</strong> Dedicate pages for different meeting types (team, client, supervisor) with a consistent structure for ease of access.</p></li>
+<li><p><strong>Meeting Frequency:</strong> Clearly outline the expected frequency of each meeting type to maintain regular communication and project momentum.</p></li>
+</ul>
+<figure class="align-default" id="meetings">
+<img alt="../_images/meetings.png" src="../_images/meetings.png" />
+</figure>
+<section id="meeting-page-contents">
+<h4>Meeting Page Contents<a class="headerlink" href="#meeting-page-contents" title="Link to this heading">#</a></h4>
+<p>Each meeting page should comprehensively capture the following elements:</p>
+<ul class="simple">
+<li><p><strong>Agenda:</strong> Prepared in advance to guide the meeting’s discussions.</p></li>
+<li><p><strong>Participants:</strong> A record of attendees for accountability and reference.</p></li>
+<li><p><strong>Recordings:</strong> Video and audio recordings of the meetings, particularly important for client interactions.</p></li>
+<li><p><strong>Discussion Summary:</strong> Key points and decisions made during the meeting.</p></li>
+<li><p><strong>Action Items:</strong> Tasks assigned to team members, including deadlines and responsibilities.</p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="important-considerations">
+<h2>Important Considerations<a class="headerlink" href="#important-considerations" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><strong>Thoughtful Structure:</strong> Invest time in planning the layout of your Confluence space to prevent information overlap and ensure easy access.</p></li>
+<li><p><strong>Avoid Duplication:</strong> A well-organised repository minimises the risk of redundant work, saving time and resources.</p></li>
+<li><p><strong>Accessibility:</strong> Ensure all project stakeholders can find necessary documentation, which is critical for client satisfaction and assessment purposes.</p></li>
+</ul>
+<p>By adhering to these guidelines, your team can leverage Confluence to its full potential, enhancing project management, collaboration, and documentation practices. This foundation will not only contribute to the success of your current project but also prepare you for future endeavors in the field of software engineering.</p>
 </section>
 </section>
 
@@ -609,20 +571,20 @@ well as a sequence diagrams.</p>
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="devsprint.html"
+       href="agile_methodology.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Development</p>
+        <p class="prev-next-title">Agile Methodology</p>
       </div>
     </a>
     <a class="right-next"
-       href="code_review.html"
+       href="task_tracking.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Code Review</p>
+        <p class="prev-next-title">Task Tracking</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -642,14 +604,20 @@ well as a sequence diagrams.</p>
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#architecture-model">4+1 Architecture Model</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#logical-view">Logical View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#process-view">Process View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#development-view">Development View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#physical-view">Physical View</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scenario-use-case-view">Scenario/Use Case View</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#why-confluence">Why Confluence?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-your-team-s-confluence-space">Setting Up Your Team’s Confluence Space</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#initial-steps">Initial Steps</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#structuring-your-confluence-space">Structuring Your Confluence Space</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#home-page-setup">Home Page Setup</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-documentation">Meeting Documentation</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#meeting-page-contents">Meeting Page Contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#important-considerations">Important Considerations</a></li>
 </ul>
   </nav></div>
 

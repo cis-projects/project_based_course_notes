@@ -1,167 +1,46 @@
 # Requirements Engineering
 
-Successful products are those that meet the needs of the client and can
-be easily adopted by the target user. Building a successful product can
-be difficult if teams do not understand the core business need of the
-product itself.
-
-The purpose of this section is to understand more about requirements
-engineering (elicitation, elaboration, validation), the broad spectrum of tasks involved to help teams derive
-their requirements. By the end of this, you should understand what
-artefacts are used to represent the project specifications {cite:p}`OliveiraESterlingL`.
+Requirements engineering is a foundational step in developing successful software projects. It involves understanding and documenting what a client needs from a software product, which is crucial for the project's success. This guide aims to help software engineering students navigate the requirements engineering process, covering elicitation, elaboration, validation, and the creation of detailed specifications.
 
 ## What Are Requirements?
 
-Before we look at how requirements elicitation works, let us consider
-what requirements are. Broadly speaking, requirements define what teams
-need to implement. There are three key types of requirements that are
-used in software projects:
+Requirements define the expectations for a software system. They can be categorised into:
 
-- Functional requirements: These stipulate what the system should do.
-    The Agile Scrum framework expresses functional requirements as user
-    stories.
-- Non-functional requirements: These requirements detail any
-    additional constraints that specify how a system should behave. Some
-    examples include any safety, security, or performance requirements.
-- Emotional requirements: Requirements that detail how the target user
-    should feel when interacting with the system.
+- **Functional Requirements:** Specify what the system should do. For example, "The system shall allow users to register and login."
+- **Non-functional Requirements:** Outline the system's operation conditions or qualities, such as performance, usability, and security. For example, "The system shall load the user's dashboard within 2 seconds."
+- **Emotional Requirements:** Focus on how users should feel when interacting with the system, aiming to create a positive user experience.
 
-## Why Do We Need to Perform Requirements Elicitation?
+## The Importance of Requirements Elicitation
 
-Teams are provided with a high-level project brief and are tasked with
-extracting the project requirements. Requirements elicitation helps
-teams understand what these requirements are, whilst also building a
-strong understanding of the project and why it is needed.
+Requirements elicitation is the process of gathering requirements from stakeholders. It's essential for understanding the project's scope and ensuring the final product meets the client's needs. Elicitation involves communication with the client to uncover the core needs and expectations for the project.
 
-Requirements are important as they provide teams with a clear set of
-features that the team will work to complete. It is also a clear way of
-demonstrating to the client, what capabilities will be delivered.
+### Preparing for the Initial Client Meeting
 
-A strong understanding of the business need is equally important. As
-clients may often not know exactly what they want, a strong
-understanding of the project is important. When teams can understand
-what the key frustrations are, they are well positioned to come up with
-solutions that successfully solve the client's pain points.
+Before meeting with the client, conduct background research on the project domain and potential competitors. This preparation helps formulate relevant questions and understand the client's industry.
 
-The process of requirements engineering, which is simply all the
-activities required to have your detailed specifications, are discussed
-below.
+#### Conducting the Initial Meeting
 
-### 0. Background Research
+- **Schedule the meeting** in advance, providing an agenda to the client.
+- **Assign roles** for the meeting, including a facilitator and a note-taker.
+- **Discuss** the project overview, objectives, and any known requirements.
 
-Before you speak to your client, you should develop a general
-understanding of the project to aid your team in directing the meeting
-and forming helpful questions. For example, a previous year was tasked
-with building a personal CRM for clients. It was important for all
-students to have a good understanding of what a CRM was prior to the
-initial meeting.
+### Elicitation Techniques
 
-Additionally, teams will benefit from finding competitors within the
-problem domain, to look for potential functionality that the client may
-want. Understanding the client's competitors, peers, etc. will save the
-client work in having to explain all facets of their business and
-industry to your team.
+- **Interviews and Surveys:** Directly engage with stakeholders to gather requirements.
+- **Document Analysis:** Review existing documentation for relevant information.
+- **Observation:** Understand how users interact with the current system or perform their tasks.
 
-### 1. Initial Client Meeting and Elicitation
+## Elaboration and Validation
 
-#### Client Meeting
+After gathering initial requirements, the next step is to refine and validate them.
 
-The first client meeting is your chance to understand more about your
-client, the project, and their expectations. During this meeting, teams
-should try to establish a basic understanding of the problem.
-Understanding what is wrong or missing with the current system (system
-as is) is critical in making sure that you build a product that can
-solve these frustrations/problems. If possible, teams should also
-clarify exactly what is expected from the product: who will use this,
-should the product be a mobile application or website, what other
-preferences should be considered.
+### Developing Personas
 
-Make sure to schedule the meeting in advance and prepare an agenda of
-questions you would like to ask ahead of time. Emailing your client with
-the agenda can be beneficial to ensure they are prepared. The meeting
-itself should have a facilitator and note taker assigned ahead of time,
-with team members jumping in as required.
+Personas are carefully crafted profiles that symbolise the key characteristics of various user groups of a product. These archetypical users help development and design teams gain insights into the product’s user base, fostering empathy and understanding. By embodying the goals, needs, behaviours, and pain points of real users, personas guide the decision-making process in product development, ensuring that design choices align with user expectations and improve user experience.
 
-#### Elicitation
+The concept of personas enables teams to step into their users' shoes, providing a clear perspective on how different users might interact with the product under varied circumstances. For example, consider the diverse motivations behind purchasing a vehicle. A family might prioritise safety and space, opting for a vehicle that offers reliability and room for children and groceries. Conversely, a young professional might value speed, style, and the technology integrated into a luxury sports car, reflecting a different lifestyle and set of needs. By creating detailed personas for each category of buyer, a car manufacturer can tailor designs, features, and marketing strategies to match the specific desires and requirements of each segment, ultimately leading to a product that resonates more profoundly with its intended audience.
 
-Following your initial meeting, the team should work through the meeting
-minutes to extract the key requirements. Teams should work to extract
-the user goals - the objectives the target user of the system would want
-to achieve. These correlate to user stories, an agile way of
-representing requirements (see Agile methodology). Additionally, while
-you are in the process of reaching this shared understanding of what
-should be achieved, teams should also clearly look to define what the
-scope is. If there were any features or functionality mentioned earlier
-by the client, that cannot be feasibly achieved, then these should be
-clearly identified.
-
-The process of writing your requirements can be done by different
-methods.
-
-##### Motivational Modelling
-
-One popular technique is to use motivational modelling. This technique
-allows the functional, non-functional, and emotional goals of the system
-to represented in a diagram. The benefit is that diagrams are often
-easier to read compared to written requirements, and emotional
-requirements are also considered.
-
-Motivational modelling is done through brainstorming a list of the key
-requirements of the system and stakeholders involved. The list is called
-a DO/BE/FEEL/WHO list, and should detail:
-
-- DO: what your system can do? (Functional goals)
-- BE: how your system should behave? (Non-functional goals)
-- FEEL: how users should feel when using the system? (Emotional goals)
-- WHO: key stakeholders
-
-This list is then converted into a hierarchical diagram, as shown below.
-This is a great starting point for teams to confirm the understanding of
-the project requirements, with the bottom leaves corresponding to user
-stories.
-
-```{figure} resources/motivational_model.jpg
----
-name: motivational_model
----
-```
-
-:::{admonition} Extra Resources
-:class: tip
-
-Please see the appendix for more information on how to use the university's supplied motivational modeller.
-If you wish to use a different tool, here are a few:
-
-- [Lucidchart](https://www.lucidchart.com/pages/)
-- [Draw.io](https://www.draw.io/)
-- [Astah](https://astah.net/)
-:::
-
-### 2. Elaboration
-
-Once the general user goals are understood, teams should work to expand
-and refine the information collected. This typically involves:
-
-- Verifying the motivational model is consistent with the clients
-    understanding and expanding as required.
-- Developing personas to match your target users.
-- Developing prototypes.
-
-#### Personas
-
-Personas refer to fictional characters that represent the different
-types of users that may use your product. They play a key role in
-helping teams empathise and understand the users of the product, through
-using the persona to establish whether certain design decisions are
-correct.
-
-To understand the power of a persona, consider buying a car. Different
-people buy cars for different reasons. Some people are looking for a
-large, reliable car for transporting their families whereas other people
-look for fast and luxurious cars to fit their lifestyles. If you had to
-design a car for a person, it is important to understand which category
-your client falls in, to make sure the car you design is suited to their
-purpose. This is how personas can be useful.
+In essence, personas act as a bridge between user data and design decisions, ensuring products are crafted with a deep understanding of and empathy for the users they aim to serve. They transform abstract data into relatable, humanised representations of user groups, making it easier for design and development teams to prioritise features, design interfaces, and create experiences that truly meet the users’ needs. This user-centered approach not only enhances usability and satisfaction but also supports the strategic alignment of product development efforts with user expectations, driving more successful outcomes in the competitive landscape.
 
 ```{figure} resources/persona.png
 ---
@@ -170,57 +49,184 @@ name: persona
 {cite:p}`99DesignsPersonas`
 ```
 
-It might seem weird to use fictional characters but using real people
-(like your client, a team member, etc.) could result in data privacy
-breaches, as well as unrealistic use cases, if they are not well aligned
-to actual user requirements.
+#### Embracing Diversity and Inclusion in Persona Development
 
-##### Writing Personas
+Creating personas that are diverse and inclusive is not just a practice in empathy but a fundamental approach to designing products that resonate with a broad spectrum of users. Diversity in personas—across age, ethnicity, education, gender, and more—ensures that the product development process reflects the rich tapestry of human experience and needs.
 
-A persona should have the following elements:
+The importance of this diversity cannot be overstated. It brings us closer to understanding the full range of our potential users, allowing us to design solutions that are truly user-centric. It challenges us to look beyond our assumptions and biases, prompting us to question and rethink our design choices. For instance, consider the diversity in the engineering workforce, where females constitute a significant percentage. Representing only male personas in such a context would not only be inaccurate but would also overlook the unique perspectives and needs of female engineers. Similarly, in healthcare fields like nursing and midwifery, where males are in the minority, inclusivity means ensuring their experiences are also considered and addressed.
 
-- Fictional name.
-- Job title/responsibilities.
-- Demographics (age, education).
-- Goals and tasks they are trying to achieve.
-- Any frustrations.
+Stereotypes, such as assuming all women prefer pink, can lead to design decisions that feel superficial or alienating to many users. It's essential to dig deeper, understanding not just the superficial preferences but the goals, challenges, and contexts of our users' lives. Decisions should be informed by a comprehensive understanding of the user's world, including cultural, social, and economic dimensions, ensuring designs are relevant, respectful, and empowering.
 
-Below is a list of popular tools for making personas:
+Diversity in personas also extends beyond gender to include other dimensions such as ethnicity, age, and educational background. This breadth ensures that the product is accessible and valuable to as wide an audience as possible, fostering inclusivity. For example, designing educational software without considering the diverse learning needs and cultural backgrounds of students would likely result in a tool that benefits only a fraction of the intended users.
 
-- [Marvel](https://marvelapp.com/)
-- [Xtensio](https://xtensio.com/)
-- [HubSpot](https://www.hubspot.com/)
-- [PersonaGenerator](https://personagenerator.com/)
-- [UXPressia](https://uxpressia.com/)
+In crafting personas, we must strive for a balance that reflects the diversity of our society. This involves recognising and including underrepresented groups, challenging stereotypes, and ensuring that our designs are informed by a genuine understanding of the users we aim to serve. By doing so, we not only create products that are more likely to succeed in the marketplace but also contribute to a more inclusive and equitable digital world.
 
-##### Diversity and Inclusion
+In conclusion, the development of unbiased, diverse, and inclusive personas is a critical step in the design process. It ensures that products are thoughtfully crafted with the needs, preferences, and contexts of all potential users in mind, leading to solutions that are not only more effective but also more equitable.
 
-Personas should also be diverse in demographics and backgrounds (age, ethnicity, education, etc.) to capture 
-real-life users. Why is that important?
+### Motivational Modelling
 
-Firstly, it will help us gain a better understanding of our target end-users. Secondly, it is crucial for us to 
-recognise diversity in people and create an inclusive environment together in every aspect of our lives. It is not 
-just the way we treat other people, but also the work we produce. Persona is one example.
+Use motivational modelling to visually represent the system's goals and stakeholders' needs. This approach helps clarify the project's objectives and ensure alignment with user expectations.
 
-Let us think about a couple of examples for Personas. The system we are designing is for the engineering workforce 
-of which 13.6% are female {cite:p}`ProfessionalsAustralia`.
-Do you think we recognise the diversity of our target end-users and are being inclusive, if all the personas we 
-create are male? No, we are not. What if the system-to-be is for nurses and midwives where 11.3% are male 
-{cite:p}`DoH`?
+This technique allows the functional, non-functional, and emotional goals of the system to represented in a diagram. The benefit is that diagrams are often easier to read compared to written requirements, and emotional requirements are also considered.
+Motivational modelling is done through brainstorming a list of the key requirements of the system and stakeholders involved. The list is called a DO/BE/FEEL/WHO list, and should detail:
 
-Another example, our project is to re-design the user interface of our client's website. Our client tells us that 
-80% of the end-users are female. Therefore, in our female personas we said that they like pink. In fact, our team 
-is going to design the interface to be pink. Do you think we have recognised the diversity of our end-users? Do 
-all women like pink? We encourage you to be mindful of stereotypes. Design decision should be made after you 
-have thoroughly considered different factors (e.g. What's the goal of the website? How do we want our users to feel 
-when they interact with it? Does our client's company have a colour scheme in their existing design that the new 
-website should be consistent with?) rather than solely relying on our prior beliefs or stereotypes.
+- DO: what your system can do? (Functional goals)
+- BE: how your system should behave? (Non-functional goals)
+- FEEL: how users should feel when using the system? (Emotional goals)
+- WHO: key stakeholders
 
-The examples we give above are related to gender. Diversity can take on many other forms, such as ethnicity, 
-education background, age and so on. We strongly encourage you to create personas that cover the diverse 
-demographics and backgrounds of your target end-users.
+This list is then converted into a hierarchical diagram, as shown below.
+This is a great starting point for teams to confirm the understanding of the project requirements, with the bottom leaves corresponding to user stories.
 
-#### 9 Consistency Principles
+```{figure} resources/motivational_model.jpg
+---
+name: motivational_model
+---
+```
+
+### Prototyping
+
+Develop prototypes to visualise the system design and functionality:
+
+- **Low-Fidelity Prototypes:** Quick sketches or wireframes to explore design concepts.
+- **High-Fidelity Prototypes:** Detailed digital mockups that closely resemble the final product, useful for usability testing.
+
+### Usability Testing
+
+Conduct usability testing with prototypes to validate design decisions and gather feedback from real or representative users.
+
+
+### Introduction to User Stories
+
+In Agile development, understanding and documenting a product's purpose, features, functionality, and behaviour is pivotal. This common ground aids both the technical team and the client in collaboratively building the product. Requirements are articulated through initiatives, epics, tasks, and subtasks to ensure clarity and organisation throughout the development process.
+
+For the scope of this subject, your project will be the sole initiative. In broader business contexts, where multiple applications or projects are under development concurrently, each would represent a distinct initiative. This hierarchical structure helps in managing and aligning projects with overarching business goals.
+
+```{figure} resources/requirements.png
+---
+name: requirements
+---
+{cite:p}`AtlassianUserStories`
+```
+
+#### Epics
+
+An epic encompasses a large work body, subdividable into smaller, manageable user stories with a shared higher-level objective. Organising work into epics and then into user stories facilitates incremental value delivery. It allows for demonstrating progressive advancements to clients, making the project's progress tangible and measurable. Epics typically span across more than one sprint and evolve as the project advances, adapting to new insights, client feedback, and team discoveries.
+
+#### User Stories: The Core of Agile Work Units
+
+User stories are the fundamental units of work in the Agile framework, representing end goals from the user's perspective. They are not mere feature lists but expressions of user needs and values. A user story encapsulates what is being built, its purpose, the target user, and the expected value or benefit. Written in non-technical language, it ensures the development work aligns with user expectations and solves real problems.
+
+#### Crafting a User Story
+
+Initially, user stories are brief, captured in a single sentence that outlines the desired outcome without delving into specifics. The format typically follows:
+
+```
+As a [role], I want to [goal], so that I can [benefit].
+```
+
+For example, a social media platform might frame a user story for uploading profile pictures as:
+
+```
+As an individual user, I want to upload a photo to my profile picture, so that people who search for my name can see a photo of me.
+```
+
+#### Story Points: The Estimation Metric
+
+User stories come with estimations, termed as **story points**, reflecting the effort needed for implementation. Unlike traditional time-based estimates, story points consider work volume, complexity, and uncertainties. Commonly used scales for story points include the Fibonacci sequence and T-shirt sising, aiding in sprint planning and workload management.
+
+#### The Estimation Process
+
+During sprint planning, the team employs methods like planning poker to reach a consensus on story points for each user story. This collaborative approach ensures a shared understanding of the workload and aligns team expectations.
+
+The estimation process occurs during sprint planning. There are several ways to estimate the story points of a user story - we will look at planning poker today:
+
+1. All members are given cards that have a story point value. If using
+    Fibonacci sequence, would have cards for 0, 1, 2, 3, 5, 8, 13...
+2. Product owner reads out a user story and clarifies details if anyone
+    has any questions.
+3. Team discusses how they will handle the task and what skills are
+    required to understand the approach.
+4. Each member picks a card with a story point value they feel matches
+    the user story just discussed, and places it face-down.
+5. Once all team members have chosen a card, the team turns over all
+    the cards and discusses.
+6. Once the team reaches a consensus on the user story's estimate, the
+    product owner notes down the value.
+7. Repeat until all user stories product owner has prepared are
+    complete.
+
+The estimates should be added to your chosen task tracking tool.
+
+:::{admonition} Extra Resources
+:class: tip
+
+| Link                                             | Description                            |
+|--------------------------------------------------|----------------------------------------|
+| [Planning Poker](https://www.planningpoker.com/) | A free tool that gamifies the process. |
+:::
+
+#### Prioritising User Stories
+
+Priority is determined through discussions with the client, focusing on delivering maximum value. The MoSCoW method categorises tasks into must-haves, should-haves, could-haves, and won't-haves, guiding the team on where to focus their efforts for maximum impact.
+
+- *Must have:* features that must be delivered or the software will not
+    create the expected value for the client;
+- *Should have:* features that have significant value to the client and
+    should be delivered, but not considered crucial;
+- *Could have:* features that the client considers nice to have but will
+    not have a material impact to value, if not delivered; and
+- *Won't have:* out-of-scope features; useful as next steps for your
+    project as potential improvements for future releases.
+
+:::{admonition} Extra Resources
+:class: tip
+
+| Link                                                                                                         | Description                                      |
+|--------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
+| [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method)                                                 | Further discussion of the MoSCoW method.         |
+| [Scrum Guide](https://www.atlassian.com/agile/scrum)                                                         | Comprehensive Scrum guide.                       |
+| [Sprint planning meeting](https://www.mountaingoatsoftware.com/agile/scrum/meetings/sprint-planning-meeting) | Details on running your sprint planning meeting. |
+:::
+
+Once written, these stories should be documented centrally in the team's
+document repository:
+
+```{figure} resources/confluence.png
+---
+name: confluence
+---
+```
+
+#### User Story Mapping
+
+User story mapping fosters team collaboration and offers a holistic view of how backlog stories integrate into the broader product vision. It's a visual exercise that highlights the project's scope, deadlines, and goals, ensuring all team members and the client are aligned towards a unified objective.
+
+This is an example of a user story map:
+
+```{figure} resources/user_story_map
+---
+name: user-story-map
+---
+```
+
+#### Documenting User Stories
+
+Documenting user stories in a centralised repository ensures that the team and stakeholders have access to up-to-date information about the project's requirements and progress.
+
+With a solid grasp of user stories, teams are better equipped to embark on the application design phase, ensuring a user-centered development approach that aligns with Agile principles.
+
+:::{admonition} Additional Resources
+- Explore tools like [Planning Poker](https://www.planningpoker.com/) for engaging estimation sessions.
+- Learn more about task prioritisation with the [MoSCoW method](https://en.wikipedia.org/wiki/MoSCoW_method).
+- Utilise templates from [Miro](https://miro.com/templates/user-story-map/) or [LucidChart](https://www.lucidchart.com/blog/how-to-create-a-user-story-map) for effective user story mapping.
+:::
+
+```{admonition} Next Steps
+Armed with a comprehensive understanding of user stories, it's time to proceed with designing the application, ensuring a user-centric development process.
+```
+
+### 9 Consistency Principles
 
 It is really important that the user stories, personas and motivational model are consistent with each other, 
 following the 9 principles (CP stands for Consistency Principle):
@@ -255,125 +261,35 @@ complement personas and user stories which focus more on user needs rather than 
 consistency principles help us ensure that personas, user stories and motivational models are consistent with 
 each other, ultimately achieving a better understanding of the requirements among stakeholders.
 
-#### Prototypes
 
-Coding a system can be complex, and time-consuming. If your client
-realises they do not like the design of the system, or perhaps some
-interface needs to be reworked, doing this on the actual system can be
-incredibly time-consuming. Like many projects, one of the key
-constraints of your project is time. As a result, simply coding the
-system after deriving your requirements increases the risk of having to
-make major changes to the system midway.
 
-Prototypes provide a solution to this problem. Teams can build a
-prototype, a hand drawn or digital mock system that resembles what the
-final product should look or behave like. These are much quicker to
-build and allow teams to get feedback from the client much earlier,
-reducing the likelihood of major changes to the system's interface
-later.
+## Negotiation, Validation, and Specification Process
 
-##### Classes of Prototypes
+As teams progress in developing the required artefacts for their projects, it's crucial to engage in a continuous validation process with the client. This stage often reveals discrepancies between the team's capabilities and the client's expectations. In such instances, negotiation becomes essential to align both parties' visions. Should there be insurmountable differences, consulting a supervisor for guidance is advisable.
 
-- *Paper prototype/Low fidelity prototype*: Hand drawing of user
-interface to allow it to be rapidly designed, simulated, and tested.
-These are typically black and white and don't consider choices such as
-colour palette, font, and general styling.
-- *High fidelity prototype*: A digital prototype that looks very similar
-to what the final product should look like. These prototypes are made
-using no-code programs and should determine the final design of the
-system.
+The cornerstone of validation is running usability tests with the client, leveraging the developed prototypes. These tests are designed around specific tasks that embody the core functionalities captured in the user stories. For instance, consider a user story focused on a user logging in and reviewing their purchase history. A high-fidelity prototype should enable a simulation of this scenario, establishing a clear success narrative. Any deviation from this outcome indicates a need for further refinement.
 
-###### Building a Low Fidelity Prototype
+To organise this testing phase effectively, the team should schedule a session with the client, appointing a test facilitator to guide the process. This individual is responsible for directing the client through the predetermined tasks, observing their interactions, and gathering qualitative feedback. Concurrently, a designated minute taker should document all observations and suggestions, no matter how minor they may seem. This meticulous collection of feedback is invaluable, potentially saving considerable time and effort by preempting the need for significant alterations during later development stages.
 
-There are many tools that can be used for creating low fidelity
-prototypes:
+Tools like [Maze](https://help.figma.com/hc/en-us/articles/360041246514-Test-your-Figma-prototypes-with-Maze) can streamline this process, offering an automated platform to test high-fidelity prototypes and gather user insights efficiently.
 
-- Microsoft PowerPoint: While sometimes slow and cumbersome,
-    PowerPoint comes complete with several good features for drawing and
-    designing UI elements.
-```{figure} resources/low_fidelity_prototype.png
----
-name: low_fidelity_prototype
-```
-*This is an example of a watch UI
-    created through PowerPoint. User interaction elements can be
-    created, and a user scenario was created to take the client through
-    during a meeting.*
+Upon completing these steps and achieving consensus with the client, the team can finalise the project specifications. This comprehensive documentation includes the motivational model, personas, prototypes, and user stories, each reflecting the collaborative effort and mutual agreement between the team and the client. This cohesive set of specifications ensures that the project is well-positioned to move forward into the development phase, grounded in a clear understanding of the user needs and project goals.
 
-- Miro can also be used to quickly create wireframes using their
-    templates: [Miro wireframe templates](https://miro.com/templates/low-fidelity-wireframes/)
-- Marvel: Please see the appendix for a tutorial.
 
-###### Building a High-Fidelity Prototype
+## Finalising Specifications
 
-The benefit of using a high-fidelity prototype vs. a low fidelity
-prototype is it allows development teams to be much more specific about
-how a product will look, feel, and act without having to code it (which
-can be very time-consuming). High fidelity prototypes also allow for
-greater interactivity - it can be demonstrated to the client and other
-users, and they can interact with the prototype to click buttons, menus,
-view page transitions, etc. to gain a much better idea of how the final
-product will behave. This is a great way of eliciting very specific
-feedback from the client on the placement of buttons, uses of colours,
-etc.
+Combine all gathered information into a comprehensive specification document, including:
 
-There are many tools that can be used for creating high-fidelity
-prototypes:
+- **User Stories:** Describe functionalities from an end-user perspective.
+- **Design Prototypes:** Visual representations of the system.
+- **Requirements List:** Detailed functional, non-functional, and emotional requirements.
 
-- Figma: One of the most used tools professionally (and they offer a
-    free [student version](https://www.figma.com/education/)).
-- Axure: Fully featured with a steep learning curve, but probably
-    worth it if you wish to pursue UI design professionally (and they
-    also offer a free [student version](https://www.axure.com/edu)).
-- Adobe XD: Far less fully featured but integrates well with other
-    Adobe products. They also offer student discounts for their 
-[full suite of products](https://www.adobe.com/au/creativecloud/buy/students.html).
+## Extra Resources
 
-### 3. Negotiation, Validation, and Specification
+- [Lucidchart](https://www.lucidchart.com/pages/) for flowcharts and diagrams.
+- [Figma](https://www.figma.com/) and [Adobe XD](https://www.adobe.com/products/xd.html) for prototyping.
+- [Maze](https://maze.co) for usability testing.
 
-As the various requirements artefacts are developed, teams should be
-validating these with the client. If there is some disagreement between
-what the team believes is achievable and what the client wants, teams
-are required to negotiate and reconcile any differences. In extreme
-cases where a resolution cannot be reached, speak to your supervisor.
-
-Running usability tests with your client is the easiest way to validate
-the requirements your team has created. First, a team should create
-tasks that can be completed using the prototypes - these tasks will
-represent the full set or a subset of the user stories. For example, if
-a user story is that a user logs in and views their purchase, the
-high-fidelity prototype should permit users to simulate this user story.
-It should have a success narrative and all other narratives should be
-failures.
-
-If a user can successfully log in and view their purchase history, this
-is the success narrative. If they cannot, the task has been failed.
-
-Once these tasks have been created, your team should contact the client
-to organise a meeting to conduct testing. Your team should assign a test
-facilitator whose job it is to ask the participant (your client) to
-perform the tasks your team has created. While the participant completes
-each task, the facilitator observes the participant's behaviour and
-listens for feedback.
-
-A minute taker should be assigned to note down feedback - all feedback
-should be welcomed from the client for things as small as the colour of
-a button. The more feedback you can elicit at this stage, the more time
-it will save you later when you have to make much more time-consuming
-changes to code.
-
-One tool that can automate this process for you is
-[Maze](https://help.figma.com/hc/en-us/articles/360041246514-Test-your-Figma-prototypes-with-Maze).
-These tools typically exist with all high-fidelity prototypes listed above.
-
-Finally, once all your requirements have been finalised and the client
-is happy with them, you will have your set of specifications. This
-should include:
-
-- Motivational model.
-- Personas.
-- Prototypes.
-- User stories.
 
 :::{admonition} Extra Resources
 :class: tip
