@@ -14,34 +14,18 @@ parts:
     chapters:
     - file: topics/agile_methodology
       sections:
-        - file: topics/document_repository    
+        - file: topics/confluence    
         - file: topics/task_tracking
         - file: topics/version_control    
-    - file: topics/requirements_elicitation
-      sections:
-        - file: topics/client_communications
-          sections:
-            - file: topics/templates_for_comm    
-        - file: topics/userstory     
-        - file: topics/reqtools     
-          sections:
-            - file: topics/motivational_model_guide   
-            - file: topics/personas_tools        
-            - file: topics/marvel_guide
-            - file: topics/figma_guide      
-            - file: topics/miro_guide            
+    - file: topics/requirements_elicitation        
     - file: topics/devsprint
       sections:
-        - file: topics/github
-        - file: topics/simplified_workflow
-        - file: topics/technology_stack
         - file: topics/architecture
         - file: topics/code_review
         - file: topics/software_licenses      
         - file: topics/devtools       
     - file: topics/deployment
       sections:      
-        - file: topics/devops        
         - file: topics/ci_cd
     - file: topics/testing
     - file: topics/final_presentation
@@ -55,7 +39,10 @@ parts:
         - file: extras/prompts_userstories
         - file: extras/prompts_usecases                
         - file: extras/prompts_acceptancetests
-        - file: extras/prompts_codereview                
+        - file: extras/prompts_codereview                  
+    - file: extras/client_communications2
+      sections:
+        - file: extras/templates_for_comm    
     - file: extras/academic_honesty
       sections:
         - file: extras/help_nonstudents
