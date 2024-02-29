@@ -20,7 +20,6 @@ parts:
     - file: topics/requirements_elicitation        
     - file: topics/devsprint
       sections:
-        - file: topics/architecture
         - file: topics/code_review
         - file: topics/software_licenses      
         - file: topics/devtools       
