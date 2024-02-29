@@ -31,17 +31,6 @@ parts:
     - file: topics/client_handover
   - caption: Extras
     chapters:
-    - file: extras/genai
-      sections:
-        - file: extras/prompts_tutorial        
-        - file: extras/prompts_personas
-        - file: extras/prompts_userstories
-        - file: extras/prompts_usecases                
-        - file: extras/prompts_acceptancetests
-        - file: extras/prompts_codereview                  
-    - file: extras/client_communications2
-      sections:
-        - file: extras/templates_for_comm    
     - file: extras/academic_honesty
       sections:
         - file: extras/help_nonstudents
@@ -51,7 +40,18 @@ parts:
         - file: extras/outsource_assignment
         - file: extras/lock_screen
         - file: extras/protect_code
-        - file: extras/working_friends
+        - file: extras/working_friends      
+    - file: extras/client_communications2
+      sections:
+        - file: extras/templates_for_comm            
+    - file: extras/genai
+      sections:
+        - file: extras/prompts_tutorial        
+        - file: extras/prompts_personas
+        - file: extras/prompts_userstories
+        - file: extras/prompts_usecases                
+        - file: extras/prompts_acceptancetests
+        - file: extras/prompts_codereview                  
   - caption: Afterword
     chapters:
     - file: afterword/bibliography
