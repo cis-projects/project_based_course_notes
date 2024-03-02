@@ -62,10 +62,22 @@ Adhere to principles of academic integrity and ethical conduct in all interactio
 
 Below are links to some of our recently developed generative AI prompts, scripts and resources to help you in your software engineering subjects **(you must confirm if your subject coordinator is happy for you to use genAI within your subjects)**:
 
+- [**Prompt Tutorial**](prompts_tutorial)  
+- [**Prompt to Create Personas**](prompts_personas)
+- [**Prompt to Create User Stories From Personas**](prompts_userstories)
+- [**Prompt to Create Use Cases From User Stories**](prompts_usecases)
+- [**Prompt to Create Acceptance Tests from User Stories**](prompts_acceptancetests)
 - **ChatGPT Pull Request Review Action**: [https://github.com/agogear/chatgpt-pr-review/](https://github.com/agogear/chatgpt-pr-review/)
   - A GitHub Action that helps you with code reviews.
-- **AI-powered peer review process: An approach to enhance computer science students’ engagement with code review in industry-based subjects (2023 ASCILITE Paper)**: [https://publications.ascilite.org/index.php/APUB/article/download/482/557/](https://publications.ascilite.org/index.php/APUB/article/download/482/557/)
 
+
+### Publications
+
+- **(2023 ASCILITE Paper)** AI-powered peer review process: An approach to enhance computer science students’ engagement with code review in industry-based subjects : [https://publications.ascilite.org/index.php/APUB/article/download/482/557/](https://publications.ascilite.org/index.php/APUB/article/download/482/557/)
+- **(2023 ASCILITE Paper)** Authorship Verification in software engineering education: Forget ChatGPT and focus on students' academic writing profiles: [https://publications.ascilite.org/index.php/APUB/article/download/559/558](https://publications.ascilite.org/index.php/APUB/article/download/559/558)
+- **(2023 ASCILITE Paper)** Creating a software application to help university educators to reflect on the cognitive complexity of their exam questions, using Bloom’s Taxonomy and automated classification: [https://publications.ascilite.org/index.php/APUB/article/download/613/623](https://publications.ascilite.org/index.php/APUB/article/download/613/623)
+- **(2023 ASCILITE Paper)** University learning partnerships: Enhancing learning, enabling innovation and addressing challenges in schools: [https://publications.ascilite.org/index.php/APUB/article/download/460/507](https://publications.ascilite.org/index.php/APUB/article/download/460/507)
+- **(2022 ASCILITE Paper)** The impact of cognitive load on students’ academic writing: an authorship verification investigation: [https://research.monash.edu/files/492758674/492758502_oa.pdf](https://research.monash.edu/files/492758674/492758502_oa.pdf)
 
 ## General Resources
 
