@@ -85,5 +85,35 @@ Scrum incorporates several key meetings (ceremonies) to ensure continuous commun
 
 Adopting the Scrum framework enables teams to embody agile principles, emphasising flexibility, team collaboration, and customer satisfaction. Through iterative development, continuous feedback, and adaptive planning, Scrum empowers teams to deliver high-quality software that meets evolving client needs effectively.
 
-As you embark on your journey with Scrum, remember that the agile mindset is about embracing change, learning from experiences, and continually striving to improve both the process and the
+As you embark on your journey with Scrum, remember that the agile mindset is about embracing change, learning from experiences, and continually striving to improve both the process and the product.
+
+## Maximising Collaboration and Quality: Your Guide to Software Project Sprints
+
+As you embark on this software development journey, we'd like to introduce a structured approach to your development sprints that will enhance your learning and collaboration, and lead to a robust final product. This material was initially designed for a subject with 4 Sprints (12 teaching weeks + 2 weeks during exams for handover). You can easily reapply this approach to different subjects. 
+
+Here’s our suggestion on how you can tackle each sprint:
+
+```{figure} resources/DevJourney.jpg
+---
+name: DevJourney
+---
+```
+
+Link to this MIRO board: [https://miro.com/app/board/uXjVMeLMFHM=/?share_link_id=504982567591](https://miro.com/app/board/uXjVMeLMFHM=/?share_link_id=504982567591)
+
+
+### Sprint 1: Mob Programming
+Mob programming is a collective approach where the whole team works on the same task at the same time, in the same space, and at the same computer. This sprint will be your knowledge-sharing powerhouse, where everyone contributes to the requirements elicitation process. It's all about team synergy—think of it as a brainstorming session where everyone brings their unique perspective to the table.
+
+### Sprint 2: Pair Programming to Individual Development
+You should start Sprint 2 with pair programming. This technique involves two programmers sharing one workstation. It’s an excellent way to build confidence with your development environment and technologies. Begin by coding initial tasks together, then, as you gain confidence, transition into individual development, taking ownership of specific components or features.
+
+### Sprint 3: Individual Development
+By Sprint 3, you should be well-acquainted with your project and ready to tackle individual development. This is where you can demonstrate autonomy and apply the skills you've practiced and improved before. You'll be responsible for developing and delivering your piece of the project, contributing to the team's overall progress.
+
+###  Sprint 4: Pair Programming for Final Release
+In your final sprint, return to pair programming. Here, you'll review each other’s work, ensuring that everything is ready for the final release. This is your quality assurance phase, where we double-check each feature, fix bugs, refine documentation, and polish your product to perfection.
+
+
+Throughout this journey, remember that communication and adaptability are key. Always be open to learning from your peers, and don't hesitate to share your knowledge. By the end of this project, not only will we have a product we're proud of, but we’ll also have grown significantly as software engineers.
 
