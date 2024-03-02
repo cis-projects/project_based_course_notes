@@ -32,7 +32,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=384b581d" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
   
@@ -456,11 +456,11 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elaboration-and-validation">Elaboration and Validation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-personas">Developing Personas</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#embracing-diversity-and-inclusion-in-persona-development">Embracing Diversity and Inclusion in Persona Development</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prototyping">Prototyping</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability-testing">Usability Testing</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-user-stories">Introduction to User Stories</a><ul class="nav section-nav flex-column">
@@ -530,6 +530,23 @@ document.write(`
 <section id="elaboration-and-validation">
 <h2>Elaboration and Validation<a class="headerlink" href="#elaboration-and-validation" title="Link to this heading">#</a></h2>
 <p>After gathering initial requirements, the next step is to refine and validate them.</p>
+<section id="motivational-modelling">
+<h3>Motivational Modelling<a class="headerlink" href="#motivational-modelling" title="Link to this heading">#</a></h3>
+<p>Use motivational modelling to visually represent the system’s goals and stakeholders’ needs. This approach helps clarify the project’s objectives and ensure alignment with user expectations.</p>
+<p>This technique allows the functional, non-functional, and emotional goals of the system to represented in a diagram. The benefit is that diagrams are often easier to read compared to written requirements, and emotional requirements are also considered.
+Motivational modelling is done through brainstorming a list of the key requirements of the system and stakeholders involved. The list is called a DO/BE/FEEL/WHO list, and should detail:</p>
+<ul class="simple">
+<li><p>DO: what your system can do? (Functional goals)</p></li>
+<li><p>BE: how your system should behave? (Non-functional goals)</p></li>
+<li><p>FEEL: how users should feel when using the system? (Emotional goals)</p></li>
+<li><p>WHO: key stakeholders</p></li>
+</ul>
+<p>This list is then converted into a hierarchical diagram, as shown below.
+This is a great starting point for teams to confirm the understanding of the project requirements, with the bottom leaves corresponding to user stories.</p>
+<figure class="align-default" id="motivational-model">
+<img alt="../_images/motivational_model.jpg" src="../_images/motivational_model.jpg" />
+</figure>
+</section>
 <section id="developing-personas">
 <h3>Developing Personas<a class="headerlink" href="#developing-personas" title="Link to this heading">#</a></h3>
 <p>Personas are carefully crafted profiles that symbolise the key characteristics of various user groups of a product. These archetypical users help development and design teams gain insights into the product’s user base, fostering empathy and understanding. By embodying the goals, needs, behaviours, and pain points of real users, personas guide the decision-making process in product development, ensuring that design choices align with user expectations and improve user experience.</p>
@@ -550,23 +567,6 @@ document.write(`
 <p>In crafting personas, we must strive for a balance that reflects the diversity of our society. This involves recognising and including underrepresented groups, challenging stereotypes, and ensuring that our designs are informed by a genuine understanding of the users we aim to serve. By doing so, we not only create products that are more likely to succeed in the marketplace but also contribute to a more inclusive and equitable digital world.</p>
 <p>In conclusion, the development of unbiased, diverse, and inclusive personas is a critical step in the design process. It ensures that products are thoughtfully crafted with the needs, preferences, and contexts of all potential users in mind, leading to solutions that are not only more effective but also more equitable.</p>
 </section>
-</section>
-<section id="motivational-modelling">
-<h3>Motivational Modelling<a class="headerlink" href="#motivational-modelling" title="Link to this heading">#</a></h3>
-<p>Use motivational modelling to visually represent the system’s goals and stakeholders’ needs. This approach helps clarify the project’s objectives and ensure alignment with user expectations.</p>
-<p>This technique allows the functional, non-functional, and emotional goals of the system to represented in a diagram. The benefit is that diagrams are often easier to read compared to written requirements, and emotional requirements are also considered.
-Motivational modelling is done through brainstorming a list of the key requirements of the system and stakeholders involved. The list is called a DO/BE/FEEL/WHO list, and should detail:</p>
-<ul class="simple">
-<li><p>DO: what your system can do? (Functional goals)</p></li>
-<li><p>BE: how your system should behave? (Non-functional goals)</p></li>
-<li><p>FEEL: how users should feel when using the system? (Emotional goals)</p></li>
-<li><p>WHO: key stakeholders</p></li>
-</ul>
-<p>This list is then converted into a hierarchical diagram, as shown below.
-This is a great starting point for teams to confirm the understanding of the project requirements, with the bottom leaves corresponding to user stories.</p>
-<figure class="align-default" id="motivational-model">
-<img alt="../_images/motivational_model.jpg" src="../_images/motivational_model.jpg" />
-</figure>
 </section>
 <section id="prototyping">
 <h3>Prototyping<a class="headerlink" href="#prototyping" title="Link to this heading">#</a></h3>
@@ -861,11 +861,11 @@ each other, ultimately achieving a better understanding of the requirements amon
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#elaboration-and-validation">Elaboration and Validation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#developing-personas">Developing Personas</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#embracing-diversity-and-inclusion-in-persona-development">Embracing Diversity and Inclusion in Persona Development</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#motivational-modelling">Motivational Modelling</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#prototyping">Prototyping</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#usability-testing">Usability Testing</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-user-stories">Introduction to User Stories</a><ul class="nav section-nav flex-column">
