@@ -21,12 +21,13 @@ For many of you, these subjects represent an important moment — the transition
 
 Our materials are organised around the **software development lifecycle**, including:
 
-- **Agile Methodology**: Embrace the flexibility and efficiency of agile practices.
-- **Requirements Engineering**: Learn to capture and analyse user needs meticulously.
-- **Development**: Dive into coding best practices and collaborative development.
-- **Deployment and Testing**: Understand the nuances of deploying and rigorously testing software.
-- **Final Presentations**: Gain insights into delivering persuasive and impactful presentations.
-- **Handover to Industry Partners**: Master the art of transitioning your project for real-world use.
+- **[Agile Methodology](topics/agile_methodology)**: Embrace the flexibility and efficiency of agile practices.
+- **[Requirements Engineering](topics/requirements_elicitation)**: Learn to capture and analyse user needs meticulously.
+- **[Development](topics/devsprint)**: Dive into coding best practices and collaborative development.
+- **[Deployment](topics/deployment)**: Understand the nuances of deploying software.
+- **[Testing](topics/testing)**: Rigorously test your software.
+- **[Final Presentations](topics/final_presentation)**: Gain insights into delivering persuasive and impactful presentations.
+- **[Handover to Industry Partners](topics/client_handover)**: Master the art of transitioning your project for real-world use.
 
 ## Contributors and Acknowledgments
 
