@@ -34,6 +34,28 @@ Before meeting with the client, conduct background research on the project domai
 
 After gathering initial requirements, the next step is to refine and validate them.
 
+
+### Motivational Modelling
+
+Use motivational modelling to visually represent the system's goals and stakeholders' needs. This approach helps clarify the project's objectives and ensure alignment with user expectations.
+
+This technique allows the functional, non-functional, and emotional goals of the system to represented in a diagram. The benefit is that diagrams are often easier to read compared to written requirements, and emotional requirements are also considered.
+Motivational modelling is done through brainstorming a list of the key requirements of the system and stakeholders involved. The list is called a DO/BE/FEEL/WHO list, and should detail:
+
+- DO: what your system can do? (Functional goals)
+- BE: how your system should behave? (Non-functional goals)
+- FEEL: how users should feel when using the system? (Emotional goals)
+- WHO: key stakeholders
+
+This list is then converted into a hierarchical diagram, as shown below.
+This is a great starting point for teams to confirm the understanding of the project requirements, with the bottom leaves corresponding to user stories.
+
+```{figure} resources/motivational_model.jpg
+---
+name: motivational_model
+---
+```
+
 ### Developing Personas
 
 Personas are carefully crafted profiles that symbolise the key characteristics of various user groups of a product. These archetypical users help development and design teams gain insights into the product’s user base, fostering empathy and understanding. By embodying the goals, needs, behaviours, and pain points of real users, personas guide the decision-making process in product development, ensuring that design choices align with user expectations and improve user experience.
@@ -62,27 +84,6 @@ Diversity in personas also extends beyond gender to include other dimensions suc
 In crafting personas, we must strive for a balance that reflects the diversity of our society. This involves recognising and including underrepresented groups, challenging stereotypes, and ensuring that our designs are informed by a genuine understanding of the users we aim to serve. By doing so, we not only create products that are more likely to succeed in the marketplace but also contribute to a more inclusive and equitable digital world.
 
 In conclusion, the development of unbiased, diverse, and inclusive personas is a critical step in the design process. It ensures that products are thoughtfully crafted with the needs, preferences, and contexts of all potential users in mind, leading to solutions that are not only more effective but also more equitable.
-
-### Motivational Modelling
-
-Use motivational modelling to visually represent the system's goals and stakeholders' needs. This approach helps clarify the project's objectives and ensure alignment with user expectations.
-
-This technique allows the functional, non-functional, and emotional goals of the system to represented in a diagram. The benefit is that diagrams are often easier to read compared to written requirements, and emotional requirements are also considered.
-Motivational modelling is done through brainstorming a list of the key requirements of the system and stakeholders involved. The list is called a DO/BE/FEEL/WHO list, and should detail:
-
-- DO: what your system can do? (Functional goals)
-- BE: how your system should behave? (Non-functional goals)
-- FEEL: how users should feel when using the system? (Emotional goals)
-- WHO: key stakeholders
-
-This list is then converted into a hierarchical diagram, as shown below.
-This is a great starting point for teams to confirm the understanding of the project requirements, with the bottom leaves corresponding to user stories.
-
-```{figure} resources/motivational_model.jpg
----
-name: motivational_model
----
-```
 
 ### Prototyping
 
