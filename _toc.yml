@@ -19,7 +19,7 @@ parts:
         - file: topics/devtools       
     - file: topics/deployment
       sections:      
-        - file: topics/ci_cd
+        - file: topics/ci_cd        
     - file: topics/testing
     - file: topics/final_presentation
     - file: topics/client_handover
@@ -45,7 +45,9 @@ parts:
         - file: extras/prompts_userstories
         - file: extras/prompts_usecases                
         - file: extras/prompts_acceptancetests
-        - file: extras/prompts_codereview                  
+        - file: extras/prompts_codereview    
+          sections:
+            - file: extras/gha_selfrunner               
   - caption: Frequently Asked Questions (FAQs)
     chapters:
     - url: https://wiggly-turnip-06b.notion.site/31ce10d52fd448258e5de1c29f4abb4e?v=acad4a40b114413b891fa94c4e1f85ef
