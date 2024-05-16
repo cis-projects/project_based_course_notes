@@ -54,6 +54,6 @@ A runner can have a label `android`, and you can specify `runs-on: android` in y
 1. Make sure the runner is running on your machine using `./run.sh` and do not exit the terminal.
 2. If you go to `Repository -> Settings -> Code and Automation -> Actions -> Runners`, you should be able to see the newly created runner in status `Idle`, indicating it is ready to start picking up your GitHub Actions jobs. As long as your workflow uses the correct labels (`self-hosted, macOS`, etc.), it should get picked up.
 
-Container based plugins were having a problem with this approach. In this case, please try and setup a Linux runner on your macOs. The commands for linux should run fine on macOS as well. 
+Container based plugins were having a few issues with this approach. In this case, please try and setup a Linux runner on your macOs. The commands for linux should run fine on macOS as well. 
 
 Happy days! 🚀 
