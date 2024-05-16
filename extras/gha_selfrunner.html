@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Generative AI &#8212; Project-Based Course Notes</title>
+    <title>GitHub Actions: Self-Hosted Runner &#8212; Project-Based Course Notes</title>
   
   
   
@@ -70,12 +70,12 @@
                 gtag('config', 'G-RYD1BC7LLQ');
             </script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/genai';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'extras/gha_selfrunner';</script>
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Hands-On Tutorial" href="prompts_tutorial.html" />
-    <link rel="prev" title="Templates" href="templates_for_comm.html" />
+    <link rel="next" title="Bibliography" href="../afterword/bibliography.html" />
+    <link rel="prev" title="Reviewing Your Code" href="prompts_codereview.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -230,15 +230,15 @@
 <li class="toctree-l2"><a class="reference internal" href="templates_for_comm.html">Templates</a></li>
 </ul>
 </li>
-<li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">Generative AI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="genai.html">Generative AI</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-6"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="prompts_tutorial.html">Hands-On Tutorial</a></li>
 
 <li class="toctree-l2"><a class="reference internal" href="prompts_personas.html">Creating Diverse and Inclusive User Personas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_userstories.html">Generating User Stories from Personas</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_usecases.html">Generating Use Cases from User Stories</a></li>
 <li class="toctree-l2"><a class="reference internal" href="prompts_acceptancetests.html">Generating Acceptance Tests from User Stories</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="prompts_codereview.html">Reviewing Your Code</a><input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul>
-<li class="toctree-l3"><a class="reference internal" href="gha_selfrunner.html">GitHub Actions: Self-Hosted Runner</a></li>
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="prompts_codereview.html">Reviewing Your Code</a><input checked="" class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-7"><i class="fa-solid fa-chevron-down"></i></label><ul class="current">
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">GitHub Actions: Self-Hosted Runner</a></li>
 </ul>
 </li>
 </ul>
@@ -325,7 +325,7 @@
       
       
       
-      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/genai.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/cis-projects/project_based_course_notes/issues/new?title=Issue%20on%20page%20%2Fextras/gha_selfrunner.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -355,7 +355,7 @@
       
       
       
-      <li><a href="../_sources/extras/genai.md" target="_blank"
+      <li><a href="../_sources/extras/gha_selfrunner.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -439,7 +439,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Generative AI</h1>
+    <h1>GitHub Actions: Self-Hosted Runner</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -449,23 +449,20 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guide-to-using-generative-ai-responsibly-and-ethically">Guide to Using Generative AI Responsibly and Ethically</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-generative-ai">What is Generative AI?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#responsible-practices">Responsible Practices</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-as-a-collaborative-tool">AI as a Collaborative Tool</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#responsibility-and-ownership">Responsibility and Ownership</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-review-and-informed-decisions">Critical Review and Informed Decisions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#staying-in-control">Staying in Control</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-considerations-and-academic-integrity">Ethical Considerations and Academic Integrity</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-using-local-self-hosted-runners-for-github-actions">Introduction to Using Local Self-Hosted Runners for GitHub Actions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-local-self-hosted-runners">Why Use Local Self-Hosted Runners?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-this-benefits-you">How This Benefits You</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-resources-for-you">Our Resources for You</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#our-recent-publications-in-the-use-of-genai">Our Recent Publications in the Use of GenAI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-self-hosted-runners">Local Self-Hosted Runners</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-setup-self-hosted-runners">How to Setup Self-Hosted Runners</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#steps-to-setup">Steps to Setup:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installation-steps">Installation Steps:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-about-configuration">More About Configuration:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#final-steps">Final Steps:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-resources">General Resources</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
 </ul>
             </nav>
         </div>
@@ -477,123 +474,71 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="generative-ai">
-<h1>Generative AI<a class="headerlink" href="#generative-ai" title="Link to this heading">#</a></h1>
-<div class="tip dropdown admonition">
-<p class="admonition-title">Official Statements from The University of Melbourne</p>
-<p>Always make sure you’re following the official University of Melbourne statements and resources relating to AI, academic integrity, and assessment</p>
+  <section class="tex2jax_ignore mathjax_ignore" id="github-actions-self-hosted-runner">
+<h1>GitHub Actions: Self-Hosted Runner<a class="headerlink" href="#github-actions-self-hosted-runner" title="Link to this heading">#</a></h1>
+<section id="introduction-to-using-local-self-hosted-runners-for-github-actions">
+<h2>Introduction to Using Local Self-Hosted Runners for GitHub Actions<a class="headerlink" href="#introduction-to-using-local-self-hosted-runners-for-github-actions" title="Link to this heading">#</a></h2>
+<p>In our university’s tech programs, collaboration and resource sharing are essential. As we advance in our courses and projects, it’s important to be mindful of the resources available to us. Currently, our GitHub organization is allocated <strong>2000 minutes per month</strong> for GitHub Actions, shared among all students. Given this limitation, it’s vital for each of us to adopt practices that help conserve these valuable minutes.</p>
+<section id="why-use-local-self-hosted-runners">
+<h3>Why Use Local Self-Hosted Runners?<a class="headerlink" href="#why-use-local-self-hosted-runners" title="Link to this heading">#</a></h3>
+<p>Local self-hosted runners provide an excellent solution for running GitHub Actions without consuming our shared minutes. This approach allows students to test and develop projects locally, preserving our GitHub minutes for critical stages of the project, such as final deployments at the end of development sprints.</p>
+<p>By setting up a self-hosted runner on your personal machine, you can execute all necessary actions and checks on your projects without tapping into the shared pool of minutes. This not only ensures that resources are available when truly needed but also promotes a more responsible use of our collective assets.</p>
+</section>
+<section id="how-this-benefits-you">
+<h3>How This Benefits You<a class="headerlink" href="#how-this-benefits-you" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
-<li><p><strong>Please confirm with your subject coordinators if generative AI tools are permitted in your coursework and understand the guidelines for their use.</strong></p></li>
+<li><p><strong>Maximise Resources:</strong> Allows more extensive testing and integration processes without the fear of depleting our action minutes.</p></li>
+<li><p><strong>Faster Iterations:</strong> Local runners often provide quicker feedback loops for your project builds and tests.</p></li>
+<li><p><strong>Enhanced Learning:</strong> Gain hands-on experience with an importante aspect of modern DevOps practices by managing your own CI/CD pipelines.</p></li>
 </ul>
-</div>
-<section id="guide-to-using-generative-ai-responsibly-and-ethically">
-<h2>Guide to Using Generative AI Responsibly and Ethically<a class="headerlink" href="#guide-to-using-generative-ai-responsibly-and-ethically" title="Link to this heading">#</a></h2>
-<p>Welcome to our guide on integrating Generative AI into your software engineering studies. This document aims to provide you with an understanding of how to effectively use generative AI tools, adhere to responsible practices, and access valuable resources to enhance your learning experience.</p>
-<p>Below are links to some University of Melbourne generative AI resources that you might find useful in your learning journey with us (also great to keep you posted on our initiatives here):</p>
+<p>Adopting local self-hosted runners is more than a convenience—it’s a necessity for ensuring that all students have equal access to our limited resources when they need them most. Let’s all do our part to make the most of what we have. Follow the setup guide below to get started with your own self-hosted runner.</p>
+</section>
+</section>
+<section id="local-self-hosted-runners">
+<h2>Local Self-Hosted Runners<a class="headerlink" href="#local-self-hosted-runners" title="Link to this heading">#</a></h2>
+<p>The tutorial below was developed by team SI-Koala (COMP90082 - 2024 - SM1: Rishabh Srivastava, Vijay Narayan Venkatesh, Edwin Zhu, Saraubh Unmesh Zingade, Akash Renuka Ashok). This documentation is to assist anyone looking to set up a self-hosted runner for their team. It is straightforward and can make your automation much more affordable.</p>
+<section id="how-to-setup-self-hosted-runners">
+<h3>How to Setup Self-Hosted Runners<a class="headerlink" href="#how-to-setup-self-hosted-runners" title="Link to this heading">#</a></h3>
+<p>To conserve GitHub Actions compute minutes, we run GitHub Actions on our local machines instead of using larger GitHub-hosted runners or standard GitHub-hosted runners. This has minimal impacts on how developers utilize DevOps.</p>
+</section>
+<section id="steps-to-setup">
+<h3>Steps to Setup:<a class="headerlink" href="#steps-to-setup" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Navigate in your repository to <code class="docutils literal notranslate"><span class="pre">Settings</span> <span class="pre">-&gt;</span> <span class="pre">Code</span> <span class="pre">and</span> <span class="pre">Automation</span> <span class="pre">-&gt;</span> <span class="pre">Actions</span> <span class="pre">-&gt;</span> <span class="pre">Runners</span></code>.</p></li>
+<li><p>Click on <code class="docutils literal notranslate"><span class="pre">New</span> <span class="pre">self-hosted</span> <span class="pre">runner</span></code>.</p></li>
+<li><p>Select your laptop’s configuration (OS: macOS/Linux/Windows, Arch: x64, ARM64, ARM) and follow the steps provided in the UI.</p></li>
+<li><p>It is advisable to create an <code class="docutils literal notranslate"><span class="pre">actions-runner</span></code> folder in the root directory.</p></li>
+</ol>
+</section>
+<section id="installation-steps">
+<h3>Installation Steps:<a class="headerlink" href="#installation-steps" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><strong>Official Statements from The University of Melbourne</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-integrity/official-statements-from-the-university-of-melbourne/</a></p></li>
-<li><p><strong>Assessment, AI and Academic Integrity</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/">https://melbourne-cshe.unimelb.edu.au/ai-aai/</a></p></li>
-<li><p><strong>Advice for students regarding Turnitin and AI writing detection</strong>: <a class="reference external" href="https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/">https://academicintegrity.unimelb.edu.au/plagiarism-and-collusion/artificial-intelligence-tools-and-technologies/advice-for-students-regarding-turnitin-and-ai-writing-detection/</a></p></li>
-<li><p><strong>Using AI to enhance assessment</strong>: <a class="reference external" href="https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/">https://melbourne-cshe.unimelb.edu.au/ai-aai/home/ai-assessment/using-ai-to-enhance-assessment/</a></p></li>
+<li><p><strong>Download:</strong> Downloads the GitHub Actions package to your machine and extracts the installer.</p></li>
+<li><p><strong>Configure:</strong> Using the provided token, you authorize the runner to access the repository.</p></li>
 </ul>
 </section>
-<section id="what-is-generative-ai">
-<h2>What is Generative AI?<a class="headerlink" href="#what-is-generative-ai" title="Link to this heading">#</a></h2>
-<p>Generative AI refers to artificial intelligence systems that can generate new content, including code, text, images, and more, based on the training data they have been fed. In software engineering, generative AI can assist in various tasks, such as coding, documentation, and testing, thereby augmenting the development process.</p>
-</section>
-<section id="responsible-practices">
-<h2>Responsible Practices<a class="headerlink" href="#responsible-practices" title="Link to this heading">#</a></h2>
-<p>As part of our commitment to fostering innovative and ethical software engineering practices, we provide various resources, including generative AI prompts, to enhance your learning experience and project outcomes. It’s crucial to approach these tools with a mindset geared towards responsible use and collaboration. When using generative AI in software engineering, consider the following practices to ensure effectiveness, responsibility, awareness and integrity:</p>
+<section id="more-about-configuration">
+<h3>More About Configuration:<a class="headerlink" href="#more-about-configuration" title="Link to this heading">#</a></h3>
 <ul class="simple">
-<li><p><strong>Understand the Limitations</strong>: Recognise that generative AI tools are not infallible and should be used as assistants rather than replacements for human judgment.</p></li>
-<li><p><strong>Verify the Output</strong>: Always review and test the code or content generated by AI to ensure it meets your project’s requirements and standards.</p></li>
-<li><p><strong>Cite Your Sources</strong>: If your project or research benefits from generative AI, make sure to acknowledge the use of these tools in your documentation.</p></li>
-<li><p><strong>Respect Privacy and Confidentiality</strong>: Be cautious when feeding sensitive or proprietary data into generative AI systems, as this may raise privacy and confidentiality concerns. This is especially important in the context of capstone subjects where you have a chance to work with real-world industry partners.</p></li>
-</ul>
-<section id="ai-as-a-collaborative-tool">
-<h3>AI as a Collaborative Tool<a class="headerlink" href="#ai-as-a-collaborative-tool" title="Link to this heading">#</a></h3>
-<p>Generative AI offers significant potential to aid in the creative and development processes. However, it’s essential to view AI as a partner, not a replacement for your work, contributions and critical thinking. Use AI to generate ideas, draft solutions, and explore possibilities, but remember that the final outcome should reflect your unique contribution and understanding. You are in control and should continue to make informed-decisions in this process.</p>
-</section>
-<section id="responsibility-and-ownership">
-<h3>Responsibility and Ownership<a class="headerlink" href="#responsibility-and-ownership" title="Link to this heading">#</a></h3>
-<p>While AI can automate parts of the creative software development process, the responsibility for the project’s integrity, quality, and ethical considerations remains entirely with you. Do not delegate critical decisions or ethical judgments to AI. Instead, if you decide to use genAI in your software development process, use AI-generated content as a starting point for further development and refinement. The use of these technologies must be continuously reviewed and discussed with your team.</p>
-</section>
-<section id="critical-review-and-informed-decisions">
-<h3>Critical Review and Informed Decisions<a class="headerlink" href="#critical-review-and-informed-decisions" title="Link to this heading">#</a></h3>
-<p>Again, every piece of AI-generated content should be critically evaluated and reviewed. Inspect/Examine the relevance, accuracy, and appropriateness of the content in the context of your project. It’s your responsibility to ensure that the final product aligns with the project’s objectives, ethical standards, and technical requirements.</p>
-</section>
-<section id="staying-in-control">
-<h3>Staying in Control<a class="headerlink" href="#staying-in-control" title="Link to this heading">#</a></h3>
-<p>Maintain control over the use of AI in your projects. Ensure that its application enhances the project’s value without compromising your learning objectives or the project’s integrity. The use of AI should be transparent, and its contributions should be clearly acknowledged in your project documentation.</p>
-</section>
-<section id="ethical-considerations-and-academic-integrity">
-<h3>Ethical Considerations and Academic Integrity<a class="headerlink" href="#ethical-considerations-and-academic-integrity" title="Link to this heading">#</a></h3>
-<p>Adhere to principles of academic integrity and ethical conduct in all interactions with AI tools. The generation of content using AI must be aligned with the guidelines provided by the University of Melbourne. Misuse of AI, such as passing off AI-generated content as entirely your own original work without proper acknowledgment, can lead to academic misconduct.</p>
-</section>
-</section>
-<section id="recommendations">
-<h2>Recommendations<a class="headerlink" href="#recommendations" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>Start Small</strong>: Initially, use generative AI for smaller tasks as you become familiar with its capabilities and limitations.</p></li>
-<li><p><strong>Collaborate and Discuss</strong>: Use generative AI as a tool for brainstorming and collaboration among team members, enhancing creativity and efficiency.</p></li>
-<li><p><strong>Stay Updated</strong>: Generative AI technology is rapidly evolving. Keep yourself updated on the latest developments and tools that can benefit your projects. When in doubt, ask your subject coordinator for advice.</p></li>
+<li><p>Most setup steps can retain default values.</p></li>
+<li><p>Ensure the name of the runner includes the user’s name (e.g., <code class="docutils literal notranslate"><span class="pre">Rishabhs-MacBook-Pro</span></code>).</p></li>
+<li><p><strong>Labels:</strong> Labels are crucial in this setup. By default, you will get values like <code class="docutils literal notranslate"><span class="pre">self-hosted,</span> <span class="pre">macOS</span></code>, etc. You can add more labels, which can be used in your workflows to filter which runner to use for the build.</p></li>
 </ul>
 </section>
-<section id="our-resources-for-you">
-<h2>Our Resources for You<a class="headerlink" href="#our-resources-for-you" title="Link to this heading">#</a></h2>
-<p>Below are links to some of our recently developed generative AI prompts, scripts and resources to help you in your software engineering subjects <strong>(you must confirm if your subject coordinator is happy for you to use genAI within your subjects)</strong>:</p>
-<ul class="simple">
-<li><p><a class="reference internal" href="prompts_tutorial.html"><span class="doc std std-doc"><strong>Prompt Tutorial</strong></span></a></p></li>
-<li><p><a class="reference internal" href="prompts_personas.html"><span class="doc std std-doc"><strong>Prompt to Create Personas</strong></span></a></p></li>
-<li><p><a class="reference internal" href="prompts_userstories.html"><span class="doc std std-doc"><strong>Prompt to Create User Stories From Personas</strong></span></a></p></li>
-<li><p><a class="reference internal" href="prompts_usecases.html"><span class="doc std std-doc"><strong>Prompt to Create Use Cases From User Stories</strong></span></a></p></li>
-<li><p><a class="reference internal" href="prompts_acceptancetests.html"><span class="doc std std-doc"><strong>Prompt to Create Acceptance Tests from User Stories</strong></span></a></p></li>
-<li><p><strong>ChatGPT Pull Request Review Action</strong>: <a class="github reference external" href="https://github.com/agogear/chatgpt-pr-review/">agogear/chatgpt-pr-review</a></p>
-<ul>
-<li><p>A GitHub Action that helps you with code reviews.</p></li>
-</ul>
-</li>
-</ul>
-<section id="our-recent-publications-in-the-use-of-genai">
-<h3>Our Recent Publications in the Use of GenAI<a class="headerlink" href="#our-recent-publications-in-the-use-of-genai" title="Link to this heading">#</a></h3>
-<ul class="simple">
-<li><p><strong>(2023 ASCILITE Paper)</strong> AI-powered peer review process: An approach to enhance computer science students’ engagement with code review in industry-based subjects : <a class="reference external" href="https://publications.ascilite.org/index.php/APUB/article/download/482/557/">https://publications.ascilite.org/index.php/APUB/article/download/482/557/</a></p></li>
-<li><p><strong>(2023 ASCILITE Paper)</strong> Authorship Verification in software engineering education: Forget ChatGPT and focus on students’ academic writing profiles: <a class="reference external" href="https://publications.ascilite.org/index.php/APUB/article/download/559/558">https://publications.ascilite.org/index.php/APUB/article/download/559/558</a></p></li>
-<li><p><strong>(2023 ASCILITE Paper)</strong> Creating a software application to help university educators to reflect on the cognitive complexity of their exam questions, using Bloom’s Taxonomy and automated classification: <a class="reference external" href="https://publications.ascilite.org/index.php/APUB/article/download/613/623">https://publications.ascilite.org/index.php/APUB/article/download/613/623</a></p></li>
-<li><p><strong>(2023 ASCILITE Paper)</strong> University learning partnerships: Enhancing learning, enabling innovation and addressing challenges in schools: <a class="reference external" href="https://publications.ascilite.org/index.php/APUB/article/download/460/507">https://publications.ascilite.org/index.php/APUB/article/download/460/507</a></p></li>
-<li><p><strong>(2022 ASCILITE Paper)</strong> The impact of cognitive load on students’ academic writing: an authorship verification investigation: <a class="reference external" href="https://research.monash.edu/files/492758674/492758502_oa.pdf">https://research.monash.edu/files/492758674/492758502_oa.pdf</a></p></li>
-</ul>
+<section id="example">
+<h3>Example:<a class="headerlink" href="#example" title="Link to this heading">#</a></h3>
+<p>A runner can have a label <code class="docutils literal notranslate"><span class="pre">android</span></code>, and you can specify <code class="docutils literal notranslate"><span class="pre">runs-on:</span> <span class="pre">android</span></code> in your workflows for Android builds.</p>
+</section>
+<section id="final-steps">
+<h3>Final Steps:<a class="headerlink" href="#final-steps" title="Link to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Make sure the runner is running on your machine using <code class="docutils literal notranslate"><span class="pre">./run.sh</span></code> and do not exit the terminal.</p></li>
+<li><p>If you go to <code class="docutils literal notranslate"><span class="pre">Repository</span> <span class="pre">-&gt;</span> <span class="pre">Settings</span> <span class="pre">-&gt;</span> <span class="pre">Code</span> <span class="pre">and</span> <span class="pre">Automation</span> <span class="pre">-&gt;</span> <span class="pre">Actions</span> <span class="pre">-&gt;</span> <span class="pre">Runners</span></code>, you should be able to see the newly created runner in status <code class="docutils literal notranslate"><span class="pre">Idle</span></code>, indicating it is ready to start picking up your GitHub Actions jobs. As long as your workflow uses the correct labels (<code class="docutils literal notranslate"><span class="pre">self-hosted,</span> <span class="pre">macOS</span></code>, etc.), it should get picked up.</p></li>
+</ol>
+<p>Container based plugins were having a problem with this approach. In this case, please try and setup a Linux runner on your macOs. The commands for linux should run fine on macOS as well.</p>
+<p>Happy days! 🚀</p>
 </section>
 </section>
-<section id="general-resources">
-<h2>General Resources<a class="headerlink" href="#general-resources" title="Link to this heading">#</a></h2>
-<p>Below are links to some popular generative AI tools and resources that you might find useful in your software engineering subjects:</p>
-<ul class="simple">
-<li><p><strong>GitHub Copilot</strong>: <a class="reference external" href="https://copilot.github.com/">https://copilot.github.com/</a></p>
-<ul>
-<li><p>An AI pair programmer that helps you write better code by suggesting whole lines or blocks of code.</p></li>
-</ul>
-</li>
-<li><p><strong>OpenAI Codex</strong>: <a class="reference external" href="https://openai.com/codex/">https://openai.com/codex/</a></p>
-<ul>
-<li><p>A powerful AI model trained to understand and generate code, powering tools like GitHub Copilot.</p></li>
-</ul>
-</li>
-<li><p><strong>ChatGPT for Software Engineering</strong>: <a class="reference external" href="https://openai.com/chatgpt/">https://openai.com/chatgpt/</a></p>
-<ul>
-<li><p>Useful for generating coding snippets, explaining code, and more.</p></li>
-</ul>
-</li>
-</ul>
-</section>
-<section id="conclusion">
-<h2>Conclusion<a class="headerlink" href="#conclusion" title="Link to this heading">#</a></h2>
-<p>Generative AI holds great promise for the field of software engineering, offering tools that can significantly enhance learning, creativity, and productivity. By following the practices outlined above and exploring the recommended resources, you can effectively incorporate these technologies into your studies and projects.</p>
-<p>Remember, the goal is to use generative AI as a complement to your skills, in responsible ways, enabling you to achieve more while maintaining high standards of quality and integrity in your work.</p>
-</section>
-<div class="toctree-wrapper compound">
-</div>
 </section>
 
     <script type="text/x-thebe-config">
@@ -627,20 +572,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="templates_for_comm.html"
+       href="prompts_codereview.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Templates</p>
+        <p class="prev-next-title">Reviewing Your Code</p>
       </div>
     </a>
     <a class="right-next"
-       href="prompts_tutorial.html"
+       href="../afterword/bibliography.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Hands-On Tutorial</p>
+        <p class="prev-next-title">Bibliography</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -660,23 +605,20 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#guide-to-using-generative-ai-responsibly-and-ethically">Guide to Using Generative AI Responsibly and Ethically</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#what-is-generative-ai">What is Generative AI?</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#responsible-practices">Responsible Practices</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ai-as-a-collaborative-tool">AI as a Collaborative Tool</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#responsibility-and-ownership">Responsibility and Ownership</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#critical-review-and-informed-decisions">Critical Review and Informed Decisions</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#staying-in-control">Staying in Control</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ethical-considerations-and-academic-integrity">Ethical Considerations and Academic Integrity</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction-to-using-local-self-hosted-runners-for-github-actions">Introduction to Using Local Self-Hosted Runners for GitHub Actions</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#why-use-local-self-hosted-runners">Why Use Local Self-Hosted Runners?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-this-benefits-you">How This Benefits You</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#recommendations">Recommendations</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#our-resources-for-you">Our Resources for You</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#our-recent-publications-in-the-use-of-genai">Our Recent Publications in the Use of GenAI</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#local-self-hosted-runners">Local Self-Hosted Runners</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-to-setup-self-hosted-runners">How to Setup Self-Hosted Runners</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#steps-to-setup">Steps to Setup:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#installation-steps">Installation Steps:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#more-about-configuration">More About Configuration:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#example">Example:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#final-steps">Final Steps:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-resources">General Resources</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
 </ul>
   </nav></div>
 

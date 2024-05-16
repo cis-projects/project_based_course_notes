@@ -71,7 +71,7 @@ Below are links to some of our recently developed generative AI prompts, scripts
   - A GitHub Action that helps you with code reviews.
 
 
-### Publications
+### Our Recent Publications in the Use of GenAI
 
 - **(2023 ASCILITE Paper)** AI-powered peer review process: An approach to enhance computer science students’ engagement with code review in industry-based subjects : [https://publications.ascilite.org/index.php/APUB/article/download/482/557/](https://publications.ascilite.org/index.php/APUB/article/download/482/557/)
 - **(2023 ASCILITE Paper)** Authorship Verification in software engineering education: Forget ChatGPT and focus on students' academic writing profiles: [https://publications.ascilite.org/index.php/APUB/article/download/559/558](https://publications.ascilite.org/index.php/APUB/article/download/559/558)
