@@ -27,7 +27,7 @@ The Product Owner acts as the primary point of contact between the team and the 
 
 ### Email Templates and Meeting Invites
 
-- **Email Templates:** Access templates for client communication [here](https://cis-projects.github.io/project_based_course_notes/topics/templates_for_comm.html).
+- **Email Templates:** Access templates for client communication [here](https://cis-projects.github.io/project_based_course_notes/extras/templates_for_comm.html).
 - **Calendar Invites:** After agreeing on a meeting time, send a calendar invite. Instructions [here](https://support.google.com/calendar/answer/72143?hl=en&co=GENIE.Platform%3DDesktop#zippy=).
 - **Virtual Meetings:** Use the university's Zoom account for online meetings. Setup guide [here](https://workspace.google.com/marketplace/app/zoom_for_gmail/585972765488).
 
