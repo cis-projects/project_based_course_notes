@@ -55,8 +55,7 @@ Introducing your team:
 ### Step 6 – Post meeting
 
 - [ ] Review the minutes
-- [ ] Within 24 hrs of your meeting, send email (using the template on the page 5) including all decisions and next steps with a request to confirm accuracy. Include relevant industry hosts(s), your project team, your subject coordinator and UoM academic supervisor
-- [ ] Review the project charter and develop the project plan
+- [ ] Within 24 hrs of your meeting, send email including all decisions and next steps with a request to confirm accuracy. Include relevant industry hosts(s), your project team, your subject coordinator and UoM academic supervisor
 
 
 ***
